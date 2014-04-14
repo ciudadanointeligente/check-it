@@ -87,3 +87,8 @@ SOUTH_TESTS_MIGRATE = False
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
+
+try:
+    from heroku_settings import *
+except:
+    pass
