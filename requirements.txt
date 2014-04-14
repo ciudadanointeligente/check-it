@@ -1,0 +1,9 @@
+Django==1.6.2
+gunicorn==18.0
+dj-database-url==0.2.2
+dj-static==0.0.5
+psycopg2==2.5.2
+django-nose
+south==0.8.4
+django-extensions
+ipython
