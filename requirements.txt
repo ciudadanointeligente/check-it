@@ -7,3 +7,4 @@ django-nose
 south==0.8.4
 django-extensions
 ipython
+-e git://github.com/mysociety/popit-django.git#egg=popit-django

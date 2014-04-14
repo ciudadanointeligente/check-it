@@ -37,7 +37,9 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_extensions',
-    'deldichoalhecho'
+    'django_nose',
+    'deldichoalhecho',
+    'popit'
 )
 
 MIDDLEWARE_CLASSES = (
@@ -53,6 +55,7 @@ ROOT_URLCONF = 'deldichoalhecho_site.urls'
 
 WSGI_APPLICATION = 'deldichoalhecho_site.wsgi.application'
 
+TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 
 # Database
 # https://docs.djangoproject.com/en/1.6/ref/settings/#databases
