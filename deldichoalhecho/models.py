@@ -14,3 +14,7 @@ class InformationSource(models.Model):
     url = models.URLField()
     display_name = models.CharField(max_length=512)
     date = models.DateField()
+
+class Fulfillment(models.Model):
+    promise = models.ForeignKey(Promise)
+    percentage = models.PositiveIntegerField()
