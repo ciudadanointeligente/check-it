@@ -8,3 +8,9 @@ class Promise(models.Model):
     description = models.TextField()
     date = models.DateField()
     person = models.ForeignKey(Person)
+
+class InformationSource(models.Model):
+    promise = models.ForeignKey(Promise)
+    url = models.URLField()
+    display_name = models.CharField(max_length=512)
+    date = models.DateField()
