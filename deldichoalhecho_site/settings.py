@@ -89,6 +89,6 @@ SOUTH_TESTS_MIGRATE = False
 STATIC_URL = '/static/'
 
 try:
-    from heroku_settings import *
+    from .heroku_settings import *
 except:
     pass
