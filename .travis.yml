@@ -1,0 +1,12 @@
+language: python
+python:
+- '2.7'
+install:
+  - pip install -r requirements.txt
+  - pip install coveralls
+env:
+  - DJANGO_VERSION=1.6.1
+script:
+  - coverage run --source=deldichoalhecho manage.py test --verbosity=2 deldichoalhecho
+  - coverage report -m
+  - coveralls --verbose
