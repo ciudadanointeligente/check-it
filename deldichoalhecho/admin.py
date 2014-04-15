@@ -18,5 +18,5 @@ class InformationSourceAdmin(admin.ModelAdmin):
 admin.site.register(InformationSource, InformationSourceAdmin)
 
 class PersonAdmin(admin.ModelAdmin):
-    pass
+    list_display = ('name', )
 admin.site.register(Person, PersonAdmin)
