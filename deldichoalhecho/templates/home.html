@@ -4,7 +4,7 @@
     Promesas:
     <ul>
 	    {% for promise in category.promises.all %}
-	    <li>{{promise.name}}</li>
+	    <li>{{promise.person.name}} prometió que {{promise.name}}</li>
 	    {% endfor %}
     </ul>
 {% endfor %}
