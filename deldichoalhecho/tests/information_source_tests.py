@@ -1,13 +1,13 @@
 from django.test import TestCase
 from django.utils.timezone import now
-from popit.models import ApiInstance, Person
+from popit.models import ApiInstance, Person as PopitPerson
+from popolo.models import Person
 from ..models import Promise, InformationSource
 
 nownow = now()
 class InformationSourceTestCase(TestCase):
     def setUp(self):
-        self.popit_instance = ApiInstance.objects.create(url="http://foo.com/api")
-        self.person = Person.objects.create(name="A person", api_instance=self.popit_instance)
+        self.person = Person.objects.create(name=u"A person")
         self.promise = Promise.objects.create(name="this is a promise",\
                                          description="this is a description",\
                                          date = nownow,\

@@ -1,13 +1,13 @@
 from django.test import TestCase
 from django.utils.timezone import now
 from ..models import Promise
-from popit.models import Person, ApiInstance
+from popit.models import Person as PopitPerson, ApiInstance
+from popolo.models import Person
 
 nownow = now()
 class PromiseTestCase(TestCase):
     def setUp(self):
-        self.popit_instance = ApiInstance.objects.create(url="http://foo.com/api")
-        self.person = Person.objects.create(name="A person", api_instance=self.popit_instance)
+        self.person = Person.objects.create(name=u"A person")
 
     def test_instanciate(self):
         ''' Instanciate a Promise'''
