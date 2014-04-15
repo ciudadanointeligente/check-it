@@ -1,0 +1,11 @@
+<ul>
+{% for category in categories%}
+    <li>{{ category }}</li>
+    Promesas:
+    <ul>
+	    {% for promise in category.promises.all %}
+	    <li>{{promise.name}}</li>
+	    {% endfor %}
+    </ul>
+{% endfor %}
+</ul>

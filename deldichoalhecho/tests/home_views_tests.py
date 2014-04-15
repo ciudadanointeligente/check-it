@@ -1,6 +1,6 @@
 from django.test import TestCase
 from django.utils.timezone import now
-from ..models import Promise
+from ..models import Promise, Category
 from popit.models import Person as PopitPerson, ApiInstance
 from popolo.models import Person
 from django.core.urlresolvers import reverse
@@ -31,14 +31,14 @@ class HomeViewTestCase(TestCase):
                                               date = nownow,\
                                               person = self.person
                                               )
-        promise.tags.add("education")
+        promise.categories.add("education")
         url = reverse('promises_home')
         c = Client()
         response = c.get(url)
         self.assertEquals(response.status_code, 200)
         self.assertTemplateUsed(response, 'home.html')
-        self.assertIn('tags', response.context)
-        self.assertIsInstance(response.context['tags'][0], Tag)
-        self.assertEquals(response.context['tags'].count(), Tag.objects.count())
-        self.assertIn(promise.tags.all().first(), response.context['tags'])
+        self.assertIn('categories', response.context)
+        self.assertIsInstance(response.context['categories'][0], Category)
+        self.assertEquals(response.context['categories'].count(), Category.objects.count())
+        self.assertIn(promise.categories.all().first(), response.context['categories'])
 
