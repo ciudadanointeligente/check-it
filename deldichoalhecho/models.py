@@ -28,6 +28,9 @@ class Promise(models.Model):
     person = models.ForeignKey(Person)
     categories = TaggableManager(through=TaggedPromise, related_name="promises")
 
+    def __unicode__(self):
+        return "{who} promessed {what}".format(who=self.person.name, what=self.name)
+
 class InformationSource(models.Model):
     promise = models.ForeignKey(Promise)
     url = models.URLField()
