@@ -29,7 +29,7 @@ class Promise(models.Model):
     categories = TaggableManager(through=TaggedPromise, related_name="promises")
 
     def __unicode__(self):
-        return "{who} promessed {what}".format(who=self.person.name, what=self.name)
+        return u"{who} promessed {what}".format(who=self.person.name, what=self.name)
 
 class InformationSource(models.Model):
     promise = models.ForeignKey(Promise)
