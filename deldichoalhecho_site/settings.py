@@ -38,6 +38,7 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'south',
     'taggit',
+    'popolo',
     'django_extensions',
     'django_nose',
     'deldichoalhecho',
