@@ -5,5 +5,4 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
         url(r'^$', HomeView.as_view(template_name='home.html', ), name='promises_home'),
-        url(r'^(?P<slug>[\w-]+)/?$', HomeView.as_view(template_name='home.html', ), name='per_tag'),
 )
