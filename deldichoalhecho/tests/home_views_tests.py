@@ -4,6 +4,7 @@ from ..models import Promise
 from popit.models import Person, ApiInstance
 from django.core.urlresolvers import reverse
 from django.test import Client
+from taggit.models import Tag
 
 nownow = now()
 class HomeViewTestCase(TestCase):
@@ -30,13 +31,14 @@ class HomeViewTestCase(TestCase):
                                               date = nownow,\
                                               person = self.person
                                               )
+        promise.tags.add("education")
         url = reverse('promises_home')
         c = Client()
         response = c.get(url)
         self.assertEquals(response.status_code, 200)
         self.assertTemplateUsed(response, 'home.html')
-        self.assertIn('promises', response.context)
-        self.assertIsInstance(response.context['promises'][0], Promise)
-        self.assertEquals(response.context['promises'].count(), Promise.objects.count())
-        self.assertIn(promise, response.context['promises'])
+        self.assertIn('tags', response.context)
+        self.assertIsInstance(response.context['tags'][0], Tag)
+        self.assertEquals(response.context['tags'].count(), Tag.objects.count())
+        self.assertIn(promise.tags.all().first(), response.context['tags'])
 
