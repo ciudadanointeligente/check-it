@@ -22,15 +22,15 @@ class PromiseTestCase(TestCase):
         self.assertEquals(promise.description, "this is a description")
         self.assertEquals(promise.date, nownow)
 
-    def test_a_promise_has_tags(self):
-        '''A promise has tags'''
+    def test_a_promise_has_categories(self):
+        '''A promise has categories'''
         promise = Promise.objects.create(name="this is a promise",\
                                          description="this is a description",\
                                          date = nownow,\
                                          person = self.person
                                          )
-        promise.tags.add('education')
-        self.assertEquals(promise.tags.count(), 1)
-        self.assertEquals(promise.tags.first().name,'education')
+        promise.categories.add('education')
+        self.assertEquals(promise.categories.count(), 1)
+        self.assertEquals(promise.categories.first().name,'education')
 
 
