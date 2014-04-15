@@ -3,6 +3,7 @@ from django.utils.timezone import now
 from ..models import Promise
 from popit.models import Person as PopitPerson, ApiInstance
 from popolo.models import Person
+from taggit.models import Tag
 
 nownow = now()
 class PromiseTestCase(TestCase):
