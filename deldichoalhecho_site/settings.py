@@ -37,6 +37,7 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'south',
+    'taggit',
     'django_extensions',
     'django_nose',
     'deldichoalhecho',

@@ -1,5 +1,6 @@
 from django.db import models
 from popit.models import Person
+from taggit.managers import TaggableManager
 
 # Create your models here.
 
@@ -8,6 +9,7 @@ class Promise(models.Model):
     description = models.TextField()
     date = models.DateField()
     person = models.ForeignKey(Person)
+    tags = TaggableManager()
 
 class InformationSource(models.Model):
     promise = models.ForeignKey(Promise)
