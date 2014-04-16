@@ -42,6 +42,7 @@ INSTALLED_APPS = (
     'django_extensions',
     'django_nose',
     'deldichoalhecho',
+    'deldichoalhecho_web',
     'popit'
 )
 
