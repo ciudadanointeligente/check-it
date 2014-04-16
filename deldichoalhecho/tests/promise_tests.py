@@ -1,6 +1,6 @@
 from django.test import TestCase
 from django.utils.timezone import now
-from ..models import Promise
+from ..models import Promise, Fulfillment
 from popit.models import Person as PopitPerson, ApiInstance
 from popolo.models import Person
 from taggit.models import Tag
@@ -42,5 +42,32 @@ class PromiseTestCase(TestCase):
         promise.categories.add('education')
         self.assertEquals(promise.categories.count(), 1)
         self.assertEquals(promise.categories.first().name,'education')
+
+
+    def test_a_promise_has_one_fulfillment(self):
+        '''A Promise has one fulfillment'''
+        promise = Promise.objects.create(name="this is a promise",\
+                                         description="this is a description",\
+                                         date = nownow,\
+                                         person = self.person
+                                         )
+        promise.fulfillment.delete()
+        fulfillment = Fulfillment.objects.create(promise=promise,\
+                                                 percentage=100)
+        self.assertEquals(promise.fulfillment, fulfillment)
+
+    def test_a_promise_creates_one_fulfillment_automatically(self):
+        '''One Promise has one fulfillment automatically'''
+        promise = Promise.objects.create(name="this is a promise",\
+                                         description="this is a description",\
+                                         date = nownow,\
+                                         person = self.person
+                                         )
+
+        self.assertIsInstance(promise.fulfillment, Fulfillment)
+        
+
+
+
 
 

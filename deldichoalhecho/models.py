@@ -28,6 +28,10 @@ class Promise(models.Model):
     person = models.ForeignKey(Person)
     categories = TaggableManager(through=TaggedPromise, related_name="promises")
 
+    def save(self, *args, **kwargs):
+        super(Promise, self).save(*args, **kwargs)
+        Fulfillment.objects.create(promise=self)
+
     def __unicode__(self):
         return u"{who} promessed {what}".format(who=self.person.name, what=self.name)
 
@@ -38,5 +42,5 @@ class InformationSource(models.Model):
     date = models.DateField()
 
 class Fulfillment(models.Model):
-    promise = models.ForeignKey(Promise)
-    percentage = models.PositiveIntegerField()
+    promise = models.OneToOneField(Promise)
+    percentage = models.PositiveIntegerField(default=0)

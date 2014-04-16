@@ -14,6 +14,7 @@ class FulfillmentTestCase(TestCase):
                                          date = nownow,\
                                          person = self.person
                                         )
+        self.promise.fulfillment.delete()
 
     def test_instanciate_a_fulfillment(self):
         '''Instanciate a Fulfillment'''
