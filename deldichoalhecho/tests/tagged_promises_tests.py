@@ -1,7 +1,7 @@
 
 from django.test import TestCase
 from django.utils.timezone import now
-from ..models import Promise, Category
+from ..models import Promise, Category, TaggedPromise
 from popit.models import Person as PopitPerson, ApiInstance
 from popolo.models import Person
 from taggit.models import Tag
@@ -21,3 +21,16 @@ class CategoryTestCase(TestCase):
         promise.categories.add('education')
         category = Category.objects.first()
         self.assertIn(promise, category.promises.all())
+
+    def test_tagged_item_tags_for(self):
+        ''' Get tags for TaggedPromise'''
+        Category.objects.create(name="one")
+        Category.objects.create(name="two")
+
+        categories = TaggedPromise.tags_for(Promise)
+        all_categories = Category.objects.all()
+        self.assertQuerysetEqual(
+            all_categories,
+            [repr(r) for r in categories],
+            ordered=False
+        )
