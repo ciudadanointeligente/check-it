@@ -39,6 +39,8 @@ INSTALLED_APPS = (
     'south',
     'taggit',
     'popolo',
+    'constance',
+    'constance.backends.database',
     'django_extensions',
     'django_nose',
     'deldichoalhecho',
@@ -87,16 +89,24 @@ USE_TZ = True
 
 SOUTH_TESTS_MIGRATE = False
 
-SOUTH_MIGRATION_MODULES = {
-            'taggit': 'taggit.south_migrations',
-        }
-
-
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
 STATIC_URL = '/static/'
 
+#CONSTANCE
+CONSTANCE_CONFIG = {
+        'LANDING_PHRASE': ("Del dicho al hecho punto ce ele", 'the landing phrase for the site'),
+}
+CONSTANCE_BACKEND = 'constance.backends.database.DatabaseBackend'
+TEMPLATE_CONTEXT_PROCESSORS = ("django.contrib.auth.context_processors.auth",
+                               "django.core.context_processors.debug",
+                               "django.core.context_processors.i18n",
+                               "django.core.context_processors.media",
+                               "django.core.context_processors.static",
+                               "django.core.context_processors.tz",
+                               "django.contrib.messages.context_processors.messages",
+                               "constance.context_processors.config")
 #HEROKU SPECIFICS
 # Parse database configuration from $DATABASE_URL
 if 'DATABASE_URL' in os.environ:

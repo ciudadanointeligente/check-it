@@ -10,3 +10,5 @@ ipython
 -e git://github.com/mysociety/popit-django.git#egg=popit-django
 -e git://github.com/ciudadanointeligente/django-popolo.git@unicodes#egg=django-popolo
 -e git://github.com/alex/django-taggit.git#egg=django-taggit
+-e git://github.com/comoga/django-constance.git#egg=django-constance
+django-picklefield
