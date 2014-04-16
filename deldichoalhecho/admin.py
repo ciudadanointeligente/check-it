@@ -4,11 +4,6 @@ from popolo.models import Person
 
 # Register your models here.
 
-class FulfillmentAdmin(admin.ModelAdmin):
-    pass
-
-admin.site.register(Fulfillment, FulfillmentAdmin)
-
 class FulfillmentInlineAdmin(admin.StackedInline):
 	model = Fulfillment
 
@@ -19,10 +14,6 @@ class PromiseAdmin(admin.ModelAdmin):
     inlines = (FulfillmentInlineAdmin, InformationSourceInline)
 
 admin.site.register(Promise, PromiseAdmin)
-
-class InformationSourceAdmin(admin.ModelAdmin):
-    pass
-admin.site.register(InformationSource, InformationSourceAdmin)
 
 class PersonAdmin(admin.ModelAdmin):
     list_display = ('name', )
