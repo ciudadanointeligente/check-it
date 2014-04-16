@@ -7,6 +7,16 @@
 	    <div>
 		    <p>{{promise.name}} hecha por {{promise.person.name}}</p>
 	    	    <span>{{promise.description}}</span>
+		    </br>
+		    {% if promise.information_sources.all %}
+		    Fuentes:
+		    <ul>
+		    {% for information_source in promise.information_sources.all %}
+		    <a href="{{information_source.url}}">{{information_source.display_name}}</a>
+		    {% endfor %}
+	    	    </ul>
+
+		    {% endif %}
             </div>
 	    {% endfor %}
     </ul>
