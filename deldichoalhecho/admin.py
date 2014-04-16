@@ -12,8 +12,11 @@ admin.site.register(Fulfillment, FulfillmentAdmin)
 class FulfillmentInlineAdmin(admin.StackedInline):
 	model = Fulfillment
 
+class InformationSourceInline(admin.TabularInline):
+    model = InformationSource
+
 class PromiseAdmin(admin.ModelAdmin):
-    inlines = (FulfillmentInlineAdmin, )
+    inlines = (FulfillmentInlineAdmin, InformationSourceInline)
 
 admin.site.register(Promise, PromiseAdmin)
 
