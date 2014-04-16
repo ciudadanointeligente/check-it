@@ -27,3 +27,13 @@ class InformationSourceTestCase(TestCase):
         self.assertEquals(i_s.url, "http://source.info")
         self.assertEquals(i_s.display_name, "source")
 
+    def test_a_promise_has_information_sources(self):
+        '''A promise has information sources'''
+        i_s = InformationSource.objects.create(promise=self.promise,\
+                                               date=nownow,\
+                                               url="http://source.info",\
+                                               display_name="source"
+                                               )
+        self.assertEquals(self.promise.information_sources.count(), 1)
+        self.assertIn(i_s, self.promise.information_sources.all())
+

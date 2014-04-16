@@ -36,7 +36,7 @@ class Promise(models.Model):
         return u"{who} promessed {what}".format(who=self.person.name, what=self.name)
 
 class InformationSource(models.Model):
-    promise = models.ForeignKey(Promise)
+    promise = models.ForeignKey(Promise, related_name='information_sources')
     url = models.URLField()
     display_name = models.CharField(max_length=512)
     date = models.DateField()
