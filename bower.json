@@ -1,0 +1,27 @@
+{
+  "name": "deldichoalhecho",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ciudadanointeligente/deldichoalhecho",
+  "authors": [
+    "Felipe Álvarez <falvarez@votainteligente.cl>"
+  ],
+  "description": "Promise tracking app",
+  "main": "",
+  "dependencies": {
+    "jquery":"2.1.0",
+    "bootstrap":"3.1.1"
+  },
+  "keywords": [
+    "promise",
+    "tracker",
+    "transparency"
+  ],
+  "license": "GPL v3",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

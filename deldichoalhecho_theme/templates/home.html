@@ -15,9 +15,9 @@
 		    {% if promise.information_sources.all %}
 		    Fuentes:
 		    <ul>
-		    {% for information_source in promise.information_sources.all %}
-		    <li><a href="{{information_source.url}}">{{information_source.display_name}}</a></li>
-		    {% endfor %}
+		    	{% for information_source in promise.information_sources.all %}
+		    		<li><a href="{{information_source.url}}">{{information_source.display_name}}</a></li>
+		    	{% endfor %}
 	    	    </ul>
 		    {% endif %}
 		    {% if promise.verification_documents.all %}
