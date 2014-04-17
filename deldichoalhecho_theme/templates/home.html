@@ -10,16 +10,23 @@
 	    <div>
 		    <p>{{promise.name}} hecha por {{promise.person.name}}</p>
 	    	    <span>{{promise.description}}</span>
-			<div class="{{ promise.fulfillment|simple_accomplishment }}"></div>
+		    <div class="{{ promise.fulfillment|simple_accomplishment }}"> (Cumplido el {{promise.fulfillment.percentage}}%)</div>
 		    <br />
 		    {% if promise.information_sources.all %}
 		    Fuentes:
 		    <ul>
 		    {% for information_source in promise.information_sources.all %}
-		    <a href="{{information_source.url}}">{{information_source.display_name}}</a>
+		    <li><a href="{{information_source.url}}">{{information_source.display_name}}</a></li>
 		    {% endfor %}
 	    	    </ul>
-
+		    {% endif %}
+		    {% if promise.verification_documents.all %}
+		    Documentos de verificación:
+		    <ul>
+			    {% for document in promise.verification_documents.all %}
+			    <li><a href="{{document.url}}">{{document.display_name}}</a></li>
+			    {% endfor %}
+		    </ul>
 		    {% endif %}
             </div>
 	    {% endfor %}

@@ -41,7 +41,7 @@ class InformationSource(ExternalDocumentMixin):
     promise = models.ForeignKey(Promise, related_name='information_sources')
 
 class VerificationDocument(ExternalDocumentMixin):
-    fulfillment = models.ForeignKey('Fulfillment')
+    promise = models.ForeignKey(Promise, related_name='verification_documents', null=True)
 
 class Fulfillment(models.Model):
     promise = models.OneToOneField(Promise)

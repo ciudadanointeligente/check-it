@@ -1,6 +1,7 @@
 from django.contrib import admin
-from .models import Promise, Fulfillment, InformationSource, Category
+from .models import Promise, Fulfillment, InformationSource, Category, VerificationDocument
 from popolo.models import Person
+from django.forms import ModelForm
 
 # Register your models here.
 
@@ -10,8 +11,12 @@ class FulfillmentInlineAdmin(admin.StackedInline):
 class InformationSourceInline(admin.TabularInline):
     model = InformationSource
 
+
+class VerificationDocumentInline(admin.TabularInline):
+    model = VerificationDocument
+
 class PromiseAdmin(admin.ModelAdmin):
-    inlines = (FulfillmentInlineAdmin, InformationSourceInline)
+    inlines = (FulfillmentInlineAdmin, InformationSourceInline, VerificationDocumentInline, )
 
 admin.site.register(Promise, PromiseAdmin)
 

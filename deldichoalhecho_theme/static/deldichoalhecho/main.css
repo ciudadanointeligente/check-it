@@ -1,0 +1,9 @@
+.not-accomplished:before {
+	content: "X";
+}
+.half-accomplished:before {
+	content: "-";
+}
+.accomplished:before {
+	content: "Y";
+}
