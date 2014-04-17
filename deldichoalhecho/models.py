@@ -17,7 +17,7 @@ class Promise(models.Model):
     description = models.TextField()
     date = models.DateField()
     person = models.ForeignKey(Person)
-    tags = TaggableManager()
+    tags = TaggableManager(blank=True)
     category = models.ForeignKey(Category, related_name="promises" ,null=True)
 
     def save(self, *args, **kwargs):
