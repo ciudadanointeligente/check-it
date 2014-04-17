@@ -21,8 +21,12 @@ class Promise(models.Model):
     category = models.ForeignKey(Category, related_name="promises" ,null=True)
 
     def save(self, *args, **kwargs):
+        creating = False
+        if not self.id:
+            creating = True
         super(Promise, self).save(*args, **kwargs)
-        Fulfillment.objects.create(promise=self)
+        if creating:
+            Fulfillment.objects.create(promise=self)
 
     def __unicode__(self):
         return u"{who} promessed {what}".format(who=self.person.name, what=self.name)

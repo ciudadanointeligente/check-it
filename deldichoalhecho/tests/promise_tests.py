@@ -32,8 +32,8 @@ class PromiseTestCase(TestCase):
 
         self.assertEquals(promise.__unicode__(), "A person promessed this is a promise")
 
-    def test_a_promise_has_categories(self):
-        '''A promise has categories'''
+    def test_a_promise_has_tags(self):
+        '''A promise has tags'''
         promise = Promise.objects.create(name="this is a promise",\
                                          description="this is a description",\
                                          date = nownow,\
@@ -66,4 +66,15 @@ class PromiseTestCase(TestCase):
 
         self.assertIsInstance(promise.fulfillment, Fulfillment)
 
+
+    def test_automatically_does_not_try_to_create_two_fulfillments(self):
+        '''When saving a promise does not try to create two fulfillments'''
+        promise = Promise.objects.create(name="this is a promise",\
+                                         description="this is a description",\
+                                         date = nownow,\
+                                         person = self.person
+                                         )
+        fulfillment = promise.fulfillment
+        promise.save()
+        self.assertEquals(fulfillment, promise.fulfillment)
 
