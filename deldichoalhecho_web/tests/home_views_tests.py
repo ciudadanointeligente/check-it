@@ -31,7 +31,7 @@ class HomeViewTestCase(TestCase):
                                               date = nownow,\
                                               person = self.person
                                               )
-        promise.categories.add("education")
+        category = Category.objects.create(name="education")
         url = reverse('promises_home')
         c = Client()
         response = c.get(url)
@@ -40,5 +40,5 @@ class HomeViewTestCase(TestCase):
         self.assertIn('categories', response.context)
         self.assertIsInstance(response.context['categories'][0], Category)
         self.assertEquals(response.context['categories'].count(), Category.objects.count())
-        self.assertIn(promise.categories.all().first(), response.context['categories'])
+        self.assertIn(category, response.context['categories'])
 

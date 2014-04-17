@@ -39,9 +39,9 @@ class PromiseTestCase(TestCase):
                                          date = nownow,\
                                          person = self.person
                                          )
-        promise.categories.add('education')
-        self.assertEquals(promise.categories.count(), 1)
-        self.assertEquals(promise.categories.first().name,'education')
+        promise.tags.add('education')
+        self.assertEquals(promise.tags.count(), 1)
+        self.assertEquals(promise.tags.first().name,'education')
 
 
     def test_a_promise_has_one_fulfillment(self):
@@ -65,9 +65,5 @@ class PromiseTestCase(TestCase):
                                          )
 
         self.assertIsInstance(promise.fulfillment, Fulfillment)
-        
-
-
-
 
 
