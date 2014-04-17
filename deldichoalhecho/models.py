@@ -31,11 +31,18 @@ class Promise(models.Model):
     def __unicode__(self):
         return u"{who} promessed {what}".format(who=self.person.name, what=self.name)
 
-class InformationSource(models.Model):
-    promise = models.ForeignKey(Promise, related_name='information_sources')
+class ExternalDocumentMixin(models.Model):
     url = models.URLField()
     display_name = models.CharField(max_length=512)
     date = models.DateField()
+    class Meta:
+        abstract = True
+
+class InformationSource(ExternalDocumentMixin):
+    promise = models.ForeignKey(Promise, related_name='information_sources')
+
+class VerificationDocument(ExternalDocumentMixin):
+    fulfillment = models.ForeignKey('Fulfillment')
 
 class Fulfillment(models.Model):
     promise = models.OneToOneField(Promise)
