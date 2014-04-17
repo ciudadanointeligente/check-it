@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% load deldichoalhecho %}
 {% block content %}
 <ul>
 {% for category in categories%}
@@ -9,6 +10,7 @@
 	    <div>
 		    <p>{{promise.name}} hecha por {{promise.person.name}}</p>
 	    	    <span>{{promise.description}}</span>
+			<div class="{{ promise.fulfillment|simple_accomplishment }}"></div>
 		    <br />
 		    {% if promise.information_sources.all %}
 		    Fuentes:

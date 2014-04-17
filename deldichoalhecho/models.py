@@ -3,7 +3,6 @@ from popolo.models import Person
 from taggit.managers import TaggableManager
 from taggit.models import ItemBase, TagBase
 from autoslug import AutoSlugField
-# Create your models here.
 
 class Category(models.Model):
     name = models.CharField(max_length=512)
