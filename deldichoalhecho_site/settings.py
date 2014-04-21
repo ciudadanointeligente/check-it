@@ -89,6 +89,10 @@ USE_TZ = True
 
 SOUTH_TESTS_MIGRATE = False
 
+SOUTH_MIGRATION_MODULES = {
+    'taggit': 'taggit.south_migrations',
+}
+
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
 
