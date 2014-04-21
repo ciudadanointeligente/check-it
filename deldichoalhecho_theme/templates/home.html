@@ -1,27 +1,36 @@
 {% extends "base.html" %}
 {% load deldichoalhecho %}
+{% load i18n %}
 {% block content %}
 <ul>
 {% for category in categories%}
     <li>{{ category }}</li>
     <div class="progress">
 	    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{category.fulfillment_percentage}}%;">
-		    {{category.fulfillment_percentage}}% completado
+		    {% blocktrans with percentage=category.fulfillment_percentage %}
+		    {{percentage}}% completeted
+		    {% endblocktrans %}
+	    </div>
 	</div>
-    </div>
-    Promesas:
+    {% trans "Promises" %}
     <ul>
 	    {% for promise in category.promises.all %}
 	    <div class="{% for tag in promise.tags.all %}{% for extracss in tag.extracss.all %}{{extracss.classes}}{% if not forloop.last %} {% endif %}{% endfor %}{% endfor %}">
-		    <p>{{promise.name}} hecha por {{promise.person.name}}</p>
+		    <p>
+		    {% blocktrans with promise=promise.name person_name=promise.person.name %}
+		    {{promise}} made by {{person_name}}</p>
+		    {% endblocktrans %}
 	    	    <span>{{promise.description}}</span>
 		    {% for tag in promise.tags.all %}
 		    <span class="label label-primary">{{tag}}</span>
 		    {% endfor %}
-		    <div class="{{ promise.fulfillment|simple_accomplishment }}"> (Cumplido el {{promise.fulfillment.percentage}}%)</div>
+		    <div class="{{ promise.fulfillment|simple_accomplishment }}">
+			    {% blocktrans with percentage=promise.fulfillment.percentage %}
+			    ({{percentage}}% accomplished)</div>
+		    	    {% endblocktrans %}
 		    <br />
 		    {% if promise.information_sources.all %}
-		    Fuentes:
+		    {% trans "Sources of Information:" %}
 		    <ul>
 		    	{% for information_source in promise.information_sources.all %}
 		    		<li><a href="{{information_source.url}}">{{information_source.display_name}}</a></li>
@@ -29,7 +38,7 @@
 	    	    </ul>
 		    {% endif %}
 		    {% if promise.verification_documents.all %}
-		    Documentos de verificación:
+		    {% trans "Verification documents:" %}
 		    <ul>
 			    {% for document in promise.verification_documents.all %}
 			    <li><a href="{{document.url}}">{{document.display_name}}</a></li>
