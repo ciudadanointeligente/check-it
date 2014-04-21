@@ -8,6 +8,16 @@ class Category(models.Model):
     name = models.CharField(max_length=512)
     slug = AutoSlugField(populate_from='name')
 
+    @property
+    def fulfillment_percentage(self):
+        sum_of_percentages = 0
+        for promise in self.promises.all():
+            sum_of_percentages += promise.fulfillment.percentage
+        try:
+            return sum_of_percentages/self.promises.count()
+        except ZeroDivisionError, e:
+            return 0
+
     def __unicode__(self):
         return self.name
 

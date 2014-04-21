@@ -33,3 +33,29 @@ class CategoryTestCase(TestCase):
         '''A category has a unicode'''
         category = Category.objects.create(name="Education")
         self.assertEquals(category.__unicode__(), category.name)
+
+    def test_calculate_fulfillment_percentage(self):
+        '''Calculate the percentage fulfillment'''
+        category = Category.objects.create(name="Education")
+        promise = Promise.objects.create(name="this is a promise",\
+                                         description="this is a description",\
+                                         date = nownow,\
+                                         person = self.person,
+                                         category = category
+                                         )
+        promise.fulfillment.percentage = 30
+        promise.fulfillment.save()
+        promise = Promise.objects.create(name="this is a promise",\
+                                         description="this is a description",\
+                                         date = nownow,\
+                                         person = self.person,
+                                         category = category
+                                         )
+        promise.fulfillment.percentage = 40
+        promise.fulfillment.save()
+        self.assertEquals(category.fulfillment_percentage, 35)
+
+    def test_calculate_fulfillment_percentage_if_there_are_no_promises(self):
+        '''Category fulfillment percentage returns 0 if there are no promises'''
+        category = Category.objects.create(name="Education")
+        self.assertEquals(category.fulfillment_percentage, 0)
