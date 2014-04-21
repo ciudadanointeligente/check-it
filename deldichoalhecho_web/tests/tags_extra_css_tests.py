@@ -34,3 +34,10 @@ class TagsExtraCssTestCase(TestCase):
         tag = self.promise.tags.first()
         extracss = TagExtraCss.objects.create(tag=tag, classes="extraclass")
         self.assertEquals(extracss.__unicode__(), u"extraclass for test")
+
+    def test_tag_related_name_(self):
+        '''A tag has extracsss'''
+        self.promise.tags.add("test")
+        tag = self.promise.tags.first()
+        extracss = TagExtraCss.objects.create(tag=tag, classes="extraclass")
+        self.assertIn(extracss, tag.extracss.all())

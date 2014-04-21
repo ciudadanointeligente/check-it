@@ -12,9 +12,12 @@
     Promesas:
     <ul>
 	    {% for promise in category.promises.all %}
-	    <div>
+	    <div class="{% for tag in promise.tags.all %}{% for extracss in tag.extracss.all %}{{extracss.classes}}{% if not forloop.last %} {% endif %}{% endfor %}{% endfor %}">
 		    <p>{{promise.name}} hecha por {{promise.person.name}}</p>
 	    	    <span>{{promise.description}}</span>
+		    {% for tag in promise.tags.all %}
+		    <span class="label label-primary">{{tag}}</span>
+		    {% endfor %}
 		    <div class="{{ promise.fulfillment|simple_accomplishment }}"> (Cumplido el {{promise.fulfillment.percentage}}%)</div>
 		    <br />
 		    {% if promise.information_sources.all %}
