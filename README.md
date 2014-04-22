@@ -39,7 +39,7 @@ cd deldichoalhecho
 pip install -r requirements.txt
 ```
 
-* Crate database
+* Create the database
 
 ```
 python manage.py syncdb
@@ -57,7 +57,7 @@ python manage.py migrate
 python manage.py runserver
 ```
 
-And now you can access at [http://localhost:8000](http://localhost:8000)
+And now you can access it at [http://localhost:8000](http://localhost:8000).
 
 ## Deploy to Heroku
 
@@ -83,6 +83,13 @@ And run the migrations
 heroku run ./manage.py migrate
 ```
 
+## Thanks
+
+This project is inspired by:
+
+* [Promesometro](http://promesometro.pe/)
+
+* [PolitiFact | Tracking politicians' promises](http://www.politifact.com/truth-o-meter/promises/)
 
 ## TODO
 
