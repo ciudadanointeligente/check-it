@@ -1,9 +1,38 @@
-.not-accomplished:before {
-	content: "X";
+div.status.not-accomplished:before {
+	position: absolute;
+    font-family: FontAwesome;
+    top:0;
+    left:-5px;
+    content: "\f057";
 }
-.half-accomplished:before {
-	content: "-";
+div.status.half-accomplished:before {
+	position: absolute;
+    font-family: FontAwesome;
+    top:0;
+    left:-5px;
+    content: "\f056"; 
 }
-.accomplished:before {
-	content: "Y";
+div.status.accomplished:before {
+	position: absolute;
+    font-family: FontAwesome;
+    top:0;
+    left:-5px;
+    content: "\f058"; 
+}
+.promise-description {
+	padding-left: 5px;
+}
+.promise-name {
+
+}
+div.verification-document.not-accomplished {
+}
+div.verification-document.half-accomplished {
+}
+div.verification-document.accomplished {
+}
+.category-percentage {
+
+}
+.progress {	
 }

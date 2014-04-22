@@ -2,52 +2,65 @@
 {% load deldichoalhecho %}
 {% load i18n %}
 {% block content %}
-<ul>
 {% for category in categories%}
-    <li>{{ category }}</li>
-    <div class="progress">
-	    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{category.fulfillment_percentage}}%;">
-		    {% blocktrans with percentage=category.fulfillment_percentage %}
-		    {{percentage}}% completeted
-		    {% endblocktrans %}
+
+    
+	<div class="panel panel-default">
+      <div class="panel-heading">
+          <h3 class="panel-title">
+          	{{ category }}
+	      </h3>
+      </div>
+      <div class="panel-body">
+      	<div class="progress">
+		    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{category.fulfillment_percentage}}%;">
+			    {{category.fulfillment_percentage}}%
+		    </div>
+		</div>
+	    <ul>
+		    {% for promise in category.promises.all %}
+		    <div class="promise row panel {% for tag in promise.tags.all %}{% for extracss in tag.extracss.all %}{{extracss.classes}}{% if not forloop.last %} {% endif %}{% endfor %}{% endfor %}">
+			  <div class="col-md-1">
+			  	<div class="status {{ promise.fulfillment|simple_accomplishment }}">
+				</div>
+			  </div>
+			  <div class="col-md-8">
+			  	<div>
+				  	<small class="promise-name">{{promise.name}}</small>
+					<span class="promise-description">
+						{{promise.description}}
+					</span>
+				</div>
+				<div class="promise-details">
+					<p>{{promise.date}}</p>
+					{% if promise.information_sources.all %}
+						{% trans "Sources of Information:" %}
+					    <ul>
+				    	{% for information_source in promise.information_sources.all %}
+				    		<li><a href="{{information_source.url}}">{{information_source.display_name}}</a></li>
+				    	{% endfor %}
+			    	    </ul>
+				    {% endif %}
+				    {% for tag in promise.tags.all %}
+				    <span class="label label-primary">{{tag}}</span>
+				    {% endfor %}
+				</div>
+			  </div>
+			  <div class="col-md-3 verification-document {{ promise.fulfillment|simple_accomplishment }}">
+				  {% if promise.verification_documents.all %}
+				  	<p>{% trans "Verification documents:" %}</p>
+				    
+				    <ul>
+					    {% for document in promise.verification_documents.all %}
+					    <li><a href="{{document.url}}">{{document.display_name}}</a></li>
+					    {% endfor %}
+				    </ul>
+				    {% endif %}
+			  </div>
+			</div>		      	
+		    {% endfor %}
+	    </ul>
 	    </div>
 	</div>
-    {% trans "Promises" %}
-    <ul>
-	    {% for promise in category.promises.all %}
-	    <div class="{% for tag in promise.tags.all %}{% for extracss in tag.extracss.all %}{{extracss.classes}}{% if not forloop.last %} {% endif %}{% endfor %}{% endfor %}">
-		    <p>
-		    {% blocktrans with promise=promise.name person_name=promise.person.name %}
-		    {{promise}} made by {{person_name}}</p>
-		    {% endblocktrans %}
-	    	    <span>{{promise.description}}</span>
-		    {% for tag in promise.tags.all %}
-		    <span class="label label-primary">{{tag}}</span>
-		    {% endfor %}
-		    <div class="{{ promise.fulfillment|simple_accomplishment }}">
-			    {% blocktrans with percentage=promise.fulfillment.percentage %}
-			    ({{percentage}}% accomplished)</div>
-		    	    {% endblocktrans %}
-		    <br />
-		    {% if promise.information_sources.all %}
-		    {% trans "Sources of Information:" %}
-		    <ul>
-		    	{% for information_source in promise.information_sources.all %}
-		    		<li><a href="{{information_source.url}}">{{information_source.display_name}}</a></li>
-		    	{% endfor %}
-	    	    </ul>
-		    {% endif %}
-		    {% if promise.verification_documents.all %}
-		    {% trans "Verification documents:" %}
-		    <ul>
-			    {% for document in promise.verification_documents.all %}
-			    <li><a href="{{document.url}}">{{document.display_name}}</a></li>
-			    {% endfor %}
-		    </ul>
-		    {% endif %}
-            </div>
-	    {% endfor %}
-    </ul>
 {% endfor %}
-</ul>
 {% endblock content %}

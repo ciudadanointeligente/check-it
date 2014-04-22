@@ -12,6 +12,7 @@
 
 		<!-- Bootstrap -->
 		<link href="{% static "bootstrap/css/bootstrap.min.css" %}" rel="stylesheet">
+		<link href="{% static "deldichoalhecho/fonts/font-awesome-4.0.3/css/font-awesome.min.css" %}" rel="stylesheet" >
 		<link href="{% static "deldichoalhecho/main.css" %}" rel="stylesheet">
 
 		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -22,14 +23,34 @@
 		<![endif]-->
 	</head>
 	<body>
-	<h1>{{ config.LANDING_PHRASE }}</h1>
-	<div class="container">	
+	<!-- Static navbar -->
+    <div class="navbar navbar-default navbar-static-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+          </button>
+          <a class="navbar-brand" href="#">{{ config.LANDING_PHRASE }}</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <!-- <li class="active"><a href="#">Home</a></li> -->
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <!-- <li><a href="../navbar/">Default</a></li> -->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+
+	<div class="container">
 		{% block content %}
 		{% endblock content %}
-	</div>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="{% static "jquery/jquery.min.js" %}"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>
+	</div>
 	</body>
 </html>
