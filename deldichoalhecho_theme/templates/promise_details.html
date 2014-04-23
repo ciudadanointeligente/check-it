@@ -1,0 +1,14 @@
+{% load deldichoalhecho %}
+{% load i18n %}
+<p>{{promise.date}}</p>
+{% if promise.information_sources.all %}
+	{% trans "Sources of Information:" %}
+    <ul>
+	{% for information_source in promise.information_sources.all %}
+		<li><a href="{{information_source.url}}">{{information_source.display_name}}</a></li>
+	{% endfor %}
+    </ul>
+{% endif %}
+{% for tag in promise.tags.all %}
+<span class="label label-primary">{{tag}}</span>
+{% endfor %}
