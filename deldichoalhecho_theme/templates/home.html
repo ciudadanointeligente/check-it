@@ -7,4 +7,15 @@
 	{% include "category_in_list.html" with category=category %}
 {% endfor %}
 </div>
+
+<script type="text/javascript">
+$(document).ready(function() {
+	$('.category-body').expander({
+		expandText: '<p class="text-center category-expander"><i class="fa fa-chevron-down"></i></p>',
+		userCollapseText: '<p class="text-center category-expander"><i class="fa fa-chevron-up"></i></p>',
+		slicePoint: 160,
+		expandPrefix:     '', 
+	});
+});
+</script>
 {% endblock content %}

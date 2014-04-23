@@ -3,9 +3,8 @@
 <div class="panel panel-default">
   <div class="panel-heading">
       <h3 class="panel-title">
-	      <a data-toggle="collapse" data-parent="#categories" href="#category_{{category.slug}}">
-	      	{{ category }}
-	      </a>
+      	{{ category }}
+	      
       </h3>
       <div class="progress">
 	    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{category.fulfillment_percentage}}%;">
@@ -13,7 +12,7 @@
 	    </div>
 	  </div>
   </div>
-  <div id="category_{{category.slug}}" class="panel-collapse collapse {% if forloop.first %}in{% endif %}">
+  <div id="category_{{category.slug}}" class="category-body">
       <div class="panel-body">
 	    <ul>
 		    {% for promise in category.promises.all %}
