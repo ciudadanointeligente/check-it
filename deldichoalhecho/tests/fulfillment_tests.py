@@ -19,8 +19,10 @@ class FulfillmentTestCase(TestCase):
     def test_instanciate_a_fulfillment(self):
         '''Instanciate a Fulfillment'''
         fulfillment = Fulfillment.objects.create(promise=self.promise,\
-                                                 percentage=100)
+                                                 percentage=100, \
+                                                 notes="this was accomplished")
 
         self.assertTrue(fulfillment)
         self.assertEquals(fulfillment.promise, self.promise)
         self.assertEquals(fulfillment.percentage, 100)
+        self.assertEquals(fulfillment.notes, "this was accomplished")
