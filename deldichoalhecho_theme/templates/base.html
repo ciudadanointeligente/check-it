@@ -2,6 +2,7 @@
 {% load staticfiles %}
 {% load deldichoalhecho %}
 {% load i18n %}
+{% load flatpages %}
 <html lang="es">
 	<head>
 		<meta charset="utf-8">
@@ -32,13 +33,18 @@
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
           </button>
-          <a class="navbar-brand" href="#">{{ config.LANDING_PHRASE }}</a>
+          <a class="navbar-brand" href="{% url 'promises_home' %}">{{ config.LANDING_PHRASE }}</a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <!-- <li class="active"><a href="#">Home</a></li> -->
           </ul>
+          {% get_flatpages as flatpages %}
           <ul class="nav navbar-nav navbar-right">
+          	{% for page in flatpages %}
+		        <li><a href="/pages{{ page.url }}">{{ page.title }}</a></li>
+		    {% endfor %}
+
             <!-- <li><a href="../navbar/">Default</a></li> -->
           </ul>
         </div><!--/.nav-collapse -->

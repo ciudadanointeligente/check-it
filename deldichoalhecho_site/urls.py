@@ -11,3 +11,9 @@ urlpatterns = patterns('',
     url(r'^', include('deldichoalhecho_web.urls')),
     url(r'^admin/', include(admin.site.urls)),
 )
+
+
+# Your other patterns here
+urlpatterns += [
+    url(r'^pages/', include('django.contrib.flatpages.urls')),
+]
