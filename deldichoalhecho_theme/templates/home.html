@@ -2,10 +2,18 @@
 {% load deldichoalhecho %}
 {% load i18n %}
 {% block content %}
-<div class="panel-group" id="categories">
-{% for category in categories%}
-	{% include "category_in_list.html" with category=category %}
-{% endfor %}
+<div class="jumbotron">
+	<div class="container">
+		<h1>{{ config.LANDING_PHRASE }}</h1>
+		<p>{{ config.DESCRIPTION_PHRASE }}</p>
+	</div>
+</div>
+<div class="container">
+	<div class="panel-group" id="categories">
+	{% for category in categories%}
+		{% include "category_in_list.html" with category=category %}
+	{% endfor %}
+	</div>
 </div>
 
 <script type="text/javascript">
