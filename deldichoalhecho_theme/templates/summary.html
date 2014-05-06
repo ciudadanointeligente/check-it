@@ -1,0 +1,20 @@
+<dl class="dl-horizontal">
+	<dt>Completado</dt>
+	<dd>{{summary.accomplished}}</dd>
+	<dt>En proceso</dt>
+	<dd>{{summary.in_progress}}</dd>
+	<dt>Sin proceso</dt>
+	<dd>{{summary.no_progress}}</dd>
+</dl>
+
+<div class="progress">
+	<div class="progress-bar progress-bar-success" style="width: {{summary.accomplished}}%">
+		<span class="sr-only">{{summary.accomplished}}% Complete (success)</span>
+	</div>
+	<div class="progress-bar progress-bar-warning" style="width: {{summary.in_progress}}%">
+		<span class="sr-only">{{summary.in_progress}}% Complete (warning)</span>
+	</div>
+	<div class="progress-bar progress-bar-danger" style="width: {{summary.no_progress}}%">
+		<span class="sr-only">{{summary.no_progress}}% Complete (danger)</span>
+	</div>
+</div>
