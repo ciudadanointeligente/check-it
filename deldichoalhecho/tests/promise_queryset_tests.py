@@ -20,9 +20,9 @@ class PromiseQuerysetTestCase(TestCase):
         self.assertTrue(hasattr(summary, 'accomplished'))
         self.assertTrue(hasattr(summary, 'in_progress'))
         self.assertTrue(hasattr(summary, 'no_progress'))
-        self.assertIsNone(summary.accomplished)
-        self.assertIsNone(summary.in_progress)
-        self.assertIsNone(summary.no_progress)
+        self.assertEquals(summary.accomplished, 0)
+        self.assertEquals(summary.in_progress, 0)
+        self.assertEquals(summary.no_progress, 0)
 
 
     def test_instanciate_with_data(self):
@@ -43,7 +43,7 @@ class PromiseQuerysetTestCase(TestCase):
                                          category=self.category,\
                                          person = self.person\
                                          )
-        #this promise is half accomplished
+        # promises half accomplished
         promise_2 = Promise.objects.create(name="this is a promise 2",\
                                          category=self.category,\
                                          person = self.person\
@@ -62,7 +62,7 @@ class PromiseQuerysetTestCase(TestCase):
                                          )
         promise_5.fulfillment.percentage = 99
         promise_5.fulfillment.save()
-        #this promise is fully acoomplished
+        #fully acoomplished promises
         promise_3 = Promise.objects.create(name="this is a promise 3",\
                                          category=self.category,\
                                          person = self.person\
@@ -82,3 +82,18 @@ class PromiseQuerysetTestCase(TestCase):
         self.assertEquals(summary.accomplished, 2)
         self.assertEquals(summary.in_progress, 3)
         self.assertEquals(summary.no_progress, 1)
+        self.assertEquals(summary.total, 6)
+        self.assertEquals(summary.accomplished_percentage, (float(1)/float(3))*100)
+        self.assertEquals(summary.in_progress_percentage, float(50))
+        self.assertEquals(summary.no_progress_percentage, (float(1)/float(6))*100)
+
+    def test_summary_with_empty_data(self):
+        '''Summary calculates correctly the percentage even if there are no promises'''
+        summary = PromiseSummary()
+        self.assertEquals(summary.total, 0)
+        self.assertEquals(summary.accomplished_percentage, float(0))
+        self.assertEquals(summary.in_progress_percentage, float(0))
+        self.assertEquals(summary.no_progress_percentage, float(0))
+
+
+
