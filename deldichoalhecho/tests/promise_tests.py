@@ -1,6 +1,6 @@
 from django.test import TestCase
 from django.utils.timezone import now
-from ..models import Promise, Fulfillment
+from ..models import Promise, Fulfillment, Category
 from popit.models import Person as PopitPerson, ApiInstance
 from popolo.models import Person
 from taggit.models import Tag
@@ -21,6 +21,15 @@ class PromiseTestCase(TestCase):
         self.assertEquals(promise.name, "this is a promise")
         self.assertEquals(promise.description, "this is a description")
         self.assertEquals(promise.date, nownow)
+
+    def test_blank_attributes(self):
+        ''' A Promise can have some blank attributes'''
+        category = Category.objects.create(name="Education")
+        promise = Promise.objects.create(name="this is a promise",\
+                                         category=category,\
+                                         person = self.person\
+                                         )
+        self.assertIsNone(promise.full_clean())
 
     def test_a_promise_has_unicode(self):
         ''' A promise has a unicode method'''

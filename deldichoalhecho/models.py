@@ -3,6 +3,7 @@ from popolo.models import Person
 from taggit.managers import TaggableManager
 from taggit.models import ItemBase, TagBase
 from autoslug import AutoSlugField
+from .queryset import PromiseManager
 
 class Category(models.Model):
     name = models.CharField(max_length=512)
@@ -23,11 +24,13 @@ class Category(models.Model):
 
 class Promise(models.Model):
     name = models.CharField(max_length=512)
-    description = models.TextField()
-    date = models.DateField()
+    description = models.TextField(blank=True)
+    date = models.DateField(null=True, blank=True)
     person = models.ForeignKey(Person)
     tags = TaggableManager(blank=True)
     category = models.ForeignKey(Category, related_name="promises" ,null=True)
+
+    objects = PromiseManager()
 
     def save(self, *args, **kwargs):
         creating = False
@@ -56,4 +59,4 @@ class VerificationDocument(ExternalDocumentMixin):
 class Fulfillment(models.Model):
     promise = models.OneToOneField(Promise)
     percentage = models.PositiveIntegerField(default=0)
-    notes = models.TextField(default="")
+    notes = models.TextField(default="", blank=True)
