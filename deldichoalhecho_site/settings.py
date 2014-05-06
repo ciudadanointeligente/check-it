@@ -47,6 +47,8 @@ INSTALLED_APPS = (
     'django_nose',
     'deldichoalhecho',
     'deldichoalhecho_web',
+    'deldichoalhecho_incendiovalpo',
+    # 'deldichoalhecho_terremotonorte',
     'deldichoalhecho_theme',
     'popit'
 )

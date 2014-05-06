@@ -4,6 +4,12 @@ body {
     font-family: 'Open Sans', sans-serif;
     color: #FFF;
     background-color: #0F2356;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+a {
+  color: #1795CF;
 }
 
 /*Hs*/
@@ -22,6 +28,41 @@ h3.panel-title {
   font-size: 24px;
 }
 
+/*NAVBAR*/
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+/*JUMBOTRON*/
+
+.jumbotron {
+  position: relative;
+  padding: 0px;
+  background-color: transparent;
+}
+
+.jumbotron:after {
+  position: absolute;
+  content: 'El desastre pasa, la reconstrucción recién comienza.';
+  top: 100px;
+  left: 0;
+  color: #F8981D;
+  text-align: center;
+  width: 100%;
+  font-size: 48px;
+  font-weight: 300px;
+  text-shadow: 0.5px 0.5px 1px rgba(11, 15, 61, 0.31);
+}
+
 /*PANEL*/
 
 .panel {
@@ -36,6 +77,22 @@ h3.panel-title {
   color: #FFF;
   background-color: #0F0F28;
   border-color: transparent;
+}
+
+/*PROGRESSBAR*/
+
+.progress {
+  height: 45px;
+  background-color: #0F2356;
+  border-radius: 0px;
+}
+
+.progress-bar {
+  font-size: 36px;
+  text-align: right;
+  background-color: #821E5F;
+  font-weight: 300;
+  padding: 12px 5px;
 }
 
 
