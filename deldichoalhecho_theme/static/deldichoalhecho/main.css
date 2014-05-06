@@ -1,23 +1,65 @@
+/*GENERAL*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    background-color: #0F2356;
+}
+
+/*Hs*/
+
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+h3.panel-title {
+  font-size: 24px;
+}
+
+/*PANEL*/
+
+.panel {
+  background-color: #0F0F28;
+}
+
+.panel-default {
+  border-color: transparent;
+}
+
+.panel-default>.panel-heading {
+  color: #FFF;
+  background-color: #0F0F28;
+  border-color: transparent;
+}
+
+
+
 div.status.not-accomplished:before {
-	position: absolute;
+  position: absolute;
     font-family: FontAwesome;
     top:0;
     content: "\f057";
 }
 div.status.half-accomplished:before {
-	position: absolute;
+  position: absolute;
     font-family: FontAwesome;
     top:0;
     content: "\f056"; 
 }
 div.status.accomplished:before {
-	position: absolute;
+  position: absolute;
     font-family: FontAwesome;
     top:0;
     content: "\f058"; 
 }
 .promise-description {
-	padding-left: 5px;
+  padding-left: 5px;
 }
 .promise-name {
 
@@ -31,5 +73,5 @@ div.verification-document.accomplished {
 .category-percentage {
 
 }
-.progress {	
+.progress { 
 }
