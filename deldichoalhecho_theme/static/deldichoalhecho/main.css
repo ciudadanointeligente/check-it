@@ -63,6 +63,11 @@ h3.panel-title {
   text-shadow: 0.5px 0.5px 1px rgba(11, 15, 61, 0.31);
 }
 
+.category-menu {
+  background-color: #0F0F28;
+  padding: 10px 0 2px;
+}
+
 /*PANEL*/
 
 .panel {
@@ -77,6 +82,13 @@ h3.panel-title {
   color: #FFF;
   background-color: #0F0F28;
   border-color: transparent;
+}
+
+p.text-center.category-expander {
+  background-color: #1795CF;
+  margin-bottom: 0px;
+  color: #fff;
+  margin-top: -53px;
 }
 
 /*PROGRESSBAR*/
@@ -113,11 +125,13 @@ h3.panel-title {
 
 
 div.status.not-accomplished:before {
-  position: absolute;
-    font-family: FontAwesome;
-    top:0;
-    content: "\f057";
+  font-family: FontAwesome;
+  top: 0;
+  content: "\f00d";
+  font-size: 36px;
+  color: #F0562C;
 }
+
 div.status.half-accomplished:before {
   position: absolute;
     font-family: FontAwesome;
