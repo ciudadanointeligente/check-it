@@ -92,7 +92,22 @@ h3.panel-title {
   text-align: right;
   background-color: #821E5F;
   font-weight: 300;
+}
+
+#categories .progress-bar {
   padding: 12px 5px;
+}
+
+.progress-bar-danger {
+  background-color: #F0562C;
+}
+
+.progress-bar-warning {
+  background-color: #F8981D;
+}
+
+.progress-bar-success {
+  background-color: #27B885;
 }
 
 
