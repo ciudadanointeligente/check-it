@@ -1,1 +1,1 @@
-web: gunicorn deldichoalhecho_site.wsgi
+web: gunicorn project_site.wsgi

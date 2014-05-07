@@ -45,8 +45,8 @@ INSTALLED_APPS = (
     'constance.backends.database',
     'django_extensions',
     'django_nose',
-    'deldichoalhecho',
-    'deldichoalhecho_web',
+    'promises',
+    'promises_web',
     'deldichoalhecho_theme',
     'popit'
 )
@@ -60,9 +60,9 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
 
-ROOT_URLCONF = 'deldichoalhecho_site.urls'
+ROOT_URLCONF = 'project_site.urls'
 
-WSGI_APPLICATION = 'deldichoalhecho_site.wsgi.application'
+WSGI_APPLICATION = 'project_site.wsgi.application'
 
 TEST_RUNNER = 'django_nose.NoseTestSuiteRunner'
 
@@ -138,8 +138,8 @@ STATIC_URL = '/static/'
 
 
 STATICFILES_DIRS = (
-        os.path.join(BASE_DIR, '..', 'deldichoalhecho_web', 'static'),
-        os.path.join(BASE_DIR, '..', ' deldichoalhecho_theme', 'static'),
+        os.path.join(BASE_DIR, '..', 'promises_web', 'static'),
+        os.path.join(BASE_DIR, '..', ' promises_web', 'static'),
 )
 
 # END OF HEROKU SPECIFICS

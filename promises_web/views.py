@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from django.views.generic.list import ListView
-from deldichoalhecho.models import Category, Promise
+from promises.models import Category, Promise
 from django.db.models import Avg
 # Create your views here.
 

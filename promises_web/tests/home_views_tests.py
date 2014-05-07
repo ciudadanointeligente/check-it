@@ -1,7 +1,7 @@
 from django.test import TestCase
 from django.utils.timezone import now
-from deldichoalhecho.models import Promise, Category
-from deldichoalhecho.queryset import PromiseSummary
+from promises.models import Promise, Category
+from promises.queryset import PromiseSummary
 from popit.models import Person as PopitPerson, ApiInstance
 from popolo.models import Person
 from django.core.urlresolvers import reverse

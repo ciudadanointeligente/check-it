@@ -1,6 +1,6 @@
 from django.test import TestCase
 from django.utils.timezone import now
-from deldichoalhecho.models import Promise
+from promises.models import Promise
 from popolo.models import Person
 from django.template import Template, Context
 

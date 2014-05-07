@@ -9,25 +9,25 @@ class Migration(SchemaMigration):
 
     def forwards(self, orm):
         # Adding model 'TagExtraCss'
-        db.create_table(u'deldichoalhecho_web_tagextracss', (
+        db.create_table(u'promises_web_tagextracss', (
             (u'id', self.gf('django.db.models.fields.AutoField')(primary_key=True)),
             ('classes', self.gf('django.db.models.fields.CharField')(max_length=512)),
-            ('tag', self.gf('django.db.models.fields.related.ForeignKey')(to=orm['taggit.Tag'])),
+            ('tag', self.gf('django.db.models.fields.related.ForeignKey')(related_name='extracss', to=orm['taggit.Tag'])),
         ))
-        db.send_create_signal(u'deldichoalhecho_web', ['TagExtraCss'])
+        db.send_create_signal(u'promises_web', ['TagExtraCss'])
 
 
     def backwards(self, orm):
         # Deleting model 'TagExtraCss'
-        db.delete_table(u'deldichoalhecho_web_tagextracss')
+        db.delete_table(u'promises_web_tagextracss')
 
 
     models = {
-        u'deldichoalhecho_web.tagextracss': {
+        u'promises_web.tagextracss': {
             'Meta': {'object_name': 'TagExtraCss'},
             'classes': ('django.db.models.fields.CharField', [], {'max_length': '512'}),
             u'id': ('django.db.models.fields.AutoField', [], {'primary_key': 'True'}),
-            'tag': ('django.db.models.fields.related.ForeignKey', [], {'to': u"orm['taggit.Tag']"})
+            'tag': ('django.db.models.fields.related.ForeignKey', [], {'related_name': "'extracss'", 'to': u"orm['taggit.Tag']"})
         },
         u'taggit.tag': {
             'Meta': {'object_name': 'Tag'},
@@ -37,4 +37,4 @@ class Migration(SchemaMigration):
         }
     }
 
-    complete_apps = ['deldichoalhecho_web']
+    complete_apps = ['promises_web']
