@@ -108,6 +108,7 @@ CONSTANCE_CONFIG = {
         'DESCRIPTION_PHRASE': ("Promise tracking site", 'the description of the site'),
         'GOOGLE_ANALYTICS': ("UA-XXXXXXX-X", "Google analytics code "),
         'DISQUS_SHORTCODE': ("disqusshortcode", "Disqus shortcode"),
+        'CURRENT_THEME': ("base", "Current theme"),
 }
 CONSTANCE_BACKEND = 'constance.backends.database.DatabaseBackend'
 TEMPLATE_CONTEXT_PROCESSORS = ("django.contrib.auth.context_processors.auth",
@@ -118,6 +119,11 @@ TEMPLATE_CONTEXT_PROCESSORS = ("django.contrib.auth.context_processors.auth",
                                "django.core.context_processors.tz",
                                "django.contrib.messages.context_processors.messages",
                                "constance.context_processors.config")
+
+TEMPLATE_LOADERS = (
+    'promises_web.loaders.ThemeLoader',
+    'django.template.loaders.app_directories.Loader',
+)
 #HEROKU SPECIFICS
 # Parse database configuration from $DATABASE_URL
 if 'DATABASE_URL' in os.environ:
