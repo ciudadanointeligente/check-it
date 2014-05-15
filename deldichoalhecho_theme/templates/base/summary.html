@@ -1,20 +1,19 @@
-<dl class="dl-horizontal">
-	<dt>Completado</dt>
-	<dd>{{summary.accomplished}}</dd>
-	<dt>En proceso</dt>
-	<dd>{{summary.in_progress}}</dd>
-	<dt>Sin proceso</dt>
-	<dd>{{summary.no_progress}}</dd>
-</dl>
+<div class="container">
+	<ul class="list-inline">
+		<li>Completado <strong>{{summary.accomplished_percentage|floatformat}}%</strong></li>
+		<li>En proceso <strong>{{summary.in_progress_percentage|floatformat}}%</strong></li>
+		<li>Sin avance <strong>{{summary.no_progress_percentage|floatformat}}%</strong></li>
+	</ul>
+</div>
 
 <div class="progress">
 	<div class="progress-bar progress-bar-success" style="width: {{summary.accomplished_percentage}}%">
-		<span class="sr-only">{{summary.accomplished_percentage}}% Complete (success)</span>
+		<span class="sr-only">{{summary.accomplished_percentage}}% cumplido</span>
 	</div>
 	<div class="progress-bar progress-bar-warning" style="width: {{summary.in_progress_percentage}}%">
-		<span class="sr-only">{{summary.in_progress_percentage}}% Complete (warning)</span>
+		<span class="sr-only">{{summary.in_progress_percentage}}% en proceso</span>
 	</div>
 	<div class="progress-bar progress-bar-danger" style="width: {{summary.no_progress_percentage}}%">
-		<span class="sr-only">{{summary.no_progress_percentage}}% Complete (danger)</span>
+		<span class="">{{summary.no_progress_percentage}}% sin avance</span>
 	</div>
 </div>

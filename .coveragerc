@@ -1,3 +1,4 @@
 # .coveragerc to control coverage.py
 [run]
 omit = ../*migrations*
+source = promises,promises_web,deldichoalhecho_theme
