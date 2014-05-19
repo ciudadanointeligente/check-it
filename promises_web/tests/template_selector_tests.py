@@ -24,19 +24,18 @@ class TemplateSelectorTestCase(TestCase):
         response = c.get(url)
         self.assertTemplateUsed(response, 'base.html')
 
-    def atest_get_base_if_template_not_in_theme(self):
+    def test_get_base_if_template_not_in_theme(self):
     	'''If a certain template cannot be found uses the one in base'''
-    	config.CURRENT_THEME = 'test'
-    	url = reverse('promises_home')
+        config.CURRENT_THEME = 'test'
+        url = reverse('promises_home')
         c = Client()
         response = c.get(url)
-        # template = response.resolve_template(response.template_name)
-        # print template
         self.assertEquals(response.status_code, 200)
-        self.assertEquals(response.rendered_content, "testest")
+        ## home.html contains the phrase testest
+        self.assertIn("testest", response.rendered_content)
 
     def test_static_finder(self):
     	'''Gets correctly the static files'''
-    	result = finders.find('images/favicon.ico')
-    	self.assertIsNotNone(result)
+        result = finders.find('images/favicon.ico')
+        self.assertIsNotNone(result)
 

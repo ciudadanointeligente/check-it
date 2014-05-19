@@ -1,0 +1,163 @@
+/*GENERAL*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    color: #FFF;
+    background-color: #0F2356;
+    -webkit-font-smoothing: antialiased;
+    text-shadow: rgba(0,0,0,.01) 0 0 1px;
+}
+
+a {
+  color: #1795CF;
+}
+
+/*Hs*/
+
+h1 {
+  font-size: 48px;
+  font-weight: 300;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 300;
+}
+
+h3.panel-title {
+  font-size: 24px;
+}
+
+/*NAVBAR*/
+
+.navbar-default {
+  background-color: transparent;
+  border-color: transparent;
+  margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand {
+  color: #fff;
+  font-weight: 300;
+  font-size: 28px;
+}
+
+/*JUMBOTRON*/
+
+.jumbotron {
+  position: relative;
+  padding: 0px;
+  background-color: transparent;
+}
+
+.jumbotron:after {
+  position: absolute;
+  content: 'El desastre pasa, la reconstrucción recién comienza.';
+  top: 100px;
+  left: 0;
+  color: #F8981D;
+  text-align: center;
+  width: 100%;
+  font-size: 48px;
+  font-weight: 300px;
+  text-shadow: 0.5px 0.5px 1px rgba(11, 15, 61, 0.31);
+}
+
+.category-menu {
+  background-color: #0F0F28;
+  padding: 10px 0 2px;
+}
+
+/*PANEL*/
+
+.panel {
+  background-color: #0F0F28;
+}
+
+.panel-default {
+  border-color: transparent;
+}
+
+.panel-default>.panel-heading {
+  color: #FFF;
+  background-color: #0F0F28;
+  border-color: transparent;
+}
+
+p.text-center.category-expander {
+  background-color: #1795CF;
+  margin-bottom: 0px;
+  color: #fff;
+  margin-top: -53px;
+}
+
+/*PROGRESSBAR*/
+
+.progress {
+  height: 45px;
+  background-color: #0F2356;
+  border-radius: 0px;
+}
+
+.progress-bar {
+  font-size: 36px;
+  text-align: right;
+  background-color: #821E5F;
+  font-weight: 300;
+}
+
+#categories .progress-bar {
+  padding: 12px 5px;
+}
+
+.progress-bar-danger {
+  background-color: #F0562C;
+}
+
+.progress-bar-warning {
+  background-color: #F8981D;
+}
+
+.progress-bar-success {
+  background-color: #27B885;
+}
+
+
+
+div.status.not-accomplished:before {
+  font-family: FontAwesome;
+  top: 0;
+  content: "\f00d";
+  font-size: 36px;
+  color: #F0562C;
+}
+
+div.status.half-accomplished:before {
+  position: absolute;
+    font-family: FontAwesome;
+    top:0;
+    content: "\f056"; 
+}
+div.status.accomplished:before {
+  position: absolute;
+    font-family: FontAwesome;
+    top:0;
+    content: "\f058"; 
+}
+.promise-description {
+  padding-left: 5px;
+}
+.promise-name {
+
+}
+div.verification-document.not-accomplished {
+}
+div.verification-document.half-accomplished {
+}
+div.verification-document.accomplished {
+}
+.category-percentage {
+
+}
+.progress { 
+}
