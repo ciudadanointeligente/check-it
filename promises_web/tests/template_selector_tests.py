@@ -34,6 +34,22 @@ class TemplateSelectorTestCase(TestCase):
         ## home.html contains the phrase testest
         self.assertIn("testest", response.rendered_content)
 
+    def test_get_template_when_no_template_is_selected(self):
+        '''If the config value for the current theme is empty'''
+        config.CURRENT_THEME = ''
+        url = reverse('promises_home')
+        c = Client()
+        response = c.get(url)
+        self.assertEquals(response.status_code, 200)
+
+    def test_template_not_right(self):
+        '''If the config value for the current theme not a theme'''
+        config.CURRENT_THEME = 'asdftsg'
+        url = reverse('promises_home')
+        c = Client()
+        response = c.get(url)
+        self.assertEquals(response.status_code, 200)
+
     def test_static_finder(self):
     	'''Gets correctly the static files'''
         result = finders.find('images/favicon.ico')

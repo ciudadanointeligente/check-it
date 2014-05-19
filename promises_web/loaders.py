@@ -58,6 +58,7 @@ class ThemeLoader(Loader):
     def load_template_source(self, template_name, template_dirs=None):
         if not template_dirs:
             template_dirs = app_template_dirs
-        template_dirs = (themes_dirs[config.CURRENT_THEME], ) + template_dirs
+        if config.CURRENT_THEME and config.CURRENT_THEME in themes_dirs:
+            template_dirs = (themes_dirs[config.CURRENT_THEME], ) + template_dirs
         return super(ThemeLoader, self).load_template_source(template_name, template_dirs)
 
