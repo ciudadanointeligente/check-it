@@ -1,0 +1,1544 @@
+[
+{
+  "pk": 3, 
+  "fields": {
+    "birth_date": "", 
+    "gender": null, 
+    "end_date": null, 
+    "summary": "", 
+    "start_date": null, 
+    "image": null, 
+    "email": null, 
+    "family_name": "", 
+    "given_name": "", 
+    "sort_name": "", 
+    "honorific_suffix": "", 
+    "updated_at": "2014-04-21T16:22:49.202Z", 
+    "created_at": "2014-04-21T16:22:49.196Z", 
+    "additional_name": "", 
+    "name": "Michelle Bachelet", 
+    "patronymic_name": "", 
+    "honorific_prefix": "", 
+    "slug": "michelle-bachelet", 
+    "biography": "", 
+    "death_date": ""
+  }, 
+  "model": "popolo.person"
+},
+{
+  "fields": {
+    "slug": "educacion", 
+    "name": "Educaci\u00f3n"
+  }, 
+  "model": "promises.category", 
+  "pk": 36
+},
+{
+  "fields": {
+    "slug": "salud", 
+    "name": "Salud"
+  }, 
+  "model": "promises.category", 
+  "pk": 37
+},
+{
+  "fields": {
+    "slug": "proteccion-social", 
+    "name": "Protecci\u00f3n Social"
+  }, 
+  "model": "promises.category", 
+  "pk": 38
+},
+{
+  "fields": {
+    "slug": "pensiones", 
+    "name": "Pensiones"
+  }, 
+  "model": "promises.category", 
+  "pk": 39
+},
+{
+  "fields": {
+    "slug": "trabajo", 
+    "name": "Trabajo"
+  }, 
+  "model": "promises.category", 
+  "pk": 40
+},
+{
+  "fields": {
+    "slug": "seguridad-publica", 
+    "name": "Seguridad P\u00fablica"
+  }, 
+  "model": "promises.category", 
+  "pk": 41
+},
+{
+  "fields": {
+    "slug": "descentralizacion", 
+    "name": "Descentralizaci\u00f3n"
+  }, 
+  "model": "promises.category", 
+  "pk": 42
+},
+{
+  "fields": {
+    "slug": "ciudad-territorio-y-reconstruccion", 
+    "name": "Ciudad, Territorio y Reconstrucci\u00f3n"
+  }, 
+  "model": "promises.category", 
+  "pk": 43
+},
+{
+  "fields": {
+    "slug": "medio-ambiente", 
+    "name": "Medio Ambiente"
+  }, 
+  "model": "promises.category", 
+  "pk": 44
+},
+{
+  "fields": {
+    "slug": "cultura", 
+    "name": "Cultura"
+  }, 
+  "model": "promises.category", 
+  "pk": 45
+},
+{
+  "fields": {
+    "slug": "deportes", 
+    "name": "Deportes"
+  }, 
+  "model": "promises.category", 
+  "pk": 46
+},
+{
+  "fields": {
+    "slug": "equidad-de-genero", 
+    "name": "Equidad de g\u00e9nero"
+  }, 
+  "model": "promises.category", 
+  "pk": 47
+},
+{
+  "fields": {
+    "slug": "pueblos-indigenas", 
+    "name": "Pueblos Ind\u00edgenas"
+  }, 
+  "model": "promises.category", 
+  "pk": 48
+},
+{
+  "fields": {
+    "slug": "agricultura-recursos-hidricos-y-pesca", 
+    "name": "Agr\u00edcultura, recursos h\u00eddricos y pesca"
+  }, 
+  "model": "promises.category", 
+  "pk": 49
+},
+{
+  "fields": {
+    "slug": "crecimiento", 
+    "name": "Crecimiento"
+  }, 
+  "model": "promises.category", 
+  "pk": 50
+},
+{
+  "pk": 56, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Para que nuestros ni\u00f1os, ni\u00f1as y j\u00f3venes puedan desarrollar todos sus talentos, necesitamos una educaci\u00f3n de calidad, gratuita, sin segregaci\u00f3n y en que no se lucre con fondos p\u00fablicos. Para eso, enviaremos al Congreso el Proyecto de Ley para una Gran Reforma Educacional", 
+    "person": 3, 
+    "name": "Promesa 1", 
+    "category": 36
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 57, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Nuestras ni\u00f1as y ni\u00f1os necesitan tener iguales oportunidades desde el inicio, porque esta es la etapa de la vida m\u00e1s importante para el desarrollo de las personas. Vamos a garantizar que 90 mil nuevos ni\u00f1os y ni\u00f1as reciban la estimulaci\u00f3n que necesitan desde el principio. Entregaremos el listado de las localidades donde se implementara\u0301n en 2014 las primeras 500, de un total de 4.500 nuevas salas cunas.", 
+    "person": 3, 
+    "name": "Promesa 2", 
+    "category": 36
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 58, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "A los j\u00f3venes chilenos de sectores m\u00e1s vulnerables no solo les es muy dif\u00edcil entrar a la Educaci\u00f3n Superior, sino tambi\u00e9n mantenerse y terminar una carrera profesional. Por eso, iniciaremos un Programa para asegurar el acceso a la Educacio\u0301n Superior de los jo\u0301venes ma\u0301s vulnerables, con la Preparacio\u0301n y Apoyo a Jo\u0301venes, que partira\u0301 con alumnos de 3o medio que ingresara\u0301n a la universidad el 2016.", 
+    "person": 3, 
+    "name": "Promesa 3", 
+    "category": 36
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 59, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Para tener una educaci\u00f3n p\u00fablica de calidad, el Estado tiene que jug\u00e1rsela por las universidades estatales en todo el pa\u00eds. Enviaremos al Congreso el proyecto de ley que crea dos nuevas universidades pu\u0301blicas regionales en Ayse\u0301n y O\u2019Higgins, las que debera\u0301n comprometerse efectivamente con el desarrollo local.", 
+    "person": 3, 
+    "name": "Promesa 4", 
+    "category": 36
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 60, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Todos estamos de acuerdo que en Chile se necesita fomentar y prestigiar la educaci\u00f3n t\u00e9cnica y as\u00ed tener t\u00e9cnicos de primer nivel, tal como ocurre en los pa\u00edses desarrollados. Por eso, firmaremos los convenios que crean los 5 primeros Centros de Formacio\u0301n Te\u0301cnica pu\u0301blicos regionales que funcionara\u0301n al alero de universidades pu\u0301blicas locales. Este programa luego se ampliara\u0301 a todas las regiones del pai\u0301s.", 
+    "person": 3, 
+    "name": "Promesa 5", 
+    "category": 36
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 61, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Cuando alguien tiene una urgencia en la noche, los SAPUs est\u00e1n cerrados y las personas deben ir a las urgencias de hospitales u otros centros, que generalmente no quedan cerca de su casa y est\u00e1n congestionados. Definiremos las comunas y los centros de salud en que habilitaremos 132 Servicios de Atencio\u0301n Primaria de Urgencia de Alta Resolucio\u0301n (SAR) que construiremos entre 2014 y 2018, los que atendera\u0301n toda la noche y contara\u0301n con equipos de rayos, kit de laboratorio ba\u0301sico y acceso a telemedicina.", 
+    "person": 3, 
+    "name": "Promesa 6", 
+    "category": 37
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 62, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Cuando se tiene una enfermedad cr\u00f3nica, una parte importante del sueldo o la pensi\u00f3n, usualmente se gastan en los medicamentos. Por eso, iniciaremos la implementacio\u0301n del Fondo Nacional de Medicamentos, a trave\u0301s de la firma de los convenios con todas las municipalidades del pai\u0301s, que permitira\u0301 empezar la entrega de medicamentos en forma gratuita a los pacientes cro\u0301nicos que se atienden en los centros de salud primaria en el primer an\u0303o de Gobierno", 
+    "person": 3, 
+    "name": "Promesa 7", 
+    "category": 37
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 63, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Uno de los problemas m\u00e1s importantes que uno tiene cuando va al sistema p\u00fablico es la falta de especialistas, y muchas veces debe esperar largo tiempo o termina pagando una consulta en el sistema privado. Asignaremos los recursos para que los Servicios de Salud puedan contratar 33.000 horas me\u0301dicas semanales adicionales de especialidades, que equivalen a la contratacio\u0301n de 750 me\u0301dicos especialistas.", 
+    "person": 3, 
+    "name": "Promesa 8", 
+    "category": 37
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 64, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Para que podamos tener m\u00e1s y mejores servicios de salud, hay que invertir fuertemente en infraestructura como hospitales y consultorios, as\u00ed como en equipamiento. Entregaremos el detalle del Plan Nacional de Inversiones Pu\u0301blicas en Salud para el peri\u0301odo 2014\u20132018, que contemplara\u0301 construir 20 hospitales, dejar 20 en construccio\u0301n y otros 20 en procesos de licitacio\u0301n o estudios.", 
+    "person": 3, 
+    "name": "Promesa 9", 
+    "category": 37
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 65, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "No es justo que a una persona mayor o que tiene \u201criesgo\u201d de enfermarse, las ISAPRES le cobren mucho m\u00e1s caro o simplemente el sistema privado de salud lo expulse, entre otras injusticias. Por eso, convocaremos a un equipo de expertos con el mandato de redactar una propuesta de Proyecto de Ley de ISAPRES.", 
+    "person": 3, 
+    "name": "Promesa 10", 
+    "category": 37
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 66, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Porque para las familias chilenas marzo es siempre el mes m\u00e1s duro del a\u00f1o, ya que tenemos muchos gastos y el sueldo no alcanza, enviaremos al Congreso \u2013con discusio\u0301n inmediata- el proyecto de ley para pagar desde 2014 el Aporte Familiar Permanente de Marzo, que consistira\u0301 en un aporte de $40.000 por carga a dos millones de familias que son beneficiarias de subsidio familiar, asignacio\u0301n familiar o ingreso e\u0301tico familiar", 
+    "person": 3, 
+    "name": "Promesa 11", 
+    "category": 38
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 67, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Porque hay personas que perdieron beneficios sociales sin haber experimentado modificaciones relevantes a sus condiciones socioecon\u00f3micas, implementaremos cambios a la Ficha de Proteccio\u0301n Social buscando restablecer dichos beneficios. ", 
+    "person": 3, 
+    "name": "Promesa 12a", 
+    "category": 38
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 68, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Asi\u0301 tambie\u0301n restituiremos el Bono de Invierno a los adultos mayores que lo perdieron sin que su situacio\u0301n socioecono\u0301mica haya cambiado realmente", 
+    "person": 3, 
+    "name": "Promesa 12b", 
+    "category": 38
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 69, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "En Chile, muchas veces las personas mayores requieren cuidados especiales o no son autovalentes. No siempre sus familias se hacen cargo de ese cuidado y no es justo que queden vulnerables o a su suerte. Definiremos la ubicacio\u0301n y el cronograma de construccio\u0301n y habilitacio\u0301n de 15 establecimientos que acogera\u0301n a los adultos mayores dependientes y que no disponen de cuidado familiar o en su entorno", 
+    "person": 3, 
+    "name": "Promesa 13", 
+    "category": 38
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 70, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "La protecci\u00f3n integral de los derechos de los ni\u00f1os y ni\u00f1as es una base fundamental para superar la desigualdad. Debemos situar al centro de nuestras poli\u0301ticas pu\u0301blicas la Infancia. Crearemos el Consejo Nacional de la Infancia que se encargara\u0301 de la coordinacio\u0301n de los organismos con competencia en materias relacionadas y asumira\u0301 la responsabilidad de impulsar la reforma normativa e institucional,", 
+    "person": 3, 
+    "name": "Promesa 14", 
+    "category": 38
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 71, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Hay pensionados que perdieron el beneficio de una Pensi\u00f3n B\u00e1sica Solidaria (PBS) sin una raz\u00f3n aparente. A ellos les restituiremos el pago de la PBS si su situaci\u00f3n socioecon\u00f3mica no ha experimentado cambios.", 
+    "person": 3, 
+    "name": "Promesa 15", 
+    "category": 39
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 72, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "En el mercado de las AFP debe haber mayor competencia en materia de comisiones y, adem\u00e1s estas instituciones no han mostrado gran inter\u00e9s en ciertos grupos de menores rentas, mujeres, trabajadores independientes o que trabajan lejos de las grandes ciudades. Por eso, enviaremos al Congreso el proyecto de ley que crea una AFP Estatal que promover\u00e1 la competencia y apoyar\u00e1 a estos grupos de personas.", 
+    "person": 3, 
+    "name": "Promesa 16", 
+    "category": 39
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 73, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Sin embargo, esto no es suficiente, en Chile existe consenso que es necesario revisar el sistema de pensiones, para asegurar que podamos aspirar a una vejez digna y a una adecuada protecci\u00f3n frente a la invalidez y sobrevivencia. Por ello, encargaremos un estudio sobre el Sistema de Pensiones a un equipo de expertos nacionales e internacionales, para que propongan alternativas de soluci\u00f3n frente a estos problemas.", 
+    "person": 3, 
+    "name": "Promesa 17", 
+    "category": 39
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 74, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Debemos perfeccionar y potenciar la negociaci\u00f3n colectiva y, de esta forma, la capacidad de los trabajadores para negociar mejores condiciones laborales y mejores salarios. Por ello impulsaremos una Agenda Laboral, cuya primera medida ser\u00e1 el env\u00edo al Congreso de una Indicaci\u00f3n al actual proyecto de Multirut, de modo de combatir con fuerza esta pr\u00e1ctica.", 
+    "person": 3, 
+    "name": "Promesa 18", 
+    "category": 40
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 75, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Las mujeres, sobre todo las que tienen menos recursos, muchas veces no pueden encontrar empleo porque no tienen capacitaci\u00f3n en un oficio. Por eso, entregaremos el plan de implementaci\u00f3n de un nuevo programa de Formaci\u00f3n y Capacitaci\u00f3n Laboral, que beneficiar\u00e1 a 300.000 mujeres con el objeto de aumentar la participaci\u00f3n laboral femenina en el mercado del trabajo.", 
+    "person": 3, 
+    "name": "Promesa 19", 
+    "category": 40
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 76, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "A los j\u00f3venes vulnerables les cuesta m\u00e1s que a nadie encontrar empleo, porque no tienen experiencia ni formaci\u00f3n profesional. Es necesario mejorar su formaci\u00f3n y proveerlos de las competencias necesarias para ingresar al mundo del trabajo. Por ello, presentaremos detalladamente un plan de Capacitaci\u00f3n de Inserci\u00f3n Laboral y Educacional que beneficiar\u00e1 a 150.000 j\u00f3venes, incluyendo especialmente a j\u00f3venes en situaci\u00f3n de discapacidad.", 
+    "person": 3, 
+    "name": "Promesa 20", 
+    "category": 40
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 77, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Una de las formas de tener ciudades m\u00e1s seguras es aumentando la dotaci\u00f3n policial que pueda estar en las calles previniendo y, sobre todo, combatiendo el delito. Enviaremos al Congreso el Proyecto de Ley que nos permitir\u00e1 aumentar en 6.000 las plazas de Carabineros de Chile y 1.200 nuevos Polic\u00edas de Investigaciones, en el per\u00edodo de 4 a\u00f1os.", 
+    "person": 3, 
+    "name": "Promesa 21", 
+    "category": 41
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 78, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Para que los menores Infractores de Ley dejen de hacerlo,se requieren intervenciones que efectivamente logren hacer que este c\u00edrculo vicioso se detenga tempranamente. Anunciaremos 11 nuevas comunas que se sumar\u00e1n a las 14 actuales que est\u00e1n en el Programa 24 Horas de seguridad ciudadana, que da apoyo integral a estos j\u00f3venes en riesgo.", 
+    "person": 3, 
+    "name": "Promesa 22", 
+    "category": 41
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 79, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Necesitamos avanzar en cosas concretas que hagan que el centralismo disminuya en Chile en vez de seguir avanzando. Crearemos una Comisi\u00f3n Asesora Presidencial para que entregue medidas espec\u00edficas que fomenten el desarrollo regional, adem\u00e1s de definir los contenidos espec\u00edficos de las actividades a ser traspasadas a las autoridades e institucionalidad regional y un cronograma para el traspaso.", 
+    "person": 3, 
+    "name": "Promesa 23", 
+    "category": 42
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 80, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Vivir en zonas extremas es a veces muy complejo. Debemos reconocer este esfuerzo y apoyar a quienes desarrollan su vida en esas \u00e1reas de nuestro territorio. Para eso, presentaremos el Plan Especial de Desarrollo de Zonas Extremas en Magallanes, Ays\u00e9n y Arica, que les dar\u00e1 un impulso potente de crecimiento y desarrollo. ", 
+    "person": 3, 
+    "name": "Promesa 24a", 
+    "category": 42
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 81, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Adem\u00e1s, hay zonas del pa\u00eds que se encuentran rezagadas respecto del desarrollo del resto y que requieren apoyo para surgir. Para eso, presentaremos un Plan de Desarrollo para Territorios Rezagados, que requier\u00e1n impulso en materia de pobreza, desempleo, infraestructura p\u00fablica, conectividad y capacidades productivas de esas zonas.", 
+    "person": 3, 
+    "name": "Promesa 24b", 
+    "category": 42
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 82, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Los habitantes de Concepci\u00f3n, Valpara\u00edso y Antofagasta,entre otras regiones, esperan tener un sistema de transporte moderno e integrado. Iniciaremos los Estudios para dotar al gran Concepci\u00f3n y Antofagasta de soluciones de conectividad de alto est\u00e1ndar, que evaluar\u00e1 la implementaci\u00f3n de tranv\u00edas y corredores de buses, y en Valpara\u00edso la integraci\u00f3n entre ascensores, trolebuses y Merval. Asimismo, se incorporar\u00e1n propuestas para dar soluci\u00f3n de corto plazo a las situaciones de congesti\u00f3n severa que hoy registran estas ciudades, en especial, en el gran Concepci\u00f3n.", 
+    "person": 3, 
+    "name": "Promesa 25", 
+    "category": 42
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 83, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Hay muchas zonas en las ciudades de Chile en que no existe un parque, faltan plazas y no hay suficientes \u00e1reas verdes. Anunciaremos las 30 comunas en que implementaremos un plan de construcci\u00f3n de parques y \u00e1reas verdes que representar\u00e1 un aporte significativo a la calidad de vida de las familias chilenas.", 
+    "person": 3, 
+    "name": "Promesa 26", 
+    "category": 43
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 84, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Toda familia merece vivir en un barrio amable, con espacios p\u00fablicos bien acondicionados, con lugares para el encuentro, el deporte y la recreaci\u00f3n. Por eso, definiremos y anunciaremos los 200 nuevos barrios que participar\u00e1n de la segunda parte del programa \u201cQuiero mi Barrio\u201d.", 
+    "person": 3, 
+    "name": "Promesa 27a", 
+    "category": 43
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 85, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Adem\u00e1s, dictaremos un Reglamento para el desarrollo de una pol\u00edtica p\u00fablica de control reproductivo de animales de compa\u00f1\u00eda", 
+    "person": 3, 
+    "name": "Promesa 27b", 
+    "category": 43
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 86, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Realizaremos la primera campa\u00f1a comunicacional de educaci\u00f3n para la tenencia responsable de animales dando inicio a un Plan sistem\u00e1tico, extensivo y nacional de Esterilizaci\u00f3n Masiva de Animales de Compa\u00f1\u00eda.", 
+    "person": 3, 
+    "name": "Promesa 27c", 
+    "category": 43
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 87, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Es impresionante el aumento de uso de bicicletas en las ciudades, sin embargo, su uso actualmente esta\u0301 lleno de riesgos. Por eso, entregaremos los detalles del Plan de Ciclovi\u0301as que construiremos, el que permitira\u0301 a los chilenos y chilenas contar con 100 kilo\u0301metros ma\u0301s de ciclovi\u0301as de alto esta\u0301ndar, y triplicar la capacidad de estacionamientos para combinar el uso de la bicicleta con otros medios de transporte pu\u0301blico, como Metro, Merval o el Bio Tren.", 
+    "person": 3, 
+    "name": "Promesa 28", 
+    "category": 43
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 88, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Una necesidad que manifiestan los vecinos de Quilicura, El Bosque y San Bernando es que el Metro llegue hasta sus comunas, porque todos sabemos lo importante que es para uno cuando el Metro llega cerca de nuestra casa. Para ello, se iniciara\u0301n los Estudios de Factibilidad en la empresa METRO, que considere la ampliacio\u0301n de la li\u0301nea 3 hacia Quilicura y la li\u0301nea 2 hacia El Bosque y San Bernardo. ", 
+    "person": 3, 
+    "name": "Promesa 29a", 
+    "category": 43
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 89, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Adicionalmente, iniciaremos estudios de desarrollo urbano y conectividad que permitan descongestionar zonas altamente saturadas, como por ejemplo La Florida, Puente Alto, Huechurababa, Talagante y Melipilla", 
+    "person": 3, 
+    "name": "Promesa 29b", 
+    "category": 43
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 90, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "En el proceso de reconstruccio\u0301n ha habido avances importantes, pero es claro que hay cosas que faltan por hacer y de las que hay que hacerse cargo. Realizaremos un diagno\u0301stico del estado de la reconstruccio\u0301n en las diversas zonas que han sido afectadas por desastres naturales, que permita generar un plan de accio\u0301n. Y tambie\u0301n nombraremos un delegado presidencial para la reconstruccio\u0301n, que tenga a cargo llevar a cabo este plan", 
+    "person": 3, 
+    "name": "Promesa 30", 
+    "category": 43
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 91, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "El crecimiento de Chile y el desarrollo de algunos negocios no puede ser a costa de nuestra biodiversidad. Por eso, enviaremos al Congreso el proyecto de ley que crea el Servicio de Biodiversidad y A\u0301reas Protegidas, que permitira\u0301 ampliar el cuidado de la biodiversidad ma\u0301s alla\u0301 de las a\u0301reas protegidas", 
+    "person": 3, 
+    "name": "Promesa 31", 
+    "category": 44
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 92, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Uno de los problemas que enfrentan cada vez ma\u0301s ciudades en Chile es la contaminacio\u0301n ambiental. Necesitamos enfrentarla de una vez con planes que efectivamente contribuyan a disminuirla. Para eso, estableceremos planes de descontaminacio\u0301n para las ciudades que presenten las situaciones ma\u0301s cri\u0301ticas", 
+    "person": 3, 
+    "name": "Promesa 32", 
+    "category": 44
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 93, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "La cultura es parte del alma de un pai\u0301s, y requiere ser apoyada y tratada como se merece para promoverla, fomentar su desarrollo, y por sobre todo, aumentar el acceso de todos los chilenos y chilenas a las actividades arti\u0301sticas. Por ello, presentaremos al Congreso el proyecto de ley que crea el Ministerio de Cultura y Patrimonio", 
+    "person": 3, 
+    "name": "Promesa 33", 
+    "category": 45
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 94, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "En Chile existen muchos jo\u0301venes con talento arti\u0301stico que no tienen espacio para desarrollar sus condiciones. Para ello, definiremos la ubicacio\u0301n de 15 centros de desarrollo arti\u0301stico para jo\u0301venes talentosos que construiremos, y el plan de trabajo en su implementacio\u0301n. Estos se sumara\u0301n a los 5 que hoy existen y que conformara\u0301n la Red Nacional de Centros de Servicios Culturales para Jo\u0301venes", 
+    "person": 3, 
+    "name": "Promesa 34", 
+    "category": 45
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 95, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Cuando caminamos por las ciudades de Chile muchas veces vemos con dolor co\u0301mo edificios tan importantes, como los mercados, casonas y otros, se esta\u0301n deteriorando. Comenzaremos la puesta en marcha de un programa de recuperacio\u0301n regional de infraestructura patrimonial emblema\u0301tica en 4 regiones", 
+    "person": 3, 
+    "name": "Promesa 35", 
+    "category": 45
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 96, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "En las comunas hay pocos espacios donde practicar deporte, y cuando los hay no siempre cuentan con el equipamiento y los monitores. Estableceremos la ubicacio\u0301n de los 30 nuevos Centros Deportivos que construiremos durante el Gobierno. Sera\u0301n gimnasios u otros centros ma\u0301s grandes para la pra\u0301ctica de diferentes deportes", 
+    "person": 3, 
+    "name": "Promesa 36", 
+    "category": 46
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 97, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "En general los nin\u0303os tienen pocas instancias en que puedan desarrollar diversos deportes adema\u0301s del fu\u0301tbol. Por eso, definiremos el plan de implementacio\u0301n para la reposicio\u0301n del programa de las escuelas deportivas, que en esta oportunidad contemplara\u0301 varias disciplinas (fu\u0301tbol, voleibol, basquetbol, etc.) y en las que participara\u0301n so\u0301lo en el primer an\u0303o 30.000 nin\u0303os y nin\u0303as", 
+    "person": 3, 
+    "name": "Promesa 37", 
+    "category": 46
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 98, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Necesitamos avanzar ma\u0301s en que las mujeres tengan efectivamente las mismas oportunidades que los hombres, por lo que se requiere dar un nuevo impulso a poli\u0301ticas e iniciativas que contribuyan efectivamente a eso. Para ello, enviaremos al Congreso el proyecto de ley que crea el Ministerio de la Mujer", 
+    "person": 3, 
+    "name": "Promesa 38", 
+    "category": 47
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 99, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "En Chile hay mujeres que sufren violencia grave, y quedan ellas y sus hijos e hijas en una situacio\u0301n de alta vulnerabilidad si permanecen en sus casas. Por eso, detallaremos do\u0301nde se implementara\u0301n las 24 nuevas casas de acogida, que duplicara\u0301n el nu\u0301mero actual", 
+    "person": 3, 
+    "name": "Promesa 39", 
+    "category": 47
+  }, 
+  "model": "promises.promise"
+},
+{
+  "pk": 100, 
+  "fields": {
+    "date": "2014-03-11", 
+    "description": "Cuando una mujer busca trabajo, la falta de piezas dentales le dificultan mucho el obtener un empleo, adema\u0301s de afectar su autoestima. Pondremos en marcha el programa Ma\u0301s Sonrisas para Chile, que atendera\u0301 a 400.000 mujeres, permitiendo la recuperacio\u0301n integral de su salud bucal", 
+    "person": 3, 
+    "name": "Promesa 40", 
+    "category": 47
+  }, 
+  "model": "promises.promise"
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 56
+  }, 
+  "pk": 57
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 57
+  }, 
+  "pk": 58
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 58
+  }, 
+  "pk": 59
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 59
+  }, 
+  "pk": 60
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 60
+  }, 
+  "pk": 61
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 61
+  }, 
+  "pk": 62
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 62
+  }, 
+  "pk": 63
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 63
+  }, 
+  "pk": 64
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 64
+  }, 
+  "pk": 65
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 65
+  }, 
+  "pk": 66
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 66
+  }, 
+  "pk": 67
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 67
+  }, 
+  "pk": 68
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 68
+  }, 
+  "pk": 69
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 69
+  }, 
+  "pk": 70
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 70
+  }, 
+  "pk": 71
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 71
+  }, 
+  "pk": 72
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 72
+  }, 
+  "pk": 73
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 73
+  }, 
+  "pk": 74
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 74
+  }, 
+  "pk": 75
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 75
+  }, 
+  "pk": 76
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 76
+  }, 
+  "pk": 77
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 77
+  }, 
+  "pk": 78
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 78
+  }, 
+  "pk": 79
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 79
+  }, 
+  "pk": 80
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 80
+  }, 
+  "pk": 81
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 81
+  }, 
+  "pk": 82
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 82
+  }, 
+  "pk": 83
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 83
+  }, 
+  "pk": 84
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 84
+  }, 
+  "pk": 85
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 85
+  }, 
+  "pk": 86
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 86
+  }, 
+  "pk": 87
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 87
+  }, 
+  "pk": 88
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 88
+  }, 
+  "pk": 89
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 89
+  }, 
+  "pk": 90
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 90
+  }, 
+  "pk": 91
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 91
+  }, 
+  "pk": 92
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 92
+  }, 
+  "pk": 93
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 93
+  }, 
+  "pk": 94
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 94
+  }, 
+  "pk": 95
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 95
+  }, 
+  "pk": 96
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 96
+  }, 
+  "pk": 97
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 97
+  }, 
+  "pk": 98
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 98
+  }, 
+  "pk": 99
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 99
+  }, 
+  "pk": 100
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 100
+  }, 
+  "pk": 101
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 101
+  }, 
+  "pk": 102
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 10, 
+    "promise": 102
+  }, 
+  "pk": 103
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 103
+  }, 
+  "pk": 104
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 104
+  }, 
+  "pk": 105
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 105
+  }, 
+  "pk": 106
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 106
+  }, 
+  "pk": 107
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 107
+  }, 
+  "pk": 108
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 108
+  }, 
+  "pk": 109
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 109
+  }, 
+  "pk": 110
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 110
+  }, 
+  "pk": 111
+},
+{
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 111
+  }, 
+  "pk": 112
+},
+{
+  "pk": 1, 
+  "fields": {
+    "slug": "education", 
+    "name": "education"
+  }, 
+  "model": "taggit.tag"
+},
+{
+  "pk": 2, 
+  "fields": {
+    "slug": "sa", 
+    "name": "sa"
+  }, 
+  "model": "taggit.tag"
+},
+{
+  "pk": 3, 
+  "fields": {
+    "slug": "proyecto-de-ley", 
+    "name": "Proyecto de ley"
+  }, 
+  "model": "taggit.tag"
+},
+{
+  "pk": 4, 
+  "fields": {
+    "slug": "administrativa", 
+    "name": "Administrativa"
+  }, 
+  "model": "taggit.tag"
+},
+{
+  "pk": 6, 
+  "fields": {
+    "slug": "proyecto-de-ley_1", 
+    "name": "Proyecto de Ley"
+  }, 
+  "model": "taggit.tag"
+},
+{
+  "pk": 7, 
+  "fields": {
+    "slug": "ley", 
+    "name": "Ley"
+  }, 
+  "model": "taggit.tag"
+},
+{
+  "pk": 62, 
+  "fields": {
+    "tag": 3, 
+    "object_id": 56, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 63, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 57, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 64, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 58, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 65, 
+  "fields": {
+    "tag": 6, 
+    "object_id": 59, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 66, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 60, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 67, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 61, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 68, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 62, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 69, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 63, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 70, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 64, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 71, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 65, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 72, 
+  "fields": {
+    "tag": 6, 
+    "object_id": 66, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 75, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 69, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 76, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 70, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 77, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 71, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 78, 
+  "fields": {
+    "tag": 6, 
+    "object_id": 72, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 79, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 73, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 80, 
+  "fields": {
+    "tag": 6, 
+    "object_id": 74, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 81, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 75, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 82, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 76, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 83, 
+  "fields": {
+    "tag": 6, 
+    "object_id": 77, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 84, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 78, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 85, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 79, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 86, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 80, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 87, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 81, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 88, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 82, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 89, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 83, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 90, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 84, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 91, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 85, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 92, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 86, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 93, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 87, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 94, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 88, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 95, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 89, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 96, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 90, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 97, 
+  "fields": {
+    "tag": 6, 
+    "object_id": 91, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 98, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 92, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 99, 
+  "fields": {
+    "tag": 6, 
+    "object_id": 93, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 100, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 94, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 101, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 95, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 102, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 96, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 103, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 97, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 104, 
+  "fields": {
+    "tag": 6, 
+    "object_id": 98, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 105, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 99, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 106, 
+  "fields": {
+    "tag": 4, 
+    "object_id": 100, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 107, 
+  "fields": {
+    "tag": 6, 
+    "object_id": 101, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+},
+{
+  "pk": 109, 
+  "fields": {
+    "tag": 6, 
+    "object_id": 103, 
+    "content_type": 8
+  }, 
+  "model": "taggit.taggeditem"
+}
+]
