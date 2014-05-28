@@ -63,39 +63,39 @@ class HomeViewTestCase(TestCase):
         self.assertEquals(response.context['summary'].no_progress, 1)
         self.assertEquals(response.context['summary'].in_progress, 0)
 
-        def test_categories_come_ordered_according_fulfillment(self):
-            '''Categories come ordered in home according to fulfillment from more to less'''
-            one = Category.objects.create(name="one")
-            promise1 = Promise.objects.create(name="this is a promise",\
-                                                description="this is a description",\
-                                                date = nownow,\
-                                                person = self.person,\
-                                                category= one
-                                                )
-            promise1.fulfillment.percentage = 50
-            promise1.fulfillment.save()
-            two = Category.objects.create(name="two")
-            promise2 = Promise.objects.create(name="this is a promise",\
-                                                description="this is a description",\
-                                                date = nownow,\
-                                                person = self.person,\
-                                                category= two
-                                                )
-            promise2.fulfillment.percentage = 75
-            promise2.fulfillment.save()
-            three = Category.objects.create(name="three")
-            promise3 = Promise.objects.create(name="this is a promise",\
-                                                description="this is a description",\
-                                                date = nownow,\
-                                                person = self.person,\
-                                                category= three
-                                                )
-            promise3.fulfillment.percentage = 25
-            promise3.fulfillment.save()
-            url = reverse('promises_home')
-            c = Client()
-            response = c.get(url)
-            self.assertEquals(response.context['categories'].count(), 3)
-            self.assertEquals(response.context['categories'][0], two)
-            self.assertEquals(response.context['categories'][1], one)
-            self.assertEquals(response.context['categories'][2], three)
+    def test_categories_come_ordered_according_fulfillment(self):
+        '''Categories come ordered in home according to fulfillment from more to less'''
+        one = Category.objects.create(name="one")
+        promise1 = Promise.objects.create(name="this is a promise",\
+                                            description="this is a description",\
+                                            date = nownow,\
+                                            person = self.person,\
+                                            category= one
+                                            )
+        promise1.fulfillment.percentage = 50
+        promise1.fulfillment.save()
+        two = Category.objects.create(name="two")
+        promise2 = Promise.objects.create(name="this is a promise",\
+                                            description="this is a description",\
+                                            date = nownow,\
+                                            person = self.person,\
+                                            category= two
+                                            )
+        promise2.fulfillment.percentage = 75
+        promise2.fulfillment.save()
+        three = Category.objects.create(name="three")
+        promise3 = Promise.objects.create(name="this is a promise",\
+                                            description="this is a description",\
+                                            date = nownow,\
+                                            person = self.person,\
+                                            category= three
+                                            )
+        promise3.fulfillment.percentage = 25
+        promise3.fulfillment.save()
+        url = reverse('promises_home')
+        c = Client()
+        response = c.get(url)
+        self.assertEquals(response.context['categories'].count(), 3)
+        self.assertEquals(response.context['categories'][0], two)
+        self.assertEquals(response.context['categories'][1], one)
+        self.assertEquals(response.context['categories'][2], three)
