@@ -52,7 +52,6 @@ h3.panel-title {
 
 .jumbotron:after {
   position: absolute;
-  content: 'El desastre pasa, la reconstrucción recién comienza.';
   top: 100px;
   left: 0;
   color: #F8981D;
