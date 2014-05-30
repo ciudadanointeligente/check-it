@@ -8,8 +8,10 @@
   <div class="category-menu">
     <div class="container">
     <ul class="list-inline">
-      <li><a href="/">Categoría 1</a></li>
-      <li><a href="/">Categoría 2</a></li>
+    {% for category in categories  %}
+
+    <li><a href="{% url 'promises_home' %}#{{ category.slug }}">{{ category.name }}</a></li>
+    {% endfor %}
     </ul>
     </div>
   </div>
