@@ -4,10 +4,15 @@ from taggit.managers import TaggableManager
 from taggit.models import ItemBase, TagBase
 from autoslug import AutoSlugField
 from .queryset import PromiseManager
+from django.utils.translation import ugettext_lazy as _
 
 class Category(models.Model):
     name = models.CharField(max_length=512)
     slug = AutoSlugField(populate_from='name')
+
+    class Meta:
+        verbose_name = _("Category")
+        verbose_name_plural = _("Categories")
 
     @property
     def fulfillment_percentage(self):
@@ -32,6 +37,10 @@ class Promise(models.Model):
 
     objects = PromiseManager()
 
+    class Meta:
+        verbose_name = _("Promise")
+        verbose_name_plural = _("Promises")
+
     def save(self, *args, **kwargs):
         creating = False
         if not self.id:
@@ -53,10 +62,22 @@ class ExternalDocumentMixin(models.Model):
 class InformationSource(ExternalDocumentMixin):
     promise = models.ForeignKey(Promise, related_name='information_sources')
 
+    class Meta:
+        verbose_name = _("Information Source")
+        verbose_name_plural = _("Information Sources")
+
 class VerificationDocument(ExternalDocumentMixin):
     promise = models.ForeignKey(Promise, related_name='verification_documents', null=True)
+
+    class Meta:
+        verbose_name = _("Verification Document")
+        verbose_name_plural = _("Verification Documents")
 
 class Fulfillment(models.Model):
     promise = models.OneToOneField(Promise)
     percentage = models.PositiveIntegerField(default=0)
     notes = models.TextField(default="", blank=True)
+
+    class Meta:
+        verbose_name = _("Fulfilment")
+        verbose_name_plural = _("Fulfilments")

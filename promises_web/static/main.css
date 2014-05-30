@@ -87,7 +87,12 @@ p.text-center.category-expander {
   background-color: #1795CF;
   margin-bottom: 0px;
   color: #fff;
-  margin-top: -53px;
+
+  /* Esto hace que se dibuje
+   * el contenido de las promesas
+   * medio oculto pero no está funcionando bien hasta ahora
+   *
+   * margin-top: -53px; */ 
 }
 
 /*PROGRESSBAR*/
