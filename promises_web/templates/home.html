@@ -9,7 +9,6 @@
     <div class="container">
     <ul class="list-inline">
     {% for category in categories  %}
-
     <li><a href="{% url 'promises_home' %}#{{ category.slug }}">{{ category.name }}</a></li>
     {% endfor %}
     </ul>
