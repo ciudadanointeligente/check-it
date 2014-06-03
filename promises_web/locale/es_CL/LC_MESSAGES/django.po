@@ -1,0 +1,51 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Checkit-web\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-06-03 11:57-0400\n"
+"PO-Revision-Date: 2014-06-03 12:03-0300\n"
+"Last-Translator: Lab at Ciudadano Inteligente <lab@ciudadanointeligente."
+"org>\n"
+"Language-Team: Chilean Spanish <lab@ciudadanointeligente.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"Language: es_CL\n"
+
+#: templates/promise_details.html:5
+msgid "Sources of Information:"
+msgstr "Fuentes de Información"
+
+#. Translators: Small summary at the top
+#: templates/summary.html:5
+#, python-format
+msgid "Completed <strong>%(percentage)s%%</strong>"
+msgstr "Completado <strong>%(percentage)s%%</strong>"
+
+#. Translators: Small summary at the top
+#: templates/summary.html:7
+#, python-format
+msgid "In progress <strong>%(percentage)s%%</strong>"
+msgstr "En progreso <strong>%(percentage)s%%</strong>"
+
+#. Translators: Small summary at the top
+#: templates/summary.html:9
+#, python-format
+msgid "No progress <strong>%(percentage)s%%</strong>"
+msgstr "Sin avance <strong>%(percentage)s%%</strong>"
+
+#. Translators: Summary chart at the top of home page
+#: templates/summary.html:17
+#, python-format
+msgid "%(percentage)s%% completed"
+msgstr "%(percentage)s%% completado"
+
+#: templates/verification_documents.html:5
+msgid "Verification documents:"
+msgstr "Documentos de Verificación"
