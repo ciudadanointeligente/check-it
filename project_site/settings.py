@@ -149,3 +149,7 @@ STATICFILES_DIRS = (
 )
 
 # END OF HEROKU SPECIFICS
+try:
+    from local_settings import *
+except ImportError:
+    pass

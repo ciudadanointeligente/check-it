@@ -81,3 +81,12 @@ class Fulfillment(models.Model):
     class Meta:
         verbose_name = _("Fulfilment")
         verbose_name_plural = _("Fulfilments")
+
+class Milestone(models.Model):
+    promise = models.ForeignKey(Promise, related_name="milestones")
+    date = models.DateField()
+    description = models.TextField()
+
+    class Meta:
+        verbose_name = _("Milestone")
+        verbose_name_plural = _("Milestones")

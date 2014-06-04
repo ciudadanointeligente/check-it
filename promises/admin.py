@@ -1,5 +1,7 @@
 from django.contrib import admin
-from .models import Promise, Fulfillment, InformationSource, Category, VerificationDocument
+from .models import Promise, Fulfillment, \
+                    InformationSource, Category, \
+                    VerificationDocument, Milestone
 from popolo.models import Person
 from django.forms import ModelForm
 
@@ -15,8 +17,14 @@ class InformationSourceInline(admin.TabularInline):
 class VerificationDocumentInline(admin.TabularInline):
     model = VerificationDocument
 
+class MilestoneInline(admin.TabularInline):
+    model = Milestone
+
 class PromiseAdmin(admin.ModelAdmin):
-    inlines = (FulfillmentInlineAdmin, InformationSourceInline, VerificationDocumentInline, )
+    inlines = (FulfillmentInlineAdmin,
+               InformationSourceInline,
+               VerificationDocumentInline,
+               MilestoneInline)
 
 admin.site.register(Promise, PromiseAdmin)
 
@@ -27,3 +35,4 @@ admin.site.register(Person, PersonAdmin)
 class CategoryAdmin(admin.ModelAdmin):
     pass
 admin.site.register(Category, CategoryAdmin)
+
