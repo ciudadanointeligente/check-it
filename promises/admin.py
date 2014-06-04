@@ -25,6 +25,7 @@ class PromiseAdmin(admin.ModelAdmin):
                InformationSourceInline,
                VerificationDocumentInline,
                MilestoneInline)
+    search_fields = ['name','description', 'person__name']
 
 admin.site.register(Promise, PromiseAdmin)
 
