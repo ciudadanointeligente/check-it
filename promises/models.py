@@ -28,7 +28,7 @@ class Category(models.Model):
         return self.name
 
 class Promise(models.Model):
-    name = models.CharField(max_length=512)
+    name = models.CharField(max_length=2048)
     description = models.TextField(blank=True)
     date = models.DateField(null=True, blank=True)
     person = models.ForeignKey(Person)
@@ -81,3 +81,12 @@ class Fulfillment(models.Model):
     class Meta:
         verbose_name = _("Fulfilment")
         verbose_name_plural = _("Fulfilments")
+
+class Milestone(models.Model):
+    promise = models.ForeignKey(Promise, related_name="milestones")
+    date = models.DateField()
+    description = models.TextField()
+
+    class Meta:
+        verbose_name = _("Milestone")
+        verbose_name_plural = _("Milestones")
