@@ -1,0 +1,19 @@
+{% load i18n %}
+{% load markdown_deux_tags %}
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+<h4 class="modal-title" id="myModalLabel">{{promise.name}}</h4>
+</div>
+<div class="modal-body">
+{{promise.description}}
+</div>
+{% trans "Milestones" %}
+<ul>
+	{% for milestone in promise.milestones.all %}
+	<li>{{ milestone.date }} - {{ milestone.description|markdown }}</li>
+	{% endfor %}
+</ul>
+<div class="modal-footer">
+<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+</div>
+</div>
