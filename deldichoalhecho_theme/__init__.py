@@ -4,7 +4,7 @@ import os,sys
 pwd = os.path.dirname(__file__)
 
 PROMISES_THEMES = (
-	'base',
+	'100dias',
 	'incendiovalpo',
 	'terremotonorte',
 	'test'

@@ -57,3 +57,7 @@ docs/_build/
 
 # databases
 *.sqlite3
+*.sql
+
+# local_settings.py
+local_settings.py

@@ -6,6 +6,11 @@
       	{{ category }}
 	      
       </h3>
+      	<span>
+      		{% blocktrans with promises_count=category.promises.count %}
+      		{{ promises_count }} promises
+      		{% endblocktrans%}
+      	</span>
       <div class="progress">
 	    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{category.fulfillment_percentage}}%;">
 		    {{category.fulfillment_percentage}}%
@@ -14,11 +19,9 @@
   </div>
   <div id="category_{{category.slug}}" class="category-body">
       <div class="panel-body">
-	    <ul>
 		    {% for promise in category.promises.all %}
 		    {% include "promise_in_list.html" with promise=promise %}		      	
 		    {% endfor %}
-	    </ul>
 	    </div>
 	</div>
 </div>
