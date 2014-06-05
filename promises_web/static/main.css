@@ -165,3 +165,7 @@ div.verification-document.accomplished {
 }
 .progress { 
 }
+
+.summary span.promise-description:after {
+  content: "...";
+}
