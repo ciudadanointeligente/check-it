@@ -14,11 +14,9 @@
   </div>
   <div id="category_{{category.slug}}" class="category-body">
       <div class="panel-body">
-	    <ul>
 		    {% for promise in category.promises.all %}
 		    {% include "promise_in_list.html" with promise=promise %}		      	
 		    {% endfor %}
-	    </ul>
 	    </div>
 	</div>
 </div>
