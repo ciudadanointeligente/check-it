@@ -1,6 +1,8 @@
 from django.shortcuts import render
 from django.views.generic.list import ListView
+from django.views.generic.detail import DetailView
 from promises.models import Category, Promise
+
 from django.db.models import Avg
 # Create your views here.
 
@@ -18,3 +20,6 @@ class HomeView(ListView):
         queryset = queryset.annotate(percentage = Avg('promises__fulfillment__percentage'))
         queryset = queryset.order_by('-percentage')
         return queryset
+
+class PromiseDetailView(DetailView):
+    model = Promise
