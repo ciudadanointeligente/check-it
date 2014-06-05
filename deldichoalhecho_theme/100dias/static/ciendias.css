@@ -1,0 +1,9 @@
+.hero-space {
+  background: url(img/header-sides.png) repeat-x;
+}
+
+@media (max-width: 992px)
+  .jumbotron img {
+  width: 100%;
+}
+}

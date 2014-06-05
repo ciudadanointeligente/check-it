@@ -28,18 +28,48 @@ h3.panel-title {
   font-size: 24px;
 }
 
-/*NAVBAR*/
-
-.navbar-default {
-  background-color: transparent;
-  border-color: transparent;
-  margin-bottom: 0px;
+h3.title {
+  float: left;
+  margin: 5px 0 10px;
 }
 
-.navbar-default .navbar-brand {
+/*NAVBAR*/
+
+.nav {
+  float: right;
+  margin: 5px 0px 0px;
+}
+
+.header a {
+  text-decoration: none;
   color: #fff;
-  font-weight: 300;
-  font-size: 28px;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: #08173A;
+}
+
+.nav>li>a {
+  padding: 7px 15px;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+  background-color: #08173A;
+  border-color: transparent;
+}
+
+.dropdown-menu {
+  background-color: #0F2356;
+  border: none;
+}
+
+.dropdown-menu>li>a {
+  color: #FFF;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+  background-color: #08173A;
+  color: #fff;
 }
 
 /*JUMBOTRON*/
