@@ -7,9 +7,7 @@
 	      
       </h3>
       	<span>
-      		{% blocktrans with promises_count=category.promises.count %}
-      		{{ promises_count }} promises
-      		{% endblocktrans%}
+      		{% blocktrans with promises_count=category.promises.count %}{{ promises_count }} promises{% endblocktrans%}
       	</span>
       <div class="progress">
 	    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{category.fulfillment_percentage}}%;">

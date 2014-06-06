@@ -215,3 +215,7 @@ div.verification-document.accomplished {
 .summary span.promise-description:after {
   content: "...";
 }
+
+.b-color {
+  background-color: #0F2356;
+}

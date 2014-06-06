@@ -48,7 +48,9 @@ INSTALLED_APPS = (
     'promises',
     'promises_web',
     'deldichoalhecho_theme',
-    'popit'
+    'popit',
+    'annoying',
+    'markdown_deux'
 )
 
 MIDDLEWARE_CLASSES = (

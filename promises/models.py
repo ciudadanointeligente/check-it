@@ -5,6 +5,7 @@ from taggit.models import ItemBase, TagBase
 from autoslug import AutoSlugField
 from .queryset import PromiseManager
 from django.utils.translation import ugettext_lazy as _
+from annoying.fields import AutoOneToOneField
 
 class Category(models.Model):
     name = models.CharField(max_length=512)
@@ -42,12 +43,8 @@ class Promise(models.Model):
         verbose_name_plural = _("Promises")
 
     def save(self, *args, **kwargs):
-        creating = False
-        if not self.id:
-            creating = True
         super(Promise, self).save(*args, **kwargs)
-        if creating:
-            Fulfillment.objects.create(promise=self)
+        self.fulfillment
 
     def __unicode__(self):
         return u"{who} promessed {what}".format(who=self.person.name, what=self.name)
@@ -74,7 +71,7 @@ class VerificationDocument(ExternalDocumentMixin):
         verbose_name_plural = _("Verification Documents")
 
 class Fulfillment(models.Model):
-    promise = models.OneToOneField(Promise)
+    promise = AutoOneToOneField(Promise)
     percentage = models.PositiveIntegerField(default=0)
     notes = models.TextField(default="", blank=True)
 

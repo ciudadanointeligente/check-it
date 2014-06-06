@@ -12,3 +12,5 @@ ipython
 -e git://github.com/alex/django-taggit.git#egg=django-taggit
 -e git://github.com/comoga/django-constance.git#egg=django-constance
 django-picklefield
+django-annoying
+django-markdown-deux
