@@ -2,8 +2,47 @@
   background: url(img/header-sides.png) repeat-x;
 }
 
-@media (max-width: 992px)
-  .jumbotron img {
-  width: 100%;
+
+.ribbon {
+  width: 24%;
+  margin: -22px auto 40px;
+  background: #FFF;
+  padding: 1px 0px 10px;
+  color: #40BDF1;
+  position: relative;
 }
+
+.ribbon h1 {
+  font-size: 28px;
+  text-align: center;
+}
+
+.ribbon:before {
+  content: url(img/ribbon-before.png);
+  position: absolute;
+  left: -43px;
+  bottom: -23px;
+}
+
+.ribbon:after {
+  content: url(img/ribbon-after.png);
+  position: absolute;
+  right: -43px;
+  bottom: -23px;
+}
+
+@media (max-width: 992px) {
+  .jumbotron img {
+    width: 100%;
+  }
+
+  .hero-space {
+    background: none;
+  }
+}
+
+.hero-space h2 {
+  font-weight: 300;
+  text-align: center;
+  margin: 70px 0;
 }
