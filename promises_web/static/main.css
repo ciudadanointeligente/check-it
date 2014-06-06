@@ -92,9 +92,22 @@ h3.title {
   text-shadow: 0.5px 0.5px 1px rgba(11, 15, 61, 0.31);
 }
 
-.category-menu {
-  background-color: #0F0F28;
-  padding: 10px 0 2px;
+/*MENU CATEGORIAS*/
+
+.category-menu .list-inline {
+  line-height: 39px;
+}
+
+.category-menu li a {
+  background: #0F0F28;
+  padding: 5px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.category-menu li a:hover {
+  background: #40BDF1;
 }
 
 /*PANEL*/
@@ -128,7 +141,7 @@ p.text-center.category-expander {
 /*PROGRESSBAR*/
 
 .progress {
-  height: 45px;
+  height: inherit;
   background-color: #0F2356;
   border-radius: 0px;
 }
@@ -145,15 +158,18 @@ p.text-center.category-expander {
 }
 
 .progress-bar-danger {
-  background-color: #F0562C;
+  background-color: #E53E3E;
+  padding: 25px 0;
 }
 
 .progress-bar-warning {
-  background-color: #F8981D;
+  background-color: #AAC2CC;
+  padding: 25px 0;
 }
 
 .progress-bar-success {
-  background-color: #27B885;
+  background-color: #40BDF1;
+  padding: 25px 0;
 }
 
 

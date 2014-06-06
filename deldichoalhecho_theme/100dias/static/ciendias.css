@@ -1,7 +1,8 @@
+/*JUMBOTRON*/
+
 .hero-space {
   background: url(img/header-sides.png) repeat-x;
 }
-
 
 .ribbon {
   width: 24%;
@@ -31,6 +32,12 @@
   bottom: -23px;
 }
 
+.hero-space h2 {
+  font-weight: 300;
+  text-align: center;
+  margin: 70px 0;
+}
+
 @media (max-width: 992px) {
   .jumbotron img {
     width: 100%;
@@ -39,10 +46,19 @@
   .hero-space {
     background: none;
   }
+
+  .hero-space h2 {
+    font-size: 18px;
+  }
 }
 
-.hero-space h2 {
-  font-weight: 300;
-  text-align: center;
-  margin: 70px 0;
+@media (max-width: 400px) {
+  .ribbon {
+    width: 69%;
+    margin: 10px auto 0px;
+  }
+
+  .jumbotron img {
+    display: none;
+  }
 }
