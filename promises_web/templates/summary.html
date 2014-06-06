@@ -1,5 +1,5 @@
 {% load i18n %}
-<div class="container">
+<!-- <div class="container">
 	<ul class="list-inline">
 		{% comment %}Translators: Small summary at the top{% endcomment %}
 		<li>{% blocktrans with percentage=summary.accomplished_percentage|floatformat %}Completed <strong>{{percentage}}%</strong>{% endblocktrans %}</li>
@@ -8,18 +8,18 @@
 		{% comment %}Translators: Small summary at the top{% endcomment %}
 		<li>{% blocktrans with percentage=summary.no_progress_percentage|floatformat %}No progress <strong>{{percentage}}%</strong>{% endblocktrans %}</li>
 	</ul>
-</div>
+</div> -->
 
 <div class="progress">
 	<div class="progress-bar progress-bar-success" style="width: {{summary.accomplished_percentage|floatformat}}%">
 		<span class="sr-only">
 			{% comment %}Translators: Summary chart at the top of home page{% endcomment %}
-			{% blocktrans with percentage=summary.accomplished_percentage|floatformat %}{{percentage}}% completed{% endblocktrans %}</span>
+			{% blocktrans with percentage=summary.accomplished_percentage|floatformat %}Cumplido {{percentage}}%{% endblocktrans %}</span>
 	</div>
 	<div class="progress-bar progress-bar-warning" style="width: {{summary.in_progress_percentage|floatformat}}%">
-		<span class="sr-only">{% comment %}Translators: Summary chart at the top of home page{% endcomment %}{% blocktrans with percentage=summary.in_progress_percentage|floatformat %}{{percentage}}% in progress{% endblocktrans %}</span>
+		<span class="sr-only">{% comment %}Translators: Summary chart at the top of home page{% endcomment %}{% blocktrans with percentage=summary.in_progress_percentage|floatformat %}En proceso {{percentage}}%{% endblocktrans %}</span>
 	</div>
 	<div class="progress-bar progress-bar-danger" style="width: {{summary.no_progress_percentage|floatformat}}%">
-		<span class="">{% comment %}Translators: Summary chart at the top of home page{% endcomment %}{% blocktrans with percentage=summary.no_progress_percentage|floatformat %}{{percentage}}% with no progress{% endblocktrans %}</span>
+		<span class="">{% comment %}Translators: Summary chart at the top of home page{% endcomment %}{% blocktrans with percentage=summary.no_progress_percentage|floatformat %}Sin avance {{percentage}}%{% endblocktrans %}</span>
 	</div>
 </div>

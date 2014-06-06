@@ -28,18 +28,48 @@ h3.panel-title {
   font-size: 24px;
 }
 
-/*NAVBAR*/
-
-.navbar-default {
-  background-color: transparent;
-  border-color: transparent;
-  margin-bottom: 0px;
+h3.title {
+  float: left;
+  margin: 5px 0 10px;
 }
 
-.navbar-default .navbar-brand {
+/*NAVBAR*/
+
+.nav {
+  float: right;
+  margin: 5px 0px 0px;
+}
+
+.header a {
+  text-decoration: none;
   color: #fff;
-  font-weight: 300;
-  font-size: 28px;
+}
+
+.nav>li>a:hover, .nav>li>a:focus {
+  background-color: #08173A;
+}
+
+.nav>li>a {
+  padding: 7px 15px;
+}
+
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+  background-color: #08173A;
+  border-color: transparent;
+}
+
+.dropdown-menu {
+  background-color: #0F2356;
+  border: none;
+}
+
+.dropdown-menu>li>a {
+  color: #FFF;
+}
+
+.dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
+  background-color: #08173A;
+  color: #fff;
 }
 
 /*JUMBOTRON*/
@@ -62,9 +92,22 @@ h3.panel-title {
   text-shadow: 0.5px 0.5px 1px rgba(11, 15, 61, 0.31);
 }
 
-.category-menu {
-  background-color: #0F0F28;
-  padding: 10px 0 2px;
+/*MENU CATEGORIAS*/
+
+.category-menu .list-inline {
+  line-height: 39px;
+}
+
+.category-menu li a {
+  background: #0F0F28;
+  padding: 5px;
+  border-radius: 6px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.category-menu li a:hover {
+  background: #40BDF1;
 }
 
 /*PANEL*/
@@ -98,7 +141,7 @@ p.text-center.category-expander {
 /*PROGRESSBAR*/
 
 .progress {
-  height: 45px;
+  height: inherit;
   background-color: #0F2356;
   border-radius: 0px;
 }
@@ -115,15 +158,18 @@ p.text-center.category-expander {
 }
 
 .progress-bar-danger {
-  background-color: #F0562C;
+  background-color: #E53E3E;
+  padding: 25px 0;
 }
 
 .progress-bar-warning {
-  background-color: #F8981D;
+  background-color: #AAC2CC;
+  padding: 25px 0;
 }
 
 .progress-bar-success {
-  background-color: #27B885;
+  background-color: #40BDF1;
+  padding: 25px 0;
 }
 
 

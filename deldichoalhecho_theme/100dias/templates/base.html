@@ -16,7 +16,7 @@
 		<link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
 		<link href="{% static "fonts/font-awesome-4.0.3/css/font-awesome.min.css" %}" rel="stylesheet" >
 		<link href="{% static "main.css" %}" rel="stylesheet">
-		<link href="{% static "incendiovalpo.css" %}" rel="stylesheet">
+		<link href="{% static "ciendias.css" %}" rel="stylesheet">
 		<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
 		<script src="{% static "jquery.expander.min.js" %}"></script>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
@@ -28,31 +28,8 @@
 		<![endif]-->
 	</head>
 	<body>
-	<!-- Static navbar -->
-    <div class="navbar navbar-default navbar-static-top" role="navigation">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-            <span class="sr-only">Toggle navigation</span>
-          </button>
-          <a class="navbar-brand" href="{% url 'promises_home' %}">{{ config.LANDING_PHRASE }}#incendioValpo</a>
-        </div>
-        <div class="navbar-collapse collapse">
-          <ul class="nav navbar-nav">
-            <!-- <li class="active"><a href="#">Home</a></li> -->
-          </ul>
-          {% get_flatpages as flatpages %}
-          <ul class="nav navbar-nav navbar-right">
-          	{% for page in flatpages %}
-		        <li><a href="/pages{{ page.url }}">{{ page.title }}</a></li>
-		    {% endfor %}
 
-            <!-- <li><a href="../navbar/">Default</a></li> -->
-          </ul>
-        </div><!--/.nav-collapse -->
-      </div>
-    </div>
-
+  {% include "header.html" %}
 
 	
 		{% block content %}
