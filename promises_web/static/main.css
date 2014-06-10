@@ -144,6 +144,7 @@ p.text-center.category-expander {
   height: inherit;
   background-color: #0F2356;
   border-radius: 0px;
+  position: relative;
 }
 
 .progress-bar {
@@ -171,7 +172,6 @@ p.text-center.category-expander {
   background-color: #40BDF1;
   padding: 25px 0;
 }
-
 
 
 div.status.not-accomplished:before {
@@ -218,4 +218,54 @@ div.verification-document.accomplished {
 
 .b-color {
   background-color: #0F2356;
+}
+
+/*PROGRESSBAR LEGEND*/
+
+li.accomplished {
+  position: relative;
+  margin: 0px 20px 0px 0px;
+}
+
+li.accomplished:before {
+  content: "";
+  height: 10px;
+  width: 10px;
+  background: #40BDF1;
+  position: absolute;
+  left: -10px;
+  top: 5px;
+  border-radius: 5px;
+}
+
+li.half-accomplished {
+  position: relative;
+  margin: 0px 20px 0px 0px;
+}
+
+li.half-accomplished:before {
+  content: "";
+  height: 10px;
+  width: 10px;
+  background: #AAC2CC;
+  position: absolute;
+  left: -10px;
+  top: 5px;
+  border-radius: 5px;
+}
+
+li.not-accomplished {
+  position: relative;
+  margin: 0px 20px 0px 0px;
+}
+
+li.not-accomplished:before {
+  content: "";
+  height: 10px;
+  width: 10px;
+  background: #E53E3E;
+  position: absolute;
+  left: -10px;
+  top: 5px;
+  border-radius: 5px;
 }
