@@ -1,0 +1,23 @@
+{% load i18n %}
+<div class="container">
+	<!--span>El cumplimiento total es de: {{summary.total_progress|floatformat}}%</span-->
+	<ul class="list-inline">
+		<!--li class="accomplished summary_number" data-toggle="tooltip" data-placement="top" title="Se terminaron<br /> y #eso" data-html="true">El cumplimiento total es de: <strong>{{summary.total_progress|floatformat}}%</strong></li-->
+		<li class="accomplished summary_number" data-toggle="tooltip" data-placement="top" title="Se terminaron<br /> y #eso" data-html="true"><strong>{{summary.accomplished}}</strong> promesas completas ({{summary.accomplished_percentage|floatformat}}%)</li>
+		<li class="half-accomplished summary_number" data-toggle="tooltip" data-placement="top" title="No son coherentes, por que <br /> bla bla bla" data-html="true"><strong>{{summary.in_progress}} promesas incompletas</strong> ({{summary.in_progress_percentage|floatformat}}%)</strong></li>
+		<li class="not-accomplished summary_number" data-toggle="tooltip" data-placement="top" title="No hay nada" data-html="true"><strong>{{summary.no_progress}}</strong> promesas sin avance ({{summary.no_progress_percentage|floatformat}}%)</strong></li>
+	</ul>
+</div>
+<div class="progress">
+	<div class="progress-bar progress-bar-success" style="width: {{summary.accomplished_percentage|stringformat:"f"}}%"></div>
+	<div class="progress-bar progress-bar-warning" style="width: {{summary.in_progress_percentage|stringformat:"f"}}%"></div>
+	<div class="progress-bar progress-bar-danger" style="width: {{summary.no_progress_percentage|stringformat:"f"}}%"></div>
+</div>
+
+<script type="text/javascript">
+$(function(){
+	$('.summary_number').tooltip({
+
+	})
+})
+</script>
