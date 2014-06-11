@@ -9,7 +9,7 @@
 		<li class="not-accomplished">{% blocktrans with percentage=summary.no_progress_percentage|floatformat %}No progress <strong>{{percentage}}%</strong>{% endblocktrans %}</li>
 	</ul>
 </div>
-
+<!--{{summary.total_progress|stringformat:"f"}} -->
 <div class="progress">
 	<div class="progress-bar progress-bar-success" style="width: {{summary.accomplished_percentage|stringformat:"f"}}%"></div>
 	<div class="progress-bar progress-bar-warning" style="width: {{summary.in_progress_percentage|stringformat:"f"}}%"></div>
