@@ -1,9 +1,8 @@
 {% load i18n %}
-{% load humanize %}
 <div class="container">
 	<ul class="list-inline">
 		{% comment %}Translators: Small summary at the top{% endcomment %}
-		<li class="accomplished">{% blocktrans with percentage=summary.accomplished_percentage|floatformat|intcomma %}Completed <strong>{{percentage}}%</strong>{% endblocktrans %}</li>
+		<li class="accomplished">{% blocktrans with percentage=summary.accomplished_percentage|floatformat %}Completed <strong>{{percentage}}%</strong>{% endblocktrans %}</li>
 		{% comment %}Translators: Small summary at the top{% endcomment %}
 		<li class="half-accomplished">{% blocktrans with percentage=summary.in_progress_percentage|floatformat %}In progress <strong>{{percentage}}%</strong>{% endblocktrans %}</li>
 		{% comment %}Translators: Small summary at the top{% endcomment %}
@@ -12,7 +11,7 @@
 </div>
 
 <div class="progress">
-	<div class="progress-bar progress-bar-success" style="width: {{summary.accomplished_percentage|floatformat:0}}%"></div>
-	<div class="progress-bar progress-bar-warning" style="width: {{summary.in_progress_percentage|floatformat:0}}%"></div>
-	<div class="progress-bar progress-bar-danger" style="width: {{summary.no_progress_percentage|floatformat:0}}%"></div>
+	<div class="progress-bar progress-bar-success" style="width: {{summary.accomplished_percentage|stringformat:"f"}}%"></div>
+	<div class="progress-bar progress-bar-warning" style="width: {{summary.in_progress_percentage|stringformat:"f"}}%"></div>
+	<div class="progress-bar progress-bar-danger" style="width: {{summary.no_progress_percentage|stringformat:"f"}}%"></div>
 </div>
