@@ -7,10 +7,13 @@
   </div>
   <div class="col-md-8 promise-description">
   	<div>
-		<span class="promise-description">
-			{{promise.description}}
-		</span>
-	</div>
+      <h4>
+        {{promise.name}}
+      </h4>
+      <span class="promise-description">
+  			{{promise.description}}
+  		</span>
+  	</div>
 	<div class="promise-details">
 		{% include "promise_details.html" with promise=promise %}
 	</div>
