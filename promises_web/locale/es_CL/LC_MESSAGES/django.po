@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Checkit-web\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-05 13:16-0400\n"
-"PO-Revision-Date: 2014-06-05 13:16-0300\n"
+"POT-Creation-Date: 2014-06-12 16:06-0400\n"
+"PO-Revision-Date: 2014-06-12 16:06-0300\n"
 "Last-Translator: Lab at Ciudadano Inteligente <lab@ciudadanointeligente."
 "org>\n"
 "Language-Team: Chilean Spanish <lab@ciudadanointeligente.org>\n"
@@ -18,10 +18,14 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Poedit 1.5.4\n"
 
-#: templates/category_in_list.html:10
+#: templates/category_in_list.html:9
 #, python-format
 msgid "%(promises_count)s promises"
 msgstr "%(promises_count)s promesas"
+
+#: templates/promise_detail.html:10
+msgid "Milestones"
+msgstr "Hitos"
 
 #: templates/promise_details.html:5
 msgid "Sources of Information:"
@@ -45,12 +49,13 @@ msgstr "En progreso <strong>%(percentage)s%%</strong>"
 msgid "No progress <strong>%(percentage)s%%</strong>"
 msgstr "Sin avance <strong>%(percentage)s%%</strong>"
 
-#. Translators: Summary chart at the top of home page
-#: templates/summary.html:17
-#, python-format
-msgid "%(percentage)s%% completed"
-msgstr "%(percentage)s%% completado"
+#: templates/verification_documents.html:11
+msgid "Read more"
+msgstr "Leer más"
 
-#: templates/verification_documents.html:5
+#: templates/verification_documents.html:14
 msgid "Verification documents:"
 msgstr "Documentos de Verificación"
+
+#~ msgid "%(percentage)s%% completed"
+#~ msgstr "%(percentage)s%% completado"

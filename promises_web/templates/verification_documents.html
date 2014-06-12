@@ -1,6 +1,8 @@
 {% load deldichoalhecho %}
 {% load i18n %}
-<p>{{promise.fulfillment.notes}}</p>
+<p>{{promise.fulfillment.notes}}
+  <a data-toggle="modal" data-target="#modal-{{promise.id}}" href="{% url 'promise' pk=promise.pk %}">{% trans "Read more" %}</a>
+</p>
 <div id="modal-{{promise.id}}" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-lg">
     <div class="modal-content b-color">
@@ -8,14 +10,14 @@
     </div>
   </div>
 </div>
-<a data-toggle="modal" data-target="#modal-{{promise.id}}" href="{% url 'promise' pk=promise.pk %}">{% trans "Read more" %}</a>
 
-{% if promise.verification_documents.all %}
-	<p>{% trans "Verification documents:" %}</p>
-
-	<ul>
-	    {% for document in promise.verification_documents.all %}
-	    <li><a href="{{document.url}}">{{document.display_name}}</a></li>
-	    {% endfor %}
-	</ul>
-{% endif %}
+<div class="verification-docs">
+  {% if promise.verification_documents.all %}
+    {% trans "Verification documents" %}:
+    	<ul>
+    	    {% for document in promise.verification_documents.all %}
+    	    <li><a href="{{document.url}}">{{document.display_name}}</a></li>
+    	    {% endfor %}
+    	</ul>
+  {% endif %}
+</div>
