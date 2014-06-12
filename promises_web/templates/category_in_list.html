@@ -5,12 +5,12 @@
       <h3 class="panel-title">
       	{{ category }}
 	      
-      </h3>
       	<span>
       		{% blocktrans with promises_count=category.promises.count %}{{ promises_count }} promises{% endblocktrans%}
       	</span>
+      </h3>
       <div class="progress">
-	    <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{category.fulfillment_percentage}}%;">
+	    <div class="progress-bar {% include "progress-color.html" with progress=category.fulfillment_percentage %}" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: {{category.fulfillment_percentage}}%;">
 		    {{category.fulfillment_percentage}}%
 	    </div>
 	  </div>

@@ -26,11 +26,17 @@ h3 {
 
 h3.panel-title {
   font-size: 24px;
+  margin: 10px 0 20px;
 }
 
 h3.title {
   float: left;
   margin: 5px 0 10px;
+}
+
+h3.panel-title span {
+  font-size: 14px;
+  font-weight: 500;
 }
 
 /*NAVBAR*/
@@ -127,15 +133,9 @@ h3.title {
 }
 
 p.text-center.category-expander {
-  background-color: #1795CF;
-  margin-bottom: 0px;
+  background-color: #750661;
+  margin: 7px -15px -15px;
   color: #fff;
-
-  /* Esto hace que se dibuje
-   * el contenido de las promesas
-   * medio oculto pero no está funcionando bien hasta ahora
-   *
-   * margin-top: -53px; */ 
 }
 
 /*PROGRESSBAR*/
@@ -150,12 +150,13 @@ p.text-center.category-expander {
 .progress-bar {
   font-size: 36px;
   text-align: right;
-  background-color: #821E5F;
+  /*background-color: #821E5F;*/
   font-weight: 300;
 }
 
-#categories .progress-bar {
-  padding: 12px 5px;
+.summary-progress .progress-bar {
+  cursor: pointer;
+  height: 73px;
 }
 
 .progress-bar-danger {
@@ -170,7 +171,7 @@ p.text-center.category-expander {
 
 .progress-bar-success {
   background-color: #40BDF1;
-  padding: 25px 0;
+  padding: 25px 5px;
 }
 
 
@@ -178,14 +179,14 @@ div.status.not-accomplished:before {
   font-family: FontAwesome;
   top: 0;
   content: "\f00d";
-  font-size: 36px;
+  font-size: 50px;
   color: #F0562C;
 }
 
 div.status.half-accomplished:before {
   content: "\e600";
   font-family: 'icomoon';
-  font-size: 28px;
+  font-size: 36px;
   color: #AAC2CC;
 }
 
@@ -194,13 +195,10 @@ div.status.accomplished:before {
   font-family: FontAwesome;
   top:0;
   content: "\f00c";
-  font-size: 36px;
+  font-size: 50px;
   color: #40BDF1;
 }
 
-.promise-description {
-  padding-left: 5px;
-}
 .promise-name {
 
 }
@@ -213,7 +211,11 @@ div.verification-document.accomplished {
 .category-percentage {
 
 }
-.progress { 
+
+.summary-progress p {
+  position: absolute;
+  right: 20px;
+  font-size: 36px;
 }
 
 .summary span.promise-description:after {

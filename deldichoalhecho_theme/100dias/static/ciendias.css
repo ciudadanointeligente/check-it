@@ -4,9 +4,13 @@
   background: url(img/header-sides.png) repeat-x;
 }
 
+.popover-content {
+  color: #0F0F28;
+}
+
 .ribbon {
-  width: 24%;
-  margin: -22px auto 40px;
+  width: 30%;
+  margin: 30px auto 0px;
   background: #FFF;
   padding: 1px 0px 10px;
   color: #40BDF1;
