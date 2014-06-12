@@ -20,17 +20,20 @@ class FulfillmentTestCase(TestCase):
         '''Instanciate a Fulfillment'''
         fulfillment = Fulfillment.objects.create(promise=self.promise,\
                                                  percentage=100, \
-                                                 notes="this was accomplished")
+                                                 status=u"this was accomplished", \
+                                                 description=u"This is a description"
+                                                 )
 
         self.assertTrue(fulfillment)
         self.assertEquals(fulfillment.promise, self.promise)
         self.assertEquals(fulfillment.percentage, 100)
-        self.assertEquals(fulfillment.notes, "this was accomplished")
+        self.assertEquals(fulfillment.status, "this was accomplished")
+        self.assertEquals(fulfillment.description, "This is a description")
 
 
     def test_fullfillment_with_emtpy_notes(self):
         '''Fulfillment can have empty notes'''
         fulfillment = Fulfillment.objects.create(promise=self.promise,\
                                                  percentage=100, \
-                                                 notes="")
+                                                 status="")
         self.assertIsNone(fulfillment.full_clean())
