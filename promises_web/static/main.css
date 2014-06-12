@@ -355,3 +355,7 @@ li.not-accomplished:before {
 #footer ul {
   list-style: none;
 }
+
+#footer img {
+  width: 200px;
+}
