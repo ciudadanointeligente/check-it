@@ -185,8 +185,8 @@ div.status.not-accomplished:before {
 div.status.half-accomplished:before {
   content: "\e600";
   font-family: 'icomoon';
-  font-size: 36px;
-  color: #F0562C;
+  font-size: 28px;
+  color: #AAC2CC;
 }
 
 div.status.accomplished:before {
@@ -195,7 +195,7 @@ div.status.accomplished:before {
   top:0;
   content: "\f00c";
   font-size: 36px;
-  color: #F0562C;
+  color: #40BDF1;
 }
 
 .promise-description {
