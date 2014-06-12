@@ -5,7 +5,7 @@
 <h4 class="modal-title" id="myModalLabel">{{promise.name}}</h4>
 </div>
 <div class="modal-body">
-{{promise.description}}
+{{promise.fulfillment.description|markdown}}
 </div>
 {% trans "Milestones" %}
 <ul>
