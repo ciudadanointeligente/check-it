@@ -35,12 +35,14 @@ class Promise(models.Model):
     person = models.ForeignKey(Person)
     tags = TaggableManager(blank=True)
     category = models.ForeignKey(Category, related_name="promises" ,null=True)
+    order = models.PositiveIntegerField(default=0, blank=False, null=False)
 
     objects = PromiseManager()
 
     class Meta:
         verbose_name = _("Promise")
         verbose_name_plural = _("Promises")
+        ordering = ('order',)
 
     def save(self, *args, **kwargs):
         super(Promise, self).save(*args, **kwargs)
