@@ -180,27 +180,25 @@ list-style-type: lower-roman;
   text-align: right;
   background-color: #8BA2B7;
   font-weight: 300;
-  padding: 25px 5px;
+  padding: 20px 5px;
 }
 
 .summary-progress .progress-bar {
   cursor: pointer;
   height: 73px;
+  padding: 25px 5px;
 }
 
 .progress-bar-danger {
   background-color: #E53E3E;
-  padding: 25px 5px;
 }
 
 .progress-bar-warning {
   background-color: #AAC2CC;
-  padding: 25px 0;
 }
 
 .progress-bar-success {
   background-color: #40BDF1;
-  padding: 25px 5px;
 }
 
 
@@ -323,6 +321,29 @@ li.not-accomplished:before {
         font-weight: normal;
         font-style: normal;
     }
+
+/*MODAL*/
+
+.modal-header {
+  border-bottom: none;
+  background: #0F0F28;
+}
+
+.close {
+  font-weight: 300;
+  color: #fff;
+  text-shadow: none;
+  opacity: .5;
+}
+
+.close:hover, .close:focus {
+  color: #fff;
+  opacity: 1;
+}
+
+.modal-body span {
+  color: #8BA2B7;
+}
 
 /*FOOTER*/
 
