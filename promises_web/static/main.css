@@ -116,10 +116,24 @@ h3.panel-title span {
   background: #40BDF1;
 }
 
+/*LABELS*/
+
+.label-primary {
+  background-color: #8BA2B7;
+}
+
+.label {
+  line-height: 30px;
+}
+
 /*PANEL*/
 
 .panel {
   background-color: #0F0F28;
+}
+
+.panel-group .panel-default {
+  margin-bottom: 20px;
 }
 
 .panel-default {
@@ -132,10 +146,24 @@ h3.panel-title span {
   border-color: transparent;
 }
 
-p.text-center.category-expander {
+.panel-group .panel+.panel {
+  margin-top: 45px;
+}
+
+.read-more p.text-center.category-expander {
   background-color: #750661;
-  margin: 7px -15px -15px;
+  margin: 0px -15px -15px;
   color: #fff;
+}
+
+.read-less p.text-center.category-expander {
+  background-color: #750661;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.verification-docs ul {
+list-style-type: lower-roman;
 }
 
 /*PROGRESSBAR*/
@@ -150,8 +178,9 @@ p.text-center.category-expander {
 .progress-bar {
   font-size: 36px;
   text-align: right;
-  /*background-color: #821E5F;*/
+  background-color: #8BA2B7;
   font-weight: 300;
+  padding: 25px 5px;
 }
 
 .summary-progress .progress-bar {
@@ -161,7 +190,7 @@ p.text-center.category-expander {
 
 .progress-bar-danger {
   background-color: #E53E3E;
-  padding: 25px 0;
+  padding: 25px 5px;
 }
 
 .progress-bar-warning {
@@ -180,7 +209,7 @@ div.status.not-accomplished:before {
   top: 0;
   content: "\f00d";
   font-size: 50px;
-  color: #F0562C;
+  color: #E53E3E;
 }
 
 div.status.half-accomplished:before {
@@ -203,13 +232,19 @@ div.status.accomplished:before {
 
 }
 div.verification-document.not-accomplished {
+  border-left: 4px solid #E53E3E;
 }
-div.verification-document.half-accomplished {
-}
-div.verification-document.accomplished {
-}
-.category-percentage {
 
+div.verification-document.half-accomplished {
+  border-left: 4px solid #8BA2B7;
+}
+
+div.verification-document.accomplished {
+  border-left: 4px solid #40BDF1;
+}
+
+.summary-progress {
+  background-color: #0F0F28;
 }
 
 .summary-progress p {
@@ -288,3 +323,14 @@ li.not-accomplished:before {
         font-weight: normal;
         font-style: normal;
     }
+
+/*FOOTER*/
+
+#footer {
+  background-color: #0F0F28;
+  padding: 40px 0;
+}
+
+#footer ul {
+  list-style: none;
+}
