@@ -324,6 +324,29 @@ li.not-accomplished:before {
         font-style: normal;
     }
 
+/*MODAL*/
+
+.modal-header {
+  border-bottom: none;
+  background: #0F0F28;
+}
+
+.close {
+  font-weight: 300;
+  color: #fff;
+  text-shadow: none;
+  opacity: .5;
+}
+
+.close:hover, .close:focus {
+  color: #fff;
+  opacity: 1;
+}
+
+.modal-body span {
+  color: #8BA2B7;
+}
+
 /*FOOTER*/
 
 #footer {
