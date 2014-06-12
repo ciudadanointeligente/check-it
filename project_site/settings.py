@@ -50,8 +50,7 @@ INSTALLED_APPS = (
     'deldichoalhecho_theme',
     'popit',
     'annoying',
-    'markdown_deux',
-    'django.contrib.humanize'
+    'markdown_deux'
 )
 
 MIDDLEWARE_CLASSES = (
