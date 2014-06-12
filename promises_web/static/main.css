@@ -183,17 +183,21 @@ div.status.not-accomplished:before {
 }
 
 div.status.half-accomplished:before {
-  position: absolute;
-    font-family: FontAwesome;
-    top:0;
-    content: "\f056"; 
+  content: "\e600";
+  font-family: 'icomoon';
+  font-size: 28px;
+  color: #AAC2CC;
 }
+
 div.status.accomplished:before {
   position: absolute;
-    font-family: FontAwesome;
-    top:0;
-    content: "\f058"; 
+  font-family: FontAwesome;
+  top:0;
+  content: "\f00c";
+  font-size: 36px;
+  color: #40BDF1;
 }
+
 .promise-description {
   padding-left: 5px;
 }
@@ -269,3 +273,16 @@ li.not-accomplished:before {
   top: 5px;
   border-radius: 5px;
 }
+
+/*ICONS*/
+
+@font-face {
+        font-family: 'icomoon';
+        src:url('fonts/icomoon.eot');
+        src:url('fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+            url('fonts/icomoon.woff') format('woff'),
+            url('fonts/icomoon.ttf') format('truetype'),
+            url('fonts/icomoon.svg#icomoon') format('svg');
+        font-weight: normal;
+        font-style: normal;
+    }
