@@ -1,0 +1,3737 @@
+[
+{
+  "pk": 1, 
+  "model": "popolo.person", 
+  "fields": {
+    "family_name": "", 
+    "name": "Felipe", 
+    "end_date": "", 
+    "honorific_suffix": "", 
+    "additional_name": "", 
+    "gender": null, 
+    "created_at": "2014-04-15T21:21:32.854Z", 
+    "death_date": "", 
+    "updated_at": "2014-04-15T21:21:32.860Z", 
+    "start_date": "", 
+    "honorific_prefix": "", 
+    "email": "", 
+    "sort_name": "", 
+    "summary": "", 
+    "given_name": "", 
+    "image": "", 
+    "birth_date": "", 
+    "patronymic_name": "", 
+    "slug": "felipe", 
+    "biography": ""
+  }
+},
+{
+  "pk": 2, 
+  "model": "popolo.person", 
+  "fields": {
+    "family_name": "", 
+    "name": "Intendencia Regional de Valparaiso", 
+    "end_date": "", 
+    "honorific_suffix": "", 
+    "additional_name": "", 
+    "gender": null, 
+    "created_at": "2014-04-16T14:00:18.396Z", 
+    "death_date": "", 
+    "updated_at": "2014-04-16T14:00:18.402Z", 
+    "start_date": "", 
+    "honorific_prefix": "", 
+    "email": "", 
+    "sort_name": "", 
+    "summary": "", 
+    "given_name": "", 
+    "image": "", 
+    "birth_date": "", 
+    "patronymic_name": "", 
+    "slug": "intendencia-regional-de-valparaiso", 
+    "biography": ""
+  }
+},
+{
+  "pk": 3, 
+  "model": "popolo.person", 
+  "fields": {
+    "family_name": "", 
+    "name": "Michelle Bachelet", 
+    "end_date": null, 
+    "honorific_suffix": "", 
+    "additional_name": "", 
+    "gender": null, 
+    "created_at": "2014-04-21T16:22:49.196Z", 
+    "death_date": "", 
+    "updated_at": "2014-04-21T16:22:49.202Z", 
+    "start_date": null, 
+    "honorific_prefix": "", 
+    "email": null, 
+    "sort_name": "", 
+    "summary": "", 
+    "given_name": "", 
+    "image": null, 
+    "birth_date": "", 
+    "patronymic_name": "", 
+    "slug": "michelle-bachelet", 
+    "biography": ""
+  }
+},
+{
+  "pk": 36, 
+  "model": "promises.category", 
+  "fields": {
+    "name": "Educaci\u00f3n", 
+    "slug": "educacion"
+  }
+},
+{
+  "pk": 37, 
+  "model": "promises.category", 
+  "fields": {
+    "name": "Salud", 
+    "slug": "salud"
+  }
+},
+{
+  "pk": 38, 
+  "model": "promises.category", 
+  "fields": {
+    "name": "Protecci\u00f3n Social", 
+    "slug": "proteccion-social"
+  }
+},
+{
+  "pk": 39, 
+  "model": "promises.category", 
+  "fields": {
+    "name": "Pensiones", 
+    "slug": "pensiones"
+  }
+},
+{
+  "pk": 40, 
+  "model": "promises.category", 
+  "fields": {
+    "name": "Trabajo", 
+    "slug": "trabajo"
+  }
+},
+{
+  "pk": 41, 
+  "model": "promises.category", 
+  "fields": {
+    "name": "Seguridad P\u00fablica", 
+    "slug": "seguridad-publica"
+  }
+},
+{
+  "pk": 42, 
+  "model": "promises.category", 
+  "fields": {
+    "name": "Descentralizaci\u00f3n", 
+    "slug": "descentralizacion"
+  }
+},
+{
+  "pk": 43, 
+  "model": "promises.category", 
+  "fields": {
+    "name": "Ciudad, Territorio y Reconstrucci\u00f3n", 
+    "slug": "ciudad-territorio-y-reconstruccion"
+  }
+},
+{
+  "pk": 44, 
+  "model": "promises.category", 
+  "fields": {
+    "name": "Medio Ambiente", 
+    "slug": "medio-ambiente"
+  }
+},
+{
+  "pk": 45, 
+  "model": "promises.category", 
+  "fields": {
+    "name": "Cultura", 
+    "slug": "cultura"
+  }
+},
+{
+  "pk": 46, 
+  "model": "promises.category", 
+  "fields": {
+    "name": "Deportes", 
+    "slug": "deportes"
+  }
+},
+{
+  "pk": 47, 
+  "model": "promises.category", 
+  "fields": {
+    "name": "Equidad de g\u00e9nero", 
+    "slug": "equidad-de-genero"
+  }
+},
+{
+  "pk": 48, 
+  "model": "promises.category", 
+  "fields": {
+    "name": "Pueblos Ind\u00edgenas", 
+    "slug": "pueblos-indigenas"
+  }
+},
+{
+  "pk": 49, 
+  "model": "promises.category", 
+  "fields": {
+    "name": "Agr\u00edcultura, recursos h\u00eddricos y pesca", 
+    "slug": "agricultura-recursos-hidricos-y-pesca"
+  }
+},
+{
+  "pk": 50, 
+  "model": "promises.category", 
+  "fields": {
+    "name": "Crecimiento", 
+    "slug": "crecimiento"
+  }
+},
+{
+  "pk": 56, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-19", 
+    "person": 3, 
+    "category": 36, 
+    "name": "1. Gran Reforma Educacional", 
+    "description": "Para que nuestros ni\u00f1os, ni\u00f1as y j\u00f3venes puedan desarrollar todos sus talentos, necesitamos una educaci\u00f3n de calidad, gratuita, sin segregaci\u00f3n y en que no se lucre con fondos p\u00fablicos. Para eso, enviaremos al Congreso el Proyecto de Ley para una Gran Reforma Educacional"
+  }
+},
+{
+  "pk": 57, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-06-03", 
+    "person": 3, 
+    "category": 36, 
+    "name": "2. Primeras 500 salas cunas", 
+    "description": "Nuestras ni\u00f1as y ni\u00f1os necesitan tener iguales oportunidades desde el inicio, porque esta es la etapa de la vida m\u00e1s importante para el desarrollo de las personas. Vamos a garantizar que 90 mil nuevos ni\u00f1os y ni\u00f1as reciban la estimulaci\u00f3n que necesitan desde el principio. Entregaremos el listado de las localidades donde se implementara\u0301n en 2014 las primeras 500, de un total de 4.500 nuevas salas cunas."
+  }
+},
+{
+  "pk": 58, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-29", 
+    "person": 3, 
+    "category": 36, 
+    "name": "3. Programa de Acompa\u00f1amiento y Acceso Efectivo (PACE)", 
+    "description": "A los j\u00f3venes chilenos de sectores m\u00e1s vulnerables no solo les es muy dif\u00edcil entrar a la Educaci\u00f3n Superior, sino tambi\u00e9n mantenerse y terminar una carrera profesional. Por eso, iniciaremos un Programa para asegurar el acceso a la Educacio\u0301n Superior de los jo\u0301venes ma\u0301s vulnerables, con la Preparacio\u0301n y Apoyo a Jo\u0301venes, que partira\u0301 con alumnos de 3o medio que ingresara\u0301n a la universidad el 2016."
+  }
+},
+{
+  "pk": 59, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-03-11", 
+    "person": 3, 
+    "category": 36, 
+    "name": "4. Dos nuevas universidades p\u00fablicas regionales", 
+    "description": "Para tener una educaci\u00f3n p\u00fablica de calidad, el Estado tiene que jug\u00e1rsela por las universidades estatales en todo el pa\u00eds. Enviaremos al Congreso el proyecto de ley que crea dos nuevas universidades pu\u0301blicas regionales en Ayse\u0301n y O\u2019Higgins, las que debera\u0301n comprometerse efectivamente con el desarrollo local."
+  }
+},
+{
+  "pk": 60, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-06-04", 
+    "person": 3, 
+    "category": 36, 
+    "name": "5. Cinco primeros Centros de Formaci\u00f3n T\u00e9cnica p\u00fablicos regionales", 
+    "description": "Todos estamos de acuerdo que en Chile se necesita fomentar y prestigiar la educaci\u00f3n t\u00e9cnica y as\u00ed tener t\u00e9cnicos de primer nivel, tal como ocurre en los pa\u00edses desarrollados. Por eso, firmaremos los convenios que crean los 5 primeros Centros de Formacio\u0301n Te\u0301cnica pu\u0301blicos regionales que funcionara\u0301n al alero de universidades pu\u0301blicas locales. Este programa luego se ampliara\u0301 a todas las regiones del pai\u0301s."
+  }
+},
+{
+  "pk": 61, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-28", 
+    "person": 3, 
+    "category": 37, 
+    "name": "6. Habilitaci\u00f3n Servicios de Atenci\u00f3n Primaria de Urgencia de Alta Resoluci\u00f3n (SAR)", 
+    "description": "Cuando alguien tiene una urgencia en la noche, los SAPUs est\u00e1n cerrados y las personas deben ir a las urgencias de hospitales u otros centros, que generalmente no quedan cerca de su casa y est\u00e1n congestionados. Definiremos las comunas y los centros de salud en que habilitaremos 132 Servicios de Atencio\u0301n Primaria de Urgencia de Alta Resolucio\u0301n (SAR) que construiremos entre 2014 y 2018, los que atendera\u0301n toda la noche y contara\u0301n con equipos de rayos, kit de laboratorio ba\u0301sico y acceso a telemedicina."
+  }
+},
+{
+  "pk": 62, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-21", 
+    "person": 3, 
+    "category": 37, 
+    "name": "7. Implementaci\u00f3n Fondo Nacional de Medicamentos", 
+    "description": "Cuando se tiene una enfermedad cr\u00f3nica, una parte importante del sueldo o la pensi\u00f3n, usualmente se gastan en los medicamentos. Por eso, iniciaremos la implementacio\u0301n del Fondo Nacional de Medicamentos, a trave\u0301s de la firma de los convenios con todas las municipalidades del pai\u0301s, que permitira\u0301 empezar la entrega de medicamentos en forma gratuita a los pacientes cro\u0301nicos que se atienden en los centros de salud primaria en el primer an\u0303o de Gobierno"
+  }
+},
+{
+  "pk": 63, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-21", 
+    "person": 3, 
+    "category": 37, 
+    "name": "8. Aumento de horas m\u00e9dicas semanales de especialistas", 
+    "description": "Uno de los problemas m\u00e1s importantes que uno tiene cuando va al sistema p\u00fablico es la falta de especialistas, y muchas veces debe esperar largo tiempo o termina pagando una consulta en el sistema privado. Asignaremos los recursos para que los Servicios de Salud puedan contratar 33.000 horas me\u0301dicas semanales adicionales de especialidades, que equivalen a la contratacio\u0301n de 750 me\u0301dicos especialistas."
+  }
+},
+{
+  "pk": 64, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-03-11", 
+    "person": 3, 
+    "category": 37, 
+    "name": "9. Plan Nacional de Inversiones P\u00fablicas en Salud 2014-2018", 
+    "description": "Para que podamos tener m\u00e1s y mejores servicios de salud, hay que invertir fuertemente en infraestructura como hospitales y consultorios, as\u00ed como en equipamiento. Entregaremos el detalle del Plan Nacional de Inversiones Pu\u0301blicas en Salud para el peri\u0301odo 2014\u20132018, que contemplara\u0301 construir 20 hospitales, dejar 20 en construccio\u0301n y otros 20 en procesos de licitacio\u0301n o estudios."
+  }
+},
+{
+  "pk": 65, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-04-14", 
+    "person": 3, 
+    "category": 37, 
+    "name": "10. Comisi\u00f3n Asesora Presidencial Sistema Privado de Salud", 
+    "description": "No es justo que a una persona mayor o que tiene \u201criesgo\u201d de enfermarse, las ISAPRES le cobren mucho m\u00e1s caro o simplemente el sistema privado de salud lo expulse, entre otras injusticias. Por eso, convocaremos a un equipo de expertos con el mandato de redactar una propuesta de Proyecto de Ley de ISAPRES."
+  }
+},
+{
+  "pk": 66, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-03-12", 
+    "person": 3, 
+    "category": 38, 
+    "name": "11. Bono Marzo", 
+    "description": "Porque para las familias chilenas marzo es siempre el mes m\u00e1s duro del a\u00f1o, ya que tenemos muchos gastos y el sueldo no alcanza, enviaremos al Congreso \u2013con discusio\u0301n inmediata- el proyecto de ley para pagar desde 2014 el Aporte Familiar Permanente de Marzo, que consistira\u0301 en un aporte de $40.000 por carga a dos millones de familias que son beneficiarias de subsidio familiar, asignacio\u0301n familiar o ingreso e\u0301tico familiar"
+  }
+},
+{
+  "pk": 67, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-21", 
+    "person": 3, 
+    "category": 38, 
+    "name": "12. Cambios en Ficha de Protecci\u00f3n Social y restituci\u00f3n Bono Invierno", 
+    "description": "Porque hay personas que perdieron beneficios sociales sin haber experimentado modificaciones relevantes a sus condiciones socioecon\u00f3micas, implementaremos cambios a la Ficha de Proteccio\u0301n Social buscando restablecer dichos beneficios. Asi\u0301 tambie\u0301n restituiremos el Bono de Invierno a los adultos mayores que lo perdieron sin que su situacio\u0301n socioecono\u0301mica haya cambiado realmente."
+  }
+},
+{
+  "pk": 69, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-13", 
+    "person": 3, 
+    "category": 38, 
+    "name": "13. 15 nuevos establecimientos de acogida para adultos mayores", 
+    "description": "En Chile, muchas veces las personas mayores requieren cuidados especiales o no son autovalentes. No siempre sus familias se hacen cargo de ese cuidado y no es justo que queden vulnerables o a su suerte. Definiremos la ubicacio\u0301n y el cronograma de construccio\u0301n y habilitacio\u0301n de 15 establecimientos que acogera\u0301n a los adultos mayores dependientes y que no disponen de cuidado familiar o en su entorno"
+  }
+},
+{
+  "pk": 70, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-03-14", 
+    "person": 3, 
+    "category": 38, 
+    "name": "14. Consejo Nacional de la Infancia", 
+    "description": "La protecci\u00f3n integral de los derechos de los ni\u00f1os y ni\u00f1as es una base fundamental para superar la desigualdad. Debemos situar al centro de nuestras poli\u0301ticas pu\u0301blicas la Infancia. Crearemos el Consejo Nacional de la Infancia que se encargara\u0301 de la coordinacio\u0301n de los organismos con competencia en materias relacionadas y asumira\u0301 la responsabilidad de impulsar la reforma normativa e institucional,"
+  }
+},
+{
+  "pk": 71, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-04-28", 
+    "person": 3, 
+    "category": 39, 
+    "name": "15. Restituci\u00f3n Pensi\u00f3n B\u00e1sica Solidaria", 
+    "description": "Hay pensionados que perdieron el beneficio de una Pensi\u00f3n B\u00e1sica Solidaria (PBS) sin una raz\u00f3n aparente. A ellos les restituiremos el pago de la PBS si su situaci\u00f3n socioecon\u00f3mica no ha experimentado cambios."
+  }
+},
+{
+  "pk": 72, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-03-11", 
+    "person": 3, 
+    "category": 39, 
+    "name": "16. AFP Estatal", 
+    "description": "En el mercado de las AFP debe haber mayor competencia en materia de comisiones y, adem\u00e1s estas instituciones no han mostrado gran inter\u00e9s en ciertos grupos de menores rentas, mujeres, trabajadores independientes o que trabajan lejos de las grandes ciudades. Por eso, enviaremos al Congreso el proyecto de ley que crea una AFP Estatal que promover\u00e1 la competencia y apoyar\u00e1 a estos grupos de personas."
+  }
+},
+{
+  "pk": 73, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-04-29", 
+    "person": 3, 
+    "category": 39, 
+    "name": "17. Comisi\u00f3n Asesora Presidencial Sistema de Pensiones", 
+    "description": "Sin embargo, esto no es suficiente, en Chile existe consenso que es necesario revisar el sistema de pensiones, para asegurar que podamos aspirar a una vejez digna y a una adecuada protecci\u00f3n frente a la invalidez y sobrevivencia. Por ello, encargaremos un estudio sobre el Sistema de Pensiones a un equipo de expertos nacionales e internacionales, para que propongan alternativas de soluci\u00f3n frente a estos problemas."
+  }
+},
+{
+  "pk": 74, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-04-21", 
+    "person": 3, 
+    "category": 40, 
+    "name": "18. Indicaciones MultiRUT", 
+    "description": "Debemos perfeccionar y potenciar la negociaci\u00f3n colectiva y, de esta forma, la capacidad de los trabajadores para negociar mejores condiciones laborales y mejores salarios. Por ello impulsaremos una Agenda Laboral, cuya primera medida ser\u00e1 el env\u00edo al Congreso de una Indicaci\u00f3n al actual proyecto de Multirut, de modo de combatir con fuerza esta pr\u00e1ctica."
+  }
+},
+{
+  "pk": 75, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-09", 
+    "person": 3, 
+    "category": 40, 
+    "name": "19. Programa de Capacitaci\u00f3n y Formaci\u00f3n Laboral", 
+    "description": "Las mujeres, sobre todo las que tienen menos recursos, muchas veces no pueden encontrar empleo porque no tienen capacitaci\u00f3n en un oficio. Por eso, entregaremos el plan de implementaci\u00f3n de un nuevo programa de Formaci\u00f3n y Capacitaci\u00f3n Laboral, que beneficiar\u00e1 a 300.000 mujeres con el objeto de aumentar la participaci\u00f3n laboral femenina en el mercado del trabajo."
+  }
+},
+{
+  "pk": 76, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-09", 
+    "person": 3, 
+    "category": 40, 
+    "name": "20. Plan de Capacitaci\u00f3n e Inserci\u00f3n Laboral y Educacional", 
+    "description": "A los j\u00f3venes vulnerables les cuesta m\u00e1s que a nadie encontrar empleo, porque no tienen experiencia ni formaci\u00f3n profesional. Es necesario mejorar su formaci\u00f3n y proveerlos de las competencias necesarias para ingresar al mundo del trabajo. Por ello, presentaremos detalladamente un plan de Capacitaci\u00f3n de Inserci\u00f3n Laboral y Educacional que beneficiar\u00e1 a 150.000 j\u00f3venes, incluyendo especialmente a j\u00f3venes en situaci\u00f3n de discapacidad."
+  }
+},
+{
+  "pk": 77, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-04-25", 
+    "person": 3, 
+    "category": 41, 
+    "name": "21a. Aumento plaza de Carabineros de Chile", 
+    "description": "Una de las formas de tener ciudades m\u00e1s seguras es aumentando la dotaci\u00f3n policial que pueda estar en las calles previniendo y, sobre todo, combatiendo el delito. Enviaremos al Congreso el Proyecto de Ley que nos permitir\u00e1 aumentar en 6.000 las plazas de Carabineros de Chile (...)"
+  }
+},
+{
+  "pk": 78, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-04-24", 
+    "person": 3, 
+    "category": 41, 
+    "name": "22. Programa 24 Horas de Seguridad Ciudadana", 
+    "description": "Para que los menores Infractores de Ley dejen de hacerlo,se requieren intervenciones que efectivamente logren hacer que este c\u00edrculo vicioso se detenga tempranamente. Anunciaremos 11 nuevas comunas que se sumar\u00e1n a las 14 actuales que est\u00e1n en el Programa 24 Horas de seguridad ciudadana, que da apoyo integral a estos j\u00f3venes en riesgo."
+  }
+},
+{
+  "pk": 79, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-04-07", 
+    "person": 3, 
+    "category": 42, 
+    "name": "23. Comisi\u00f3n Asesora Presidencial para el Desarrollo Regional", 
+    "description": "Necesitamos avanzar en cosas concretas que hagan que el centralismo disminuya en Chile en vez de seguir avanzando. Crearemos una Comisi\u00f3n Asesora Presidencial para que entregue medidas espec\u00edficas que fomenten el desarrollo regional, adem\u00e1s de definir los contenidos espec\u00edficos de las actividades a ser traspasadas a las autoridades e institucionalidad regional y un cronograma para el traspaso."
+  }
+},
+{
+  "pk": 80, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-03-11", 
+    "person": 3, 
+    "category": 42, 
+    "name": "24a. Plan Especial de Desarrollo Regional de Zonas Extremas", 
+    "description": "Vivir en zonas extremas es a veces muy complejo. Debemos reconocer este esfuerzo y apoyar a quienes desarrollan su vida en esas \u00e1reas de nuestro territorio. Para eso, presentaremos el Plan Especial de Desarrollo de Zonas Extremas en Magallanes, Ays\u00e9n y Arica, que les dar\u00e1 un impulso potente de crecimiento y desarrollo. "
+  }
+},
+{
+  "pk": 81, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-27", 
+    "person": 3, 
+    "category": 42, 
+    "name": "24b. Plan de Desarrollo para Territorios Rezagados", 
+    "description": "Adem\u00e1s, hay zonas del pa\u00eds que se encuentran rezagadas respecto del desarrollo del resto y que requieren apoyo para surgir. Para eso, presentaremos un Plan de Desarrollo para Territorios Rezagados, que requier\u00e1n impulso en materia de pobreza, desempleo, infraestructura p\u00fablica, conectividad y capacidades productivas de esas zonas."
+  }
+},
+{
+  "pk": 82, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-14", 
+    "person": 3, 
+    "category": 42, 
+    "name": "25. Estudios de conectividad Antofagasta, Concepci\u00f3n y Valpara\u00edso", 
+    "description": "Los habitantes de Concepci\u00f3n, Valpara\u00edso y Antofagasta,entre otras regiones, esperan tener un sistema de transporte moderno e integrado. Iniciaremos los Estudios para dotar al gran Concepci\u00f3n y Antofagasta de soluciones de conectividad de alto est\u00e1ndar, que evaluar\u00e1 la implementaci\u00f3n de tranv\u00edas y corredores de buses, y en Valpara\u00edso la integraci\u00f3n entre ascensores, trolebuses y Merval. Asimismo, se incorporar\u00e1n propuestas para dar soluci\u00f3n de corto plazo a las situaciones de congesti\u00f3n severa que hoy registran estas ciudades, en especial, en el gran Concepci\u00f3n."
+  }
+},
+{
+  "pk": 83, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-18", 
+    "person": 3, 
+    "category": 43, 
+    "name": "26. Plan \"Chile \u00c1rea Verde\"", 
+    "description": "Hay muchas zonas en las ciudades de Chile en que no existe un parque, faltan plazas y no hay suficientes \u00e1reas verdes. Anunciaremos las 30 comunas en que implementaremos un plan de construcci\u00f3n de parques y \u00e1reas verdes que representar\u00e1 un aporte significativo a la calidad de vida de las familias chilenas."
+  }
+},
+{
+  "pk": 84, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-06-06", 
+    "person": 3, 
+    "category": 43, 
+    "name": "27a. Segunda parte del programa \"Quiero Mi Barrio\"", 
+    "description": "Toda familia merece vivir en un barrio amable, con espacios p\u00fablicos bien acondicionados, con lugares para el encuentro, el deporte y la recreaci\u00f3n. Por eso, definiremos y anunciaremos los 200 nuevos barrios que participar\u00e1n de la segunda parte del programa \u201cQuiero mi Barrio\u201d."
+  }
+},
+{
+  "pk": 85, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-06-07", 
+    "person": 3, 
+    "category": 43, 
+    "name": "27b. Reglamento control reproductivo de animales de compa\u00f1\u00eda y campa\u00f1a comunicacional", 
+    "description": "Adem\u00e1s, dictaremos un Reglamento para el desarrollo de una pol\u00edtica p\u00fablica de control reproductivo de animales de compa\u00f1\u00eda, y realizaremos la primera campa\u00f1a comunicacional de educaci\u00f3n para la tenencia responsable de animales dando inicio a un Plan sistem\u00e1tico, extensivo y nacional de Esterilizaci\u00f3n Masiva de Animales de Compa\u00f1\u00eda."
+  }
+},
+{
+  "pk": 87, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-17", 
+    "person": 3, 
+    "category": 43, 
+    "name": "28. Ciclov\u00edas", 
+    "description": "Es impresionante el aumento de uso de bicicletas en las ciudades, sin embargo, su uso actualmente esta\u0301 lleno de riesgos. Por eso, entregaremos los detalles del Plan de Ciclovi\u0301as que construiremos, el que permitira\u0301 a los chilenos y chilenas contar con 100 kilo\u0301metros ma\u0301s de ciclovi\u0301as de alto esta\u0301ndar, y triplicar la capacidad de estacionamientos para combinar el uso de la bicicleta con otros medios de transporte pu\u0301blico, como Metro, Merval o el Bio Tren."
+  }
+},
+{
+  "pk": 88, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-08", 
+    "person": 3, 
+    "category": 43, 
+    "name": "29a. Factibilidad Extensi\u00f3n L\u00ednea 2 y 3 de Metro", 
+    "description": "Una necesidad que manifiestan los vecinos de Quilicura, El Bosque y San Bernando es que el Metro llegue hasta sus comunas, porque todos sabemos lo importante que es para uno cuando el Metro llega cerca de nuestra casa. Para ello, se iniciara\u0301n los Estudios de Factibilidad en la empresa METRO, que considere la ampliacio\u0301n de la li\u0301nea 3 hacia Quilicura y la li\u0301nea 2 hacia El Bosque y San Bernardo. "
+  }
+},
+{
+  "pk": 89, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-08", 
+    "person": 3, 
+    "category": 43, 
+    "name": "29b. Estudios Descogesti\u00f3n Zonas Saturadas", 
+    "description": "Adicionalmente, iniciaremos estudios de desarrollo urbano y conectividad que permitan descongestionar zonas altamente saturadas, como por ejemplo La Florida, Puente Alto, Huechurababa, Talagante y Melipilla"
+  }
+},
+{
+  "pk": 90, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-06-04", 
+    "person": 3, 
+    "category": 43, 
+    "name": "30a. Diagn\u00f3stico de la Reconstrucci\u00f3n", 
+    "description": "En el proceso de reconstruccio\u0301n ha habido avances importantes, pero es claro que hay cosas que faltan por hacer y de las que hay que hacerse cargo. Realizaremos un diagno\u0301stico del estado de la reconstruccio\u0301n en las diversas zonas que han sido afectadas por desastres naturales, que permita generar un plan de accio\u0301n."
+  }
+},
+{
+  "pk": 91, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-06-05", 
+    "person": 3, 
+    "category": 44, 
+    "name": "31. Servicio de Biodiversidad y \u00c1reas Protegidas", 
+    "description": "El crecimiento de Chile y el desarrollo de algunos negocios no puede ser a costa de nuestra biodiversidad. Por eso, enviaremos al Congreso el proyecto de ley que crea el Servicio de Biodiversidad y A\u0301reas Protegidas, que permitira\u0301 ampliar el cuidado de la biodiversidad ma\u0301s alla\u0301 de las a\u0301reas protegidas"
+  }
+},
+{
+  "pk": 92, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-02", 
+    "person": 3, 
+    "category": 44, 
+    "name": "32. Planes de Descontaminaci\u00f3n", 
+    "description": "Uno de los problemas que enfrentan cada vez ma\u0301s ciudades en Chile es la contaminacio\u0301n ambiental. Necesitamos enfrentarla de una vez con planes que efectivamente contribuyan a disminuirla. Para eso, estableceremos planes de descontaminacio\u0301n para las ciudades que presenten las situaciones ma\u0301s cri\u0301ticas"
+  }
+},
+{
+  "pk": 93, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-03-11", 
+    "person": 3, 
+    "category": 45, 
+    "name": "33. Ministerio de Cultura y Patrimonio", 
+    "description": "La cultura es parte del alma de un pai\u0301s, y requiere ser apoyada y tratada como se merece para promoverla, fomentar su desarrollo, y por sobre todo, aumentar el acceso de todos los chilenos y chilenas a las actividades arti\u0301sticas. Por ello, presentaremos al Congreso el proyecto de ley que crea el Ministerio de Cultura y Patrimonio"
+  }
+},
+{
+  "pk": 94, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-03-11", 
+    "person": 3, 
+    "category": 45, 
+    "name": "34. Centros de Desarrollo Art\u00edstico", 
+    "description": "En Chile existen muchos jo\u0301venes con talento arti\u0301stico que no tienen espacio para desarrollar sus condiciones. Para ello, definiremos la ubicacio\u0301n de 15 centros de desarrollo arti\u0301stico para jo\u0301venes talentosos que construiremos, y el plan de trabajo en su implementacio\u0301n. Estos se sumara\u0301n a los 5 que hoy existen y que conformara\u0301n la Red Nacional de Centros de Servicios Culturales para Jo\u0301venes"
+  }
+},
+{
+  "pk": 95, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-25", 
+    "person": 3, 
+    "category": 45, 
+    "name": "35. Recuperaci\u00f3n Infraestructura Patrimonial", 
+    "description": "Cuando caminamos por las ciudades de Chile muchas veces vemos con dolor co\u0301mo edificios tan importantes, como los mercados, casonas y otros, se esta\u0301n deteriorando. Comenzaremos la puesta en marcha de un programa de recuperacio\u0301n regional de infraestructura patrimonial emblema\u0301tica en 4 regiones"
+  }
+},
+{
+  "pk": 96, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-06", 
+    "person": 3, 
+    "category": 46, 
+    "name": "36. 30 Nuevos Centros Deportivos", 
+    "description": "En las comunas hay pocos espacios donde practicar deporte, y cuando los hay no siempre cuentan con el equipamiento y los monitores. Estableceremos la ubicacio\u0301n de los 30 nuevos Centros Deportivos que construiremos durante el Gobierno. Sera\u0301n gimnasios u otros centros ma\u0301s grandes para la pra\u0301ctica de diferentes deportes"
+  }
+},
+{
+  "pk": 97, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-06", 
+    "person": 3, 
+    "category": 46, 
+    "name": "37. Plan de Reposici\u00f3n Programas Escuelas Deportivas", 
+    "description": "En general los nin\u0303os tienen pocas instancias en que puedan desarrollar diversos deportes adema\u0301s del fu\u0301tbol. Por eso, definiremos el plan de implementacio\u0301n para la reposicio\u0301n del programa de las escuelas deportivas, que en esta oportunidad contemplara\u0301 varias disciplinas (fu\u0301tbol, voleibol, basquetbol, etc.) y en las que participara\u0301n so\u0301lo en el primer an\u0303o 30.000 nin\u0303os y nin\u0303as"
+  }
+},
+{
+  "pk": 98, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-04-01", 
+    "person": 3, 
+    "category": 47, 
+    "name": "38. Ministerio de la Mujer", 
+    "description": "Necesitamos avanzar ma\u0301s en que las mujeres tengan efectivamente las mismas oportunidades que los hombres, por lo que se requiere dar un nuevo impulso a poli\u0301ticas e iniciativas que contribuyan efectivamente a eso. Para ello, enviaremos al Congreso el proyecto de ley que crea el Ministerio de la Mujer"
+  }
+},
+{
+  "pk": 99, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-04-22", 
+    "person": 3, 
+    "category": 47, 
+    "name": "39. 24 Nuevas Casas de Acogida para Mujeres Violentadas", 
+    "description": "En Chile hay mujeres que sufren violencia grave, y quedan ellas y sus hijos e hijas en una situacio\u0301n de alta vulnerabilidad si permanecen en sus casas. Por eso, detallaremos do\u0301nde se implementara\u0301n las 24 nuevas casas de acogida, que duplicara\u0301n el nu\u0301mero actual"
+  }
+},
+{
+  "pk": 100, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-16", 
+    "person": 3, 
+    "category": 47, 
+    "name": "40. Programa M\u00e1s Sonrisas para Chile", 
+    "description": "Cuando una mujer busca trabajo, la falta de piezas dentales le dificultan mucho el obtener un empleo, adema\u0301s de afectar su autoestima. Pondremos en marcha el programa Ma\u0301s Sonrisas para Chile, que atendera\u0301 a 400.000 mujeres, permitiendo la recuperacio\u0301n integral de su salud bucal"
+  }
+},
+{
+  "pk": 101, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-03-11", 
+    "person": 3, 
+    "category": 48, 
+    "name": "41. Ministro de Asuntos Indigenas", 
+    "description": "Los asuntos indi\u0301genas (promocio\u0301n, defensa) han estado siempre a cargo de una institucio\u0301n que es una Corporacio\u0301n dependiente de un Ministerio, lo cual resta fuerza a su accionar. Necesitamos darle un estatus diferente a temas tan importantes para Chile como estos. Por eso, enviaremos un proyecto de ley, con discusio\u0301n inmediata, que confiere el rango de Ministro de Asuntos Indi\u0301genas al director de la CONADI"
+  }
+},
+{
+  "pk": 102, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-03-11", 
+    "person": 3, 
+    "category": 48, 
+    "name": "42a. Ministerio de Asuntos Ind\u00edgenas", 
+    "description": "Darle estatus de Ministro al director de la CONADI es so\u0301lo un paso. Para que tenga ma\u0301s fuerza esta institucio\u0301n debe ser efectivamente un Ministerio, con todas sus atribuciones y responsabilidades. Por eso, enviaremos al Congreso el proyecto de ley que crea el Ministerio de Asuntos Indi\u0301genas, que sera\u0301 el encargado de colaborar con el Presidente de la Repu\u0301blica en la definicio\u0301n de una poli\u0301tica indi\u0301gena para Chile. "
+  }
+},
+{
+  "pk": 103, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-03-11", 
+    "person": 3, 
+    "category": 48, 
+    "name": "42b. Consejo de Pueblos Ind\u00edgenas", 
+    "description": "Junto a ello, enviaremos al Congreso el proyecto de ley que crea el Consejo de Pueblos Indi\u0301genas, auto\u0301nomo y representativo de los diversos pueblos que existen en Chile"
+  }
+},
+{
+  "pk": 104, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-03-11", 
+    "person": 3, 
+    "category": 48, 
+    "name": "43. Agenda para el Desarrollo de Pueblos Originarios", 
+    "description": "Mejores instituciones son una parte del nuevo trato que debemos dar a los pueblos indi\u0301genas. Por eso, tambie\u0301n anunciaremos una Agenda para el Desarrollo de los Pueblos Originarios que incorporara\u0301, entre otras, las a\u0301reas de educacio\u0301n, salud, tierras y desarrollo productivo"
+  }
+},
+{
+  "pk": 105, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-04-10", 
+    "person": 3, 
+    "category": 49, 
+    "name": "44. Revisi\u00f3n de los Deudores INDAP", 
+    "description": "En Chile hay muchos deudores de INDAP que son pequen\u0303os agricultores que han sufrido producto de sequi\u0301as, inundaciones y heladas, y que los ha hecho atrasarse en el pago de sus deudas. Por eso, revisaremos la situacio\u0301n de los deudores INDAP y exploraremos li\u0301neas de apoyo destinadas a quienes se encuentren en situacio\u0301n de vulnerabilidad"
+  }
+},
+{
+  "pk": 106, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-03-28", 
+    "person": 3, 
+    "category": 49, 
+    "name": "45. Delegado Presidencial para los Recursos H\u00eddricos", 
+    "description": "Los nuevos desafi\u0301os en materia de recursos hi\u0301dricos demandan una especial atencio\u0301n del Estado. Nombraremos un Delegado Presidencial para los Recursos Hi\u0301dricos, con dedicacio\u0301n exclusiva, a fin de identificar y avanzar en soluciones a la escasez de agua en el pai\u0301s"
+  }
+},
+{
+  "pk": 107, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-04-11", 
+    "person": 3, 
+    "category": 49, 
+    "name": "46. Fondo Fomento para la Pesca Artesanal", 
+    "description": "Los pescadores artesanales desarrollan una labor tradicional en nuestras costas. Ellos requieren apoyo en los a\u0301mbitos social y productivo para desarrollarse, especialmente, frente a las desiguales condiciones que tienen con la pesca industrial. Por eso, duplicaremos los recursos del Fondo de Fomento para la Pesca Artesanal, para darles soporte en infraestructura, capacitacio\u0301n, repoblamiento de recursos y comercializacio\u0301n"
+  }
+},
+{
+  "pk": 108, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-16", 
+    "person": 3, 
+    "category": 50, 
+    "name": "47. Agenda de Productividad, Innovaci\u00f3n y Crecimiento Econ\u00f3mico.", 
+    "description": "Porque nuestra economi\u0301a ha perdido competitividad, dinamismo y sigue basada en la explotacio\u0301n de materias primas, entregaremos la Agenda de Productividad, Innovacio\u0301n y Crecimiento Econo\u0301mico que se pondra\u0301 en marcha a contar de 2014 y que busca que Chile tenga una economi\u0301a realmente moderna y dina\u0301mica"
+  }
+},
+{
+  "pk": 109, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-15", 
+    "person": 3, 
+    "category": 50, 
+    "name": "48. Agenda de Energ\u00eda", 
+    "description": "Sabemos que tenemos un de\u0301ficit de energi\u0301a importante en Chile y que si no actuamos con medidas urgentes y tambie\u0301n de largo plazo, nuestra economi\u0301a podri\u0301a verse seriamente afectada. Entregaremos el detalle de la Agenda de Energi\u0301a que se pondra\u0301 en marcha a contar de 2014, que compatibilizara\u0301 las necesidades de produccio\u0301n y el respeto al medioambiente"
+  }
+},
+{
+  "pk": 110, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-06-02", 
+    "person": 3, 
+    "category": 50, 
+    "name": "49. Fortalecimiento SERNAC", 
+    "description": "Porque los consumidores queremos sentir que si alguien trata de abusar de nuestros derechos el Estado tendra\u0301 las atribuciones para protegernos, es que enviaremos al Congreso el proyecto de ley del Fortalecimiento del SERNAC que permitira\u0301 que tenga atribuciones reales y efectivas para defender los derechos de los consumidores"
+  }
+},
+{
+  "pk": 111, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-03-31", 
+    "person": 3, 
+    "category": 50, 
+    "name": "50. Reforma Tributaria", 
+    "description": "Necesitamos hacer realidad y financiar las grandes transformaciones propuestas en Educacio\u0301n, cubrir el De\u0301ficit Estructural heredado en las Finanzas Pu\u0301blicas y atender otras prioridades de la proteccio\u0301n social, como la Salud y las Pensiones. Por ello, enviaremos al Congreso el Proyecto de Ley de Reforma Tributaria, que nos permitira\u0301 alcanzar todas estas metas."
+  }
+},
+{
+  "pk": 114, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-03-19", 
+    "person": 3, 
+    "category": 43, 
+    "name": "30b. Delegada Presidencial para reconstrucci\u00f3n", 
+    "description": "Tambie\u0301n nombraremos un delegado presidencial para la reconstruccio\u0301n, que tenga a cargo llevar a cabo este plan."
+  }
+},
+{
+  "pk": 115, 
+  "model": "promises.promise", 
+  "fields": {
+    "date": "2014-05-07", 
+    "person": 3, 
+    "category": 41, 
+    "name": "21b. Aumento dotaci\u00f3n Polic\u00eda de Investigaciones", 
+    "description": "(...) y 1.200 nuevos Polic\u00edas de Investigaciones, en el per\u00edodo de 4 a\u00f1os."
+  }
+},
+{
+  "pk": 3, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://radio.uchile.cl/2014/03/31/ministro-eyzaguirre-se-re%C3%BAne-con-oposici%C3%B3n-por-reforma-educacional", 
+    "date": "2014-03-31", 
+    "display_name": "Radio U Chile", 
+    "promise": 56
+  }
+},
+{
+  "pk": 4, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.lanacion.cl/noticias/pais/educacion/alcaldes-se-reunen-este-sabado-a-debatir-sobre-reforma-educacional/2014-04-04/112359.html", 
+    "date": "2014-04-04", 
+    "display_name": "La Naci\u00f3n", 
+    "promise": 56
+  }
+},
+{
+  "pk": 5, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.latercera.com/noticia/nacional/2014/04/680-573549-9-reforma-educacional-las-dudas-que-persisten-tras-las-reuniones-de-eyzaguirre-con.shtml", 
+    "date": "2014-04-11", 
+    "display_name": "La Tercera", 
+    "promise": 56
+  }
+},
+{
+  "pk": 6, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.lanacion.cl/noticias/pais/educacion/beyer-y-atria-desmenuzaron-la-reforma-educacional/2014-04-15/193929.html", 
+    "date": "2014-04-15", 
+    "display_name": "La Naci\u00f3n", 
+    "promise": 56
+  }
+},
+{
+  "pk": 7, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.13.cl/t13/nacional/bachelet-firma-decreto-para-aumentar-en-6-mil-las-plazas-de-carabineros", 
+    "date": "2014-04-25", 
+    "display_name": "Canal 13", 
+    "promise": 77
+  }
+},
+{
+  "pk": 8, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.diarioelregional.cl/2014/03/18/intendenta-utreras-recibe-respaldo-de-carabineros-e-investigaciones-para-plan-de-seguridad-del-gobierno/", 
+    "date": "2014-03-18", 
+    "display_name": "Diario Regional", 
+    "promise": 77
+  }
+},
+{
+  "pk": 9, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.24horas.cl/politica/bono-marzo-ya-es-ley-bachelet-firmo-aporte-familiar-permanente-1140355", 
+    "date": "2014-03-21", 
+    "display_name": "24 Horas", 
+    "promise": 66
+  }
+},
+{
+  "pk": 10, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://mexico.servidornoticias.com/187_america/2462794_el-senado-chileno-aprueba-por-unanimidad-un-bono-marzo-para-las-familias-vulnerables.html", 
+    "date": "2014-03-19", 
+    "display_name": "Agencia EFE", 
+    "promise": 66
+  }
+},
+{
+  "pk": 11, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.latercera.com/noticia/politica/2014/04/674-575267-9-bachelet-lanza-medida-22-agregan-nuevas-comunas-para-programa-24-horas-de.shtml", 
+    "date": "2014-04-24", 
+    "display_name": "La Tercera", 
+    "promise": 78
+  }
+},
+{
+  "pk": 12, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.biobiochile.cl/2014/03/31/fichas-de-proteccion-social-permaneceran-congeladas-hasta-que-bachelet-decida-curso-a-seguir.shtml", 
+    "date": "2014-03-31", 
+    "display_name": "Radio Bio Bio", 
+    "promise": 67
+  }
+},
+{
+  "pk": 13, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.pulso.cl/noticia/economia/economia/2014/04/7-41880-9-cambios-a-ficha-de-proteccion-social-se-anunciarian-el-21-de-mayo-y-modificaria.shtml", 
+    "date": "2014-04-16", 
+    "display_name": "Pulso", 
+    "promise": 67
+  }
+},
+{
+  "pk": 14, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.latercera.com/noticia/politica/2014/04/674-572939-9-presidenta-bachelet-establece-la-comision-asesora-para-la-descentralizacion-y.shtml", 
+    "date": "2014-04-07", 
+    "display_name": "La Tercera", 
+    "promise": 79
+  }
+},
+{
+  "pk": 15, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.elboyaldia.cl/noticia/politica/patricio-vergara-director-del-ciptar-es-parte-de-la-comision-para-la-descentralizac", 
+    "date": "2014-04-09", 
+    "display_name": "El Boyald\u00eda", 
+    "promise": 79
+  }
+},
+{
+  "pk": 16, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://diariolongino.cl/?p=1502", 
+    "date": "2014-03-19", 
+    "display_name": "Diario Longino", 
+    "promise": 57
+  }
+},
+{
+  "pk": 17, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.gorearicayparinacota.cl/w2/index.php/2014/03/25/gobierno-inicia-dialogos-comunitarios-para-elaborar-plan-especial-de-zonas-extremas-comprometido-por-presidenta-bachelet/", 
+    "date": "2014-03-25", 
+    "display_name": "Gobierno Regional de Arica y Parinacota", 
+    "promise": 80
+  }
+},
+{
+  "pk": 19, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.diarioladiscusion.cl/index.php/opinion/opinion1561100476/editorial1376308275/34394-plan-para-zonas-rezagadas", 
+    "date": "2014-03-23", 
+    "display_name": "Diario La Discusi\u00f3n", 
+    "promise": 81
+  }
+},
+{
+  "pk": 20, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.lanacion.cl/noticias/pais/vivienda/ministra-saball-terremoto-no-retrasara-compromisos-de-vivienda/2014-04-09/155423.html", 
+    "date": "2014-04-09", 
+    "display_name": "La Naci\u00f3n", 
+    "promise": 83
+  }
+},
+{
+  "pk": 21, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://michellebachelet.cl/michelle-bachelet-anuncia-red-publica-de-establecimientos-para-atender-adultos-mayores-con-dependencia-y-en-saituacion-de-abandono/", 
+    "date": "2013-09-01", 
+    "display_name": "MichelleBachelet.cl", 
+    "promise": 69
+  }
+},
+{
+  "pk": 22, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.surlink.cl/index.php/breves/17616-arranca-quiero-mi-barrio-2014", 
+    "date": "2014-04-17", 
+    "display_name": "Sur Link", 
+    "promise": 84
+  }
+},
+{
+  "pk": 23, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.emol.com/noticias/nacional/2014/03/14/649763/presidenta-bachelet-firma-el-decreto-que-crea-el-consejo-nacional-de-la-infancia.html", 
+    "date": "2014-03-14", 
+    "display_name": "Emol", 
+    "promise": 70
+  }
+},
+{
+  "pk": 24, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://diarioeldia.cl/articulo/social/amplia-convocatoria-realizan-primer-dialogo-sobre-tenencia-responsable-mascotas", 
+    "date": "2014-04-22", 
+    "display_name": "Diario El D\u00eda", 
+    "promise": 85
+  }
+},
+{
+  "pk": 25, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://radio.uchile.cl/2014/04/06/apuntan-a-deuda-en-politicas-publicas-para-la-infancia", 
+    "date": "2014-04-06", 
+    "display_name": "Radio UChile", 
+    "promise": 70
+  }
+},
+{
+  "pk": 26, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.aricahoy.cl/2014/03/bachelet-y-la-educacion/", 
+    "date": "2014-04-12", 
+    "display_name": "Arica Hoy", 
+    "promise": 58
+  }
+},
+{
+  "pk": 27, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.latercera.com/noticia/negocios/2014/03/655-569685-9-el-libro-blanco-de-las-pensiones-que-pinera-le-heredo-a-bachelet.shtml", 
+    "date": "2014-03-16", 
+    "display_name": "La Tercera", 
+    "promise": 71
+  }
+},
+{
+  "pk": 28, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.latercera.com/noticia/nacional/2014/03/680-569445-9-expertos-analizan-extensiones-de-lineas-de-metro-que-evalua-ministerio-de.shtml", 
+    "date": "2014-04-14", 
+    "display_name": "La Tercera", 
+    "promise": 88
+  }
+},
+{
+  "pk": 29, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.biobiochile.cl/2014/04/22/michelle-bachelet-anuncio-que-formalizara-compromiso-de-afp-estatal-para-el-pais.shtml?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+radiobiobio+(Bio-", 
+    "date": "2014-04-22", 
+    "display_name": "Radio Bio Bio", 
+    "promise": 72
+  }
+},
+{
+  "pk": 30, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.latercera.com/noticia/politica/2014/03/674-570218-9-bachelet-nombra-a-paula-forttes-como-delegada-presidencial-para-la.shtml", 
+    "date": "2014-04-19", 
+    "display_name": "La Tercera", 
+    "promise": 90
+  }
+},
+{
+  "pk": 31, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.latercera.com/noticia/negocios/2014/04/655-573497-9-proximo-21-de-abril-gobierno-anuncia-comision-de-expertos-en-pensiones.shtml", 
+    "date": "2014-04-11", 
+    "display_name": "La Tercera", 
+    "promise": 73
+  }
+},
+{
+  "pk": 32, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.emol.com/noticias/nacional/2013/10/07/623300/bachelet-promete-afp-estatal-para-los-primeros-100-dias-de-su-eventual-gobierno.html", 
+    "date": "2014-04-10", 
+    "display_name": "EMOL", 
+    "promise": 63
+  }
+},
+{
+  "pk": 33, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.latercera.com/noticia/negocios/2014/04/655-573294-9-titular-del-trabajo-ratifica-cumplimiento-de-compromisos-para-los-primeros-100.shtml", 
+    "date": "2014-04-09", 
+    "display_name": "La Tercera", 
+    "promise": 74
+  }
+},
+{
+  "pk": 34, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.eldinamo.cl/2014/04/22/7-dudas-que-despierta-el-proyecto-del-gobierno-para-regular-el-multirut/", 
+    "date": "2014-04-22", 
+    "display_name": "El Dinamo", 
+    "promise": 74
+  }
+},
+{
+  "pk": 35, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.prensapresidencia.cl/default.aspx?codigo=12583", 
+    "date": "2014-04-14", 
+    "display_name": "Prensa Presidencia", 
+    "promise": 65
+  }
+},
+{
+  "pk": 36, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.lanacion.cl/noticias/pais/salud/bachelet-crea-comision-para-establecer-nuevo-marco-juridico-de-las-isapres/2014-04-14/155803.html", 
+    "date": "2014-04-14", 
+    "display_name": "La Naci\u00f3n", 
+    "promise": 65
+  }
+},
+{
+  "pk": 37, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.australosorno.cl/impresa/2014/04/15/full/13/", 
+    "date": "2014-04-15", 
+    "display_name": "Austral Osorno", 
+    "promise": 65
+  }
+},
+{
+  "pk": 38, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://sindical.cl/2013/10/las-propuestas-laborales-de-michelle-bachelet-en-caso-de-ser-electa/", 
+    "date": "2013-10-07", 
+    "display_name": "Sindical", 
+    "promise": 75
+  }
+},
+{
+  "pk": 39, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.eldinamo.cl/blog/servicio-de-biodiversidad-y-areas-protegidas-una-de-las-50-medidas-para-los-primeros-100-dias-de-bachelet/", 
+    "date": "2014-04-11", 
+    "display_name": "El Dinamo", 
+    "promise": 91
+  }
+},
+{
+  "pk": 40, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.diariolibertador.com/?q=noticia&id=9101", 
+    "date": "2014-03-16", 
+    "display_name": "Diario Libertador", 
+    "promise": 76
+  }
+},
+{
+  "pk": 41, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.lanacion.cl/noticias/pais/cultura/bachelet-anuncia-ministerio-de-cultura-y-retoma-construccion-de-teatro-en-el-gam/2014-03-17/172451.html", 
+    "date": "2014-03-17", 
+    "display_name": "La Naci\u00f3n", 
+    "promise": 93
+  }
+},
+{
+  "pk": 42, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.biobiochile.cl/2014/04/12/consejo-de-la-cultura-lanza-inedita-consulta-ciudadana-para-definir-el-futuro-del-ministerio-de-cult.shtml", 
+    "date": "2014-04-12", 
+    "display_name": "B\u00edo B\u00edo", 
+    "promise": 93
+  }
+},
+{
+  "pk": 43, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.lanacion.cl/noticias/economia/gobierno/bachelet-anuncia-solucion-para-27-mil-agricultores-deudores-de-indap/2014-04-10/124158.html", 
+    "date": "2014-04-10", 
+    "display_name": "La Naci\u00f3n", 
+    "promise": 105
+  }
+},
+{
+  "pk": 44, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.cooperativa.cl/noticias/pais/presidenta-bachelet/presidenta-bachelet-presento-a-perdonazoa-a-27-mil-agricultores-deudores-de-indap/2014-04-10/112810.html", 
+    "date": "2014-04-10", 
+    "display_name": "Cooperativa", 
+    "promise": 105
+  }
+},
+{
+  "pk": 45, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.adnradio.cl/noticias/nacional/presidenta-firmo-proyecto-de-ley-que-crea-el-ministerio-de-la-mujer-y-equidad-de-genero/20140327/nota/2148743.aspx", 
+    "date": "2014-03-27", 
+    "display_name": "Radio ADN", 
+    "promise": 98
+  }
+},
+{
+  "pk": 46, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://diarioeldia.cl/articulo/social/apoyan-proyecto-crear-un-ministerio-dedicado-mujer", 
+    "date": "2014-04-03", 
+    "display_name": "Diario El D\u00eda", 
+    "promise": 98
+  }
+},
+{
+  "pk": 47, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.elmostrador.cl/ahora/2014/03/18/presidenta-bachelet-y-ministra-riffo-lanzan-programa-de-escuelas-deportivas/", 
+    "date": "2014-03-18", 
+    "display_name": "El Mostrador", 
+    "promise": 97
+  }
+},
+{
+  "pk": 48, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.latercera.com/noticia/nacional/2014/04/680-575050-9-sernam-anuncia-24-nuevas-casas-de-acogida-para-mujeres-victimas-de-violencia.shtml", 
+    "date": "2014-04-22", 
+    "display_name": "La Tercera", 
+    "promise": 99
+  }
+},
+{
+  "pk": 49, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.cronicalibre.cl/2014/04/23/en-puerto-montt-presidenta-bachelet-anuncio-casa-de-acogida-para-mujeres-victimas-de-violencia/", 
+    "date": "2014-04-23", 
+    "display_name": "Cr\u00f3nica Libre", 
+    "promise": 99
+  }
+},
+{
+  "pk": 50, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.elmostrador.cl/pais/2014/03/28/presidenta-nombra-a-delegado-para-enfrentar-escasez-de-recursos-hidricos/", 
+    "date": "2014-03-28", 
+    "display_name": "El Mostrador", 
+    "promise": 106
+  }
+},
+{
+  "pk": 51, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.ucvradio.cl/bsite/2014/04/01/comision-nacional-de-riego-recibe-a-delegado-presidencial-para-los-recursos-hidricos/", 
+    "date": "2014-04-01", 
+    "display_name": "UCV Radio", 
+    "promise": 106
+  }
+},
+{
+  "pk": 52, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.publimetro.cl/nota/cronica/delegado-presidencial-de-recursos-hidricos-visita-embalse-beneficiado-por-ley-de-fomento-al-riego/CPIndo!Ghc8sVpcBZ1Z6wuPWHvVcA/", 
+    "date": "2014-04-15", 
+    "display_name": "Publimetro", 
+    "promise": 106
+  }
+},
+{
+  "pk": 53, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.elmostrador.cl/pais/2014/03/28/presidenta-nombra-a-delegado-para-enfrentar-escasez-de-recursos-hidricos/", 
+    "date": "2014-03-28", 
+    "display_name": "El Mostrador", 
+    "promise": 106
+  }
+},
+{
+  "pk": 54, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.ucvradio.cl/bsite/2014/04/01/comision-nacional-de-riego-recibe-a-delegado-presidencial-para-los-recursos-hidricos/", 
+    "date": "2014-04-01", 
+    "display_name": "UCV Radio", 
+    "promise": 106
+  }
+},
+{
+  "pk": 55, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.publimetro.cl/nota/cronica/delegado-presidencial-de-recursos-hidricos-visita-embalse-beneficiado-por-ley-de-fomento-al-riego/CPIndo!Ghc8sVpcBZ1Z6wuPWHvVcA/", 
+    "date": "2014-04-15", 
+    "display_name": "Publimetro", 
+    "promise": 106
+  }
+},
+{
+  "pk": 56, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.estrategia.cl/detalle_noticia.php?cod=94891", 
+    "date": "2014-04-10", 
+    "display_name": "Estrategia", 
+    "promise": 107
+  }
+},
+{
+  "pk": 57, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.lanacion.cl/noticias/pais/gobierno/bachelet-anuncia-duplicacion-de-recursos-del-fondo-de-fomento-para-pesca-artesanal/2014-04-11/161740.html", 
+    "date": "2014-04-11", 
+    "display_name": "La Naci\u00f3n", 
+    "promise": 107
+  }
+},
+{
+  "pk": 58, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.biobiochile.cl/2013/02/05/claudia-pailalef-la-creacion-del-consejo-de-pueblos-indigenas-no-resolvera-de-fondo-de-la-demanda.shtml", 
+    "date": "2013-02-05", 
+    "display_name": "Radio Bio Bio", 
+    "promise": 103
+  }
+},
+{
+  "pk": 59, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.economiaynegocios.cl/noticias/noticias.asp?id=118356", 
+    "date": "2014-03-30", 
+    "display_name": "Econom\u00eda y Negocios", 
+    "promise": 111
+  }
+},
+{
+  "pk": 60, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.24horas.cl/economia/gobierno-lanza-web-con-datos-y-la-reforma-tributaria-completa-1172007", 
+    "date": "2014-04-09", 
+    "display_name": "24 Horas", 
+    "promise": 111
+  }
+},
+{
+  "pk": 61, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.13.cl/t13/nacional/comision-de-hacienda-de-la-camara-aprueba-idea-de-legislar-sobre-proyecto-de-reforma-tr", 
+    "date": "2014-04-15", 
+    "display_name": "t13", 
+    "promise": 111
+  }
+},
+{
+  "pk": 62, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.13.cl/t13/nacional/conoce-los-tres-pasos-clave-para-entender-la-ruta-que-sigue-la-reforma-tributaria-en-el", 
+    "date": "2014-04-16", 
+    "display_name": "t13", 
+    "promise": 111
+  }
+},
+{
+  "pk": 63, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://eltipografo.cl/2014/04/autoridad-de-salud-compromete-gestion-de-un-servicio-de-alta-resolucion-en-sector-oriente/", 
+    "date": "2014-04-05", 
+    "display_name": "El Tip\u00f3grafo", 
+    "promise": 61
+  }
+},
+{
+  "pk": 64, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.radiopolar.com/noticia_88184.html", 
+    "date": "2014-04-21", 
+    "display_name": "Radio Polar", 
+    "promise": 100
+  }
+},
+{
+  "pk": 65, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.edicionesespeciales.elmercurio.com/hoy/detalle/index.asp?idnoticia=201403311550222&idcuerpo=1051", 
+    "date": "2014-03-31", 
+    "display_name": "Ediciones especiales El Mercurio", 
+    "promise": 100
+  }
+},
+{
+  "pk": 66, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.elmercurio.com/blogs/2014/04/04/20781/De-Conadi-a-Ministerio-Indigena.aspx", 
+    "date": "2014-04-04", 
+    "display_name": "El Mercurio", 
+    "promise": 102
+  }
+},
+{
+  "pk": 67, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://spanish.peopledaily.com.cn/31617/8563240.html", 
+    "date": "2014-03-11", 
+    "display_name": "People's Daily", 
+    "promise": 104
+  }
+},
+{
+  "pk": 68, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://economia.terra.cl/avanzan-en-agenda-de-productividad-innovacion-y-crecimiento,a8f6b017e01e4410VgnVCM20000099cceb0aRCRD.html", 
+    "date": "2014-03-20", 
+    "display_name": "Terra Chile", 
+    "promise": 108
+  }
+},
+{
+  "pk": 69, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.estrategia.cl/detalle_noticia.php?cod=95591", 
+    "date": "2014-04-28", 
+    "display_name": "Estrategia", 
+    "promise": 108
+  }
+},
+{
+  "pk": 70, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.eldinamo.cl/2014/04/01/sigue-el-dialogoministro-de-energia-se-reunio-con-gremios-de-generadoras-y-electricas/", 
+    "date": "2014-04-01", 
+    "display_name": "El Dinamo", 
+    "promise": 109
+  }
+},
+{
+  "pk": 71, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.lanacion.cl/bachelet-plantea-fortalecer-al-sernac-en-reunion-con-conadecus/noticias/2013-05-31/172744.html", 
+    "date": "2013-05-31", 
+    "display_name": "La Naci\u00f3n", 
+    "promise": 110
+  }
+},
+{
+  "pk": 72, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.latercera.com/noticia/negocios/2014/03/655-571830-9-ministro-de-economia-el-estado-tiene-que-jugar-un-rol-clave-en-nuestro.shtml", 
+    "date": "2014-03-30", 
+    "display_name": "La Tercera", 
+    "promise": 110
+  }
+},
+{
+  "pk": 73, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.biobiochile.cl/2014/04/28/bachelet-presenta-bono-de-invierno-que-beneficiara-a-mas-de-1-millon-de-adultos-mayores.shtml", 
+    "date": "2014-04-28", 
+    "display_name": "Radio Bio Bio", 
+    "promise": 71
+  }
+},
+{
+  "pk": 74, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://economia.terra.cl/titular-de-comision-de-pensiones-hara-ronda-de-audiencias,bd9a33e583fa5410VgnVCM20000099cceb0aRCRD.html", 
+    "date": "2014-04-29", 
+    "display_name": "Terra Chile", 
+    "promise": 73
+  }
+},
+{
+  "pk": 75, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.latercera.com/noticia/nacional/2014/05/680-576340-9-bachelet-anuncia-los-planes-de-descontaminacion-atmosferica-para-los-proximos.shtml", 
+    "date": "2014-05-02", 
+    "display_name": "La Tercera", 
+    "promise": 92
+  }
+},
+{
+  "pk": 76, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.13.cl/t13/nacional/bachelet-firma-proyecto-de-ley-para-aumentar-en-1200-nuevos-efectivos-la-dotacion-de-la", 
+    "date": "2014-05-07", 
+    "display_name": "Canal 13", 
+    "promise": 77
+  }
+},
+{
+  "pk": 77, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.latercera.com/noticia/nacional/2014/05/680-577187-9-bachelet-anuncia-estudios-de-factibilidad-para-extension-de-la-linea-2-y-3-del.shtml", 
+    "date": "2014-05-08", 
+    "display_name": "La Tercera", 
+    "promise": 88
+  }
+},
+{
+  "pk": 78, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.publimetro.cl/nota/cronica/presidenta-bachelet-anuncia-programas-de-capacitacion-laboral-para-300-mil-mujeres-y-150-mil-jovenes/CPInei!M2n2UZqUjtl8QyEe0h1FrQ/", 
+    "date": "2014-05-09", 
+    "display_name": "Publimetro", 
+    "promise": 75
+  }
+},
+{
+  "pk": 79, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.publimetro.cl/nota/cronica/presidenta-bachelet-anuncia-programas-de-capacitacion-laboral-para-300-mil-mujeres-y-150-mil-jovenes/CPInei!M2n2UZqUjtl8QyEe0h1FrQ/", 
+    "date": "2014-05-09", 
+    "display_name": "Publimetro", 
+    "promise": 76
+  }
+},
+{
+  "pk": 80, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.lanacion.cl/noticias/pais/transportes/metro-a-san-bernardo-y-quilicura-bachelet-anuncia-inicio-de-estudios/2014-05-08/121111.html", 
+    "date": "2014-05-08", 
+    "display_name": "La Naci\u00f3n", 
+    "promise": 89
+  }
+},
+{
+  "pk": 81, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.24horas.cl/nacional/bachelet-anuncia-15-nuevos-centros-para-adultos-mayores-1227995", 
+    "date": "2014-05-13", 
+    "display_name": "24 Horas", 
+    "promise": 69
+  }
+},
+{
+  "pk": 82, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://noticias.terra.cl/nacional/ministro-supervisa-en-terreno-proyectos-para-potenciar-el-transporte-publico-en-la-region-del-biobio,b9292e939b155410VgnCLD2000000ec6eb0aRCRD.html", 
+    "date": "2014-04-11", 
+    "display_name": "Terra Chile", 
+    "promise": 82
+  }
+},
+{
+  "pk": 83, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.lanacion.cl/noticias/regiones/antofagasta/bachelet-anuncia-estudios-para-el-transporte-publico-en-antofagasta-valparaiso-y-concepcion/2014-05-14/174159.html", 
+    "date": "2014-05-14", 
+    "display_name": "La Naci\u00f3n", 
+    "promise": 82
+  }
+},
+{
+  "pk": 84, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.latercera.com/noticia/negocios/2014/05/655-578201-9-presidenta-bachelet-da-a-conocer-medidas-de-la-agenda-energetica.shtml", 
+    "date": "2014-05-15", 
+    "display_name": "La Tercera", 
+    "promise": 109
+  }
+},
+{
+  "pk": 85, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.latercera.com/noticia/negocios/2014/05/655-578365-9-presidenta-bachelet-anuncia-agenda-de-productividad-innovacion-y-crecimiento.shtml", 
+    "date": "2014-05-16", 
+    "display_name": "La Tercera", 
+    "promise": 108
+  }
+},
+{
+  "pk": 86, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.biobiochile.cl/2014/05/16/presidenta-bachelet-presenta-programa-de-salud-bucal-para-mujeres-mas-sonrisas-para-chile.shtml", 
+    "date": "2014-05-16", 
+    "display_name": "Radio Bio Bio", 
+    "promise": 100
+  }
+},
+{
+  "pk": 87, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://radiopolar.com/noticia_89286.html", 
+    "date": "2014-05-18", 
+    "display_name": "Radio Polar", 
+    "promise": 83
+  }
+},
+{
+  "pk": 88, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://diarioeldia.cl/articulo/economia/ministerio-vivienda-planea-concretar-ambicioso-plan-desarrollo-region", 
+    "date": "2014-03-31", 
+    "display_name": "Diario El D\u00eda", 
+    "promise": 87
+  }
+},
+{
+  "pk": 89, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://radiopolar.com/noticia_89286.html", 
+    "date": "2014-05-18", 
+    "display_name": "Radio Polar", 
+    "promise": 87
+  }
+},
+{
+  "pk": 90, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.latercera.com/noticia/nacional/2014/05/680-578738-9-bachelet-presenta-primeros-proyectos-de-educacion-que-el-debate-sea-con-altura.shtml", 
+    "date": "2014-05-19", 
+    "display_name": "La Tercera", 
+    "promise": 56
+  }
+},
+{
+  "pk": 91, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.prensapresidencia.cl/", 
+    "date": "2014-05-23", 
+    "display_name": "Prensa Presidencia", 
+    "promise": 94
+  }
+},
+{
+  "pk": 92, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.elmostrador.cl/2014/21/05/bachelet-anuncia-la-ley-ricarte-soto-que-crea-un-fondo-especial-de-medicamentos-de-alto-costo/", 
+    "date": "2014-05-21", 
+    "display_name": "El Mostrador", 
+    "promise": 62
+  }
+},
+{
+  "pk": 93, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://web.minsal.cl/node/1202", 
+    "date": "2014-05-21", 
+    "display_name": "Ministerio de Salud", 
+    "promise": 63
+  }
+},
+{
+  "pk": 94, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.emol.com/noticias/nacional/2014/05/25/661929/presidenta-bachelet-presenta-programa-de-revitalizacion-de-barrios.html", 
+    "date": "2014-05-25", 
+    "display_name": "Emol", 
+    "promise": 95
+  }
+},
+{
+  "pk": 95, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.elobservatodo.cl/noticia/economia/dan-conocer-lineamientos-generales-de-la-ficha-de-proteccion-social", 
+    "date": "2014-05-22", 
+    "display_name": "El Observatodo", 
+    "promise": 67
+  }
+},
+{
+  "pk": 96, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.biobiochile.cl/2014/05/27/presidenta-bachelet-lanzara-plan-de-desarrollo-para-territorios-rezagados.shtml", 
+    "date": "2014-05-27", 
+    "display_name": "Radio Bio Bio", 
+    "promise": 81
+  }
+},
+{
+  "pk": 97, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.latercera.com/noticia/nacional/2014/05/680-580047-9-bachelet-anuncia-habilitacion-de-132-servicios-de-atencion-primaria-de-alta.shtml", 
+    "date": "2014-05-28", 
+    "display_name": "La Tercera", 
+    "promise": 61
+  }
+},
+{
+  "pk": 98, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.biobiochile.cl/2014/05/29/bachelet-presento-programa-de-apoyo-a-alumnos-vulnerables-para-ingresar-a-educacion-superior.shtml", 
+    "date": "2014-05-29", 
+    "display_name": "Radio Bio Bio", 
+    "promise": 58
+  }
+},
+{
+  "pk": 99, 
+  "model": "promises.informationsource", 
+  "fields": {
+    "url": "http://www.latercera.com/noticia/negocios/2014/06/655-580713-9-presidenta-bachelet-firmo-proyecto-de-fortalece-el-sernac-y-las-asociaciones-de.shtml", 
+    "date": "2014-06-02", 
+    "display_name": "La Tercera", 
+    "promise": 110
+  }
+},
+{
+  "pk": 4, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://www.camara.cl/pley/pley_detalle.aspx?prmID=9781&prmBL=9366-04", 
+    "date": "2014-06-03", 
+    "display_name": "Bolet\u00edn 9366-04", 
+    "promise": 56
+  }
+},
+{
+  "pk": 5, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://camara.cl/pley/pley_detalle.aspx?prmID=9779&prmBL=9365-04", 
+    "date": "2014-06-03", 
+    "display_name": "Bolet\u00edn 9365-04", 
+    "promise": 56
+  }
+},
+{
+  "pk": 6, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://www.prensapresidencia.cl/default.aspx?codigo=12712", 
+    "date": "2014-05-28", 
+    "display_name": "Nota de Prensa", 
+    "promise": 61
+  }
+},
+{
+  "pk": 7, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://web.minsal.cl/node/1229", 
+    "date": "2014-05-28", 
+    "display_name": "Nota de Prensa", 
+    "promise": 61
+  }
+},
+{
+  "pk": 8, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKQlFxcWI1dk0zTzA/edit", 
+    "date": "2014-05-21", 
+    "display_name": "Decreto 33 mil horas m\u00e9dicas", 
+    "promise": 63
+  }
+},
+{
+  "pk": 9, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKT1dmbDZXV2N5V3M/edit", 
+    "date": "2014-05-29", 
+    "display_name": "Compromiso de colaboraci\u00f3n", 
+    "promise": 58
+  }
+},
+{
+  "pk": 10, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKenE5OGotMGpqNlk/edit", 
+    "date": "2014-04-14", 
+    "display_name": "Decreto Comisi\u00f3n Asesora Presidencial Sistema Privado de Salud", 
+    "promise": 65
+  }
+},
+{
+  "pk": 11, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://web.minsal.cl/comision_asesora_presidencial", 
+    "date": "2014-04-14", 
+    "display_name": "Nota de Prensa", 
+    "promise": 65
+  }
+},
+{
+  "pk": 12, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://camara.cl/pley/pley_detalle.aspx?prmID=9681&prmBL=9273-05", 
+    "date": "2014-03-12", 
+    "display_name": "Bolet\u00edn 9273-05", 
+    "promise": 66
+  }
+},
+{
+  "pk": 13, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://www.camara.cl/pley/pley_detalle.aspx?prmID=9783&prmBL=9369-03", 
+    "date": "2014-06-03", 
+    "display_name": "Bolet\u00edn 9369-03", 
+    "promise": 110
+  }
+},
+{
+  "pk": 14, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://camara.cl/pley/pley_detalle.aspx?prmID=9702&prmBL=9290-05", 
+    "date": "2014-04-02", 
+    "display_name": "Boletin N\u00b0 9290-05", 
+    "promise": 111
+  }
+},
+{
+  "pk": 15, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKTDJqc2YtWU9oTk0/edit", 
+    "date": "2014-05-15", 
+    "display_name": "Agenda de Energ\u00eda", 
+    "promise": 109
+  }
+},
+{
+  "pk": 16, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKR3pMWGVJSktTbTA/edit", 
+    "date": "2014-05-16", 
+    "display_name": "Agenda de Productividad, Innovaci\u00f3n y Crecimiento Econ\u00f3mico.", 
+    "promise": 108
+  }
+},
+{
+  "pk": 17, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://drive.google.com/file/d/0B6DUre9_zq8IT1Y5V0RqNEFIT0k/edit?usp=sharing", 
+    "date": "2014-03-21", 
+    "display_name": "Ley 20743", 
+    "promise": 67
+  }
+},
+{
+  "pk": 18, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://www.prensapresidencia.cl/default.aspx?codigo=12664", 
+    "date": "2014-05-13", 
+    "display_name": "Nota de Prensa", 
+    "promise": 69
+  }
+},
+{
+  "pk": 19, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKaUdlTC1NeU1qMUU/edit", 
+    "date": "2014-03-14", 
+    "display_name": "Decreto Consejo Nacional de la Infancia", 
+    "promise": 70
+  }
+},
+{
+  "pk": 20, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://www.gob.cl/2014/04/28/presidenta-anuncio-el-bono-invierno-y-restitucion-de-la-pension-basica-solidaria/", 
+    "date": "2014-04-28", 
+    "display_name": "Nota de Prensa", 
+    "promise": 71
+  }
+},
+{
+  "pk": 21, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKSzI4MEtFRGNXT3M/edit", 
+    "date": "2014-03-31", 
+    "display_name": "Delegado Recursos H\u00eddricos", 
+    "promise": 106
+  }
+},
+{
+  "pk": 22, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKek9xNVJRYUhDdnc/edit", 
+    "date": "2014-04-10", 
+    "display_name": "Resoluciones INDAP", 
+    "promise": 105
+  }
+},
+{
+  "pk": 23, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://www.prensapresidencia.cl/default.aspx?codigo=12687", 
+    "date": "2014-05-16", 
+    "display_name": "Nota de Prensa", 
+    "promise": 100
+  }
+},
+{
+  "pk": 24, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://www.prensapresidencia.cl/default.aspx?codigo=12601", 
+    "date": "2014-05-22", 
+    "display_name": "Nota de Prensa", 
+    "promise": 99
+  }
+},
+{
+  "pk": 25, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://drive.google.com/file/d/0B6DUre9_zq8IeU1TeTN3Q3VlNDA/edit?usp=sharing", 
+    "date": "2014-04-29", 
+    "display_name": "Decreto Comisi\u00f3n Asesora Presidencial Sistema de Pensiones", 
+    "promise": 73
+  }
+},
+{
+  "pk": 26, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://www.camara.cl/pley/pley_detalle.aspx?prmID=9696&prmBL=9287-06", 
+    "date": "2014-04-01", 
+    "display_name": "Bolet\u00edn 9287-06", 
+    "promise": 98
+  }
+},
+{
+  "pk": 27, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKeU1Ucld4V1kwQ0k/edit", 
+    "date": "2014-05-06", 
+    "display_name": "Programas Escuelas Deportivas", 
+    "promise": 97
+  }
+},
+{
+  "pk": 28, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://drive.google.com/file/d/0By2Bh_arF5LKb0J6elo1R0FSUEU/edit?usp=sharing", 
+    "date": "2014-05-06", 
+    "display_name": "Comunas Beneficiadas", 
+    "promise": 96
+  }
+},
+{
+  "pk": 29, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKemJjZElLNFdON2c/edit", 
+    "date": "2014-05-06", 
+    "display_name": "Centros Deportivos Integrales", 
+    "promise": 96
+  }
+},
+{
+  "pk": 30, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKNWJlQ1NIOVdRNUU/edit", 
+    "date": "2014-04-21", 
+    "display_name": "Bolet\u00edn 4456-13", 
+    "promise": 74
+  }
+},
+{
+  "pk": 31, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://www.mintrab.gob.cl/agenda-laboral/programa-de-capacitacion/", 
+    "date": "2014-05-09", 
+    "display_name": "Nota de Prensa", 
+    "promise": 75
+  }
+},
+{
+  "pk": 32, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://www.mintrab.gob.cl/agenda-laboral/programa-de-capacitacion/", 
+    "date": "2014-05-09", 
+    "display_name": "Nota de Prensa", 
+    "promise": 76
+  }
+},
+{
+  "pk": 33, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://camara.cl/pley/pley_detalle.aspx?prmID=9748&prmBL=9336-25", 
+    "date": "2014-05-13", 
+    "display_name": "Bolet\u00edn 9336-25", 
+    "promise": 77
+  }
+},
+{
+  "pk": 34, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0B6DUre9_zq8IeGZULXhGeUMxVXc/edit", 
+    "date": "2014-05-23", 
+    "display_name": "Centros de Creaci\u00f3n y Desarrollo Art\u00edstico", 
+    "promise": 94
+  }
+},
+{
+  "pk": 35, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://camara.cl/pley/pley_detalle.aspx?prmID=9787&prmBL=9373-25", 
+    "date": "2014-06-04", 
+    "display_name": "Bolet\u00edn 9373-25", 
+    "promise": 115
+  }
+},
+{
+  "pk": 36, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://drive.google.com/file/d/0By2Bh_arF5LKMTVZNDBWaTNmcEU/edit?usp=sharing", 
+    "date": "2014-03-19", 
+    "display_name": "Decreto Delegada Presidencial para la reconstrucci\u00f3n", 
+    "promise": 114
+  }
+},
+{
+  "pk": 37, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://www.prensapresidencia.cl/discurso.aspx?codigo=9326", 
+    "date": "2014-04-24", 
+    "display_name": "Nota de Prensa", 
+    "promise": 78
+  }
+},
+{
+  "pk": 38, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKRGFRV2ExWEtKa2c/edit", 
+    "date": "2014-04-07", 
+    "display_name": "Decreto Comisi\u00f3n Asesora Presidencial Desarrollo Regional", 
+    "promise": 79
+  }
+},
+{
+  "pk": 39, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKaTNuTVdZOHYwWTg/edit", 
+    "date": "2014-05-02", 
+    "display_name": "Plan de Descontaminaci\u00f3n", 
+    "promise": 92
+  }
+},
+{
+  "pk": 40, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://www.prensapresidencia.cl/default.aspx?codigo=12710", 
+    "date": "2014-05-27", 
+    "display_name": "Nota de Prensa", 
+    "promise": 81
+  }
+},
+{
+  "pk": 41, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKZkhKVWpwMElTOE0/edit", 
+    "date": "2014-05-14", 
+    "display_name": "Resoluci\u00f3n Infraestructura Vial Antofagasta, Concepci\u00f3n y Valpara\u00edso", 
+    "promise": 82
+  }
+},
+{
+  "pk": 42, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKQTJPOEp3OXJ2SWs/edit", 
+    "date": "2014-05-14", 
+    "display_name": "Conjunto de Propuestas de Infraestructura Vial y Transporte", 
+    "promise": 82
+  }
+},
+{
+  "pk": 43, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://drive.google.com/file/d/0B6DUre9_zq8IYzJndnB2bG5BRVk/edit?usp=sharing", 
+    "date": "2014-05-18", 
+    "display_name": "Plan Chile \u00c1rea Verde", 
+    "promise": 83
+  }
+},
+{
+  "pk": 44, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKRlIwcGtkRG1jMGs/edit", 
+    "date": "2014-05-08", 
+    "display_name": "Fichas Estudios", 
+    "promise": 89
+  }
+},
+{
+  "pk": 45, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0B6DUre9_zq8IYVBfUmNiYlNPOG8/edit", 
+    "date": "2014-04-11", 
+    "display_name": "Asignaci\u00f3n Presupuesto Estudio Metro", 
+    "promise": 88
+  }
+},
+{
+  "pk": 46, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0B6DUre9_zq8IdzdqWURiN01kdnc/edit?usp=sharing", 
+    "date": "2014-05-17", 
+    "display_name": "Plan Ciclov\u00edas", 
+    "promise": 87
+  }
+},
+{
+  "pk": 47, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://www.prensapresidencia.cl/default.aspx?codigo=12743", 
+    "date": "2014-06-06", 
+    "display_name": "Nota de Prensa", 
+    "promise": 84
+  }
+},
+{
+  "pk": 48, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://www.prensapresidencia.cl/default.aspx?codigo=12747", 
+    "date": "2014-06-07", 
+    "display_name": "Nota de Prensa", 
+    "promise": 85
+  }
+},
+{
+  "pk": 49, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://www.incondicionales.cl/", 
+    "date": "2014-06-07", 
+    "display_name": "Plan Nacional de Tenencia Responsable de Mascotas", 
+    "promise": 85
+  }
+},
+{
+  "pk": 50, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://www.prensapresidencia.cl/default.aspx?codigo=12740", 
+    "date": "2014-06-05", 
+    "display_name": "Nota de Prensa", 
+    "promise": 91
+  }
+},
+{
+  "pk": 51, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://consultapatrimonio.cultura.gob.cl/", 
+    "date": "2014-05-25", 
+    "display_name": "Consulta Ciudadana", 
+    "promise": 95
+  }
+},
+{
+  "pk": 52, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://www.prensapresidencia.cl/default.aspx?codigo=12731", 
+    "date": "2014-06-03", 
+    "display_name": "Nota de Prensa", 
+    "promise": 57
+  }
+},
+{
+  "pk": 53, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "http://www.prensapresidencia.cl/default.aspx?codigo=12739", 
+    "date": "2014-06-04", 
+    "display_name": "Nota de Prensa", 
+    "promise": 90
+  }
+},
+{
+  "pk": 54, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKTVdiRDZ4akFtREU/edit", 
+    "date": "2014-05-09", 
+    "display_name": "Programa Capacitaci\u00f3n en Oficios", 
+    "promise": 75
+  }
+},
+{
+  "pk": 55, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKTVdiRDZ4akFtREU/edit", 
+    "date": "2014-05-09", 
+    "display_name": "Programa Capacitaci\u00f3n en Oficios", 
+    "promise": 76
+  }
+},
+{
+  "pk": 56, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKdE9Hb3hsQS1pMkk/edit", 
+    "date": "2014-04-24", 
+    "display_name": "Programa Vida Nueva 24 Horas Subsecretar\u00eda de Prevenci\u00f3n del Delito", 
+    "promise": 78
+  }
+},
+{
+  "pk": 57, 
+  "model": "promises.verificationdocument", 
+  "fields": {
+    "url": "https://docs.google.com/file/d/0By2Bh_arF5LKX0hNRmpDRmtIajQ/edit", 
+    "date": "2014-06-06", 
+    "display_name": "Programa de recuperaci\u00f3n de Barrios", 
+    "promise": 84
+  }
+},
+{
+  "pk": 57, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 75, 
+    "promise": 56, 
+    "notes": ""
+  }
+},
+{
+  "pk": 58, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 50, 
+    "promise": 57, 
+    "notes": ""
+  }
+},
+{
+  "pk": 59, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 50, 
+    "promise": 58, 
+    "notes": ""
+  }
+},
+{
+  "pk": 60, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 59, 
+    "notes": ""
+  }
+},
+{
+  "pk": 61, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 75, 
+    "promise": 60, 
+    "notes": ""
+  }
+},
+{
+  "pk": 62, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 61, 
+    "notes": ""
+  }
+},
+{
+  "pk": 63, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 50, 
+    "promise": 62, 
+    "notes": ""
+  }
+},
+{
+  "pk": 64, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 63, 
+    "notes": ""
+  }
+},
+{
+  "pk": 65, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 64, 
+    "notes": ""
+  }
+},
+{
+  "pk": 66, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 65, 
+    "notes": ""
+  }
+},
+{
+  "pk": 67, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 66, 
+    "notes": "\n"
+  }
+},
+{
+  "pk": 68, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 75, 
+    "promise": 67, 
+    "notes": ""
+  }
+},
+{
+  "pk": 70, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 50, 
+    "promise": 69, 
+    "notes": ""
+  }
+},
+{
+  "pk": 71, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 70, 
+    "notes": ""
+  }
+},
+{
+  "pk": 72, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 75, 
+    "promise": 71, 
+    "notes": ""
+  }
+},
+{
+  "pk": 73, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 72, 
+    "notes": ""
+  }
+},
+{
+  "pk": 74, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 73, 
+    "notes": ""
+  }
+},
+{
+  "pk": 75, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 74, 
+    "notes": ""
+  }
+},
+{
+  "pk": 76, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 75, 
+    "notes": ""
+  }
+},
+{
+  "pk": 77, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 76, 
+    "notes": ""
+  }
+},
+{
+  "pk": 78, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 77, 
+    "notes": ""
+  }
+},
+{
+  "pk": 79, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 78, 
+    "notes": ""
+  }
+},
+{
+  "pk": 80, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 75, 
+    "promise": 79, 
+    "notes": ""
+  }
+},
+{
+  "pk": 81, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 80, 
+    "notes": ""
+  }
+},
+{
+  "pk": 82, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 75, 
+    "promise": 81, 
+    "notes": ""
+  }
+},
+{
+  "pk": 83, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 82, 
+    "notes": ""
+  }
+},
+{
+  "pk": 84, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 83, 
+    "notes": ""
+  }
+},
+{
+  "pk": 85, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 75, 
+    "promise": 84, 
+    "notes": ""
+  }
+},
+{
+  "pk": 86, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 75, 
+    "promise": 85, 
+    "notes": ""
+  }
+},
+{
+  "pk": 88, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 50, 
+    "promise": 87, 
+    "notes": ""
+  }
+},
+{
+  "pk": 89, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 75, 
+    "promise": 88, 
+    "notes": "\n"
+  }
+},
+{
+  "pk": 90, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 75, 
+    "promise": 89, 
+    "notes": ""
+  }
+},
+{
+  "pk": 91, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 75, 
+    "promise": 90, 
+    "notes": ""
+  }
+},
+{
+  "pk": 92, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 75, 
+    "promise": 91, 
+    "notes": ""
+  }
+},
+{
+  "pk": 93, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 92, 
+    "notes": ""
+  }
+},
+{
+  "pk": 94, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 93, 
+    "notes": ""
+  }
+},
+{
+  "pk": 95, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 94, 
+    "notes": ""
+  }
+},
+{
+  "pk": 96, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 75, 
+    "promise": 95, 
+    "notes": ""
+  }
+},
+{
+  "pk": 97, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 50, 
+    "promise": 96, 
+    "notes": ""
+  }
+},
+{
+  "pk": 98, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 97, 
+    "notes": ""
+  }
+},
+{
+  "pk": 99, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 98, 
+    "notes": ""
+  }
+},
+{
+  "pk": 100, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 75, 
+    "promise": 99, 
+    "notes": ""
+  }
+},
+{
+  "pk": 101, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 50, 
+    "promise": 100, 
+    "notes": ""
+  }
+},
+{
+  "pk": 102, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 101, 
+    "notes": ""
+  }
+},
+{
+  "pk": 103, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 102, 
+    "notes": ""
+  }
+},
+{
+  "pk": 104, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 103, 
+    "notes": ""
+  }
+},
+{
+  "pk": 105, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 0, 
+    "promise": 104, 
+    "notes": ""
+  }
+},
+{
+  "pk": 106, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 105, 
+    "notes": ""
+  }
+},
+{
+  "pk": 107, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 106, 
+    "notes": ""
+  }
+},
+{
+  "pk": 108, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 75, 
+    "promise": 107, 
+    "notes": ""
+  }
+},
+{
+  "pk": 109, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 108, 
+    "notes": ""
+  }
+},
+{
+  "pk": 110, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 109, 
+    "notes": ""
+  }
+},
+{
+  "pk": 111, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 110, 
+    "notes": ""
+  }
+},
+{
+  "pk": 112, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 111, 
+    "notes": ""
+  }
+},
+{
+  "pk": 117, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 114, 
+    "notes": ""
+  }
+},
+{
+  "pk": 118, 
+  "model": "promises.fulfillment", 
+  "fields": {
+    "percentage": 100, 
+    "promise": 115, 
+    "notes": ""
+  }
+},
+{
+  "pk": 1, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2013-10-07", 
+    "promise": 90, 
+    "description": "Bachelet anuncia 50 medidas para primeros 100 d\u00edas de Gobierno."
+  }
+},
+{
+  "pk": 2, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-06-19", 
+    "promise": 90, 
+    "description": "Bachelet nombra a Paula Fortes como delegada presidencial para la reconstrucci\u00f3n."
+  }
+},
+{
+  "pk": 3, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-06-04", 
+    "promise": 90, 
+    "description": "Delegada presidencial entrega informe con el diagn\u00f3stico a la presidenta, quien anuncia el cumplimiento de la medida."
+  }
+},
+{
+  "pk": 4, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-10", 
+    "promise": 56, 
+    "description": "Reuni\u00f3n entre el Ministerio de Educaci\u00f3n y la [Confech](http://www.latercera.com/noticia/nacional/2014/04/680-573549-9-reforma-educacional-las-dudas-que-persisten-tras-las-reuniones-de-eyzaguirre-con.shtml)"
+  }
+},
+{
+  "pk": 5, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-19", 
+    "promise": 56, 
+    "description": "Presidenta Bachelet anuncia proyectos de reforma a la educaci\u00f3n: [Fin al lucro, fin de copago y selecci\u00f3n](http://www.latercera.com/noticia/nacional/2014/05/680-578738-9-bachelet-presenta-primeros-proyectos-de-educacion-que-el-debate-sea-con-altura.shtml)"
+  }
+},
+{
+  "pk": 6, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-06-03", 
+    "promise": 56, 
+    "description": "Ingresan Proyectos de Ley a la C\u00e1mara de Diputados."
+  }
+},
+{
+  "pk": 7, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-21", 
+    "promise": 57, 
+    "description": "Presidenta Bachelet, en la cuenta p\u00fablica, reafirma compromiso de aumentar [cobertura de salas cuna en su periodo de Gobierno](http://www.latercera.com/noticia/nacional/2014/05/680-579074-9-los-anuncios-en-educacion-preescolar-general-y-superior-que-marcaron-el-discurso.shtml)"
+  }
+},
+{
+  "pk": 8, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-06-03", 
+    "promise": 57, 
+    "description": "Presidenta Bachelet da por cumplida la medida consistente en [anunciar construcci\u00f3n de salas cunas para este a\u00f1o](http://www.latercera.com/noticia/nacional/2014/06/680-580866-9-bachelet-anuncia-implementacion-de-500-nuevas-salas-cunas-para-este-ano.shtml)"
+  }
+},
+{
+  "pk": 9, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2013-10-07", 
+    "promise": 58, 
+    "description": "Bachelet anuncia 50 medidas para primeros 100 d\u00edas de Gobierno."
+  }
+},
+{
+  "pk": 10, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-21", 
+    "promise": 58, 
+    "description": "Presidenta menciona en la cuenta p\u00fablica el programa de apoyo y acceso a la educaci\u00f3n superior para j\u00f3venes vulnerables."
+  }
+},
+{
+  "pk": 11, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-29", 
+    "promise": 58, 
+    "description": "Presidenta anunci\u00f3 el plan de apoyo y acompa\u00f1amiento a la educaci\u00f3n superior, que tiene por meta abarcar, al 2017, la totalidad colegios vulnerables."
+  }
+},
+{
+  "pk": 12, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-05", 
+    "promise": 59, 
+    "description": "Seremis de Educaci\u00f3n de la Regi\u00f3n de O\u2019higgins ultiman pasos previos para crear proyecto que cree [universidades regionales](http://www.universitarios.cl/blog/actualidad/mineduc-arregla-ultimos-detalles-para-crear-universidades-en-las-regiones-de-ohiggins-y-aysenu-l19013/)"
+  }
+},
+{
+  "pk": 13, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-27", 
+    "promise": 59, 
+    "description": "Se devela que proyecto que crea universidades regionales contempla iniciarlas [desde cero](http://www.radiosantamaria.cl/regional/2563-autoridades-regionales-indicaron-que-mandato-presidencial-de-una-universidad-para-aysen-habla-de-un-proyecto-desde-cero)"
+  }
+},
+{
+  "pk": 14, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-03-31", 
+    "promise": 111, 
+    "description": "Bachelet firm\u00f3 [Proyecto de Ley de Reforma Tributaria](http://www.biobiochile.cl/2014/03/31/bachelet-asegura-que-reforma-tributaria-no-afectara-crecimiento-tras-firmar-proyecto-en-la-moneda.shtml)"
+  }
+},
+{
+  "pk": 15, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-02", 
+    "promise": 111, 
+    "description": "Ingreso de [proyecto de ley a la C\u00e1mara ](http://www.camara.cl/pley/pley_detalle.aspx?prmID=9702&prmBL=9290-05) "
+  }
+},
+{
+  "pk": 16, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-06-02", 
+    "promise": 110, 
+    "description": "Presidenta Bachelet firma proyecto de ley que [fortalece el SERNAC](http://www.latercera.com/noticia/negocios/2014/06/655-580713-9-presidenta-bachelet-firmo-proyecto-de-fortalece-el-sernac-y-las-asociaciones-de.shtml)"
+  }
+},
+{
+  "pk": 17, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-06-03", 
+    "promise": 110, 
+    "description": "Ingresa a la C\u00e1mara de Diputados Proyecto que fortalece al SERNAC."
+  }
+},
+{
+  "pk": 18, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-01", 
+    "promise": 109, 
+    "description": "Ministro de Energ\u00eda se reuni\u00f3 con [gremios de generadoras y el\u00e9ctricas](http://www.eldinamo.cl/2014/04/01/sigue-el-dialogoministro-de-energia-se-reunio-con-gremios-de-generadoras-y-electricas/)"
+  }
+},
+{
+  "pk": 19, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-10", 
+    "promise": 60, 
+    "description": "Presidenta Bachelet anuncia, en el Centro de Estudios del Cobre y Miner\u00eda, creaci\u00f3n de [Centros de Formaci\u00f3n T\u00e9cnica enfocados en la miner\u00eda](http://www.economiaynegocios.cl/noticias/noticias.asp?id=118712)"
+  }
+},
+{
+  "pk": 20, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-27", 
+    "promise": 60, 
+    "description": "El Centro de Formaci\u00f3n T\u00e9cnica Teodoro Wickel de la Universidad de la Frontera prepara [Seminario \u201cIntegraci\u00f3n e Inclusi\u00f3n Educativa, Impacto de un CFT Estatal para La Araucan\u00eda\u201d](http://www.canaldenoticias.cl/?p=39604)"
+  }
+},
+{
+  "pk": 21, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-06-04", 
+    "promise": 60, 
+    "description": "Presidenta Bachelet anuncia construcci\u00f3n de [Centros de Formaci\u00f3n T\u00e9cnica Gratuitos para 5 regiones](http://www.biobiochile.cl/2014/06/04/firma-de-convenios-para-crear-cft-estatales-destaco-en-actividades-de-michelle-bachelet-en-el-maule.shtml)"
+  }
+},
+{
+  "pk": 22, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-15", 
+    "promise": 109, 
+    "description": "Bachelet, junto al Ministro Pacheco dieron a conocer [detalles la Agenda de Energ\u00eda](http://economia.terra.cl/bachelet-da-a-conocer-los-siete-ejes-de-la-agenda-de-energia,a79ad3c4da006410VgnVCM3000009af154d0RCRD.html)"
+  }
+},
+{
+  "pk": 23, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-05", 
+    "promise": 61, 
+    "description": "El Director del Servicio de Salud de O\u2019higgins, Fernando Troncoso solicitar\u00e1 al Ministerio de Salud contemplar la instalci\u00f3n de un [SAR en el sector](http://eltipografo.cl/2014/04/autoridad-de-salud-compromete-gestion-de-un-servicio-de-alta-resolucion-en-sector-oriente/)"
+  }
+},
+{
+  "pk": 24, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-28", 
+    "promise": 61, 
+    "description": "Bachelet anuncia [habilitaci\u00f3n de 132 SAR](http://www.latercera.com/noticia/nacional/2014/05/680-580047-9-bachelet-anuncia-habilitacion-de-132-servicios-de-atencion-primaria-de-alta.shtml)"
+  }
+},
+{
+  "pk": 25, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-06-03", 
+    "promise": 61, 
+    "description": "El Director del Servicio de Salud de Vi\u00f1a del Mar y Quillota [confirm\u00f3 la construcci\u00f3n de tres SAR](http://www.biobiochile.cl/2014/06/03/confirman-construccion-de-servicios-de-atencion-primaria-de-alta-resolucion-en-vina-del-mar.shtml)"
+  }
+},
+{
+  "pk": 26, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-12", 
+    "promise": 62, 
+    "description": "Ministra de Salud, Helia Molina, asegur\u00f3 que la Presidenta Michelle Bachelet anunciar\u00e1 el 21 de mayo un [fondo especial de medicamentos dirigido a personas con enfermedades cr\u00f3nicas](http://noticias.terra.cl/nacional/crearan-fondo-de-medicamentos-para-pacientes-cronicos,84612e15bd2f5410VgnVCM20000099cceb0aRCRD.html)"
+  }
+},
+{
+  "pk": 27, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-21", 
+    "promise": 62, 
+    "description": "Durante la cuenta p\u00fablica, Bachelet dio por cumplida [la creaci\u00f3n del Fondo Nacional de Medicamentos](http://www.elmostrador.cl/2014/21/05/bachelet-anuncia-la-ley-ricarte-soto-que-crea-un-fondo-especial-de-medicamentos-de-alto-costo/)"
+  }
+},
+{
+  "pk": 28, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-07", 
+    "promise": 108, 
+    "description": "Gobierno afina a toda marcha los \u00faltimos detalles para presentar la [Agenda de Productividad, Innovaci\u00f3n y Crecimiento](http://www.pulso.cl/noticia/economia/economia/2014/05/7-43039-9-gobierno-presentaria-agenda-de-productividad-crecimiento-e-innovacion-antes-del.shtml)"
+  }
+},
+{
+  "pk": 29, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-16", 
+    "promise": 108, 
+    "description": "Bachelet anuncia [Agenda de Productividad, Innovaci\u00f3n y Crecimiento Econ\u00f3mico](http://www.latercera.com/noticia/negocios/2014/05/655-578365-9-presidenta-bachelet-anuncia-agenda-de-productividad-innovacion-y-crecimiento.shtml)"
+  }
+},
+{
+  "pk": 30, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-11", 
+    "promise": 63, 
+    "description": "M\u00e1s de un mill\u00f3n y medio de personas [esperan por consulta de especialistas](http://www.latercera.com/noticia/nacional/2014/05/680-577572-9-mas-de-15-millones-de-personas-esperan-una-consulta-de-especialista-en-la-red.shtml)"
+  }
+},
+{
+  "pk": 31, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-21", 
+    "promise": 63, 
+    "description": "Durante la cuenta p\u00fablica, Bachelet indic\u00f3 que [se destinaron los recursos para el aumento de horas m\u00e9dicas semanales en el sistema p\u00fablico](http://web.minsal.cl/node/1202)"
+  }
+},
+{
+  "pk": 32, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-06-02", 
+    "promise": 63, 
+    "description": "Parte [Expo M\u00e9dicos Especialistas], primera feria que busca atraer a m\u00e9dicos especialistas en medicina familiar al sistema p\u00fablico(http://losriosenlinea.cl/?p=5067)"
+  }
+},
+{
+  "pk": 33, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-21", 
+    "promise": 64, 
+    "description": "Presidenta Bachelet reafirma compromiso con [cartera de inversiones para el periodo 2014-2018 en salud](http://www.estrategia.cl/detalle_noticia.php?cod=96814)"
+  }
+},
+{
+  "pk": 34, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-10", 
+    "promise": 65, 
+    "description": "Ministra de Salud  adelanta que se enviar\u00e1n [indicaciones a Ley de Isapres v\u00eda comisi\u00f3n de expertos](http://www.df.cl/comision-de-expertos-agregara-indicaciones-a-ley-de-isapres/prontus_df/2014-04-09/222655.html)"
+  }
+},
+{
+  "pk": 35, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-14", 
+    "promise": 65, 
+    "description": "Se crea la [Comisi\u00f3n Asesora Presidencial para el Estudio y Propuesta de un Nuevo Modelo y Marco Jur\u00eddico para el Sistema Privado de Salud](\nhttp://www.lanacion.cl/noticias/pais/salud/bachelet-crea-comision-para-establecer-nuevo-marco-juridico-de-las-isapres/2014-04-14/155803.html)"
+  }
+},
+{
+  "pk": 36, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-03-12", 
+    "promise": 66, 
+    "description": "Presidenta Bachelet firma proyecto de ley del Bono Marzo"
+  }
+},
+{
+  "pk": 37, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-03-19", 
+    "promise": 66, 
+    "description": "Senado chileno aprob\u00f3 por unanimidad un [\u201cbono marzo\u201d para las familias vulnerables](http://noticias.terra.cl/nacional/politica/senado-chileno-aprueba-por-unanimidad-bono-marzo-para-familias-vulnerables,791adca172cd4410VgnCLD2000000dc6eb0aRCRD.html)"
+  }
+},
+{
+  "pk": 38, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-11", 
+    "promise": 107, 
+    "description": "Bachelet anuncia duplicaci\u00f3n de recursos del [Fondo de Fomento para Pesca Artesanal](http://www.prensapresidencia.cl/default.aspx?codigo=12580)"
+  }
+},
+{
+  "pk": 39, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-03-21", 
+    "promise": 67, 
+    "description": "Se convierte en Ley proyecto que [entrega Bono Marzo e Invierno](http://www.24horas.cl/politica/bono-marzo-ya-es-ley-bachelet-firmo-aporte-familiar-permanente-1140355)"
+  }
+},
+{
+  "pk": 40, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-03-31", 
+    "promise": 67, 
+    "description": "Se anunci\u00f3 que se realizar\u00e1n [cambios a la Ficha de Protecci\u00f3n Social, que devuelva los beneficios a quienes lo perdieron](http://www.biobiochile.cl/2014/03/31/fichas-de-proteccion-social-permaneceran-congeladas-hasta-que-bachelet-decida-curso-a-seguir.shtml)"
+  }
+},
+{
+  "pk": 41, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-22", 
+    "promise": 67, 
+    "description": "Bachelet anuncia el cumplimiento de la medida, [al restablecer derechos sociales a quienes lo hab\u00edan perdido y el normal funcionamiento de la Ficha de Protecci\u00f3n Social](http://www.elobservatodo.cl/noticia/economia/dan-conocer-lineamientos-generales-de-la-ficha-de-proteccion-social)"
+  }
+},
+{
+  "pk": 42, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-13", 
+    "promise": 69, 
+    "description": "Presidenta anuncia [15 centros para adultos mayores](http://www.24horas.cl/nacional/bachelet-anuncia-15-nuevos-centros-para-adultos-mayores-1227995)"
+  }
+},
+{
+  "pk": 43, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-03-14", 
+    "promise": 70, 
+    "description": "Presidenta Bachelet firma decreto que crea el [Consejo Nacional de la Infancia](http://www.emol.com/noticias/nacional/2014/03/14/649763/presidenta-bachelet-firma-el-decreto-que-crea-el-consejo-nacional-de-la-infancia.html)"
+  }
+},
+{
+  "pk": 44, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-10", 
+    "promise": 70, 
+    "description": "Secretaria Ejecutiva del Consejo Nacional de la Infancia se presenta ante [Comisi\u00f3n de Educaci\u00f3n de la C\u00e1mara de Diputados](http://www.camara.cl/prensa/noticias_detalle.aspx?prmid=95906)"
+  }
+},
+{
+  "pk": 45, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-28", 
+    "promise": 70, 
+    "description": "Consejo Nacional de la Infancia apoya [inclusi\u00f3n de diversidad de familias en ley de adopci\u00f3n](http://www.latercera.com/noticia/nacional/2014/06/680-580562-9-secretaria-ejecutiva-del-consejo-nacional-de-la-infancia-la-ley-de-adopcion-debe.shtml)"
+  }
+},
+{
+  "pk": 46, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-28", 
+    "promise": 71, 
+    "description": "Bachelet cumple [restituci\u00f3n de la pensi\u00f3n b\u00e1sica solidaria a aquellos que la hab\u00edan perdido](http://www.biobiochile.cl/2014/04/28/bachelet-presenta-bono-de-invierno-que-beneficiara-a-mas-de-1-millon-de-adultos-mayores.shtml)"
+  }
+},
+{
+  "pk": 47, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-03-28", 
+    "promise": 106, 
+    "description": "Bachelet nombra al ex subsecretario de Agricultura, Reinaldo Ruiz, como [Delegado Presidencial para los Recursos H\u00eddricos](http://www.elmostrador.cl/pais/2014/03/28/presidenta-nombra-a-delegado-para-enfrentar-escasez-de-recursos-hidricos/)"
+  }
+},
+{
+  "pk": 48, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-10", 
+    "promise": 105, 
+    "description": "Se otorgar una soluci\u00f3n definitiva a la deuda hist\u00f3rica de peque\u00f1os agricultores con el [Instituto de Desarrollo Agropecuario](http://www.cooperativa.cl/noticias/pais/presidenta-bachelet/presidenta-bachelet-presento-a-perdonazoa-a-27-mil-agricultores-deudores-de-indap/2014-04-10/112810.html)"
+  }
+},
+{
+  "pk": 49, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-03-13", 
+    "promise": 72, 
+    "description": "Ministra del Trabajo confirma [env\u00edo de proyecto para crear una AFP estatal](http://www.biobiochile.cl/2014/03/13/ministra-del-trabajo-confirma-envio-de-proyecto-para-crear-una-afp-estatal.shtml)"
+  }
+},
+{
+  "pk": 50, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-22", 
+    "promise": 72, 
+    "description": "Presidenta Bachelet ratifica compromiso de crear una [AFP estatal](http://www.biobiochile.cl/2014/04/22/michelle-bachelet-anuncio-que-formalizara-compromiso-de-afp-estatal-para-el-pais.shtml?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+radiobiobio+(Bio-Bio+Noticias))"
+  }
+},
+{
+  "pk": 51, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-28", 
+    "promise": 72, 
+    "description": "Ministro Arenas, en el marco de la primera audiencia de la comisi\u00f3n sobre el sistema de pensiones, que el costo del proyecto se conocer\u00e1 [cuando se env\u00ede al Congreso el proyecto](http://www.latercera.com/noticia/negocios/2014/05/655-580082-9-arenas-dice-que-costo-de-afp-estatal-se-conocera-cuando-se-envie-el-proyecto.shtml)"
+  }
+},
+{
+  "pk": 52, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-16", 
+    "promise": 100, 
+    "description": "Presidenta Bachelet, en compa\u00f1\u00eda de Ministra Pascual anuncia [M\u00e1s Sonrisas para Chile](http://www.prensapresidencia.cl/default.aspx?codigo=12687)"
+  }
+},
+{
+  "pk": 53, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-22", 
+    "promise": 99, 
+    "description": "Presidenta Bachelet da a conocer comunas donde se instalar\u00e1n [24 nuevas Casas de Acogida](http://www.prensapresidencia.cl/default.aspx?codigo=12601)"
+  }
+},
+{
+  "pk": 54, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-10", 
+    "promise": 73, 
+    "description": "Se definen fechas y plazos para lanzar [comisi\u00f3n sobre pensiones](http://www.latercera.com/noticia/negocios/2014/04/655-573497-9-proximo-21-de-abril-gobierno-anuncia-comision-de-expertos-en-pensiones.shtml)"
+  }
+},
+{
+  "pk": 55, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-29", 
+    "promise": 73, 
+    "description": "Bachelet firma decreto que crea [Comisi\u00f3n Asesora Presidencial sobre el Sistema de Pensiones, con David Bravo a la cabeza](http://www.biobiochile.cl/2014/04/29/bachelet-presento-a-comision-que-analizara-y-propondra-modificaciones-a-sistema-de-pensiones.shtml)"
+  }
+},
+{
+  "pk": 56, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-29", 
+    "promise": 73, 
+    "description": "David Bravo da a conocer [contacto con Jos\u00e9 Pi\u00f1era para que participe de audiencias sobre el sistema previsional](https://www.df.cl/noticias/empresas/actualidad/jose-pinera-se-contacta-con-comision-bravo-y-podria-participar-en-audiencia-para-la-reforma/2014-05-28/213955.html)"
+  }
+},
+{
+  "pk": 57, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-01", 
+    "promise": 98, 
+    "description": "Presidenta Firma Proyecto de Ley para la Creaci\u00f3n del [Ministerio de la Mujer](http://www.prensapresidencia.cl/default.aspx?codigo=12535)"
+  }
+},
+{
+  "pk": 58, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-01", 
+    "promise": 98, 
+    "description": "Ingresa el proyecto para la Creaci\u00f3n del [Ministerio de l Mujer](http://www.camara.cl/pley/pley_detalle.aspx?prmID=9696&prmBL=9287-06)"
+  }
+},
+{
+  "pk": 59, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-06", 
+    "promise": 97, 
+    "description": "Presidenta anunci\u00f3 [Programa Escuelas Deportivas Integrales] (http://www.prensapresidencia.cl/default.aspx?codigo=12635)"
+  }
+},
+{
+  "pk": 60, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-06", 
+    "promise": 96, 
+    "description": "Presidenta anunci\u00f3 [30 nuevos Centros Deportivos](http://www.24horas.cl/nacional/bachelet-anuncia-creacion-de-30-nuevos-centros-deportivos--1215519)"
+  }
+},
+{
+  "pk": 61, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-21", 
+    "promise": 74, 
+    "description": "Bachelet [firma indicaciones sustantivas para mejorar el MultiRUT], dando cumplida otra medida para los primeros 100 d\u00edas de Gobierno(http://www.latercera.com/noticia/negocios/2014/04/655-574799-9-bachelet-firma-indicacion-sustitutiva-a-proyecto-de-ley-que-regula-el-multirut.shtml)"
+  }
+},
+{
+  "pk": 62, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-07", 
+    "promise": 74, 
+    "description": "Indicaciones al MultiRUT [ingresan con suma urgencia al Congreso](http://economia.terra.cl/con-suma-urgencia-parte-indicacion-del-gobierno-al-multirut,2eb1669dcdbd5410VgnVCM20000099cceb0aRCRD.html)"
+  }
+},
+{
+  "pk": 63, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-06-03", 
+    "promise": 74, 
+    "description": "Finaliza segundo tr\u00e1mite constitucional del proyecto de MultiRUT"
+  }
+},
+{
+  "pk": 64, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-25", 
+    "promise": 95, 
+    "description": "En el d\u00eda del patrimonio, Presidenta da a conocer [programa de recuperaci\u00f3n regional de infraestructura patrimonial](http://www.prensapresidencia.cl/default.aspx?codigo=12702)"
+  }
+},
+{
+  "pk": 65, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-09", 
+    "promise": 75, 
+    "description": "Presidenta anuncia [programa  de capacitaci\u00f3n que beneficiar\u00e1 a 300 mil mujeres](http://www.publimetro.cl/nota/cronica/presidenta-bachelet-anuncia-programas-de-capacitacion-laboral-para-300-mil-mujeres-y-150-mil-jovenes/CPInei!M2n2UZqUjtl8QyEe0h1FrQ/)"
+  }
+},
+{
+  "pk": 66, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-09", 
+    "promise": 76, 
+    "description": "Presidenta anuncia [plan de capacitaci\u00f3n que beneficiar\u00e1 a  150 mil j\u00f3venes] (http://www.publimetro.cl/nota/cronica/presidenta-bachelet-anuncia-programas-de-capacitacion-laboral-para-300-mil-mujeres-y-150-mil-jovenes/CPInei!M2n2UZqUjtl8QyEe0h1FrQ/)"
+  }
+},
+{
+  "pk": 67, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-25", 
+    "promise": 77, 
+    "description": "Presidenta Bachelet firma decreto que env\u00eda [proyecto de ley que aumenta plaza de carabineros](http://www.13.cl/t13/nacional/bachelet-firma-decreto-para-aumentar-en-6-mil-las-plazas-de-carabineros)"
+  }
+},
+{
+  "pk": 68, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-06", 
+    "promise": 77, 
+    "description": "Walker compromete apoyo con [proyectos que aumentan dotaci\u00f3n de polic\u00edas](http://diarioeldia.cl/articulo/politica/diputado-walker-compromete-apoyo-proyecto-que-aumenta-dotacion-carabineros-detecti)"
+  }
+},
+{
+  "pk": 69, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-23", 
+    "promise": 94, 
+    "description": "Presidenta Bachelet anuncia 15 nuevos [centros de creaci\u00f3n y desarrollo art\u00edstico](http://www.prensapresidencia.cl/default.aspx?codigo=12698"
+  }
+},
+{
+  "pk": 70, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-07", 
+    "promise": 115, 
+    "description": "Bachelet firma proyecto que [aumenta dotaci\u00f3n de efectivos de la PDI](http://www.13.cl/t13/nacional/bachelet-firma-proyecto-de-ley-para-aumentar-en-1200-nuevos-efectivos-la-dotacion-de-la)"
+  }
+},
+{
+  "pk": 71, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-06-04", 
+    "promise": 115, 
+    "description": "Ingresa el proyecto a la C\u00e1mara de Diputados"
+  }
+},
+{
+  "pk": 72, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-13", 
+    "promise": 77, 
+    "description": "Ingresa proyecto a la C\u00e1mara de Diputados"
+  }
+},
+{
+  "pk": 73, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-03-19", 
+    "promise": 114, 
+    "description": "Bachelet nombra a Paula Forttes como [delegada presidencial para la reconstrucci\u00f3n](http://www.latercera.com/noticia/politica/2014/03/674-570218-9-bachelet-nombra-a-paula-forttes-como-delegada-presidencial-para-la.shtml)"
+  }
+},
+{
+  "pk": 74, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-29", 
+    "promise": 114, 
+    "description": "Delegada Presidencial encabeza cita del [Consejo Regional para la reconstrucci\u00f3n](http://www.biobiochile.cl/2014/04/29/delegada-presidencial-encabezo-primera-cita-del-consejo-regional-para-la-reconstruccion-del-bio-bio.shtml)"
+  }
+},
+{
+  "pk": 75, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-24", 
+    "promise": 78, 
+    "description": "Bachelet cumple medida que suma nuevas comunas al [plan 24 horas](http://www.latercera.com/noticia/politica/2014/04/674-575267-9-bachelet-lanza-medida-22-agregan-nuevas-comunas-para-programa-24-horas-de.)"
+  }
+},
+{
+  "pk": 76, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-21", 
+    "promise": 78, 
+    "description": "Valoran incorporaci\u00f3n de temas de seguridad ciudadana en [discurso presidencial](http://www.elboyaldia.cl/noticia/sociedad/intendente-de-tarapaca-destaco-discurso-de-presidenta-bachelet)"
+  }
+},
+{
+  "pk": 77, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-07", 
+    "promise": 79, 
+    "description": "Bachelet presenta a miembros de la [Comisi\u00f3n Asesora Presidencial para la Descentralizaci\u00f3n y el Desarrollo Regional](http://www.latercera.com/noticia/politica/2014/04/674-572939-9-presidenta-bachelet-establece-la-comision-asesora-para-la-descentralizacion-y.shtml)"
+  }
+},
+{
+  "pk": 78, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-10", 
+    "promise": 79, 
+    "description": "Comisi\u00f3n Asesora pide que regiones tengan [mayor decisi\u00f3n en el gasto p\u00fablico](http://www.lanacion.cl/noticias/regiones/comision-descentralizacion-pide-que-las-regiones-tengan-mas-decision-sobre-el-gasto-publico/2014-05-10/203633.html)"
+  }
+},
+{
+  "pk": 79, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-02", 
+    "promise": 92, 
+    "description": "Bachelet dio a conocer los [Planes de Descontaminaci\u00f3n Atmosf\u00e9rica, estrategia 2014-2018.](http://www.prensapresidencia.cl/default.aspx?codigo=12629)"
+  }
+},
+{
+  "pk": 80, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-03-25", 
+    "promise": 80, 
+    "description": "Se inicia la serie de di\u00e1logos participativos para la elaboraci\u00f3n del [Plan Especial de Desarrollo de Zonas extremas](http://www.gorearicayparinacota.cl/w2/index.php/2014/03/25/gobierno-inicia-dialogos-comunitarios-para-elaborar-plan-especial-de-zonas-extremas-comprometido-por-presidenta-bachelet/)"
+  }
+},
+{
+  "pk": 81, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-21", 
+    "promise": 80, 
+    "description": "La presidenta afirma que prontamente contar\u00e1 con las propuestas para el [Plan Especial de Desarrollo para Zonas Extremas](http://www.cnnchile.com/noticia/2014/05/21/cuenta-publica-las-propuestas-para-las-zonas-extremas-y-la-descentralizacion)"
+  }
+},
+{
+  "pk": 82, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-27", 
+    "promise": 81, 
+    "description": "Presidenta Bachelet lanza el [Plan de Desarrollo para Zonas Rezagadas en la regi\u00f3n de Coquimbo](http://www.biobiochile.cl/2014/05/27/presidenta-bachelet-lanzara-plan-de-desarrollo-para-territorios-rezagados.shtml)"
+  }
+},
+{
+  "pk": 83, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-29", 
+    "promise": 81, 
+    "description": "Se comienzan a delinear aspectos relevantes para las comunas beneficiadas con el [Plan de Zonas Rezagadas](http://diarioeldia.cl/articulo/politica/comunas-rezagadas-apuntaran-tema-hidrico-conectividad-tras-anuncio-presidencial)"
+  }
+},
+{
+  "pk": 84, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-09", 
+    "promise": 82, 
+    "description": "Ministro de Transportes y Telecomunicaciones inicia visitas en terreno para impulsar [estudio de conectividad](https://www.mtt.gob.cl/archivos/6984.html)"
+  }
+},
+{
+  "pk": 85, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-14", 
+    "promise": 82, 
+    "description": "Bachelet anuncia estudios para transporte p\u00fablico de [3 regiones m\u00e1s congestionadas](http://www.lanacion.cl/noticias/regiones/antofagasta/bachelet-anuncia-estudios-para-el-transporte-publico-en-antofagasta-valparaiso-y-concepcion/2014-05-14/174159.html)"
+  }
+},
+{
+  "pk": 86, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-18", 
+    "promise": 83, 
+    "description": "Mandataria anunci\u00f3 los planes de [construcci\u00f3n de parques y ciclov\u00edas] (http://radiopolar.com/noticia_89286.html)"
+  }
+},
+{
+  "pk": 87, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-21", 
+    "promise": 83, 
+    "description": "En la cuenta p\u00fablica, la presidenta Bachelet hace alusi\u00f3n al [\u201cPlan Chile \u00c1rea Verde\u201d](http://www.biobiochile.cl/2014/05/21/construiran-dos-parques-en-la-araucania-gracias-a-plan-chile-area-verde.shtml)"
+  }
+},
+{
+  "pk": 88, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-21", 
+    "promise": 85, 
+    "description": "Comienzan los di\u00e1logos participativos sobre la [tenencia responsable de mascotas](http://www.eldivisadero.cl/noticias/?task=show&id=38434))"
+  }
+},
+{
+  "pk": 89, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-16", 
+    "promise": 84, 
+    "description": "Ministerio de Vivienda lanz\u00f3 en la Regi\u00f3n Metropolitana el concurso para los proximos cuatro a\u00f1os del [programa quiero mi barrio](http://economia.terra.cl/minvu-lanza-concurso-2014-2018-del-programa-quiero-mi-barrio,fb37ea8591b65410VgnVCM5000009ccceb0aRCRD.html)"
+  }
+},
+{
+  "pk": 90, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-08", 
+    "promise": 89, 
+    "description": "Bachelet anuncia inicios de estudios de desarrollo [urbano y conectividad para zonas saturadas](http://www.prensapresidencia.cl/default.aspx?codigo=12643)"
+  }
+},
+{
+  "pk": 91, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-08", 
+    "promise": 88, 
+    "description": "Presidenta anuncia [Estudios de Factibilidad para la Ampliaci\u00f3n de L\u00edneas 3 y 2 del Metro](http://www.prensapresidencia.cl/default.aspx?codigo=12643)"
+  }
+},
+{
+  "pk": 92, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-30", 
+    "promise": 91, 
+    "description": "Diversas ONG\u2019s le solicitan a ministro de Medio Ambiente incluir a pueblos originarios en ley de [Servicio de Biodiversidad y \u00c1reas Protegidas](http://www.observatorio.cl/node/11370)"
+  }
+},
+{
+  "pk": 93, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-06-05", 
+    "promise": 91, 
+    "description": "La presidenta Bachelet firma Proyecto de Ley que crea el [Servicio de Biodiversidad y \u00c1reas Protegidas](http://www.latercera.com/noticia/nacional/2014/06/680-581201-9-bachelet-firma-proyecto-que-crea-servicio-de-la-biodiversidad-y-areas-protegidas.shtml)"
+  }
+},
+{
+  "pk": 94, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-17", 
+    "promise": 87, 
+    "description": "Mandataria anunci\u00f3 los planes de [construcci\u00f3n de parques y ciclov\u00edas.](http://www.prensapresidencia.cl/default.aspx?codigo=12689)"
+  }
+},
+{
+  "pk": 95, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-03-21", 
+    "promise": 66, 
+    "description": "Presidenta Michelle Bachelet promulga [Ley N\u00b0 20743 que concede Aporte Familiar Permanente de Marzo](http://www.24horas.cl/politica/bono-marzo-ya-es-ley-bachelet-firmo-aporte-familiar-permanente-1140355)"
+  }
+},
+{
+  "pk": 96, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-06-02", 
+    "promise": 111, 
+    "description": "Parte discusi\u00f3n de la Reforma Tributaria en la [Comisi\u00f3n de Hacienda del Senado](https://www.df.cl/noticias/economia-y-politica/congreso-legislacion/arenas-da-inicio-a-la-discusion-de-proyecto-de-reforma-tributaria-en-el-senado-con-exposicion-ante-comision-de-hacienda/2014-06-02/192851.html)"
+  }
+},
+{
+  "pk": 97, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-06-06", 
+    "promise": 84, 
+    "description": "Bachelet anuncia 203 nuevos barrios que se incorporar\u00e1n a la [segunda parte del programa \u201cQuiero Mi Barrio\u201d](http://www.latercera.com/noticia/nacional/2014/06/680-581325-9-bachelet-anuncia-203-nuevos-barrios-que-seran-intervenidos-para-mejorar-entorno.shtml)"
+  }
+},
+{
+  "pk": 98, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-06-07", 
+    "promise": 85, 
+    "description": "Bachelet firma reglamento para el [control reproductivo de animales de compa\u00f1\u00eda](http://www.lanacion.cl/noticias/pais/salud/bachelet-lanza-campana-para-tenencia-responsable-de-mascotas/2014-06-07/205859.html)"
+  }
+},
+{
+  "pk": 99, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-04-12", 
+    "promise": 93, 
+    "description": "Ministra Berattini lanz\u00f3 iniciativa para incentivar la participaci\u00f3n ciudadana en la creaci\u00f3n del [Ministerio de Cultura y Patrimonio](http://www.biobiochile.cl/2014/04/12/consejo-de-la-cultura-lanza-inedita-consulta-ciudadana-para-definir-el-futuro-del-ministerio-de-cult.shtml)"
+  }
+},
+{
+  "pk": 100, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-21", 
+    "promise": 93, 
+    "description": "Presidenta Bachelet afirma que se tomar\u00e1 en cuenta opini\u00f3n de pueblos ind\u00edgenas para la [creaci\u00f3n de ministerio de Cultura](http://www.cooperativa.cl/noticias/pais/gobierno/cnca-hara-consulta-a-pueblos-indigenas-para-creacion-del-ministerio-cultura/2014-05-21/153705.html)"
+  }
+},
+{
+  "pk": 101, 
+  "model": "promises.milestone", 
+  "fields": {
+    "date": "2014-05-22", 
+    "promise": 102, 
+    "description": "Presidenta alude al tema ind\u00edgena y respectivos [compromisos en cuenta p\u00fablica](http://www.pulso.cl/noticia/actualidad-politica/politica/2014/05/5-43763-9-nuevo-ministerio-y-agenda-para-el-desarrollo-de-los-pueblos-indigenas.shtml)"
+  }
+},
+{
+  "pk": 1, 
+  "model": "promises_web.tagextracss", 
+  "fields": {
+    "classes": "prueba", 
+    "tag": 6
+  }
+}
+]
