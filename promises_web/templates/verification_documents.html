@@ -13,7 +13,7 @@
 
 <div class="verification-docs">
   {% if promise.verification_documents.all %}
-    {% trans "Verification documents" %}:
+    {% trans "Verification documents:" %}:
     	<ul>
     	    {% for document in promise.verification_documents.all %}
     	    <li><a href="{{document.url}}">{{document.display_name}}</a></li>

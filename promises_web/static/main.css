@@ -39,6 +39,16 @@ h3.panel-title span {
   font-weight: 500;
 }
 
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
 /*NAVBAR*/
 
 .nav {
@@ -76,6 +86,10 @@ h3.panel-title span {
 .dropdown-menu>li>a:hover, .dropdown-menu>li>a:focus {
   background-color: #08173A;
   color: #fff;
+}
+
+.nav-pills>li {
+  margin: 4px 0;
 }
 
 /*JUMBOTRON*/
@@ -150,6 +164,12 @@ h3.panel-title span {
   margin-top: 45px;
 }
 
+@media (max-width: 1000px) {
+  .panel-group .panel+.panel {
+  margin-top: 15px;
+  }
+}
+
 .read-more p.text-center.category-expander {
   background-color: #750661;
   margin: 0px -15px -15px;
@@ -160,6 +180,26 @@ h3.panel-title span {
   background-color: #750661;
   color: #fff;
   margin-bottom: 0;
+}
+
+.read-more {
+  position: relative;
+}
+
+.read-more:before {
+  content: '';
+  width: 2000px;
+  height: 40px;
+  background: -moz-linear-gradient(top,  rgba(15,15,40,0) 0%, rgba(15,15,40,1) 100%);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(15,15,40,0)), color-stop(100%,rgba(15,15,40,1)));
+  background: -webkit-linear-gradient(top,  rgba(15,15,40,0) 0%,rgba(15,15,40,1) 100%);
+  background: -o-linear-gradient(top,  rgba(15,15,40,0) 0%,rgba(15,15,40,1) 100%);
+  background: -ms-linear-gradient(top,  rgba(15,15,40,0) 0%,rgba(15,15,40,1) 100%);
+  background: linear-gradient(to bottom,  rgba(15,15,40,0) 0%,rgba(15,15,40,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000f0f28', endColorstr='#0f0f28',GradientType=0 );
+  position: absolute;
+  top: -40px;
+  left: -15px;
 }
 
 .verification-docs ul {
@@ -201,6 +241,14 @@ list-style-type: lower-roman;
   background-color: #40BDF1;
 }
 
+
+@media (max-width: 1000px) {
+  div.status {
+    height: 60px;
+    width: 50px;
+    margin: 0 auto;
+  }
+}
 
 div.status.not-accomplished:before {
   font-family: FontAwesome;
