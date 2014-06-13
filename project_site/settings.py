@@ -112,6 +112,8 @@ CONSTANCE_CONFIG = {
         'GOOGLE_ANALYTICS': ("UA-XXXXXXX-X", "Google analytics code "),
         'DISQUS_SHORTCODE': ("disqusshortcode", "Disqus shortcode"),
         'CURRENT_THEME': ("base", "Current theme"),
+        'OG_IMAGE':("https://raw.githubusercontent.com/ciudadanointeligente/check-it/100dias/deldichoalhecho_theme/100dias/static/img/logo-og.png", 
+            "Image to be displayed for OG")
 }
 CONSTANCE_BACKEND = 'constance.backends.database.DatabaseBackend'
 TEMPLATE_CONTEXT_PROCESSORS = ("django.contrib.auth.context_processors.auth",
@@ -151,6 +153,11 @@ STATICFILES_DIRS = (
         os.path.join(BASE_DIR, '..', ' promises_web', 'static'),
 )
 
+# EXTRA TEMPLATE_CONTEXT_PROCESSORS
+
+TEMPLATE_CONTEXT_PROCESSORS += (
+    'django.core.context_processors.request',
+)
 # END OF HEROKU SPECIFICS
 try:
     from local_settings import *
