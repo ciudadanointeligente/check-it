@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Checkit-web\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2014-06-12 16:06-0400\n"
-"PO-Revision-Date: 2014-06-12 16:06-0300\n"
+"POT-Creation-Date: 2014-06-13 14:36-0400\n"
+"PO-Revision-Date: 2014-06-13 14:46-0300\n"
 "Last-Translator: Lab at Ciudadano Inteligente <lab@ciudadanointeligente."
 "org>\n"
 "Language-Team: Chilean Spanish <lab@ciudadanointeligente.org>\n"
@@ -22,6 +22,21 @@ msgstr ""
 #, python-format
 msgid "%(promises_count)s promises"
 msgstr "%(promises_count)s promesas"
+
+#: templates/category_summary.html:2
+#, python-format
+msgid "%(accomplished_number)s Accomplished"
+msgstr "%(accomplished_number)s Completas"
+
+#: templates/category_summary.html:2
+#, python-format
+msgid "%(in_progress)s In progress"
+msgstr "%(in_progress)s Incompletas"
+
+#: templates/category_summary.html:2
+#, python-format
+msgid "%(no_progress)s Without progress"
+msgstr "%(no_progress)s Sin progreso"
 
 #: templates/promise_detail.html:10
 msgid "Milestones"
@@ -49,12 +64,13 @@ msgstr "En progreso <strong>%(percentage)s%%</strong>"
 msgid "No progress <strong>%(percentage)s%%</strong>"
 msgstr "Sin avance <strong>%(percentage)s%%</strong>"
 
-#: templates/verification_documents.html:11
+#: templates/verification_documents.html:4
 msgid "Read more"
 msgstr "Leer más"
 
-#: templates/verification_documents.html:14
-msgid "Verification documents:"
+#: templates/verification_documents.html:16
+#, fuzzy
+msgid "Verification documents"
 msgstr "Documentos de Verificación"
 
 #~ msgid "%(percentage)s%% completed"
