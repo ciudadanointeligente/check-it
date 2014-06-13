@@ -320,6 +320,8 @@ li.not-accomplished:before {
             url('fonts/icomoon.svg#icomoon') format('svg');
         font-weight: normal;
         font-style: normal;
+        color: #8BA2B7;
+        font-size: 11px;
     }
 
 /*MODAL*/
