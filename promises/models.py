@@ -90,3 +90,4 @@ class Milestone(models.Model):
     class Meta:
         verbose_name = _("Milestone")
         verbose_name_plural = _("Milestones")
+        ordering = ('date',)
