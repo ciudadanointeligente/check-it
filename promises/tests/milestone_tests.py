@@ -38,13 +38,13 @@ class MilestoneTestCase(TestCase):
 
         self.assertIn(milestone, self.promise.milestones.all())
 
-    def atest_milestone_unicode(self):
+    def test_milestone_unicode(self):
         '''Milestones have a unicode method'''
         milestone = Milestone.objects.create(promise=self.promise,
                                              date=nownow,
                                              description=u"Something just happened"
                                              )
-        expected_date = 'Something just happened {date}'.format(date=nownow)
+        expected_date = 'Something just happened - {date}'.format(date=nownow)
         self.assertEquals(milestone.__unicode__(), expected_date)
 
 
