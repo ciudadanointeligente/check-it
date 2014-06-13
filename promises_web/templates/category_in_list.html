@@ -5,8 +5,8 @@
       <h3 class="panel-title">
       	{{ category }}
 	      
-      	<span>
-      		{% blocktrans with promises_count=category.promises.count %}{{ promises_count }} promises{% endblocktrans%}
+      	<span class="read-more">
+      		{% blocktrans with promises_count=category.promises.count %}{{ promises_count }} promises{% endblocktrans%} {% include "category_summary.html" with summary=category.promises.all.summary %}
       	</span>
       </h3>
       <div class="progress">

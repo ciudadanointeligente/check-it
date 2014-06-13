@@ -87,6 +87,10 @@ class Milestone(models.Model):
     date = models.DateField()
     description = models.TextField()
 
+    def __unicode__(self):
+        return u"{what} - {when}".format(what=self.description, when=self.date)
+
     class Meta:
         verbose_name = _("Milestone")
         verbose_name_plural = _("Milestones")
+        ordering = ('date',)

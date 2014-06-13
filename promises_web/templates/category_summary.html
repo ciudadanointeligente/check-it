@@ -1,0 +1,2 @@
+{% load i18n %}
+({% blocktrans with accomplished_number=summary.accomplished %}{{accomplished_number}} Accomplished{% endblocktrans %}, {% blocktrans with in_progress=summary.in_progress %}{{in_progress}} In progress{% endblocktrans %}, {% blocktrans with no_progress=summary.no_progress %}{{no_progress}} Without progress{% endblocktrans %})
