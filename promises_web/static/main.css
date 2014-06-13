@@ -331,7 +331,17 @@ li.not-accomplished:before {
         text-transform: none;
         line-height: 1;
         -webkit-font-smoothing: antialiased;
+        color: #8BA2B7;
+        font-size: 11px;
     }
+
+.popover i.fa.fa-check {
+  color: #40BDF1;
+}
+
+.popover i.fa.fa-times {
+  color: #E53E3E;
+}
 
 /*MODAL*/
 
