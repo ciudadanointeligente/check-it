@@ -1,7 +1,12 @@
+{% load flatpages %}
 <div class="header">
       <div class="container">
         <h3 class="title"><a href="/"><img src="http://deldichoalhecho.cl/img/logo-ddah.png"></a></h3>
         <ul class="nav nav-pills">
+          {% get_flatpages as flatpages %}
+            {% for page in flatpages %}
+            <li><a href="/pages{{ page.url }}">{{ page.title }}</a></li>
+          {% endfor %}
           <li><a href="/">Metodología</a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
