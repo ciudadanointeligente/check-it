@@ -73,8 +73,7 @@ class VerificationDocument(ExternalDocumentMixin):
 class Fulfillment(models.Model):
     promise = AutoOneToOneField(Promise)
     percentage = models.PositiveIntegerField(default=0)
-    status = models.TextField(default="", blank=True)
-    description = models.TextField(default="", blank=True)
+    notes = models.TextField(default="", blank=True)
 
     class Meta:
         verbose_name = _("Fulfilment")

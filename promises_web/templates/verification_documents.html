@@ -1,6 +1,6 @@
 {% load deldichoalhecho %}
 {% load i18n %}
-<p>{{promise.fulfillment.status}}
+<p>{{promise.fulfillment.notes}}
   <a data-toggle="modal" data-target="#modal-{{promise.id}}" href="{% url 'promise' pk=promise.pk %}">{% trans "Read more" %}</a>
 </p>
 <div id="modal-{{promise.id}}" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
