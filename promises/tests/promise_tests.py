@@ -87,3 +87,35 @@ class PromiseTestCase(TestCase):
         promise.save()
         self.assertEquals(fulfillment, promise.fulfillment)
 
+
+    def test_promises_have_a_ordering_field(self):
+        '''Promises have an ordering field'''
+        promise = Promise.objects.create(name="this is a promise",\
+                                         description="this is a description",\
+                                         date = nownow,\
+                                         person = self.person
+                                         )
+        self.assertEquals(promise.order, 0)
+
+
+    def test_promises_are_ordered(self):
+        '''Promises come ordered according to the order field'''
+        promise1 = Promise.objects.create(name="promise 1",\
+                                         description="this is a description",\
+                                         date = nownow,\
+                                         person = self.person,
+                                         order=2
+                                         )
+        promise2 = Promise.objects.create(name="promise 2",\
+                                         description="this is a description",\
+                                         date = nownow,\
+                                         person = self.person,
+                                         order=1
+                                         )
+
+        promises = Promise.objects.all()
+        self.assertEquals(promises[0], promise2)
+        self.assertEquals(promises[1], promise1)
+
+
+

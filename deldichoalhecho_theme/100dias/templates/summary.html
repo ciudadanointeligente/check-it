@@ -1,6 +1,6 @@
 {% load i18n %}
 
-<div class="progress summary-progress" data-container="body" data-html="true" data-toggle="popover" data-placement="top" data-content="Promesas Completas {{summary.accomplished_percentage|floatformat}}%, Promesas Incompletas</strong> {{summary.in_progress_percentage|floatformat}}%, Promesas Sin avance {{summary.no_progress_percentage|floatformat}}%</br> Revisa la <a href='http://deldichoalhecho.cl/index.html'>metodología</a>">
+<div class="progress summary-progress" data-container="body" data-html="true" data-toggle="popover" data-placement="top" data-content="<i class='fa fa-check'></i> Promesas Completas {{summary.accomplished_percentage|floatformat}}%,</br> <i aria-hidden='true' data-icon='&#xe600;'></i> Promesas Incompletas</strong> {{summary.in_progress_percentage|floatformat}}%,</br> <i class='fa fa-times'></i> Promesas Sin avance {{summary.no_progress_percentage|floatformat}}%</br> Revisa la <a href='http://deldichoalhecho.cl/index.html'>metodología</a>">
 	<div class="progress-bar {% include "progress-color.html" with progress=summary.total_progress %}" style="width: {{summary.total_progress|stringformat:"f"}}%"><p>{{summary.total_progress|floatformat}}% de cumplimiento</p></div>
 </div>
 
