@@ -1,11 +1,14 @@
 {% extends "base.html" %}
 {% load deldichoalhecho %}
 {% load i18n %}
+
 {% block content %}
-<h1>{{ flatpage.title }}</h1>
+  <div class="container">
+    <h1>{{ flatpage.title }}</h1>
 
 
-{{ flatpage.content }}
+    {{ flatpage.content }}
 
 
+  </div>
 {% endblock content %}
