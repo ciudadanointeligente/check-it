@@ -37,6 +37,11 @@ h3.title {
 h3.panel-title span {
   font-size: 14px;
   font-weight: 500;
+  color: #8BA2B7;
+}
+
+h4 {
+  font-weight: 900;
 }
 
 .clearfix:after {
@@ -244,9 +249,7 @@ list-style-type: lower-roman;
 
 @media (max-width: 1000px) {
   div.status {
-    height: 60px;
-    width: 50px;
-    margin: 0 auto;
+    display: none;
   }
 }
 
