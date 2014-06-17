@@ -1,13 +1,14 @@
 {% extends "base.html" %}
 {% load deldichoalhecho %}
 {% load i18n %}
+{% load markdown_deux_tags %}
 
 {% block content %}
   <div class="container">
     <h1>{{ flatpage.title }}</h1>
 
 
-    {{ flatpage.content }}
+    {{ flatpage.content|markdown }}
 
 
   </div>
