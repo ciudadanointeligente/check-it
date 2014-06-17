@@ -49,7 +49,9 @@ class Promise(models.Model):
         self.fulfillment
 
     def __unicode__(self):
-        return u"{who} promessed {what}".format(who=self.person.name, what=self.name)
+        return u"{who} promessed {what} with {percentage}%".format(who=self.person.name, \
+                                                                   what=self.name, \
+                                                                   percentage=self.fulfillment.percentage)
 
 class ExternalDocumentMixin(models.Model):
     url = models.URLField()
