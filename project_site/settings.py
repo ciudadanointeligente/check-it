@@ -22,7 +22,7 @@ SECRET_KEY = '^5(h974)gqu+-q%m+0gyp(io2=%(qa=9pb4outi=riv$o_lyzg'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-TEMPLATE_DEBUG = True
+TEMPLATE_DEBUG = False
 
 ALLOWED_HOSTS = []
 
@@ -150,7 +150,7 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
         os.path.join(BASE_DIR, '..', 'promises_web', 'static'),
-        os.path.join(BASE_DIR, '..', ' promises_web', 'static'),
+        os.path.join(BASE_DIR, '..', 'promises_web', 'static'),
 )
 
 # EXTRA TEMPLATE_CONTEXT_PROCESSORS
