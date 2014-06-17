@@ -6,11 +6,12 @@
   {% include "jumbotron.html" %}
   <div class="category-menu">
     <div class="container">
-    <ul class="list-inline">
-    {% for category in categories  %}
-    <li><a href="{% url 'promises_home' %}#{{ category.slug }}">{{ category.name }}</a></li>
-    {% endfor %}
-    </ul>
+      <ul class="list-inline">
+        {% for category in categories  %}
+        <li><a href="{% url 'promises_home' %}#{{ category.slug }}">{{ category.name }}</a></li>
+        {% endfor %}
+      </ul>
+      <div class="pull-right">Revisa el <a href="https://docs.google.com/document/d/1nQuNV0y0eyZRRStK-B744OHkM12ixrof7EZWiOOXAkY/edit?usp=sharing" target="_blank">informe</a> y la <a href="https://docs.google.com/spreadsheets/d/1XN3GxGzK0YRLvcTf9I0dSI1cPsYShu4MHw0EvZqfhm8/edit?usp=sharing" target="_blank">base de datos.</a></div>
     </div>
   </div>
 </div>
