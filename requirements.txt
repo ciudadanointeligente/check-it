@@ -14,4 +14,5 @@ ipython
 django-picklefield
 django-annoying
 django-markdown-deux
-django-admin-sortable2	
+django-admin-sortable2
+newrelic
