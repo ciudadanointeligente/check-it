@@ -107,7 +107,7 @@ STATIC_URL = '/static/'
 
 #CONSTANCE
 CONSTANCE_CONFIG = {
-        'LANDING_PHRASE': ("Del dicho al hecho punto ce ele", 'the landing phrase for the site'),
+        'LANDING_PHRASE': ("Del dicho al hecho", 'the landing phrase for the site'),
         'DESCRIPTION_PHRASE': ("Promise tracking site", 'the description of the site'),
         'GOOGLE_ANALYTICS': ("UA-XXXXXXX-X", "Google analytics code "),
         'DISQUS_SHORTCODE': ("disqusshortcode", "Disqus shortcode"),
