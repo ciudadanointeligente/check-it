@@ -2,18 +2,19 @@
 {% load staticfiles %}
 <div class="header">
       <div class="container">
-        <h3 class="title"><a href="/"><img src="{% static 'img/logo-ddah.png' %}"></a></h3>
+        <h3 class="title"><a href="/"><img src="http://21m14.deldichoalhecho.cl/img/logo-ddah.png"></a></h3>
         <ul class="nav nav-pills">
           {% get_flatpages as flatpages %}
             {% for page in flatpages %}
             <li><a href="/pages{{ page.url }}">{{ page.title }}</a></li>
           {% endfor %}
+          <li><a href="https://docs.google.com/document/d/1nQuNV0y0eyZRRStK-B744OHkM12ixrof7EZWiOOXAkY/edit?usp=sharing" target="_blank">Metodología</a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
               Bachelet 2014-2018 <span class="caret"></span>
             </a>
             <ul class="dropdown-menu">
-              <li><a class="extra" href="http://deldichoalhecho.cl/index.html">Discurso 21 Mayo 2014</a></li>
+              <li><a class="extra" href="http://21m14.deldichoalhecho.cl/">Discurso 21 Mayo 2014</a></li>
             </ul>
           </li>
           <li class="dropdown">
