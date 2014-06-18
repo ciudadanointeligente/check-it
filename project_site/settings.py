@@ -20,7 +20,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 SECRET_KEY = '^5(h974)gqu+-q%m+0gyp(io2=%(qa=9pb4outi=riv$o_lyzg'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 TEMPLATE_DEBUG = True
 
@@ -112,7 +112,7 @@ CONSTANCE_CONFIG = {
         'GOOGLE_ANALYTICS': ("UA-XXXXXXX-X", "Google analytics code "),
         'DISQUS_SHORTCODE': ("disqusshortcode", "Disqus shortcode"),
         'CURRENT_THEME': ("base", "Current theme"),
-        'OG_IMAGE':("https://raw.githubusercontent.com/ciudadanointeligente/check-it/100dias/deldichoalhecho_theme/100dias/static/img/logo-og.png", 
+        'OG_IMAGE':("https://raw.githubusercontent.com/ciudadanointeligente/check-it/100dias/deldichoalhecho_theme/100dias/static/img/logo-og.png",
             "Image to be displayed for OG")
 }
 CONSTANCE_BACKEND = 'constance.backends.database.DatabaseBackend'

@@ -38,8 +38,10 @@ class PromiseTestCase(TestCase):
                                          date = nownow,\
                                          person = self.person
                                          )
+        promise.fulfillment.percentage = 0
+        promise.fulfillment.save()
 
-        self.assertEquals(promise.__unicode__(), "A person promessed this is a promise")
+        self.assertEquals(promise.__unicode__(), "A person promessed this is a promise with 0%")
 
     def test_a_promise_has_tags(self):
         '''A promise has tags'''
