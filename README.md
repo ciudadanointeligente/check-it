@@ -51,6 +51,12 @@ python manage.py syncdb
 python manage.py migrate
 ```
 
+* Managing static files
+
+```
+python manage.py collectstatic
+```
+
 * Run server
 
 ```
@@ -63,7 +69,7 @@ And now you can access it at [http://localhost:8000](http://localhost:8000).
 
 This app can be deployed to [heroku](http://heroku.com) to do so you need to create an account and install the [heroku toolbelt](https://toolbelt.heroku.com/), then you need to create an app and relate a database for it (for example [heroku postgres](https://postgres.heroku.com) which has a free layer).
 
-Then you can publish your project by doing 
+Then you can publish your project by doing
 
 ```
 git push heroku master
