@@ -16,3 +16,4 @@ django-annoying
 django-markdown-deux
 django-admin-sortable2
 newrelic
+django-subdomain-instances

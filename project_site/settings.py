@@ -52,6 +52,7 @@ INSTALLED_APPS = (
     'annoying',
     'markdown_deux',
     'adminsortable',
+    'instances',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -59,6 +60,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'instances.middleware.MultiInstanceMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )
@@ -98,6 +100,7 @@ SOUTH_TESTS_MIGRATE = False
 
 SOUTH_MIGRATION_MODULES = {
     'taggit': 'taggit.south_migrations',
+    'instances': 'instances.south_migrations',
 }
 
 # Static files (CSS, JavaScript, Images)
@@ -150,7 +153,6 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = (
         os.path.join(BASE_DIR, '..', 'promises_web', 'static'),
-        os.path.join(BASE_DIR, '..', 'promises_web', 'static'),
 )
 
 # EXTRA TEMPLATE_CONTEXT_PROCESSORS
@@ -163,3 +165,7 @@ try:
     from local_settings import *
 except ImportError:
     pass
+
+# Instances
+BASE_HOST = '127.0.0.1.xip.io'
+BASE_PORT = '8000'
