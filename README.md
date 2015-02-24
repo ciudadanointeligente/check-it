@@ -57,6 +57,16 @@ python manage.py migrate
 python manage.py collectstatic
 ```
 
+* Add a instance
+
+```
+python manage.py shell_plus
+
+instance = Instance.objects.create(label="bicicletas", title="Amigos cleteros")
+user = User.objects.create_user(username='admincletero', email='cletero@checkit.org', password='admin')
+user.instances.add(instance)
+```
+
 * Run server
 
 ```
