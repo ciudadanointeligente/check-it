@@ -6,6 +6,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
 
     url(r'^', include('promises_web.urls')),
+    url(r'^instances/', include('promises_instances.urls')),
     url(r'^admin/', include(admin.site.urls)),
 )
 
