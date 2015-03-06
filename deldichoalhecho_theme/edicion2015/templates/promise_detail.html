@@ -1,0 +1,17 @@
+{% load i18n %}
+{% load markdown_deux_tags %}
+<div class="modal-header">
+  <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+  <h4 class="modal-title" id="myModalLabel">{{promise.description}}</h4>
+</div>
+<div class="modal-body">
+  {{promise.fulfillment.description|markdown}}
+  <h4>
+    Proyectos de ley relacionados
+  </h4>
+  <ul>
+    {% for document in promise.verification_documents.all %}
+    <li><strong><a href="{{document.url}}" target="_blank">{{document.display_name}}</a></strong> {{document.description}}</li>
+    {% endfor %}
+  </ul>
+</div>
