@@ -57,6 +57,7 @@ class ExternalDocumentMixin(models.Model):
     url = models.URLField()
     display_name = models.CharField(max_length=512)
     date = models.DateField()
+    description = models.TextField()
     class Meta:
         abstract = True
 

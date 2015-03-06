@@ -19,12 +19,14 @@ class VerificationDocumentTestCase(TestCase):
         document = VerificationDocument.objects.create(promise=self.promise, \
                                                        date=nownow,\
                                                        url='http://verification.com',\
-                                                       display_name='verification page')
+                                                       display_name='verification page',\
+                                                       description="description")
         self.assertTrue(document)
         self.assertEquals(document.promise, self.promise)
         self.assertEquals(document.date, nownow)
         self.assertEquals(document.url, 'http://verification.com')
         self.assertEquals(document.display_name, 'verification page')
+        self.assertEquals(document.description, 'description')
 
     def test_related_name_for_relationship(self):
         '''A promise has verification_documents'''
