@@ -2,18 +2,21 @@
 {% load staticfiles %}
 <div class="header">
       <div class="container">
-        <h3 class="title"><a href="/"><img src="{% static 'img/logo-ddah.png' %}"></a></h3>
+        <h3 class="title"><a href="/"><img src="http://21m14.deldichoalhecho.cl/img/logo-ddah.png"></a></h3>
         <ul class="nav nav-pills">
           {% get_flatpages as flatpages %}
             {% for page in flatpages %}
             <li><a href="/pages{{ page.url }}">{{ page.title }}</a></li>
           {% endfor %}
+          <li><a href="./metodologia.fiera" target="_blank">Metodología</a></li>
           <li class="dropdown">
             <a class="dropdown-toggle" data-toggle="dropdown" href="#">
               Bachelet 2014-2018 <span class="caret"></span>
             </a>
             <ul class="dropdown-menu">
-              <li><a class="extra" href="http://deldichoalhecho.cl/index.html">Discurso 21 Mayo 2014</a></li>
+              <li><a class="extra" href="http://deldichoalhecho.cl/">Programa de gob. estudio (2015)</a></li>
+              <li><a class="extra" href="http://deldichoalhecho.herokuapp.com/">Cumplimiento primeros cien días (2014)</a></li>
+              <li><a class="extra" href="http://21m14.deldichoalhecho.cl/">Discurso 21 de mayo (2014)</a></li>
             </ul>
           </li>
           <li class="dropdown">
@@ -21,12 +24,12 @@
               Piñera 2010-2014 <span class="caret"></span>
             </a>
             <ul class="dropdown-menu">
-              <li><a class="extra" href="http://anteriores.deldichoalhecho.cl/cumplimiento-pinera-2010-2014/" target="_blank">Cierre de Gobierno</a></li>
-              <li><a class="extra" href="http://anteriores.deldichoalhecho.cl/cumplimiento-de-promesas-discurso-21m-2013/" target="_blank">Discurso 21 Mayo 2013</a></li>
-              <li><a class="extra" href="http://anteriores.deldichoalhecho.cl/cumplimiento-programa-de-gobierno-en-materia-legislativa-al-2013/" target="_blank">Programa de Gob estudio 2013</a></li>
-              <li><a class="extra" href="http://anteriores.deldichoalhecho.cl/cumplimiento-de-promesas-discurso-21m-2011/" target="_blank">Discurso 21 Mayo 2012</a></li>
-              <li><a class="extra" href="http://anteriores.deldichoalhecho.cl/programa-de-gobierno-2012/" target="_blank">Programa de Gob estudio 2012</a></li>
-              <li><a class="extra" href="http://anteriores.deldichoalhecho.cl/discurso-21-de-mayo-2010/" target="_blank">Discurso 21 Mayo 2011</a></li>
+              <li><a class="extra" href="http://anteriores.deldichoalhecho.cl/cumplimiento-pinera-2010-2014/" target="_blank">Cierre de gobierno</a></li>
+              <li><a class="extra" href="http://anteriores.deldichoalhecho.cl/cumplimiento-de-promesas-discurso-21m-2013/" target="_blank">Discurso 21 de mayo (2013)</a></li>
+              <li><a class="extra" href="http://anteriores.deldichoalhecho.cl/cumplimiento-programa-de-gobierno-en-materia-legislativa-al-2013/" target="_blank">Programa de gob. estudio (2013)</a></li>
+              <li><a class="extra" href="http://anteriores.deldichoalhecho.cl/cumplimiento-de-promesas-discurso-21m-2011/" target="_blank">Discurso 21 de mayo (2012)</a></li>
+              <li><a class="extra" href="http://anteriores.deldichoalhecho.cl/programa-de-gobierno-2012/" target="_blank">Programa de gob. estudio (2012)</a></li>
+              <li><a class="extra" href="http://anteriores.deldichoalhecho.cl/discurso-21-de-mayo-2010/" target="_blank">Discurso 21 de mayo (2011)</a></li>
             </ul>
           </li>
         </ul>
