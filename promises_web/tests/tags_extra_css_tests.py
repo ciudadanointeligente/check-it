@@ -1,7 +1,6 @@
 from django.test import TestCase
 from django.utils.timezone import now
 from promises.models import Promise, Category
-from popit.models import Person as PopitPerson, ApiInstance
 from popolo.models import Person
 from taggit.models import Tag
 from ..models import TagExtraCss

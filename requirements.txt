@@ -1,16 +1,14 @@
-Django==1.6.2
+Django==1.8.2
 gunicorn==18.0
 dj-database-url==0.2.2
-dj-static==0.0.5
+dj-static==0.0.6
 psycopg2==2.5.2
 django-nose
-south==0.8.4
 django-extensions
 ipython
--e git://github.com/mysociety/popit-django.git#egg=popit-django
--e git://github.com/ciudadanointeligente/django-popolo.git@unicodes#egg=django-popolo
+-e git://github.com/openpolis/django-popolo.git#egg=django-popolo
 -e git://github.com/alex/django-taggit.git#egg=django-taggit
--e git://github.com/comoga/django-constance.git@fe7c633e4cd38ce081edf222e9a0d036294cd699#egg=django-constance
+django-constance==0.0.6
 django-picklefield
 django-annoying
 django-markdown-deux

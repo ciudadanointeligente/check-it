@@ -38,7 +38,6 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.sites',
     'django.contrib.flatpages',
-    'south',
     'taggit',
     'popolo',
     'constance',
@@ -48,7 +47,6 @@ INSTALLED_APPS = (
     'promises',
     'promises_web',
     'deldichoalhecho_theme',
-    'popit',
     'annoying',
     'markdown_deux',
     'adminsortable',
@@ -94,11 +92,6 @@ SITE_ID = 1
 
 USE_TZ = True
 
-SOUTH_TESTS_MIGRATE = False
-
-SOUTH_MIGRATION_MODULES = {
-    'taggit': 'taggit.south_migrations',
-}
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.6/howto/static-files/
