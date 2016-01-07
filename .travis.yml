@@ -4,8 +4,6 @@ python:
 install:
   - pip install -r requirements.txt
   - pip install coveralls
-env:
-  - DJANGO_VERSION=1.6.1
 script:
   - coverage run manage.py test --verbosity=2
   - coverage report -m
