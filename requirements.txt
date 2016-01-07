@@ -8,6 +8,7 @@ django-extensions
 ipython
 -e git://github.com/openpolis/django-popolo.git#egg=django-popolo
 -e git://github.com/alex/django-taggit.git#egg=django-taggit
+-e git://github.com/ciudadanointeligente/ddah-promises.git#egg=ddah_promises
 django-constance==1.1.1
 django-picklefield
 django-annoying
