@@ -13,5 +13,5 @@ django-constance==1.1.1
 django-picklefield
 django-annoying
 django-markdown-deux
-django-admin-sortable2
+django-admin-sortable
 newrelic
