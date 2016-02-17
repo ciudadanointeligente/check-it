@@ -46,7 +46,6 @@ INSTALLED_APPS = (
     'django_nose',
     'promises',
     'promises_web',
-    'deldichoalhecho_theme',
     'annoying',
     'markdown_deux',
     'adminsortable',
