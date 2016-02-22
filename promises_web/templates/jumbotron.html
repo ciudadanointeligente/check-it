@@ -1,0 +1,13 @@
+{% load staticfiles %}
+<div class="hero-space">
+  <div class="container">
+    <img src="{% static "img/header.png" %}">
+  </div>
+    {% include "summary.html" with summary=summary %}
+  <div class="container">
+    <div class="ribbon">
+      <h1>100 Perritos, 1 sola tempura</h1>
+    </div>
+    <h2>Hola Cabros esto está en el archivo <a href="https://github.com/ciudadanointeligente/check-it/blob/master/promises_web/templates/jumbotron.html">promises/web/templates/jumbotron.cl</a></h2>
+  </div>
+</div>
