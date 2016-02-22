@@ -1,19 +1,13 @@
 {% load i18n %}
-<div class="container">
-	<ul class="list-inline">
-		{% comment %}Translators: Small summary at the top{% endcomment %}
-		<li class="accomplished">{% blocktrans with percentage=summary.accomplished_percentage|floatformat %}Completed <strong>{{percentage}}%</strong>{% endblocktrans %}</li>
-		{% comment %}Translators: Small summary at the top{% endcomment %}
-		<li class="half-accomplished">{% blocktrans with percentage=summary.in_progress_percentage|floatformat %}In progress <strong>{{percentage}}%</strong>{% endblocktrans %}</li>
-		{% comment %}Translators: Small summary at the top{% endcomment %}
-		<li class="not-accomplished">{% blocktrans with percentage=summary.no_progress_percentage|floatformat %}No progress <strong>{{percentage}}%</strong>{% endblocktrans %}</li>
-	</ul>
+<div class="progress summary-progress" data-container="body" data-html="true" data-toggle="popover" data-placement="top" data-content="<i class='fa fa-check'></i> <strong>{{summary.accomplished|floatformat}}</strong> promesas cumplidas</br> <i aria-hidden='true' data-icon='&#xe600;'></i> <strong>{{summary.in_progress|floatformat}}</strong> promesas incompletas</br><i class='fa fa-times'></i> <strong>{{summary.no_progress|floatformat}}</strong> promesas sin avance</br> Revisa la <a href='http://deldichoalhecho.cl/index.html'>metodología</a>">
+	<div class="progress-bar {% include "progress-color.html" with progress=summary.total_progress %}" style="width: {{summary.total_progress|stringformat:"f"}}%"><p>{{summary.total_progress|floatformat}}% de cumplimiento</p></div>
 </div>
-<!--{{summary.total_progress|stringformat:"f"}} -->
-<div class="progress">
-	<div class="progress-bar progress-bar-success" style="width: {{summary.accomplished_percentage|stringformat:"f"}}%"></div>
-	<div class="progress-bar progress-bar-warning" style="width: {{summary.in_progress_percentage|stringformat:"f"}}%"></div>
-	<div class="progress-bar progress-bar-danger" style="width: {{summary.no_progress_percentage|stringformat:"f"}}%"></div>
-</div>
+
+<script type="text/javascript">
+	$(function(){
+		$('.summary-progress').popover(
+			)
+	})
+</script>
 
 Cabros la barrita esta está en este archivo <a href="https://github.com/ciudadanointeligente/check-it/blob/master/promises_web/templates/summary.html">promises_web/templates/summary.html</a>
