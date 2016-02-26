@@ -1,0 +1,5291 @@
+[
+{
+  "fields": {
+    "name": "Agricultura",
+    "slug": "agricultura"
+  },
+  "model": "promises.category",
+  "pk": 1
+},
+{
+  "fields": {
+    "name": "Agua",
+    "slug": "agua"
+  },
+  "model": "promises.category",
+  "pk": 2
+},
+{
+  "fields": {
+    "name": "Cultura",
+    "slug": "cultura"
+  },
+  "model": "promises.category",
+  "pk": 3
+},
+{
+  "fields": {
+    "name": "Defensa",
+    "slug": "defensa"
+  },
+  "model": "promises.category",
+  "pk": 4
+},
+{
+  "fields": {
+    "name": "Democracia",
+    "slug": "democracia"
+  },
+  "model": "promises.category",
+  "pk": 5
+},
+{
+  "fields": {
+    "name": "Derechos Humanos",
+    "slug": "derechos-humanos"
+  },
+  "model": "promises.category",
+  "pk": 6
+},
+{
+  "fields": {
+    "name": "",
+    "slug": "category"
+  },
+  "model": "promises.category",
+  "pk": 7
+},
+{
+  "fields": {
+    "name": "Descentralizaci\u00f3n",
+    "slug": "descentralizacion"
+  },
+  "model": "promises.category",
+  "pk": 8
+},
+{
+  "fields": {
+    "name": "Discapacidad",
+    "slug": "discapacidad"
+  },
+  "model": "promises.category",
+  "pk": 9
+},
+{
+  "fields": {
+    "name": "Econom\u00eda y Comercio",
+    "slug": "economia-y-comercio"
+  },
+  "model": "promises.category",
+  "pk": 10
+},
+{
+  "fields": {
+    "name": "Educaci\u00f3n",
+    "slug": "educacion"
+  },
+  "model": "promises.category",
+  "pk": 11
+},
+{
+  "fields": {
+    "name": "Energ\u00eda",
+    "slug": "energia"
+  },
+  "model": "promises.category",
+  "pk": 12
+},
+{
+  "fields": {
+    "name": "Equidad de G\u00e9nero",
+    "slug": "equidad-de-genero"
+  },
+  "model": "promises.category",
+  "pk": 13
+},
+{
+  "fields": {
+    "name": "Igualdad y No Discriminaci\u00f3n",
+    "slug": "igualdad-y-no-discriminacion"
+  },
+  "model": "promises.category",
+  "pk": 14
+},
+{
+  "fields": {
+    "name": "Infancia y J\u00f3venes",
+    "slug": "infancia-y-jovenes"
+  },
+  "model": "promises.category",
+  "pk": 15
+},
+{
+  "fields": {
+    "name": "Justicia",
+    "slug": "justicia"
+  },
+  "model": "promises.category",
+  "pk": 16
+},
+{
+  "fields": {
+    "name": "Medio Ambiente",
+    "slug": "medio-ambiente"
+  },
+  "model": "promises.category",
+  "pk": 17
+},
+{
+  "fields": {
+    "name": "Miner\u00eda",
+    "slug": "mineria"
+  },
+  "model": "promises.category",
+  "pk": 18
+},
+{
+  "fields": {
+    "name": "Modernizaci\u00f3n del Estado",
+    "slug": "modernizacion-del-estado"
+  },
+  "model": "promises.category",
+  "pk": 19
+},
+{
+  "fields": {
+    "name": "Municipios",
+    "slug": "municipios"
+  },
+  "model": "promises.category",
+  "pk": 20
+},
+{
+  "fields": {
+    "name": "Pesca",
+    "slug": "pesca"
+  },
+  "model": "promises.category",
+  "pk": 21
+},
+{
+  "fields": {
+    "name": "Protecci\u00f3n Social",
+    "slug": "proteccion-social"
+  },
+  "model": "promises.category",
+  "pk": 22
+},
+{
+  "fields": {
+    "name": "Pueblos Ind\u00edgenas",
+    "slug": "pueblos-indigenas"
+  },
+  "model": "promises.category",
+  "pk": 23
+},
+{
+  "fields": {
+    "name": "Salud",
+    "slug": "salud"
+  },
+  "model": "promises.category",
+  "pk": 24
+},
+{
+  "fields": {
+    "name": "Seguridad Ciudadana",
+    "slug": "seguridad-ciudadana"
+  },
+  "model": "promises.category",
+  "pk": 25
+},
+{
+  "fields": {
+    "name": "Trabajo",
+    "slug": "trabajo"
+  },
+  "model": "promises.category",
+  "pk": 26
+},
+{
+  "fields": {
+    "name": "Transporte y Telecomunicaciones",
+    "slug": "transporte-y-telecomunicaciones"
+  },
+  "model": "promises.category",
+  "pk": 27
+},
+{
+  "fields": {
+    "name": "Vivienda y Urbanismo",
+    "slug": "vivienda-y-urbanismo"
+  },
+  "model": "promises.category",
+  "pk": 28
+},
+{
+  "fields": {
+    "category": 1,
+    "name": "Enviaremos al Congreso un proyecto de ley que contenga el Estatuto del Temporero y la Actividad Agr\u00edcola de Temporada, que consagre protecci\u00f3n a estos trabajadores y trabajadoras.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 1
+},
+{
+  "fields": {
+    "category": 1,
+    "name": "En el Gobierno anterior, enviamos el proyecto de Ley de Obtentores Vegetales, conocida como \u201cLey Monsanto\u201d(...) Hemos conocido nuevos antecedentes y presenciado un debate sobre si esa ley es pertinente y cu\u00e1les pueden ser sus riesgos. Vamos a revisar ese proyecto de ley, escuchando todas las opiniones, salvaguardando y respetando la soberan\u00eda alimentaria y las semillas tradicionales",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 2
+},
+{
+  "fields": {
+    "category": 1,
+    "name": "Tambi\u00e9n deben potenciarse las capacidades t\u00e9cnicas y de fiscalizaci\u00f3n del Servicio Agr\u00edcola y Ganadero (SAG).",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Se crean  asignaciones de est\u00edmulo para el personal del SAG, nuevos cargos, bonos extraordinarios y un plan institucional anual y rendici\u00f3n de cuentas de \u00e9ste"
+  },
+  "model": "promises.promise",
+  "pk": 3
+},
+{
+  "fields": {
+    "category": 1,
+    "name": "Formaremos en la Oficina de Estudios y Pol\u00edticas Agrarias (ODEPA) un equipo de desarrollo de institucionalidad, regulaci\u00f3n y normas de libre competencia que permita revisar las normativas de comercio de tal manera de impedir la operaci\u00f3n de formas de comercio en la agroindustria o en el sector forestal que atentan contra los consumidores o los productores.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 4
+},
+{
+  "fields": {
+    "category": 1,
+    "name": "En materia forestal, enviaremos al Congreso un proyecto de ley que prorrogue por dos a\u00f1os los incentivos a la forestaci\u00f3n, junto con legislar para eliminar las barreras de entrada que han limitado la incorporaci\u00f3n de peque\u00f1os y medianos propietarios forestales a los beneficios de la actual legislaci\u00f3n sobre bosque nativo.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 5
+},
+{
+  "fields": {
+    "category": 2,
+    "name": "Debemos mejorar la gesti\u00f3n del agua para riego eficiente. Potenciaremos las pol\u00edticas de mejoramientos de canales, pozos profundos y de riego t\u00e9cnificado. Para esto se realizar\u00e1n los cambios legales y se destinar\u00e1n los recursos necesarios.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 6
+},
+{
+  "fields": {
+    "category": 2,
+    "name": "Avanzaremos en una normativa que haga posible la existencia de la figura recursos h\u00eddricos con fines sociales. Estos usos ser\u00e1n prioritarios y establecer\u00e1n restricciones al ejercicio de todos los dem\u00e1s usos con fines competitivos.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto contempla que se permita a la Administraci\u00f3n limitar el ejercicio de los derechos de aprovechamiento en funci\u00f3n del inter\u00e9s p\u00fablico, ya sea reduci\u00e9ndolos temporalmente o redistribuyendo las aguas y establece el consumo humano y el saneamiento como usos prioritarios del agua, los que siempre prevalecer\u00e1n en el otorgamiento como en la limitaci\u00f3n del ejercicio del derecho de aprovechamiento"
+  },
+  "model": "promises.promise",
+  "pk": 7
+},
+{
+  "fields": {
+    "category": 2,
+    "name": "Tambi\u00e9n modificaremos la normativa para redefinir la utilizaci\u00f3n de los acu\u00edferos sobre-otorgados de acuerdo al uso efectivo de los derechos.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Se establece que las concesiones caducar\u00e1n por el solo ministerio de la ley si no se hace un uso efectivo del recurso en un plazo de cuatro o de ocho a\u00f1os, seg\u00fan tengan el car\u00e1cter de derechos consuntivos o no consuntivos."
+  },
+  "model": "promises.promise",
+  "pk": 8
+},
+{
+  "fields": {
+    "category": 2,
+    "name": "Adicionalmente, estableceremos la normativa que permita el intercambio de derechos provisionales y eventuales por aquella proporci\u00f3n no utilizada de los derechos. En el caso de acu\u00edferos con baja recarga pero con gran volumen almacenado, definiremos vol\u00famenes de agua que se pueden extraer en plazos determinados sin generar efectos ambientales adversos.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 9
+},
+{
+  "fields": {
+    "category": 3,
+    "name": "Pondremos en marcha una nueva pol\u00edtica nacional de museos, que les permita financiarse y mejorar su gesti\u00f3n y contenidos que ofrecen a la ciudadan\u00eda.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 10
+},
+{
+  "fields": {
+    "category": 3,
+    "name": "Adicionalmente, desarrollaremos una pol\u00edtica sobre cultura digital, que nos permita aprovechar de mejor manera el desarrollo tecnol\u00f3gico, para, por una parte, ampliar las posibilidades para las pol\u00edticas p\u00fablicas de fomento a la creaci\u00f3n cultural y, por la otra, democratizar, promover y facilitar, de mejor manera, el acceso a bienes culturales por parte de la ciudadan\u00eda.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 11
+},
+{
+  "fields": {
+    "category": 3,
+    "name": "En los primeros 100 d\u00edas de Gobierno enviaremos al Congreso un proyecto de ley que crea el Ministerio de Cultura y Patrimonio, que ser\u00e1 una instituci\u00f3n con \u00e9nfasis locales, que promueva la cultura, las artes y la interculturalidad, para lo cual, presentaremos un proyecto de ley al Congreso.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 12
+},
+{
+  "fields": {
+    "category": 3,
+    "name": "Implementaremos pol\u00edticas p\u00fablicas que permitan asegurar una adecuada protecci\u00f3n y circulaci\u00f3n de la producci\u00f3n audiovisual, musical, as\u00ed como del libro.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 13
+},
+{
+  "fields": {
+    "category": 3,
+    "name": "Introduciremos modificaciones al Consejo Nacional de Televisi\u00f3n, incorpor\u00e1ndolo al Ministerio de Cultura y Patrimonio, ampliando sus atribuciones, manteniendo su rol de regulador de la TV, enfatizando su rol de fomento de la calidad de la industria televisiva, tanto a nivel de TV abierta, pago, regional y comunitaria.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 14
+},
+{
+  "fields": {
+    "category": 3,
+    "name": "Enviaremos un proyecto de ley al Congreso para realizar un conjunto de modificaciones en materia de televisi\u00f3n p\u00fablica. Se deben ampliar las facultades de TVN para un cumplimiento efectivo de los objetivos asociados con la misi\u00f3n p\u00fablica que la ley le entrega. Al directorio se le aplicar\u00e1n los deberes y r\u00e9gimen de responsabilidades de los directores de las Sociedades An\u00f3nimas y se debe imponer la obligaci\u00f3n al Directorio del canal p\u00fablico de dar cuenta de su gesti\u00f3n una vez al a\u00f1o. TVN, debe incorporar financiamiento p\u00fablico de manera sistem\u00e1tica, con el objeto de que pueda producir bienes p\u00fablicos socialmente valorados que los privados no tienen obligaci\u00f3n de producir.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 15
+},
+{
+  "fields": {
+    "category": 3,
+    "name": "Perfeccionaremos la legislaci\u00f3n y fiscalizaci\u00f3n del cumplimiento de los derechos laborales aplicables a los distintos sectores de la cultura.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 16
+},
+{
+  "fields": {
+    "category": 4,
+    "name": "En el \u00e1mbito dom\u00e9stico nuestro objetivo fundamental ser\u00e1 retomar con \u00edmpetu las reformas institucionales para el desarrollo de una Defensa Nacional mejor preparada para las tareas que le entregue la autoridad civil, logrando ser m\u00e1s transparente, y m\u00e1s eficiente y eficaz. En este sentido, se considera necesario el fortalecimiento del mando del Jefe del Estado Mayor Conjunto en lo relativo a su empleo en tiempos de paz incluso en instancias tales como la preparaci\u00f3n, prevenci\u00f3n y reacci\u00f3n ante emergencias, as\u00ed como de su responsabilidad social.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 17
+},
+{
+  "fields": {
+    "category": 4,
+    "name": "De esta forma se enviar\u00e1 una indicaci\u00f3n sustitutiva al Congreso Nacional respecto del proyecto de ley que deroga la ley reservada del cobre en la que se establezca que la asignaci\u00f3n de los recursos para el financiamiento de la Defensa Nacional se realizar\u00e1 mediante la formulaci\u00f3n de una planificaci\u00f3n presupuestaria cuatrienal, que contemple el financiamiento de los programas y proyectos de inversi\u00f3n y los gastos de operaci\u00f3n y mantenimiento de equipamiento.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 18
+},
+{
+  "fields": {
+    "category": 4,
+    "name": "Reformaremos la competencia de la Justicia Militar, de manera tal que las causas con civiles v\u00edctimas de delitos cometidos por militares y carabineros sean conocidas por tribunales ordinarios. Se avanzar\u00e1 desde el actual modelo de fuero militar hacia uno nuevo caracterizado por la igualdad de las garant\u00edas procesales entre ciudadanos civiles y uniformados, con una judicatura letrada y plenamente independiente de la estructura de mando militar.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 19
+},
+{
+  "fields": {
+    "category": 4,
+    "name": "Concluiremos la modernizaci\u00f3n de la carrera militar, terminando con las distorsiones previsionales.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 20
+},
+{
+  "fields": {
+    "category": 13,
+    "name": "Impulsaremos la sustituci\u00f3n del actual sistema electoral binominal para la elecci\u00f3n parlamentaria por uno de representaci\u00f3n proporcional.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Se reemplaza el sistema electoral binominal por uno proporcional moderado."
+  },
+  "model": "promises.promise",
+  "pk": 21
+},
+{
+  "fields": {
+    "category": 5,
+    "name": "De esta manera, basada en una fuerte convicci\u00f3n democr\u00e1tica, se recoge la demanda nacional por una Nueva Constituci\u00f3n Pol\u00edtica para Chile a impulsar en un proceso democr\u00e1tico, institucional y participativo que permita alcanzar este prop\u00f3sito.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 22
+},
+{
+  "fields": {
+    "category": 5,
+    "name": "Impulsaremos la creaci\u00f3n de la Defensor\u00eda del Pueblo u Ombudsman.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 23
+},
+{
+  "fields": {
+    "category": 5,
+    "name": "En el plano pol\u00edtico, nuestra convicci\u00f3n es que cada regi\u00f3n debe elegir a las autoridades que representan mejor los anhelos, sue\u00f1os y proyectos de la comunidad. Si hoy se eligen alcaldes, parlamentarios y Consejeros Regionales, ese mecanismo debe extenderse a la m\u00e1xima autoridad regional, hoy su intendente o intendenta.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Pretende modificar la constituci\u00f3n estableciendo que el cargo de Intendente se elige por votaci\u00f3n popular y dura 4 a\u00f1os con posibilidad de reelecci\u00f3n inmediata"
+  },
+  "model": "promises.promise",
+  "pk": 24
+},
+{
+  "fields": {
+    "category": 5,
+    "name": "Crearemos una Divisi\u00f3n de Participaci\u00f3n Ciudadana en la SEGEGOB, de tal manera de dar adecuado seguimiento y control del cumplimiento de metas ministeriales en materias de participaci\u00f3n.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 25
+},
+{
+  "fields": {
+    "category": 5,
+    "name": "Nos comprometemos a impulsar la tramitaci\u00f3n, hasta su aprobaci\u00f3n, de un proyecto de ley que otorgue el derecho a voto de chilenos en el extranjero.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 26
+},
+{
+  "fields": {
+    "category": 6,
+    "name": "Reconoceremos con el m\u00e1ximo valor en la Constituci\u00f3n, los tratados y convenciones internacionales sobre derechos humanos y, en especial, incorporaremos una norma que establezca que, en toda interpretaci\u00f3n constitucional o legal, deben primar dichos tratados o convenciones.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto incorpora un nuevo inciso final al numeral 3\u00b0 del art\u00edculo 19 de la Constituci\u00f3n, que establece que los cr\u00edmenes y delitos que conforme al derecho nacional o internacional sean calificables de genocidio, lesa humanidad o guerra, no ser\u00e1n susceptibles de amnist\u00eda o prescripci\u00f3n \u2013total o parcial- , con independencia de la fecha en que ellas se hubieren cometido, adaptando con ello la legislaci\u00f3n chilena a las exigencias del Derecho Internacional sobre la materia. Sin embargo no se\u00f1ala nada sobre la interpretaci\u00f3n de las normas de acuerdo a los tratados internacionales"
+  },
+  "model": "promises.promise",
+  "pk": 27
+},
+{
+  "fields": {
+    "category": 6,
+    "name": "Impulsaremos medidas legislativas y administrativas que impidan la impunidad en materia de DDHH, tales como impedir toda aplicaci\u00f3n en los juicios sobre Cr\u00edmenes de Lesa Humanidad del D.L. N\u00b02.191, de Amnist\u00eda de 1978, y de las normas que regulan la prescripci\u00f3n en materia de delitos comunes o de la prescripci\u00f3n en materia de responsabilidades civiles.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Establece que los cr\u00edmenes y delitos de guerra, lesa humanidad y genocidio, cualquiera sea la fecha en que se hayan cometido, son imprescritpibles e inamnistiables, como tambi\u00e9n que no se podr\u00e1 conceder indulto o cualquier otro beneficio alternativo que implique la reducci\u00f3n o sustituci\u00f3n de las condenas privativas de libertad a los autores de estos cr\u00edmenes y delitos. "
+  },
+  "model": "promises.promise",
+  "pk": 28
+},
+{
+  "fields": {
+    "category": 7,
+    "name": "",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Establece que no se podr\u00e1n aplicar las normas sobre amnist\u00eda o prescripci\u00f3n cuando seg\u00fan las reglas del derecho internacional se refiera a hechos que configuren delitos de genocidio o cr\u00edmenes de lesa humanidad o de guerra, as\u00ed como la inaplicabilidad de la denominada prescripci\u00f3n gradual de la pena o media prescripci\u00f3n."
+  },
+  "model": "promises.promise",
+  "pk": 29
+},
+{
+  "fields": {
+    "category": 6,
+    "name": "Crearemos la Subsecretar\u00eda de Derechos Humanos en el Ministerio de Justicia y Derechos Humanos, con dotaci\u00f3n de recursos humanos y presupuestarios que permitan el trabajo de coordinaci\u00f3n y ejecuci\u00f3n en materia de derechos humanos.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto crea la Subsecretar\u00eda de Derechos Humanos dentro del Ministerio de Justicia"
+  },
+  "model": "promises.promise",
+  "pk": 30
+},
+{
+  "fields": {
+    "category": 6,
+    "name": "Adoptaremos medidas, legislativas si fueren necesarias, para reconocer el derecho de las v\u00edctimas de las graves violaciones a los derechos humanos y sus familiares, a obtener reparaciones civiles de los victimarios y, en su caso, del Estado. Revisaremos las actuales leyes reparatorias.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Establece que todos los \u00f3rganos del Estado deber\u00e1n velar por que los registros que est\u00e9n a su cargo reconozcan y expresen como v\u00edctimas de desaparici\u00f3n forzada a las personas detenidas desaparecidas cuyos nombres aparecen incluidos en los informes de las comisiones creadas en la b\u00fasqueda de verdad y justicia y que dichos registros deber\u00e1n actualizarse dentro de un a\u00f1o. No menciona la posibilidad de obtener reparaciones civiles"
+  },
+  "model": "promises.promise",
+  "pk": 31
+},
+{
+  "fields": {
+    "category": 6,
+    "name": "Asignaremos a una entidad estatal permanente que se haga cargo del reconocimiento, acogida, asistencia jur\u00eddica, social y de reparaci\u00f3n para las v\u00edctimas de Cr\u00edmenes de la Dictadura.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 32
+},
+{
+  "fields": {
+    "category": 6,
+    "name": "Adicionalmente, desarrollaremos una iniciativa legal para regular el derecho a reuni\u00f3n y revisaremos los reglamentos, protocolos y pr\u00e1ctica de las Fuerzas Policiales para su adecuaci\u00f3n a est\u00e1ndares internacionales.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 33
+},
+{
+  "fields": {
+    "category": 8,
+    "name": "Nuestro compromiso es dotar al gobierno regional de autonom\u00eda pol\u00edtica y administrativa especialmente en las materias relacionadas con el desarrollo y competitividad del territorio.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "La indicaci\u00f3n sustitutiva del Gobierno establece un procedimiento para transferir competencias del Gobierno central a los regionales  en ordenamiento territorial, fomento de las actividades productivas y desarrollo social y cultural."
+  },
+  "model": "promises.promise",
+  "pk": 34
+},
+{
+  "fields": {
+    "category": 8,
+    "name": "Para apoyar este proceso, la Subsecretar\u00eda de Desarrollo Regional (SUBDERE) contar\u00e1 con mandato especial. Estableceremos en la SUBDERE una unidad especializada de descentralizaci\u00f3n, la que impulsar\u00e1, coordinar\u00e1 y evaluar\u00e1 el proceso de descentralizaci\u00f3n y transferencia de facultades y competencias a regiones, as\u00ed como el traspaso de Servicios P\u00fablicos, proceso que ser\u00e1 paulatino y por grupos de regiones.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 35
+},
+{
+  "fields": {
+    "category": 8,
+    "name": "Se deber\u00e1n realizar los cambios normativos necesarios para establecer las condiciones que permitan que los Gobiernos Regionales tengan relaciones m\u00e1s estrechas de cooperaci\u00f3n con las Municipalidades de la Regi\u00f3n para el cumplimiento de objetivos comunes o complementarios, incluyendo presupuestos de inversi\u00f3n.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 36
+},
+{
+  "fields": {
+    "category": 8,
+    "name": "Adicionalmente, realizaremos las modificaciones tendientes a mejorar los mecanismos de participaci\u00f3n, transparencia y control ciudadano regional.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 37
+},
+{
+  "fields": {
+    "category": 8,
+    "name": "Por otra parte, resulta fundamental que cada regi\u00f3n cuente con un sistema de estad\u00edsticas que permita registrar el comportamiento en todos los \u00e1mbitos de intervenci\u00f3n de los gobiernos regionales y posibilite el establecimiento de l\u00edneas base, informaci\u00f3n para el dise\u00f1o, seguimiento y evaluaci\u00f3n de pol\u00edticas y programas, y para establecer los indicadores que permitan objetividad en las rendiciones de cuentas.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 38
+},
+{
+  "fields": {
+    "category": 8,
+    "name": "En la misma l\u00ednea, extenderemos el Sistema de Alta Direcci\u00f3n P\u00fablica a cargos regionales, con el consecuente atractivo de remuneraciones.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 39
+},
+{
+  "fields": {
+    "category": 9,
+    "name": "Establecer la institucionalidad p\u00fablica ser\u00e1 una prioridad. Crearemos la Subsecretar\u00eda de la Discapacidad, que impulsar\u00e1 de manera transversal el tema, teniendo como eje la integraci\u00f3n y necesidades de las personas con discapacidad y sus familias.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 40
+},
+{
+  "fields": {
+    "category": 9,
+    "name": "Incorporaremos al arancel de FONASA y a la cobertura de seguros privados, las prestaciones de Terapeutas Ocupacionales.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 41
+},
+{
+  "fields": {
+    "category": 9,
+    "name": "Adem\u00e1s, estudiaremos la regulaci\u00f3n de la condici\u00f3n de preexistencia en los seguros de salud cuando las personas con discapacidad dejan de ser carga o son contratadas y deben cotizar directamente, a fin de evitar la p\u00e9rdida de beneficios de su programa de salud previo.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 42
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "El Consejo Nacional de Innovaci\u00f3n para la Competitividad (CNIC) (...) contar\u00e1n con un nuevo estatus legal, que les permita estabilidad, junto con ampliar su \u00e1mbito de preocupaci\u00f3n desde la competitividad al desarrollo nacional, manteniendo el \u00e9nfasis en los temas de la investigaci\u00f3n cient\u00edfica, el desarrollo tecnol\u00f3gico, la innovaci\u00f3n y el emprendimiento, tanto en su dimensi\u00f3n productiva como social.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 43
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "El Fondo de Innovaci\u00f3n para la Competitividad (FIC) (...) contar\u00e1n con un nuevo estatus legal, que les permita estabilidad, junto con ampliar su \u00e1mbito de preocupaci\u00f3n desde la competitividad al desarrollo nacional, manteniendo el \u00e9nfasis en los temas de la investigaci\u00f3n cient\u00edfica, el desarrollo tecnol\u00f3gico, la innovaci\u00f3n y el emprendimiento, tanto en su dimensi\u00f3n productiva como social.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 44
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "En el \u00e1mbito institucional, fortaleceremos al Ministro de Econom\u00eda en su rol de autoridad responsable en el campo de la innovaci\u00f3n y el desarrollo productivo, creando la Subsecretar\u00eda de Ciencia, Tecnolog\u00eda e Innovaci\u00f3n.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 45
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "En los primeros 100 d\u00edas de Gobierno se enviar\u00e1 al Congreso el Proyecto de Ley de Reforma Tributaria.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Se ingresa una reforma tributaria con 4 grandes objetivos: aumentar la carga tributaria para financiar, con ingresos permanentes, los gastos permanentes de la reforma educacional; avanzar en equidad tributaria, mejorando la distribuci\u00f3n del ingreso; introducir nuevos y m\u00e1s eficientes mecanismos de incentivos al ahorro e inversi\u00f3n, y avanzar en medidas que disminuyan la evasi\u00f3n y la elusi\u00f3n."
+  },
+  "model": "promises.promise",
+  "pk": 46
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "En los primeros 100 d\u00edas de Gobierno, enviaremos al Congreso el proyecto de ley del fortalecimiento del SERNAC, que permitir\u00e1 que tenga atribuciones reales y efectivas para defender los derechos de los consumidores.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto fortalece al Sernac y le otorga mayores facultades de fiscalizaci\u00f3n y de sanci\u00f3n en materia de derechos de los consumidores"
+  },
+  "model": "promises.promise",
+  "pk": 47
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "Revisaremos la regulaci\u00f3n de los juicios colectivos, para asegurar un procedimiento eficiente que procure soluciones adecuadas,",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto se preserva y perfecciona la facultad del SERNAC de llevar a cabo mediaciones colectivas con anterioridad al ejercicio de las acciones judiciales, regulando su procedencia, su plazo de duraci\u00f3n, su publicidad a fin de que los consumidores afectados o las Asociaciones de Consumidores puedan efectuar observaciones y sugerir ajustes en las soluciones propuestas, y sus efectos en el caso en que se arribe a un acuerdo que solucione el conflicto. Sin embargo no hay modificaciones a los procesos de juicios colectivos."
+  },
+  "model": "promises.promise",
+  "pk": 48
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "Mejorar las normas y est\u00e1ndares para impulsar la innovaci\u00f3n, proponiendo un programa que incluya: i) mayores recursos para el SERNAC, para generar informaci\u00f3n p\u00fablica que permita evaluar la calidad de los productos y servicios ofrecidos",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 49
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "Dotaremos al SERNAC de facultades para fiscalizar, multar, interpretar la ley y dictar normativas, proveyendo de criterios claros de cumplimiento legal con efecto general. Junto a ello, fortaleceremos la institucionalidad y los recursos humanos destinados a la fiscalizaci\u00f3n y la defensa contra los abusos.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Se establece la facultad del SERNAC de fiscalizar, sancionar, interpretar la ley y dictar normas de car\u00e1cter general y se contempla un fortalecimiento de los recursos humanos."
+  },
+  "model": "promises.promise",
+  "pk": 50
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "Estableceremos un procedimiento administrativo ante el SERNAC, que reemplace la competencia general de los Juzgados de Polic\u00eda Local para conocer materias de consumo individuales, y que podr\u00e1 culminar con la aplicaci\u00f3n de multas, entre otras sanciones, y la orden de reintegros.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto reemplaza la competencia de los Juzgados de Polic\u00eda Local para resolver las infracciones e indemnizaciones en materia de conflictos de inter\u00e9s individual. Las denuncias por infracciones ser\u00e1n resueltas por el SERNAC. En tanto que las acciones de indemnizaci\u00f3n de perjuicios ser\u00e1n resueltas por los Tribunales Ordinarios de Justicia"
+  },
+  "model": "promises.promise",
+  "pk": 51
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "Eliminar las restricciones legales que establece que las Asociaciones (de Consumidores) s\u00f3lo pueden realizar actividades lucrativas para la recuperaci\u00f3n de sus costos y como contrapartida, incrementar las obligaciones de transparencia de su financiamiento y exigir normas de contabilidad regulatoria.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Se contempla la posibilidad de que ejecuten y celebren actos y contratos civiles y mercantiles para cumplir sus objetivos, y destinen los frutos de dichos actos y contratos al financiamiento de sus actividades propias. Adem\u00e1s, estar\u00e1n sometidas a reglas especiales sobre financiamiento, contabilidad y transparencia."
+  },
+  "model": "promises.promise",
+  "pk": 52
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "Para una mejor coordinaci\u00f3n institucional, estableceremos en la Ley de Protecci\u00f3n de los Derechos de los Consumidores un Sistema Integrado cuya coordinaci\u00f3n t\u00e9cnica corresponder\u00e1 al SERNAC, y que considerar\u00e1 la creaci\u00f3n de un Consejo en el que participar\u00e1n representantes de agencias p\u00fablicas reguladoras y fiscalizadoras. ",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 53
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "Encargaremos a la Fiscal\u00eda Nacional Econ\u00f3mica (FNE) la tarea de evaluar aquellos mercados que presentan fallas persistentes o que sufren el impacto de regulaciones en la competencia, con el fin de dictar normas especiales cuando las fallas de mercado lo justifiquen y modificar aquellas normas que propician o permiten restricciones injustificadas al correcto funcionamiento competitivo. Para esto aumentaremos las capacidades de la FNE.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 54
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "Cambiaremos el r\u00e9gimen de los ministros del Tribunal de la Libre Competencia (TDLC), hacia uno de dedicaci\u00f3n preferente o exclusiva, estableciendo remuneraciones acordes y fijando una compensaci\u00f3n para cuando los ministros cesen en el cargo.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 55
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "Sanciones en temas contenciosos. Cambiaremos el tope m\u00e1ximo de las sanciones por porcentaje de ventas obtenidas; introduciremos una sanci\u00f3n adicional para personas involucradas de inhabilitaci\u00f3n para directorios, organismos p\u00fablicos, asociaciones gremiales y colegios profesionales y una sanci\u00f3n adicional para empresas involucradas, excluy\u00e9ndolas de participar en licitaciones del Estado.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 56
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "Reforzamiento de normas contra colusi\u00f3n. Evaluaremos la inclusi\u00f3n de un tipo penal expl\u00edcito para carteles m\u00e1s gravosos para los mercados, que sancione los acuerdos entre competidores que les confieran poder de mercado.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 57
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "Introduciremos en la legislaci\u00f3n normas sobre control de operaciones de concentraci\u00f3n, explicitando la figura de disminuci\u00f3n sustancial de la libre competencia. ",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 58
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "Fortaleceremos las capacidades t\u00e9cnicas y profesionales de la FNE; estableceremos plazos acotados para sus investigaciones; la facultad para que emita fundadamente advertencias y para requerir informaci\u00f3n estad\u00edstica a otros organismos del Estado.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 59
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "Para hacerse cargo de este diagn\u00f3stico, entregaremos facultades a la Superintendencia de Bancos e Instituciones Financieras (SBIF) para supervisar por solvencia cualquier agente financiero y crediticio relevante. Esto debe incluir a cajas de compensaci\u00f3n, cooperativas y empresas de comercio, entre otras. La SBIF estar\u00e1 facultada para decidir las entidades espec\u00edficas que ser\u00edan supervisadas bajo su alero, en base a criterios de ser entidad financiera, tener un tama\u00f1o m\u00ednimo y un cierto apalancamiento relevante.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Se le otorgan facultades de fiscalizaci\u00f3n a la SBIF sobre ciertas cooperativas"
+  },
+  "model": "promises.promise",
+  "pk": 60
+},
+{
+  "fields": {
+    "category": 10,
+    "name": "Complementariamente incorporaremos un cap\u00edtulo de conglomerados financieros en los cuerpos legales pertinentes, donde se defina al conglomerado financiero como objeto de supervisi\u00f3n, se determinen sus requerimientos de capital, liquidez y gobierno, se defina al supervisor, y se separe la parte financiera del conglomerado del resto del grupo econ\u00f3mico.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 61
+},
+{
+  "fields": {
+    "category": 11,
+    "name": "En relaci\u00f3n a la poblaci\u00f3n de pre-k\u00ednder y k\u00ednder, la cobertura actual es casi completa, por lo que la propuesta es avanzar hacia la obligatoriedad de pre-kinder.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 62
+},
+{
+  "fields": {
+    "category": 11,
+    "name": "Modernizaremos la institucionalidad de la educaci\u00f3n parvularia, separando el rol de dise\u00f1o de pol\u00edtica, creando una Subsecretar\u00eda de Educaci\u00f3n Parvularia en el Ministerio de Educaci\u00f3n (MINEDUC), del rol fiscalizador, ejercido por una Intendencia de Educaci\u00f3n Parvularia en la Superintendencia de Educaci\u00f3n, y del rol de provisi\u00f3n del servicio, a cargo de JUNJI, Integra y otros prestadores debidamente acreditados.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto crea una Subsecretar\u00eda de Educaci\u00f3n Parvularia a cargo de la formulaci\u00f3n de las pol\u00edticas p\u00fablicas en la materia y la Intendencia de Educaci\u00f3n Parvularia a cargo de la fiscalizaci\u00f3n"
+  },
+  "model": "promises.promise",
+  "pk": 63
+},
+{
+  "fields": {
+    "category": 11,
+    "name": "La administraci\u00f3n de los establecimientos municipales ser\u00e1 reemplazada por una nueva institucionalidad p\u00fablica, cuya estructura contempla la creaci\u00f3n de un Servicio Nacional de Educaci\u00f3n P\u00fablica descentralizado y Servicios Locales de Educaci\u00f3n P\u00fablica, que mantengan la cercan\u00eda con la comunidad educativa. ",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 64
+},
+{
+  "fields": {
+    "category": 11,
+    "name": "Estableceremos una carrera docente que, entre otros aspectos, defina mejores remuneraciones; introduzca incentivos y aumente gradualmente el n\u00famero de horas de la jornada laboral docente que se destine a trabajo fuera del aula. La carrera docente debe instalar el desarrollo profesional y el desempe\u00f1o de calidad como elemento central de la carrera y debe establecer la reducci\u00f3n gradual del n\u00famero m\u00e1ximo de estudiantes por curso en la educaci\u00f3n subvencionada.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto de ley no regula la carrera docente, pero establece que los profesores de ense\u00f1anza municipal que hubieren prestado servicios continuos por m\u00e1s de tres a\u00f1os a contrata deb\u00edan ser incorporados a las plantas municipales en calidad de titulares"
+  },
+  "model": "promises.promise",
+  "pk": 65
+},
+{
+  "fields": {
+    "category": 11,
+    "name": "Avanzaremos gradualmente en la gratuidad universal y efectiva de la educaci\u00f3n superior, en un proceso que tomar\u00e1 6 a\u00f1os.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 66
+},
+{
+  "fields": {
+    "category": 11,
+    "name": "Modernizaremos la institucionalidad p\u00fablica de la educaci\u00f3n superior, creando la Subsecretar\u00eda de Educaci\u00f3n Superior",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 67
+},
+{
+  "fields": {
+    "category": 11,
+    "name": "(...) la Superintendencia de Educaci\u00f3n Superior, con competencias claras y recursos necesarios para cumplir sus funciones, en especial, la fiscalizaci\u00f3n del uso de los recursos p\u00fablicos, velar que se cumpla la prohibici\u00f3n de lucro,",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 68
+},
+{
+  "fields": {
+    "category": 11,
+    "name": "y la Agencia de la Calidad de la Educaci\u00f3n Superior, responsable de la acreditaci\u00f3n y de velar por la calidad de la educaci\u00f3n superior.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 69
+},
+{
+  "fields": {
+    "category": 11,
+    "name": "Frente a situaciones observadas de inviabilidad y cierre de establecimientos de educaci\u00f3n superior, el Ministerio de Educaci\u00f3n dispondr\u00e1 de los instrumentos necesarios que permitan garantizar la continuidad de estudios de todos los estudiantes involucrados.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto establece y regula las figuras del Administrador Provisional y del Administrador con el objeto de resguardar el derecho a la educaci\u00f3n de los y las estudiantes y garantizar el adecuado uso de los recursos"
+  },
+  "model": "promises.promise",
+  "pk": 70
+},
+{
+  "fields": {
+    "category": 11,
+    "name": "Estableceremos un nuevo sistema de acreditaci\u00f3n de instituciones de educaci\u00f3n superior. La acreditaci\u00f3n, tanto institucional como por carreras, ser\u00e1 obligatoria para todas las instituciones de educaci\u00f3n superior (Universidades, IP y CFT).",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 71
+},
+{
+  "fields": {
+    "category": 11,
+    "name": "Adicionalmente, crearemos universidades estatales regionales en donde actualmente no existen (Ays\u00e9n y O\u00b4Higgins). En los primeros 100 d\u00edas de Gobierno se enviar\u00e1 al Congreso el proyecto de ley de creaci\u00f3n de estas nuevas universidades.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto crea dos Universidades estatales, en la Regi\u00f3n de O'Higgins y de Ays\u00e9n"
+  },
+  "model": "promises.promise",
+  "pk": 72
+},
+{
+  "fields": {
+    "category": 11,
+    "name": "Crearemos Centros de Formaci\u00f3n T\u00e9cnica p\u00fablicos, que tendr\u00e1n presencia en todas las regiones.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto crea 15 Centros de Formaci\u00f3n T\u00e9cnica, uno por Regi\u00f3n del pa\u00eds"
+  },
+  "model": "promises.promise",
+  "pk": 73
+},
+{
+  "fields": {
+    "category": 12,
+    "name": "Mejor Regulaci\u00f3n de la Transmisi\u00f3n El\u00e9ctrica. Realizaremos las modificaciones normativas necesarias para no desincentivar a empresas generadoras entrantes y promover la competencia que nos permita reducir los precios de la energ\u00eda.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto propone que las licitaciones de suministro el\u00e9ctrico constituyan un mecanismo que garantice el suministro contratado de clientes regulados a precios competitivos, asegurando condiciones de eficiencia econ\u00f3mica, competencia, seguridad y diversificaci\u00f3n del sistema el\u00e9ctrico, conforme la ley."
+  },
+  "model": "promises.promise",
+  "pk": 74
+},
+{
+  "fields": {
+    "category": 12,
+    "name": "Complementaremos la ley de fomento a las ERNC con un esquema de licitaciones de energ\u00eda de las empresas distribuidoras para su consumo regulado que faciliten la participaci\u00f3n de ERNC y se pueda cumplir con la meta de 20% en el 2025 rebajando los costos marginales en el corto plazo",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 75
+},
+{
+  "fields": {
+    "category": 12,
+    "name": "Incorporaremos en el subsidio habitacional un componente para sistemas que aprovechen la energ\u00eda solar, ya sea para calentar agua o generaci\u00f3n distribuida.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto establece diversos incentivos a la energ\u00eda solar en viviendas, entre ellas, un subsidio directo para financiar la instalaci\u00f3n de paneles solares t\u00e9rmicos en viviendas nuevas subsidiadas por el Estado"
+  },
+  "model": "promises.promise",
+  "pk": 76
+},
+{
+  "fields": {
+    "category": 12,
+    "name": "Avanzaremos en una estrategia que lleve a incorporar decididamente a ENAP en la estrategia energ\u00e9tica de Chile, la que debe incluir la capitalizaci\u00f3n de la empresa, la reforma al gobierno corporativo, la revisi\u00f3n del modelo de negocio, y los cambios en la ley de ENAP necesarios para permitir estas reformas.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 77
+},
+{
+  "fields": {
+    "category": 12,
+    "name": "En el sector el\u00e9ctrico la Comisi\u00f3n Nacional de Energ\u00eda (CNE) ha ejercido un rol cada vez m\u00e1s d\u00e9bil en su papel de regulador. Es urgente fortalecer a la CNE, en especial, fortaleciendo su capacidad reguladora.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 78
+},
+{
+  "fields": {
+    "category": 12,
+    "name": "Daremos seguimiento estrecho a la implementaci\u00f3n de las medidas de mayor autonom\u00eda y profesionalizaci\u00f3n de los CDEC, e implementaremos aquellos cambios adicionales que se requieran.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 79
+},
+{
+  "fields": {
+    "category": 13,
+    "name": "Esto incluye una ley de derechos sexuales y reproductivos acorde a las realidades y opciones de las personas; (...) y despenalizaci\u00f3n de la interrupci\u00f3n voluntaria del embarazo en caso de peligro de la vida de la madre, violaci\u00f3n o inviabilidad del feto.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Se despenaliza el aborto en caso de peligro de la vida de la mujer embarazada, embri\u00f3n o feto con alteraci\u00f3n estructural cong\u00e9nita o gen\u00e9tica incompatible con la vida extrauterina y embarazo producto de una violaci\u00f3n"
+  },
+  "model": "promises.promise",
+  "pk": 80
+},
+{
+  "fields": {
+    "category": 13,
+    "name": "Modificaremos la actual Ley de Violencia Intrafamiliar incorporando todo tipo de violencia de g\u00e9nero, no s\u00f3lo aquella que se vive dentro de las familias o entre c\u00f3nyuges.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 81
+},
+{
+  "fields": {
+    "category": 13,
+    "name": "Modificaremos la ley de igualdad de remuneraciones para hacerla efectiva",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 82
+},
+{
+  "fields": {
+    "category": 13,
+    "name": "Adicionalmente, incorporaremos acciones afirmativas para la contrataci\u00f3n femenina dentro de las pol\u00edticas de selecci\u00f3n del Sistema de Alta Direcci\u00f3n P\u00fablica.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 83
+},
+{
+  "fields": {
+    "category": 13,
+    "name": "Tambi\u00e9n en el \u00e1mbito de la calidad de vida, promoveremos en la actual normativa de vivienda mecanismos que faciliten el acceso igualitario de hombres y mujeres a los subsidios p\u00fablicos.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 84
+},
+{
+  "fields": {
+    "category": 14,
+    "name": "En materia legislativa, promoveremos una reforma a la Ley 20.609, de no discriminaci\u00f3n, respondiendo a la demanda transversal de las organizaciones de la sociedad civil que intervinieron en su tramitaci\u00f3n, de tal modo que no quede reducida simplemente a la consagraci\u00f3n de una acci\u00f3n judicial, sino que se establezca el deber para el Estado de elaborar pol\u00edticas p\u00fablicas contra la discriminaci\u00f3n, acciones afirmativas a favor de los grupos hist\u00f3ricamente discriminados y medidas de reparaci\u00f3n.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 85
+},
+{
+  "fields": {
+    "category": 14,
+    "name": "Junto a ello, evaluaremos una iniciativa en contra de la incitaci\u00f3n al odio, que contemple todas las categor\u00edas establecidas en la actual ley de no discriminaci\u00f3n.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Tipifica el delito de incitaci\u00f3n al odio pero no contempla todas las categor\u00edas de la Ley que Establece Medidas contra la Discriminaci\u00f3n, tales como: la situaci\u00f3n socioecon\u00f3mica, el idioma, la opini\u00f3n pol\u00edtica, la sindicaci\u00f3n o participaci\u00f3n en organizaciones gremiales o la falta de ellas, la identidad de g\u00e9nero, el estado civil, la edad, la filiaci\u00f3n y la apariencia personal."
+  },
+  "model": "promises.promise",
+  "pk": 86
+},
+{
+  "fields": {
+    "category": 14,
+    "name": "Matrimonio igualitario: convocaremos a un debate abierto, con participaci\u00f3n amplia para la elaboraci\u00f3n y posterior env\u00edo de un proyecto de ley en esta materia.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 87
+},
+{
+  "fields": {
+    "category": 14,
+    "name": "Promoveremos la tramitaci\u00f3n de la ley de identidad de g\u00e9nero, que se encuentra en tr\u00e1mite, respondiendo a la necesidad de consagrar legalmente el derecho a la identidad de g\u00e9nero, y estableciendo un procedimiento judicial, de acuerdo a normas internacionales suscritas por nuestro pa\u00eds, que permita a las personas trans adecuar su nombre y sexo registral de acuerdo a su propia identidad de g\u00e9nero.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Se establece el derecho reconocimiento y protecci\u00f3n de la Identidad de G\u00e9nero y un procedimiento para adecuar nombre y sexo a dicha identidad"
+  },
+  "model": "promises.promise",
+  "pk": 88
+},
+{
+  "fields": {
+    "category": 15,
+    "name": "Enviaremos un proyecto de Ley de Protecci\u00f3n Integral a los Derechos de la Infancia y la Adolescencia, marco jur\u00eddico de reconocimiento de todos los derechos consagrados en la Convenci\u00f3n de derechos del Ni\u00f1o y establecimiento de garant\u00edas a todos los ni\u00f1os, ni\u00f1as y adolescentes, sin discriminaci\u00f3n alguna. Se establecer\u00e1n los mecanismos de exigibilidad de los derechos. Esta Ley derogar\u00e1 la actual Ley de Menores, N\u00b0 16.628.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 89
+},
+{
+  "fields": {
+    "category": 15,
+    "name": "Implicar\u00e1 reformar (...) la Ley N\u00b020.032, fortaleciendo las competencias del Estado para una actuaci\u00f3n efectiva y eficaz en materia de protecci\u00f3n especial",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 90
+},
+{
+  "fields": {
+    "category": 15,
+    "name": "(...) transformado al SENAME en el Servicio Nacional de Protecci\u00f3n de Menores, dependiente del Ministerio de Desarrollo Social",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 91
+},
+{
+  "fields": {
+    "category": 15,
+    "name": "Implicar\u00e1 reformar (...) la Ley N\u00b0 19.620 que dicta normas sobre adopci\u00f3n de menores. La actual ley de Adopci\u00f3n presenta vac\u00edos que ponen en disputa el inter\u00e9s superior del ni\u00f1o y otros intereses.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Se presentan indicaciones al proyecto donde se establece que la adopci\u00f3n tiene por objeto velar por el inter\u00e9s superior del adoptado, y amparar su derecho a vivir y desarrollarse en el seno de una familia que le brinde el afecto y le procure los cuidados tendientes a satisfacer sus necesidades espirituales y materiales, cuando ello no le pueda ser proporcionado por su familia de origen."
+  },
+  "model": "promises.promise",
+  "pk": 92
+},
+{
+  "fields": {
+    "category": 15,
+    "name": "Definiremos una Pol\u00edtica de Fortalecimiento de la Capacidad Parental de la familia",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 93
+},
+{
+  "fields": {
+    "category": 15,
+    "name": "Fortaleceremos el Subsistema de Protecci\u00f3n de Infancia Chile Crece Contigo",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 94
+},
+{
+  "fields": {
+    "category": 15,
+    "name": "Crearemos en el Ministerio de Desarrollo Social una Subsecretar\u00eda de la Juventud.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 95
+},
+{
+  "fields": {
+    "category": 16,
+    "name": "Impulsaremos un Nuevo Sistema de Asistencia Jur\u00eddica para Chile. El objetivo de un nuevo sistema de asistencia jur\u00eddica debe ser asegurar servicios jur\u00eddicos preventivos, de asesor\u00eda en asuntos jur\u00eddicos y de representaci\u00f3n en juicio, para personas que no pueden financiarlos total o parcialmente, de una calidad equivalente a los que se pueden procurar las personas que cuentan con los recursos para ello.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 96
+},
+{
+  "fields": {
+    "category": 16,
+    "name": "Al respecto, impulsaremos la discuci\u00f3n en torno al gobierno judicial, con una amplia participaci\u00f3n de este poder. Tambi\u00e9n sobre una carrera judicial alineada con nuevos incentivos, de modo que responda a la diversidad y complejidad de los cambios que Chile demanda en acceso a la justicia, transparencia, rendici\u00f3n de cuentas y equidad.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 97
+},
+{
+  "fields": {
+    "category": 16,
+    "name": "Continuaremos adelante con el proceso de Reforma a la Justicia Civil, con un horizonte de mediano plazo, promoviendo, un reordenamiento de competencias, tanto a nivel local como de jueces de letras",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto crea un nuevo C\u00f3digo Procesal Civil consagrando el acceso ciudadano a un sistema procesal civil moderno "
+  },
+  "model": "promises.promise",
+  "pk": 98
+},
+{
+  "fields": {
+    "category": 16,
+    "name": "Como resultado de un nuevo mapa de las competencias de la Justicia Civil debemos hacernos cargo del dise\u00f1o de una nueva judicatura, priorizando la creaci\u00f3n de una nueva justicia local verdaderamente independiente de los gobiernos comunales.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 99
+},
+{
+  "fields": {
+    "category": 16,
+    "name": "Nos haremos cargo de implementar una reforma al Sistema de Notarios, Conservadores de Bienes Ra\u00edces y Archiveros, cuya institucionalidad es anacr\u00f3nica, y se organiza como una fuente de excesivo lucro personal, no asignado en raz\u00f3n de m\u00e9rito, que adem\u00e1s provee servicios muchas veces ineficientes y de alto costo para la ciudadan\u00eda.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 100
+},
+{
+  "fields": {
+    "category": 16,
+    "name": "Otra iniciativa relevante ser\u00e1 eliminar discriminaciones contra la mujer, sustituyendo la sociedad conyugal por una comunidad de bienes, fundada en la igualdad y en la protecci\u00f3n del patrimonio familiar; consagrando en todo matrimonio una responsabilidad com\u00fan y efectiva frente a las deudas familiares; y, modificando la regulaci\u00f3n de la compensaci\u00f3n econ\u00f3mica.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 101
+},
+{
+  "fields": {
+    "category": 16,
+    "name": "Dentro del \u00e1mbito de la protecci\u00f3n de las familias y la eliminaci\u00f3n de discriminaciones propiciaremos una regulaci\u00f3n legal que permita, sin discriminaci\u00f3n, proteger patrimonialmente a los convivientes que no opten por el matrimonio u otra forma de regulaci\u00f3n civil, en particular al menos favorecido en t\u00e9rminos patrimoniales o previsionales, en caso de ruptura o muerte.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 102
+},
+{
+  "fields": {
+    "category": 16,
+    "name": "El Acuerdo de Vida en Pareja (AVP), propuesto por el actual gobierno, es insuficiente y no constituye un mecanismo de soluci\u00f3n \u201cintegral\u201d a los problemas de las uniones heterosexuales y homosexuales. Por ello, para las parejas que no optan por el matrimonio propiciaremos una regulaci\u00f3n alternativa, que otorgue derechos y protecci\u00f3n integral a los convivientes en sus relaciones mutuas personales y patrimoniales.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto tiene como objeto homologar, en la mayor cantidad de casos posibles, a los c\u00f3nyuges con los convivientes civiles."
+  },
+  "model": "promises.promise",
+  "pk": 103
+},
+{
+  "fields": {
+    "category": 16,
+    "name": "Buscaremos se sancione directamente el incumplimiento de medidas de protecci\u00f3n en caso de violencia intrafamiliar y que el delito de maltrato habitual sea debidamente juzgado,",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 104
+},
+{
+  "fields": {
+    "category": 16,
+    "name": "En el \u00e1mbito del Derecho Penal, impulsaremos una revisi\u00f3n integral de la legislaci\u00f3n penal vigente, sin perjuicio de lo cual nos haremos cargo de reformas urgentes, especialmente en el \u00e1mbito de los delitos econ\u00f3micos, frente a la premisa de superar el paradigma de una legislaci\u00f3n anclada en una visi\u00f3n clasista y estereotipada de la delincuencia. La sanci\u00f3n penal de la colusi\u00f3n constituye un claro ejemplo en esa l\u00ednea.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 105
+},
+{
+  "fields": {
+    "category": 16,
+    "name": "Especializaremos todos los \u00f3rganos de la justicia penal de adolescentes (polic\u00eda, jueces, fiscales y defensores), mediante su capacitaci\u00f3n y formaci\u00f3n profesional, la creaci\u00f3n por ley de incentivos de carrera para la dedicaci\u00f3n exclusiva o preferente, y la orientaci\u00f3n de metas e indicadores hacia el favorecimiento del proceso de reinserci\u00f3n y el respeto de los derechos y garant\u00edas de los adolescentes.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto permite la provisi\u00f3n de defensa penal especializada de adolescentes, no obstante no hace referencia a la modificaci\u00f3n del sistema judicial, de fiscales y de polic\u00eda"
+  },
+  "model": "promises.promise",
+  "pk": 106
+},
+{
+  "fields": {
+    "category": 17,
+    "name": "En materia de fortalecimiento institucional, es necesario evaluar el Sistema de Evaluaci\u00f3n de Impacto Ambiental (SEIA,) a la luz de los objetivos iniciales que nos movieron a presentar la reforma a la institucionalidad ambiental en nuestro Gobierno, e impulsaremos con decisi\u00f3n los cambios necesarios que aseguren a todos los ciudadanos, organizaciones y empresarios, una institucionalidad validada desde el punto de vista t\u00e9cnico.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 107
+},
+{
+  "fields": {
+    "category": 17,
+    "name": "Estableceremos los mecanismos institucionales y recursos para la entrega efectiva de orientaci\u00f3n, mediaci\u00f3n y defensa ambiental ciudadana, que facilite la soluci\u00f3n de problemas ambientales locales.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 108
+},
+{
+  "fields": {
+    "category": 17,
+    "name": "Completaremos la reforma ambiental iniciada en el per\u00edodo 2006-2010 (...) tramitando el proyecto de ley que crea el Servicio de Biodiversidad y \u00c1reas Protegidas, que definir\u00e1 las categor\u00edas de protecci\u00f3n y establecer\u00e1 los rangos de prohibiciones y limitaciones de actividades para cada una de ellas, fortaleciendo la protecci\u00f3n de la biodiversidad, que no s\u00f3lo se restringe a las \u00e1reas protegidas.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto crea el Servicio de Biodiversidad y \u00c1reas Protegidas con funciones tales como administrar el Sistema Nacional de \u00c1reas Protegidas y elaborar y ejecutar estudios y programas de investigaci\u00f3n, conducentes a conocer el estado de la biodiversidad, entre otras."
+  },
+  "model": "promises.promise",
+  "pk": 109
+},
+{
+  "fields": {
+    "category": 17,
+    "name": "Estudiaremos una soluci\u00f3n al estatuto jur\u00eddico que debe tener CONAF.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 110
+},
+{
+  "fields": {
+    "category": 17,
+    "name": "Sobre residuos, daremos prioridad a proponer y tramitar una ley general de residuos. No soluciona el tema la normativa parcial y dispersa que tenemos hoy. Requerimos una ley integral. Buscaremos eliminar las barreras que hoy existen para que se puedan aplicar las mejores tecnolog\u00edas disponibles y ya probadas en el mundo.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Sanciona el transporte de deshechos hacia vertederos clandestinos, pero no constituye una ley integral en materia de deshechos"
+  },
+  "model": "promises.promise",
+  "pk": 111
+},
+{
+  "fields": {
+    "category": 18,
+    "name": "La institucionalidad del Estado en el sector minero requiere una modernizaci\u00f3n para enfrentar el desarrollo del sector. Fortaleceremos al Ministerio de Miner\u00eda, en especial en recursos humanos y personal t\u00e9cnico calificado.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 112
+},
+{
+  "fields": {
+    "category": 18,
+    "name": "Ante el incremento de la inversi\u00f3n estatal en proyectos mineros, fortaleceremos a COCHILCO con mayores atribuciones para cumplir a cabalidad su rol de resguardo de los intereses del Estado en sus empresas mineras, por medio de la fiscalizaci\u00f3n y evaluaci\u00f3n de inversiones y contratos.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 113
+},
+{
+  "fields": {
+    "category": 18,
+    "name": "Adicionalmente, realizaremos un fortalecimiento institucional del SERNAGEOMIN para que desarrolle su labor de control de la seguridad en las faenas mineras.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto perfecciona la forma de c\u00e1lculo de la vida \u00fatil de los proyectos mineros y en relaci\u00f3n al SERNAGEOMIN lo faculta para exigir la entrega de informaci\u00f3n geol\u00f3gica b\u00e1sica de car\u00e1cter general y establece sanci\u00f3n de multa en caso de incumplimiento. No hay m\u00e1s normas relativas al fortalecimiento de dicho Servicio."
+  },
+  "model": "promises.promise",
+  "pk": 114
+},
+{
+  "fields": {
+    "category": 18,
+    "name": "Adem\u00e1s, revalorizaremos el rol de la Empresa Nacional de Miner\u00eda (ENAMI) (...). Su actual estructura corporativa le dificulta mostrar eficiencia en su funci\u00f3n, por lo que estableceremos un gobierno corporativo moderno.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 115
+},
+{
+  "fields": {
+    "category": 18,
+    "name": "Estudiaremos y aplicaremos nuevas normas para el perfeccionamiento del sistema de concesiones mineras, de forma que este fomente la exploraci\u00f3n y no se constituya en una potencial barrera a la entrada de nuevos actores.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 116
+},
+{
+  "fields": {
+    "category": 19,
+    "name": "Avanzaremos en la profesionalizaci\u00f3n de las dirigencias deportivas, con mayores exigencias de control y transparencia en el manejo de recursos.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 117
+},
+{
+  "fields": {
+    "category": 19,
+    "name": "Crearemos la Agencia de Concesiones, con personalidad jur\u00eddica propia, competencias y atribuciones. Esta agencia asesorar\u00e1 a los distintos ministerios, servicios y municipalidades que requieran ejecutar proyectos mediante el mecanismo de concesiones.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 118
+},
+{
+  "fields": {
+    "category": 19,
+    "name": "Para ello crearemos la Direcci\u00f3n Nacional de Evaluaci\u00f3n, que tendr\u00e1 la misi\u00f3n de contribuir al mejoramiento continuo de la calidad de las pol\u00edticas, programas y proyectos p\u00fablicos, a trav\u00e9s de la incorporaci\u00f3n de procesos de evaluaci\u00f3n que asesoren la toma de decisiones.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 119
+},
+{
+  "fields": {
+    "category": 19,
+    "name": "Para ello, evaluaremos la institucionalizaci\u00f3n de la negociaci\u00f3n colectiva en el sector p\u00fablico, estudiando mecanismos que se hagan cargo de sus especiales particularidades.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 120
+},
+{
+  "fields": {
+    "category": 19,
+    "name": "Perfeccionamiento del Sistema de Alta Direcci\u00f3n P\u00fablica. A 10 a\u00f1os de su creaci\u00f3n, el Sistema de Alta Direcci\u00f3n P\u00fablica ha confirmado su relevancia entre las reformas del Estado que se han implementado en nuestro pa\u00eds. Ha sido exitoso al implantar un exigente sistema de selecci\u00f3n de altos directivos. Sin embargo, al producirse el cambio de gobierno en 2010 mostr\u00f3 debilidad, convirtiendo la facultad para despedir a los altos directivos en un mecanismo de remoci\u00f3n pol\u00edtica. Por lo tanto, es indispensable incorporar mejoras al sistema;",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 121
+},
+{
+  "fields": {
+    "category": 19,
+    "name": "Implementaremos un sistema de fideicomiso ciego para las nuevas autoridades, sin esperar la aprobaci\u00f3n del proyecto de ley que se discute actualmente en el Congreso, y el cual fortaleceremos y aceleraremos.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Se presentan indicaciones al Proyecto de Ley de Probidad en la Funci\u00f3n P\u00fablica para perfeccionar el sistema de fideicomiso ciego"
+  },
+  "model": "promises.promise",
+  "pk": 122
+},
+{
+  "fields": {
+    "category": 19,
+    "name": "Adem\u00e1s profundizaremos la normativa que regula el conflicto de inter\u00e9s en las funciones posteriores al ejercicio de cargos p\u00fablicos.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 123
+},
+{
+  "fields": {
+    "category": 19,
+    "name": "Perfeccionaremos las declaraciones de patrimonio e intereses de las autoridades p\u00fablicas a fin de que constituyan efectivamente un mecanismo de transparencia y fiscalizaci\u00f3n ciudadana.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Se presentan indicaciones al Proyecto de Ley de Probidad en la Funci\u00f3n P\u00fablica para perfeccionar el sistema de declaraciones de intereses y patrimonio"
+  },
+  "model": "promises.promise",
+  "pk": 124
+},
+{
+  "fields": {
+    "category": 19,
+    "name": "Vamos a perfeccionar el marco institucional de las empresas del Estado y de aquellas en que \u00e9ste tenga participaci\u00f3n, fortaleciendo sus gobiernos corporativos, para que estas empresas logren aumentar su transparencia y capacidad estrat\u00e9gica, mejorando la calidad de la gesti\u00f3n y la supervisi\u00f3n de las mismas.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 125
+},
+{
+  "fields": {
+    "category": 19,
+    "name": "Para lograr lo anterior perfeccionaremos el proyecto de ley que moderniza el INE, haciendo un verdadero esfuerzo en t\u00e9rminos de su fortalecimiento institucional.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 126
+},
+{
+  "fields": {
+    "category": 19,
+    "name": "Para el cumplimiento de los objetivos se\u00f1alados, se debe instaurar una nueva diplomacia que exige una Canciller\u00eda moderna, con flexibilidad y capacidad de respuesta a los desaf\u00edos del siglo XXI, contando con un personal especializado y una carrera funcionaria basada en capacidades y m\u00e9rito, acompa\u00f1ada de un dise\u00f1o y visi\u00f3n estrat\u00e9gica que genere el ya mencionado Sistema Nacional de Pol\u00edtica Exterior.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 127
+},
+{
+  "fields": {
+    "category": 20,
+    "name": "En materia Institucional, el objetivo estrat\u00e9gico es que los municipios pasen de cumplir una funci\u00f3n exclusivamente de administraci\u00f3n, a la constituci\u00f3n de verdaderos Gobiernos Locales, ampliando las actuales funciones que desarrollan y entreg\u00e1ndoles un mayor grado de autonom\u00eda en la gesti\u00f3n. Esto es posible, mediante el traspaso de competencias, recursos propios, autonom\u00eda administrativa y facultades.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 128
+},
+{
+  "fields": {
+    "category": 20,
+    "name": "Debemos perfeccionar y ampliar los mecanismos de participaci\u00f3n comunal, mejorando la legislaci\u00f3n que establece los Consejos Comunales de Organizaciones de la Sociedad Civil, ",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 129
+},
+{
+  "fields": {
+    "category": 20,
+    "name": "Debemos perfeccionar y ampliar los mecanismos de participaci\u00f3n comunal, (...) estableciendo como pol\u00edtica p\u00fablica los Fondos Concursables y presupuestos participativos.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 130
+},
+{
+  "fields": {
+    "category": 20,
+    "name": "Debemos perfeccionar y ampliar los mecanismos de participaci\u00f3n comunal, (...) ampliando el \u00e1mbito de acci\u00f3n de las Oficinas de Informaci\u00f3n y Reclamos",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 131
+},
+{
+  "fields": {
+    "category": 20,
+    "name": "Debemos perfeccionar y ampliar los mecanismos de participaci\u00f3n comunal, (...) mejorando la regulaci\u00f3n sobre consultas ciudadanas y plebiscitos.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 132
+},
+{
+  "fields": {
+    "category": 20,
+    "name": "Debemos fortalecer el Concejo Municipal, entreg\u00e1ndole mayores facultades, atribuciones y tambi\u00e9n responsabilidades y otorgarles a los concejales la responsabilidad de acompa\u00f1ar y monitorear una o m\u00e1s \u00e1reas del quehacer municipal con la obligaci\u00f3n de rendir cuentas.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 133
+},
+{
+  "fields": {
+    "category": 20,
+    "name": "Sobre la dotaci\u00f3n y el estatuto jur\u00eddico de los funcionarios municipales se propone retomar el debate sobre el Art. 121 de la constituci\u00f3n que permite a los alcaldes descentralizar la gesti\u00f3n de personal de acuerdo a las particularidades de cada municipio, impulsando la norma legal que otorgue la facultad de revisar la estructura de plantas. La discusi\u00f3n sobre el Art. 121, debe incorporar la revisi\u00f3n de las normas laborales de los funcionarios municipales, con el debido resguardo de la carrera funcionaria y participaci\u00f3n de todos los estamentos, permitiendo que \u00e9stos trabajen en condiciones de dignidad y de resguardo de sus derechos como trabajadores.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 134
+},
+{
+  "fields": {
+    "category": 20,
+    "name": "Estudiar compensaciones, con cargo al presupuesto nacional, por las exenciones de diversos tributos de beneficio municipal, por ejemplo, por exenci\u00f3n del pago de los derechos de aseo, del pago de contribuciones, o por la construcci\u00f3n de viviendas sociales, materias que gravan en mayor medida a los municipios m\u00e1s pobres del pa\u00eds",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 135
+},
+{
+  "fields": {
+    "category": 20,
+    "name": "Corregir, mediante una modificaci\u00f3n a la Ley de Rentas Municipales, las discriminaciones e injusticias que existen, en particular para que los grandes contribuyentes financien adecuadamente las prestaciones y servicios que reciben de los municipios",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 136
+},
+{
+  "fields": {
+    "category": 20,
+    "name": "Asegurar normativamente que cualquier nueva funci\u00f3n o tarea que se le asigne a los municipios deber\u00e1 contemplar el financiamiento respectivo.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 137
+},
+{
+  "fields": {
+    "category": 21,
+    "name": "Complementariamente, es esencial modernizar el Servicio Nacional de Pesca (Sernapesca). El sub-reporte, la pesca ilegal, o simplemente la no fiscalizaci\u00f3n de los desembarques, contribuyen a la sobreexplotaci\u00f3n. Contar con una institucionalidad fiscalizadora a la altura de los desaf\u00edos es tambi\u00e9n fundamental.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 138
+},
+{
+  "fields": {
+    "category": 21,
+    "name": "Asimismo, consideraremos la veda biol\u00f3gica legal de pesquer\u00edas declaradas colapsadas, junto con la eliminaci\u00f3n progresiva de la pesca de arrastre, mediante una transici\u00f3n que genere los m\u00ednimos impactos en la industria nacional.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 139
+},
+{
+  "fields": {
+    "category": 21,
+    "name": "Por ello, impulsaremos el Instituto de Desarrollo de la Pesca Artesanal, con recursos y presencia regional, para que sea un motor de desarrollo social y econ\u00f3mico de este sector.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto crea el INDESPA con presencia en cada regi\u00f3n y cuyo objeto ser\u00e1 la facilitaci\u00f3n del acceso al cr\u00e9dito, la asistencia t\u00e9cnica y capacitaci\u00f3n a los beneficiarios en todo el pa\u00eds, el financiamiento de aportes no reembolsables, as\u00ed como tambi\u00e9n aquellos destinados a atender situaciones de cat\u00e1strofe."
+  },
+  "model": "promises.promise",
+  "pk": 140
+},
+{
+  "fields": {
+    "category": 21,
+    "name": "Adicionalmente, asumimos el compromiso de concretar durante el pr\u00f3ximo per\u00edodo presidencial la extensi\u00f3n de las 5 millas de protecci\u00f3n artesanal desde Chilo\u00e9 hasta el extremo sur, para que en todo el pa\u00eds exista una zona exclusiva para pescadores artesanales, y no se discrimine a los pescadores australes.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 141
+},
+{
+  "fields": {
+    "category": 21,
+    "name": "En materia de seguridad social, realizaremos los esfuerzos necesarios para incorporar a los pescadores artesanales, tanto al sistema de pensiones, como a la salud laboral, participando de la ley de Accidentes del Trabajo y Enfermedades Profesionales.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 142
+},
+{
+  "fields": {
+    "category": 21,
+    "name": "En el \u00e1mbito de la pesca debemos velar por que los instrumentos legales cautelen los intereses y demandas de todos los sectores involucrados, con una preocupaci\u00f3n especial por aquellos m\u00e1s vulnerables. Por esto, realizaremos una evaluaci\u00f3n de la Ley de Pesca aprobada durante la actual administraci\u00f3n.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 143
+},
+{
+  "fields": {
+    "category": 22,
+    "name": "En los primeros 100 d\u00edas de Gobierno se enviar\u00e1 al Congreso un proyecto de ley que crea una AFP estatal, que permita mayor competencia de precios, la atenci\u00f3n preferente de grupos de la poblaci\u00f3n de menor inter\u00e9s para las AFP existentes, como los trabajadores independientes, de menores rentas y quienes laboran en zonas apartadas de los grandes centros urbanos;",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto crea una AFP estatal con el objeto de aumentar la cobertura en materia de pensiones de los trabajadores de menores rentas, trabajadores independientes y trabajadores de zonas geogr\u00e1ficas alejadas de centros urbanos, as\u00ed como introducir mayor competencia en el Sistema de las AFP."
+  },
+  "model": "promises.promise",
+  "pk": 144
+},
+{
+  "fields": {
+    "category": 22,
+    "name": "Fortaleceremos los mecanismos de ahorro previsional voluntario para generar una cobertura m\u00e1s amplia de la clase media y de menores ingresos.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 145
+},
+{
+  "fields": {
+    "category": 22,
+    "name": "En los primeros 100 d\u00edas de Gobierno, enviaremos al Congreso, con discusi\u00f3n inmediata, el proyecto de ley del Aporte Familiar Permanente Marzo.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Se crea un aporte monetario familiar de car\u00e1cter permanente para las familias de menores ingresos durante el mes de marzo."
+  },
+  "model": "promises.promise",
+  "pk": 146
+},
+{
+  "fields": {
+    "category": 22,
+    "name": "Crearemos una nueva institucionalidad para la medici\u00f3n de la pobreza.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 147
+},
+{
+  "fields": {
+    "category": 22,
+    "name": "Adicionalmente, evaluaremos e implementaremos una normativa que permita hacer extensiva la asignaci\u00f3n por muerte a la totalidad de los adultos mayores que tienen PBS y a los beneficiarios de APS con saldo cero en su cuenta individual.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 148
+},
+{
+  "fields": {
+    "category": 22,
+    "name": "Necesitamos agregar un nuevo componente al sistema de protecci\u00f3n social, el Sistema Nacional de Cuidado, enfocado en servicios sociales en materia de cuidados. Ello incluye tanto la promoci\u00f3n de la autonom\u00eda de las personas mayores, as\u00ed como el apoyo sistem\u00e1tico y continuo a quienes est\u00e1n en situaci\u00f3n de dependencia.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 149
+},
+{
+  "fields": {
+    "category": 23,
+    "name": "Tenemos por delante el desaf\u00edo impostergable de reconocer constitucionalmente a los Pueblos Ind\u00edgenas en el marco de la discusi\u00f3n de una Nueva Constituci\u00f3n para Chile, y debatir ah\u00ed un nuevo modo de convivencia como sociedad pluricultural.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 150
+},
+{
+  "fields": {
+    "category": 23,
+    "name": "\u00e9stos en los distintos niveles de toma de decisiones. Desarrollaremos un proceso de consulta con los Pueblos Ind\u00edgenas para establecer reformas que generen espacios de autonom\u00eda y autodeterminaci\u00f3n a nivel territorial mediante la generaci\u00f3n de Estatutos Especiales de Autonom\u00eda.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 151
+},
+{
+  "fields": {
+    "category": 23,
+    "name": "Por esto, en los primeros 100 d\u00edas de Gobierno enviaremos un proyecto de ley con discusi\u00f3n inmediata, que confiere rango de Ministro de Asuntos Ind\u00edgenas al Director de la Conadi.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 152
+},
+{
+  "fields": {
+    "category": 23,
+    "name": "Para que tenga m\u00e1s fuerza esta instituci\u00f3n se enviar\u00e1 al Congreso el proyecto de ley que crea el Ministerio de Asuntos Ind\u00edgenas, que ser\u00e1 adem\u00e1s el encargado de colaborar con el Presidente de la Rep\u00fablica en la definici\u00f3n de una pol\u00edtica ind\u00edgena para Chile.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 153
+},
+{
+  "fields": {
+    "category": 23,
+    "name": "Enviaremos el proyecto de ley que crea el Consejo de Pueblos Ind\u00edgenas, aut\u00f3nomo y representativo de los diversos pueblos que existen en Chile.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 154
+},
+{
+  "fields": {
+    "category": 23,
+    "name": "La Ley Antiterrorista ser\u00e1 modificada para adecuarla a los est\u00e1ndares internacionales, tal como le han recomendado al Estado de Chile los \u00f3rganos internacionales de protecci\u00f3n de derechos humanos.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto modifica nuestra legislaci\u00f3n antiterrorista tomando en cuenta las recomendaciones realizadas por los informes de las organizaciones internacionales sobre el tema."
+  },
+  "model": "promises.promise",
+  "pk": 155
+},
+{
+  "fields": {
+    "category": 24,
+    "name": "Vamos a desarrollar un Plan Nacional para la formaci\u00f3n y retenci\u00f3n de especialidades m\u00e9dicas para apoyar la formaci\u00f3n de 4.000 nuevos especialistas y que incentive el ingreso de m\u00e1s de 5.000 m\u00e9dicos a los programas de formaci\u00f3n, junto con articular una pol\u00edtica moderna para el desarrollo del recurso humano m\u00e9dico especializado.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto contempla medidas que constituyen incentivos que permitan atraer y retener a profesionales de la salud, especialmente m\u00e9dicos."
+  },
+  "model": "promises.promise",
+  "pk": 156
+},
+{
+  "fields": {
+    "category": 24,
+    "name": "convocaremos a un equipo de expertos con el mandato de redactar una propuesta de Proyecto de Ley de Isapres, que est\u00e9 en el contexto del funcionamiento global del sistema de seguridad social en el \u00e1mbito de la salud.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 157
+},
+{
+  "fields": {
+    "category": 24,
+    "name": "Generaremos un Fondo Especial de Medicamentos de Alto Costo, que pueda responder a la demanda de nuestros beneficiarios, bajo protocolos y gu\u00edas cl\u00ednicas elaboradas por grupos de expertos.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto incorpora al R\u00e9gimen General de Garant\u00edas en Salud el Sistema de Protecci\u00f3n Financiera para Tratamientos de Alto Costo"
+  },
+  "model": "promises.promise",
+  "pk": 158
+},
+{
+  "fields": {
+    "category": 25,
+    "name": "Promoveremos el derecho de los ciudadanos a vivir en ciudades o localidades m\u00e1s seguras. Esto implica fortalecer el rol de prevenci\u00f3n social y situacional que los municipios ejercen, para lo que incorporaremos la seguridad ciudadana como un eje transversal y con preponderancia en el organigrama municipal.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto busca fortalecer el rol Municipal en la seguridad p\u00fablica, establecer un plan comunal de seguridad p\u00fablica como instrumento de gesti\u00f3n comunal y la creaci\u00f3n de los consejos comunales de seguridad p\u00fablica."
+  },
+  "model": "promises.promise",
+  "pk": 159
+},
+{
+  "fields": {
+    "category": 25,
+    "name": "Crearemos en la Subsecretar\u00eda de Prevenci\u00f3n del Delito una Unidad T\u00e9cnica de apoyo a los municipios.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 160
+},
+{
+  "fields": {
+    "category": 25,
+    "name": "Crearemos al interior de 150 comisar\u00edas del pa\u00eds las denominadas salas de familia, que ser\u00e1n atendidas por funcionarios llamados al servicio, de modo de no afectar el desv\u00edo de personal activo policial destinadas a la atenci\u00f3n de casos de violencia intrafamiliar y temas de ni\u00f1os ni\u00f1as y adolescentes como programa 24 horas.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 161
+},
+{
+  "fields": {
+    "category": 25,
+    "name": "Revisaremos la ley 20.000, entregando el conocimiento de las faltas consideradas en esta norma, ya no a la justicia penal, sino a los Juzgados de Polic\u00eda Local.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 162
+},
+{
+  "fields": {
+    "category": 25,
+    "name": "Entregaremos a la potestad reglamentaria de ejecuci\u00f3n, la determinaci\u00f3n de los niveles o cuant\u00eda de droga que debe considerarse constitutiva de micro tr\u00e1fico y, consecuentemente, aquella que le est\u00e1 permitido portar a una persona para su consumo personal inmediato en el tiempo.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 163
+},
+{
+  "fields": {
+    "category": 25,
+    "name": "Dotaremos de adecuado sustento institucional a los Tribunales de Tratamiento de Drogas, y extenderemos su competencia a diversos casos.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 164
+},
+{
+  "fields": {
+    "category": 25,
+    "name": "Revisaremos y mejoraremos los mecanismos legales de rendici\u00f3n de cuentas p\u00fablicas previstos en las leyes org\u00e1nicas respectivas tanto de la gesti\u00f3n administrativa, presupuestaria y sustantiva del Ministerio P\u00fablico y las polic\u00edas.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 165
+},
+{
+  "fields": {
+    "category": 25,
+    "name": "Adicionalmente, revisaremos la Ley Org\u00e1nica del Ministerio P\u00fablico y enviaremos un proyecto de ley al Congreso con el objetivo de flexibilizar su dise\u00f1o, de manera de permitir un funcionamiento m\u00e1s eficaz de la instituci\u00f3n en materia de persecuci\u00f3n de los delitos, coordinaci\u00f3n interinstitucional y estructura organizacional.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto crea la Fiscal\u00eda Especial de Alta Complejidad, dedicada a la investigaci\u00f3n y persecuci\u00f3n de cierto tipo de delitos cuya gravedad y significancia social requiere de una dedicaci\u00f3n exclusiva y con personal especializado en la materia. Con esto tambi\u00e9n se pretende lograr una descongesti\u00f3n en el trabajo de las fiscal\u00edas locales. No realiza modificaciones a la Ley Org\u00e1nica del Ministerio P\u00fablico."
+  },
+  "model": "promises.promise",
+  "pk": 166
+},
+{
+  "fields": {
+    "category": 25,
+    "name": "Adicionalmente, crearemos un Servicio P\u00fablico Descentralizado de Apoyo a V\u00edctimas -radicado en el Ministerio de Interior y Seguridad P\u00fablica- que asuma la direcci\u00f3n de los Centros de Atenci\u00f3n de V\u00edctimas, y lidere de Red de Atenci\u00f3n a V\u00edctimas.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 167
+},
+{
+  "fields": {
+    "category": 25,
+    "name": "Desde el inicio del nuevo sistema procesal penal, un cuello de botella para su funcionamiento ha sido la capacidad de los organismos auxiliares (Servicio M\u00e9dico Legal, Instituto de Salud P\u00fablica, Laboratorios Policiales, etc.). Realizaremos una modernizaci\u00f3n y fortalecimiento de los servicios auxiliares que tienen por funci\u00f3n producir evidencia cient\u00edfica para el sistema.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Se otorgan facultades a la Presidenta para modificar la planta del Servicio M\u00e9dico Legal y se concede un bono especial a ciertos funcionarios"
+  },
+  "model": "promises.promise",
+  "pk": 168
+},
+{
+  "fields": {
+    "category": 25,
+    "name": "Enviaremos al Congreso dentro de los primeros 100 d\u00edas de Gobierno el proyecto de ley para aumentar la dotaci\u00f3n a 6.000 de nuevos carabineros a raz\u00f3n de 1.500 por a\u00f1o, y aumentar los denominados llamados al servicio.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto incrementa en 6.000 efectivos la dotaci\u00f3n de Carabineros, en un per\u00edodo de cuatro a\u00f1os, entre el a\u00f1o 2015 y el a\u00f1o 2018, en un rango de 1.500 anuales."
+  },
+  "model": "promises.promise",
+  "pk": 169
+},
+{
+  "fields": {
+    "category": 25,
+    "name": "Aumentaremos la dotaci\u00f3n de la Polic\u00eda de Investigaciones en 1.200 nuevos funcionarios.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto incrementa la dotaci\u00f3n de la PDI en un poco m\u00e1s de 1.200 funcionarios"
+  },
+  "model": "promises.promise",
+  "pk": 170
+},
+{
+  "fields": {
+    "category": 25,
+    "name": "Estableceremos el car\u00e1cter p\u00fablico del provisionamiento de programas de reinserci\u00f3n y rehabilitaci\u00f3n en las c\u00e1rceles, ya sea que se trata de un establecimiento de administraci\u00f3n directa (p\u00fablica) o concesionado.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 171
+},
+{
+  "fields": {
+    "category": 25,
+    "name": "A partir de la divisi\u00f3n del actual Servicio Nacional de Menores (SENAME), crearemos el Servicio Nacional de Reinserci\u00f3n Social de Adolescentes, entidad p\u00fablica especializada y altamente calificado que asuma responsabilidad directa, en coordinaci\u00f3n con las dem\u00e1s agencias del Estado, por el proceso de reinserci\u00f3n social de cada adolescente infractor. Respecto la otra funci\u00f3n de SENAME, la protecci\u00f3n de menores en situaci\u00f3n irregular, quedar\u00e1 radicada en el Servicio Nacional de Protecci\u00f3n de Menores, dependiente del Ministerio de Desarrollo Social.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 172
+},
+{
+  "fields": {
+    "category": 25,
+    "name": "Reformaremos las sanciones alternativas a la c\u00e1rcel y las medidas alternativas al proceso, asegurando su cumplimiento efectivo e idoneidad.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto busca establecer las bases normativas que permitan aumentar la probabilidad de que los responsables de los delitos de mayor connotaci\u00f3n social y, especialmente, robos y hurtos, sean objeto de condenas efectivas, se impongan \u00e9stas por el tiempo que la ley establece y se pueda distinguir adecuadamente entre primerizos y reincidentes"
+  },
+  "model": "promises.promise",
+  "pk": 173
+},
+{
+  "fields": {
+    "category": 26,
+    "name": "Impulsaremos reformas para favorecer el financiamiento de las MYPE. La actual legislaci\u00f3n bancaria plantea restricciones de capital demasiado elevadas para que surjan bancos de nicho que puedan focalizar su acci\u00f3n en las empresas m\u00e1s peque\u00f1as.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto propone una capitalizaci\u00f3n al Banco Estado con el objeto de expandir de manera significativa los cr\u00e9ditos, ampliar la capacidad operativa del FOGAPE (Fondo de Garant\u00eda para Peque\u00f1os Empresarios) y una ampliaci\u00f3n transitoria de la cobertura del FOGAPE."
+  },
+  "model": "promises.promise",
+  "pk": 174
+},
+{
+  "fields": {
+    "category": 26,
+    "name": "Adicionalmente, crearemos una unidad especializada en la Subsecretar\u00eda de Econom\u00eda, cuyo prop\u00f3sito ser\u00e1 la vigilancia de los abusos en contra de las empresas de menor tama\u00f1o e impulsar, a trav\u00e9s de un amplio proceso participativo, un exhaustivo proceso de revisi\u00f3n y ajuste de la normativa que afecta el desempe\u00f1o de las empresas de menor tama\u00f1o.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 175
+},
+{
+  "fields": {
+    "category": 26,
+    "name": "Eliminaremos las diversas formas de discriminaci\u00f3n que afectan la constituci\u00f3n y el funcionamiento de las cooperativas, las cuales hoy agrupan a m\u00e1s de un mill\u00f3n de chilenas y chilenos.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Se propone, entre otras medidas, flexibilizar los requisitos necesarios para la constituci\u00f3n de las cooperativas y fortalecer su capacidad de gesti\u00f3n preservando su car\u00e1cter participativo."
+  },
+  "model": "promises.promise",
+  "pk": 176
+},
+{
+  "fields": {
+    "category": 26,
+    "name": "Debemos fortalecer los sindicatos y realizar un conjunto de modificaciones a la negociaci\u00f3n colectiva que permita ampliar la cobertura de trabajadores que pueden ejercer este derecho.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto realiza diversas modificaciones tales como: ampliaci\u00f3n de la cobertura de la negociaci\u00f3n colectiva a trabajadores que hoy est\u00e1n excluidos de ejercer este derecho, simplificaci\u00f3n del procedimiento de negociaci\u00f3n colectiva reglada, ampliaci\u00f3n de materias de la negociaci\u00f3n colectiva, equilibrio de las partes en el proceso negociador en relaci\u00f3n al derecho a huelga, entre otras."
+  },
+  "model": "promises.promise",
+  "pk": 177
+},
+{
+  "fields": {
+    "category": 26,
+    "name": "Como primer paso terminaremos a la brevedad con el uso artificioso del multirut o razones sociales para efectos laborales, lo que se ha traducido en limitaciones al ejercicio de derechos laborales b\u00e1sicos de los trabajadores como los de sindicalizaci\u00f3n y de negociaci\u00f3n colectiva. Enviaremos una indicaci\u00f3n al actual proyecto que se encuentra en el Congreso.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto regula el multirut de las empresas"
+  },
+  "model": "promises.promise",
+  "pk": 178
+},
+{
+  "fields": {
+    "category": 26,
+    "name": "Modernizaremos nuestra ley laboral para permitir la ampliaci\u00f3n de las materias que se puedan acordar en una negociaci\u00f3n colectiva con el empleador, cuando esto sea por acuerdo de las partes, teniendo los resguardos para asegurar la representatividad de los sindicatos.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 179
+},
+{
+  "fields": {
+    "category": 26,
+    "name": "Respecto a las condiciones laborales de los trabajadores de casa particular, que es un grupo especialmente desprotegido y de bajos ingresos, avanzaremos en la ratificaci\u00f3n de los compromisos internacionales sobre trabajo decente para trabajadores y trabajadoras dom\u00e9sticas y as\u00ed otorgar valor y dignidad a la importante funci\u00f3n que cumplen estas personas en nuestra sociedad.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto propone la aprobaci\u00f3n del Convenio 189, Sobre el Trabajo Decente para las Trabajadoras y los Trabajadores Dom\u00e9sticos, de la OIT."
+  },
+  "model": "promises.promise",
+  "pk": 180
+},
+{
+  "fields": {
+    "category": 26,
+    "name": "Impulsaremos el redise\u00f1o institucional y modernizaci\u00f3n de la Direcci\u00f3n del Trabajo, dot\u00e1ndola de mayores atribuciones, mejorando sus capacidades t\u00e9cnicas e identificando funciones claves en su organizaci\u00f3n interna, potenciando la especializaci\u00f3n en temas de g\u00e9nero.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 181
+},
+{
+  "fields": {
+    "category": 26,
+    "name": "En nuestro pa\u00eds el peso del cuidado de los hijos cuyos padres trabajan recae s\u00f3lo en las mujeres. Para evitar esta discriminaci\u00f3n negativa eliminaremos el art\u00edculo 203 del C\u00f3digo del Trabajo que impone tener una sala cuna en las empresas con 20 \u00f3 m\u00e1s mujeres. Para cubrir los costos de las salas cunas, crearemos un fondo solidario - constituido con aportes de trabajadores, empleadores y del Estado- que financiar\u00e1 un sistema universal de cuidado infantil y estimulaci\u00f3n temprana para todos los hijos e hijas de trabajadores y trabajadoras.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 182
+},
+{
+  "fields": {
+    "category": 26,
+    "name": "Para enfrentar el conjunto de programas y desaf\u00edos descritos se requiere implementar un importante proceso de modernizaci\u00f3n y fortalecimiento del SENCE. Separaremos las funciones de fiscalizaci\u00f3n, de administraci\u00f3n y de los recursos asignados a la capacitaci\u00f3n laboral.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 183
+},
+{
+  "fields": {
+    "category": 26,
+    "name": "Impulsaremos un conjunto de perfeccionamientos al Seguro de Cesant\u00eda",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 184
+},
+{
+  "fields": {
+    "category": 27,
+    "name": "Por otro lado, en cuanto a la gesti\u00f3n de los sistemas de transporte en las ciudades, crearemos la Autoridad Metropolitana de Transportes para cada \u00e1rea metropolitana.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 185
+},
+{
+  "fields": {
+    "category": 27,
+    "name": "Reforzaremos las facultades de los organismos fiscalizadores, aumentando el personal destinado a estas labores y estudiaremos modificaciones de ley para endurecer las multas y simplificar el proceso de cargos ante un deficiente servicio. Impondremos est\u00e1ndares internacionales que permitan implementar normativas t\u00e9cnicas a los servicios de telecomunicaciones, acordes con nuestro grado de desarrollo.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 186
+},
+{
+  "fields": {
+    "category": 27,
+    "name": "Para el acceso a Internet y a banda ancha estableceremos una normativa que permita un amplio acceso de la poblaci\u00f3n, con obligaciones expresas para las empresas, entre otras, de servicio en su zona de concesi\u00f3n, atenci\u00f3n de usuarios y cumplimiento de normativas t\u00e9cnicas.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 187
+},
+{
+  "fields": {
+    "category": 27,
+    "name": "En materia de competencia en la industria de las telecomunicaciones, modificaremos el r\u00e9gimen tarifario vigente, concentrado exclusivamente en los servicios p\u00fablicos de telefon\u00eda para que, con previo pronunciamiento del Tribunal de Defensa de la Libre Competencia, se puedan fijar otras tarifas destinadas a p\u00fablico final o a otros proveedores de telecomunicaciones, entre ellas las de acceso a internet. Estableceremos un organismo independiente y colegiado que resuelva divergencias que se presenten entre las partes en el proceso de fijaci\u00f3n de tarifas.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 188
+},
+{
+  "fields": {
+    "category": 27,
+    "name": "Adicionalmente, modificaremos el r\u00e9gimen de concesiones para que se pueda prestar m\u00faltiples servicios a trav\u00e9s de una misma red.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "El proyecto busca permitir que el espectro radioel\u00e9ctrico que se encuentre subutilizado, pueda ser ofrecido a dem\u00e1s concesionarias o empresas que requieran aumentar su capacidad espectral, durante la vigencia de las autorizaciones dadas previamente por el Estado, para  extender la cobertura geogr\u00e1fica de los servicios y mejorar la calidad de los mismos."
+  },
+  "model": "promises.promise",
+  "pk": 189
+},
+{
+  "fields": {
+    "category": 28,
+    "name": "Para proyectos inmobiliarios y de infraestructura de escala mayor estableceremos las normas y procedimientos para que est\u00e9n obligados a resolver su impacto urbano y no solo su impacto vial, como hoy.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 190
+},
+{
+  "fields": {
+    "category": 28,
+    "name": "Cabe tambi\u00e9n plantearnos el desaf\u00edo de generar nuevos programas habitacionales y de subsidios destinados a atender requerimientos de la ciudadan\u00eda que hoy no tienen respuesta o ayuda del Estado, en especial, para aquellos que ya tienen casa, pero que sus condiciones de vida est\u00e1n afectadas gravemente por el deterioro de sus viviendas y barrios y, para los que est\u00e1n en condiciones de ruralidad, revisando la normativa sanitaria, que impide su materializaci\u00f3n.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 191
+},
+{
+  "fields": {
+    "category": 28,
+    "name": "Adem\u00e1s, crearemos un nuevo subsidio destinado a mejorar espacios comunes o hacer reparaciones en viviendas de sectores medios.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 192
+},
+{
+  "fields": {
+    "category": 28,
+    "name": "Como una medida de protecci\u00f3n a la clase media y sectores vulnerables, estableceremos una normativa que obligue a las empresas constructoras, a entregar a cada condominio el conjunto de especificaciones t\u00e9cnicas, los planos, el listado de proveedores y los subcontratistas de especialidades del inmueble vendido.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 193
+},
+{
+  "fields": {
+    "category": 28,
+    "name": "La Comisi\u00f3n Interministerial de Ciudad, Vivienda y Territorio elaborar\u00e1 una pol\u00edtica de suelo con medidas legales, reglamentarias y de gesti\u00f3n que permitan garantizar que el Estado acceda a suelos p\u00fablicos y privados de calidad, integrados socialmente con la ciudad y que permitan desarrollar en ellos distintas intervenciones urbanas y habitacionales.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": "Se busca establecer de modo expreso la interpretaci\u00f3n de una norma sobre Copropiedad Inmobiliaria en el sentido que los espacios p\u00fablicos que se incorporar\u00e1n al dominio nacional de uso p\u00fablico ser\u00e1n solo aquellos que estuvieren considerados en el respectivo plan regulador. No obstante, no contiene la pol\u00edtica de suelos \u00edntegra."
+  },
+  "model": "promises.promise",
+  "pk": 194
+},
+{
+  "fields": {
+    "category": 28,
+    "name": "El Ministerio de Bienes Nacionales contar\u00e1 con nuevas competencias, recursos e instrumentos legales que le permitir\u00e1n proveer de terrenos para proyectos de los distintos ministerios.",
+    "person": null,
+    "date": null,
+    "ponderator": null,
+    "order": 0,
+    "description": ""
+  },
+  "model": "promises.promise",
+  "pk": 195
+},
+{
+  "fields": {
+    "url": "",
+    "date": null,
+    "display_name": "",
+    "promise": 195
+  },
+  "model": "promises.verificationdocument",
+  "pk": 1
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9690-01",
+    "date": null,
+    "display_name": "9690-01",
+    "promise": 3
+  },
+  "model": "promises.verificationdocument",
+  "pk": 2
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/7543-12",
+    "date": null,
+    "display_name": "7543-12",
+    "promise": 8
+  },
+  "model": "promises.verificationdocument",
+  "pk": 3
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9326-07",
+    "date": null,
+    "display_name": "9326-07",
+    "promise": 21
+  },
+  "model": "promises.verificationdocument",
+  "pk": 4
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9834-06",
+    "date": null,
+    "display_name": "9834-06",
+    "promise": 24
+  },
+  "model": "promises.verificationdocument",
+  "pk": 5
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9069-07",
+    "date": null,
+    "display_name": "9069-07",
+    "promise": 26
+  },
+  "model": "promises.verificationdocument",
+  "pk": 6
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9748-07",
+    "date": null,
+    "display_name": "9748-07",
+    "promise": 27
+  },
+  "model": "promises.verificationdocument",
+  "pk": 7
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9773-07",
+    "date": null,
+    "display_name": "9773-07",
+    "promise": 28
+  },
+  "model": "promises.verificationdocument",
+  "pk": 8
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/6422-07",
+    "date": null,
+    "display_name": "6422 -07",
+    "promise": 29
+  },
+  "model": "promises.verificationdocument",
+  "pk": 9
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/1265-10",
+    "date": null,
+    "display_name": "1265-10",
+    "promise": 29
+  },
+  "model": "promises.verificationdocument",
+  "pk": 10
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/4162-07",
+    "date": null,
+    "display_name": "4162-07",
+    "promise": 29
+  },
+  "model": "promises.verificationdocument",
+  "pk": 11
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/8207-07",
+    "date": null,
+    "display_name": "8207-07",
+    "promise": 30
+  },
+  "model": "promises.verificationdocument",
+  "pk": 12
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9593-17",
+    "date": null,
+    "display_name": "9593-17",
+    "promise": 31
+  },
+  "model": "promises.verificationdocument",
+  "pk": 13
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/7963-06",
+    "date": null,
+    "display_name": "7963-06",
+    "promise": 34
+  },
+  "model": "promises.verificationdocument",
+  "pk": 14
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9290-05",
+    "date": null,
+    "display_name": "9290-05",
+    "promise": 46
+  },
+  "model": "promises.verificationdocument",
+  "pk": 15
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9369-03",
+    "date": null,
+    "display_name": "9369-03",
+    "promise": 52
+  },
+  "model": "promises.verificationdocument",
+  "pk": 16
+},
+{
+  "fields": {
+    "url": "",
+    "date": null,
+    "display_name": "8132-26",
+    "promise": 176
+  },
+  "model": "promises.verificationdocument",
+  "pk": 17
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9365-04",
+    "date": null,
+    "display_name": "9365-04",
+    "promise": 63
+  },
+  "model": "promises.verificationdocument",
+  "pk": 18
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9366-04",
+    "date": null,
+    "display_name": "9366-04",
+    "promise": 21
+  },
+  "model": "promises.verificationdocument",
+  "pk": 19
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/8784-04",
+    "date": null,
+    "display_name": "8784-04",
+    "promise": 65
+  },
+  "model": "promises.verificationdocument",
+  "pk": 20
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9333-04",
+    "date": null,
+    "display_name": "9333-04",
+    "promise": 70
+  },
+  "model": "promises.verificationdocument",
+  "pk": 21
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9405-04",
+    "date": null,
+    "display_name": "9405-04",
+    "promise": 72
+  },
+  "model": "promises.verificationdocument",
+  "pk": 22
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9766-04",
+    "date": null,
+    "display_name": "9766-04",
+    "promise": 73
+  },
+  "model": "promises.verificationdocument",
+  "pk": 23
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9515-08",
+    "date": null,
+    "display_name": "9515-08",
+    "promise": 74
+  },
+  "model": "promises.verificationdocument",
+  "pk": 24
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9628-08",
+    "date": null,
+    "display_name": "9628-08",
+    "promise": 76
+  },
+  "model": "promises.verificationdocument",
+  "pk": 25
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9287-06",
+    "date": null,
+    "display_name": "9287-06",
+    "promise": 21
+  },
+  "model": "promises.verificationdocument",
+  "pk": 26
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9895-11",
+    "date": null,
+    "display_name": "9895-11",
+    "promise": 80
+  },
+  "model": "promises.verificationdocument",
+  "pk": 27
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/7130-07",
+    "date": null,
+    "display_name": "7130-07",
+    "promise": 86
+  },
+  "model": "promises.verificationdocument",
+  "pk": 28
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/8924-07",
+    "date": null,
+    "display_name": "8924-07",
+    "promise": 88
+  },
+  "model": "promises.verificationdocument",
+  "pk": 29
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9119-18",
+    "date": null,
+    "display_name": "9119-18",
+    "promise": 92
+  },
+  "model": "promises.verificationdocument",
+  "pk": 30
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/8197-07",
+    "date": null,
+    "display_name": "8197-07",
+    "promise": 98
+  },
+  "model": "promises.verificationdocument",
+  "pk": 31
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/7011-07",
+    "date": null,
+    "display_name": "7011-07",
+    "promise": 103
+  },
+  "model": "promises.verificationdocument",
+  "pk": 32
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9529-07",
+    "date": null,
+    "display_name": "9529-07",
+    "promise": 106
+  },
+  "model": "promises.verificationdocument",
+  "pk": 33
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9404-12",
+    "date": null,
+    "display_name": "9404-12",
+    "promise": 109
+  },
+  "model": "promises.verificationdocument",
+  "pk": 34
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/7908-15",
+    "date": null,
+    "display_name": "7908 -15",
+    "promise": 111
+  },
+  "model": "promises.verificationdocument",
+  "pk": 35
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9094-12",
+    "date": null,
+    "display_name": "9094-12",
+    "promise": 29
+  },
+  "model": "promises.verificationdocument",
+  "pk": 36
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9624-08",
+    "date": null,
+    "display_name": "9624-08",
+    "promise": 114
+  },
+  "model": "promises.verificationdocument",
+  "pk": 37
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/7616-06",
+    "date": null,
+    "display_name": "7616-06",
+    "promise": 124
+  },
+  "model": "promises.verificationdocument",
+  "pk": 38
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9689-21",
+    "date": null,
+    "display_name": "9689-21",
+    "promise": 140
+  },
+  "model": "promises.verificationdocument",
+  "pk": 39
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9399-13",
+    "date": null,
+    "display_name": "9399-13",
+    "promise": 144
+  },
+  "model": "promises.verificationdocument",
+  "pk": 40
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9273-05",
+    "date": null,
+    "display_name": "9273-05",
+    "promise": 146
+  },
+  "model": "promises.verificationdocument",
+  "pk": 41
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9692-07",
+    "date": null,
+    "display_name": "9692-07",
+    "promise": 155
+  },
+  "model": "promises.verificationdocument",
+  "pk": 42
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9865-11",
+    "date": null,
+    "display_name": "9865-11",
+    "promise": 156
+  },
+  "model": "promises.verificationdocument",
+  "pk": 43
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9851-11",
+    "date": null,
+    "display_name": "9851-11",
+    "promise": 158
+  },
+  "model": "promises.verificationdocument",
+  "pk": 44
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9601-25",
+    "date": null,
+    "display_name": "9601-25",
+    "promise": 159
+  },
+  "model": "promises.verificationdocument",
+  "pk": 45
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9608-07",
+    "date": null,
+    "display_name": "9608-07",
+    "promise": 166
+  },
+  "model": "promises.verificationdocument",
+  "pk": 46
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/8265-07",
+    "date": null,
+    "display_name": "8265-07",
+    "promise": 29
+  },
+  "model": "promises.verificationdocument",
+  "pk": 47
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9238-07",
+    "date": null,
+    "display_name": "9238-07",
+    "promise": 168
+  },
+  "model": "promises.verificationdocument",
+  "pk": 48
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9336-25",
+    "date": null,
+    "display_name": "9336-25",
+    "promise": 169
+  },
+  "model": "promises.verificationdocument",
+  "pk": 49
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9373-25",
+    "date": null,
+    "display_name": "9373-25",
+    "promise": 170
+  },
+  "model": "promises.verificationdocument",
+  "pk": 50
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9885-07",
+    "date": null,
+    "display_name": "9885-07",
+    "promise": 173
+  },
+  "model": "promises.verificationdocument",
+  "pk": 51
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9520-05",
+    "date": null,
+    "display_name": "9520-05",
+    "promise": 174
+  },
+  "model": "promises.verificationdocument",
+  "pk": 52
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9835-13",
+    "date": null,
+    "display_name": "9835-13",
+    "promise": 177
+  },
+  "model": "promises.verificationdocument",
+  "pk": 53
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/4456-13",
+    "date": null,
+    "display_name": "4456-13",
+    "promise": 178
+  },
+  "model": "promises.verificationdocument",
+  "pk": 54
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9560-10",
+    "date": null,
+    "display_name": "9560-10",
+    "promise": 180
+  },
+  "model": "promises.verificationdocument",
+  "pk": 55
+},
+{
+  "fields": {
+    "url": "",
+    "date": null,
+    "display_name": "9126-13",
+    "promise": 184
+  },
+  "model": "promises.verificationdocument",
+  "pk": 56
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9541-15",
+    "date": null,
+    "display_name": "9541-15",
+    "promise": 189
+  },
+  "model": "promises.verificationdocument",
+  "pk": 57
+},
+{
+  "fields": {
+    "url": "http://congresoabierto.cl/proyectos/9845-14",
+    "date": null,
+    "display_name": "9845-14",
+    "promise": 194
+  },
+  "model": "promises.verificationdocument",
+  "pk": 58
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 1,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 1
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 2,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 2
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 100.0,
+    "promise": 3,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 3
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 4,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 4
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 5,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 5
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 6,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 6
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 45.0,
+    "promise": 7,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 7
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 45.0,
+    "promise": 8,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 8
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 9,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 9
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 10,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 10
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 11,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 11
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 12,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 12
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 13,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 13
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 14,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 14
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 15,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 15
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 16,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 16
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 17,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 17
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 18,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 18
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 19,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 19
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 20,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 20
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 94.9,
+    "promise": 21,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 21
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 22,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 22
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 23,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 23
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 45.0,
+    "promise": 24,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 24
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 25,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 25
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 100.0,
+    "promise": 26,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 26
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 25.12,
+    "promise": 27,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 27
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 59.95,
+    "promise": 28,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 28
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 29,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 29
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 73.29,
+    "promise": 30,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 30
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 6.75,
+    "promise": 31,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 31
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 32,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 32
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 33,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 33
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 66.0,
+    "promise": 34,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 34
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 35,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 35
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 36,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 36
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 37,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 37
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 38,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 38
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 39,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 39
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 40,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 40
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 41,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 41
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 42,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 42
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 43,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 43
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 44,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 44
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 45,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 45
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 100.0,
+    "promise": 46,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 46
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 52.86,
+    "promise": 47,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 47
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 31.67,
+    "promise": 48,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 48
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 49,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 49
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 54.17,
+    "promise": 50,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 50
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 54.17,
+    "promise": 51,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 51
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 54.17,
+    "promise": 52,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 52
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 53,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 53
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 54,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 54
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 55,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 55
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 56,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 56
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 57,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 57
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 58,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 58
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 59,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 59
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 13.46,
+    "promise": 60,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 60
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 61,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 61
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 62,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 62
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 48.14,
+    "promise": 63,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 63
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 64,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 64
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 15.0,
+    "promise": 65,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 65
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 66,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 66
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 67,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 67
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 68,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 68
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 69,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 69
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 100.0,
+    "promise": 70,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 70
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 71,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 71
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 49.71,
+    "promise": 72,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 72
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 48.67,
+    "promise": 73,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 73
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 100.0,
+    "promise": 74,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 74
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 75,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 75
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 49.19,
+    "promise": 76,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 76
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 77,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 77
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 78,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 78
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 79,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 79
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 45.0,
+    "promise": 80,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 80
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 81,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 81
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 82,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 82
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 83,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 83
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 84,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 84
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 85,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 85
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 31.4,
+    "promise": 86,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 86
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 87,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 87
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 48.67,
+    "promise": 88,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 88
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 89,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 89
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 90,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 90
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 91,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 91
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 45.52,
+    "promise": 92,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 92
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 93,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 93
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 94,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 94
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 95,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 95
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 96,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 96
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 97,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 97
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 67.62,
+    "promise": 98,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 98
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 99,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 99
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 100,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 100
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 101,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 101
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 102,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 102
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 95.05,
+    "promise": 103,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 103
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 104,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 104
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 105,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 105
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 15.0,
+    "promise": 106,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 106
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 107,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 107
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 108,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 108
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 52.33,
+    "promise": 109,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 109
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 110,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 110
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 43.47,
+    "promise": 111,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 111
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 112,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 112
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 113,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 113
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 18.0,
+    "promise": 114,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 114
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 115,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 115
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 116,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 116
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 117,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 117
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 118,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 118
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 119,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 119
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 120,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 120
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 121,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 121
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 66.97,
+    "promise": 122,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 122
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 123,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 123
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 66.97,
+    "promise": 124,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 124
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 125,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 125
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 126,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 126
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 127,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 127
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 128,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 128
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 129,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 129
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 130,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 130
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 131,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 131
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 132,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 132
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 133,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 133
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 134,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 134
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 135,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 135
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 136,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 136
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 137,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 137
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 138,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 138
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 139,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 139
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 45.0,
+    "promise": 140,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 140
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 141,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 141
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 142,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 142
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 143,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 143
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 46.57,
+    "promise": 144,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 144
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 145,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 145
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 100.0,
+    "promise": 146,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 146
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 147,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 147
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 148,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 148
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 149,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 149
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 150,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 150
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 151,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 151
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 152,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 152
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 153,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 153
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 154,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 154
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 45.0,
+    "promise": 155,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 155
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 100.0,
+    "promise": 156,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 156
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 157,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 157
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 45.0,
+    "promise": 158,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 158
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 67.62,
+    "promise": 159,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 159
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 160,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 160
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 161,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 161
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 162,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 162
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 163,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 163
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 164,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 164
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 165,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 165
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 39.65,
+    "promise": 166,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 166
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 167,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 167
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 100.0,
+    "promise": 168,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 168
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 100.0,
+    "promise": 169,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 169
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 100.0,
+    "promise": 170,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 170
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 171,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 171
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 172,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 172
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 45.0,
+    "promise": 173,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 173
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 100.0,
+    "promise": 174,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 174
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 175,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 175
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 69.56,
+    "promise": 176,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 176
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 45.0,
+    "promise": 177,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 177
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 100.0,
+    "promise": 178,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 178
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 179,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 179
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 67.46,
+    "promise": 180,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 180
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 181,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 181
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 182,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 182
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 183,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 183
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 67.62,
+    "promise": 184,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 184
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 185,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 185
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 186,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 186
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 187,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 187
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 188,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 188
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 45.0,
+    "promise": 189,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 189
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 190,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 190
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 191,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 191
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 192,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 192
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 193,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 193
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 6.75,
+    "promise": 194,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 194
+},
+{
+  "fields": {
+    "status": "",
+    "percentage": 0.0,
+    "promise": 195,
+    "description": ""
+  },
+  "model": "promises.fulfillment",
+  "pk": 195
+}
+]
