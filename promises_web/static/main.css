@@ -525,3 +525,8 @@ li.not-accomplished:before {
     margin: 50px 0 10px;
   }
 }
+
+.hero-space {
+      background: url(img/header-sides.png) repeat-x;
+  }
+
