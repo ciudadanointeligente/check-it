@@ -7,7 +7,6 @@ body {
     -webkit-font-smoothing: antialiased;
     text-shadow: rgba(0,0,0,.01) 0 0 1px;
 }
-
 a {
   color: #1795CF;
 }
@@ -524,7 +523,5 @@ li.not-accomplished:before {
   }
 }
 
-.hero-space {
-      background: url(img/header-sides.png) repeat-x;
-  }
+
 
