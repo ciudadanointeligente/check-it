@@ -468,6 +468,9 @@ li.not-accomplished:before {
   text-align: center;
   margin: 70px 0;
 }
+.hero-space img {
+  max-height: 100px;
+}
 
 .social-network {
   text-align: center;
