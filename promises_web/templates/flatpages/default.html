@@ -6,10 +6,6 @@
 {% block content %}
   <div class="container">
     <h1>{{ flatpage.title }}</h1>
-
-
-    {{ flatpage.content|markdown }}
-
-
+    {{ flatpage.content|safe }}
   </div>
 {% endblock content %}
